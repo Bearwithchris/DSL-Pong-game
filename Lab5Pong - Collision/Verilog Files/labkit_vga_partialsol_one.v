@@ -66,6 +66,7 @@ module labkit(
 // dcm_all is a general purpose digital clock manager. It is used
 // to create clocks at desired frequncies and phases.
 //
+	wire clk_25mhz;
    wire clk_65mhz;
 	wire clk_100mhz_buf;  // 100mhz buffered clock, not used
 		
@@ -73,7 +74,7 @@ module labkit(
      	my_clocks(
 				.CLK(clk_100mhz),
 				.CLKSYS(clk_100mhz_buf),
-//				.CLK25(CLK25),
+				.CLK25(clk_25mhz),
 				.CLK_out(clk_65mhz)
 	);
 //
@@ -150,7 +151,7 @@ module labkit(
 	assign vsync = vs;
 	assign hsync = hs;	
 	
-	wire switch2=switch[2];
+	wire switch2 = switch[2];
 	
    pong_game psolution(.pixel_clk(pixel_clk), .reset(reset), .switch(switch2) ,.up(up), .down(down),.left(left),.right(right), .pspeed(switch[7:4]),
 	    .hcount(hcount), .vcount(vcount), .hsync(hsync1), .vsync(vsync1), .blank(blank1),
@@ -207,6 +208,7 @@ module pong_game (
    );
 
    wire [2:0] checkerboard;
+	wire pp_eaten;
 	
 ////////////////////////////////////////////////////////////////////	
 // REPLACE ME! The code below just generates a color checkerboard
@@ -237,6 +239,7 @@ module pong_game (
 	 vsync_delay <= {vsync_delay[0],vsync};
 	 blank_delay <= {blank_delay[0],blank};
 	 paddle_pix_delay <= {paddle_pix_delay[7:0],paddle_pix};
+
   end
  
    assign phsync = hsync_delay[1];
@@ -341,6 +344,7 @@ always @(posedge pixel_clk)begin
 //	wire paddle_range1 = ((ball_y+BALL_SIZE)>= paddle_y) && 
 //				(ball_y<paddle_y+PADDLE_HEIGHT);
 
+	wire stop1, stop2, stop3, stop4;
 	
 	collision c1(.pixel_clk(pixel_clk),
 					 .paddle_x(PADDLE_X),
@@ -350,10 +354,12 @@ always @(posedge pixel_clk)begin
 					 .object_x(ball_x),
 					 .object_y(ball_y),
 					 .object_r(6'd32),
+					 .object_width(),
+					 .object_height(),
 					 .object_isCircle(1),
 					 .collide(stop1));
 					 
-  	collision c2(.pixel_clk(pixel_clk),
+	collision c2(.pixel_clk(pixel_clk),
 					 .paddle_x(PADDLE_X),
 					 .paddle_y(paddle_y),
 					 .paddle_width(PADDLE_WIDTH),
@@ -361,10 +367,56 @@ always @(posedge pixel_clk)begin
 					 .object_x(ball_x2),
 					 .object_y(ball_y2),
 					 .object_r(6'd32),
+					 .object_width(),
+					 .object_height(),
 					 .object_isCircle(1),
 					 .collide(stop2));
 					 
-assign stop=stop1|stop2;
+//	collision c3(.pixel_clk(pixel_clk),
+//					 .paddle_x(PADDLE_X),
+//					 .paddle_y(paddle_y),
+//					 .paddle_width(PADDLE_WIDTH),
+//					 .paddle_height(PADDLE_HEIGHT),
+//					 .object_x(ball_x3),
+//					 .object_y(ball_y3),
+//					 .object_r(6'd32),
+//					 .object_width(),
+//					 .object_height(),
+//					 .object_isCircle(1),
+//					 .collide(stop3));
+//
+//	collision c4(.pixel_clk(pixel_clk),
+//					 .paddle_x(PADDLE_X),
+//					 .paddle_y(paddle_y),
+//					 .paddle_width(PADDLE_WIDTH),
+//					 .paddle_height(PADDLE_HEIGHT),
+//					 .object_x(ball_x4),
+//					 .object_y(ball_y4),
+//					 .object_r(6'd32),
+//					 .object_width(),
+//					 .object_height(),
+//					 .object_isCircle(1),
+//					 .collide(stop4));
+	
+	assign stop = stop1 | stop2 | stop3 | stop4;
+					 
+	//wire 			pp_eaten;
+	wire [10:0] pp_x;
+	wire [9:0]	pp_y;
+					 
+	collision pp(.pixel_clk(pixel_clk),
+					 .paddle_x(PADDLE_X),
+					 .paddle_y(paddle_y),
+					 .paddle_width(PADDLE_WIDTH),
+					 .paddle_height(PADDLE_HEIGHT),
+					 .object_x(pp_x),
+					 .object_y(pp_y),
+					 .object_r(),
+					 .object_width(20),
+					 .object_height(20),
+					 .object_isCircle(0),
+					 .collide(pp_eaten));
+
 
    //assign stop = ball_x + 1 < PADDLE_X + PADDLE_WIDTH;
 
@@ -388,14 +440,22 @@ assign stop=stop1|stop2;
   power_pack pack1(.pixel_clk(pixel_clk),.reset(reset),.up(up), .down(down),.left(left),.right(right),.rx(pack1x),.hcount(hcount),.ry(pack1y)
   , .vcount(vcount), .r2pixel(powerbox));
   
+  wire spawn, counter_expired;
+  
   power_pack2 pack2(.clk(pixel_clk),
 						  .reset(reset),
+						  .eaten(pp_eaten),
+						  .spawn(spawn),
 						  .hcount(hcount),
 						  .vcount(vcount),
-						  .rx(),
-						  .ry(),
+						  .rx(pp_x),
+						  .ry(pp_y),
 						  .r2pixel(powerbox2));
-
+						  
+	pp_timer	myPp_timer(.clk(clk_25mhz),
+							  .eaten(eaten),
+							  .spawn(spawn));
+	
 
 //////////////////////////////////////////////////////////////////
 // create a round puck, pipelined by two stages
@@ -624,63 +684,6 @@ module randomGrid(
 endmodule
 */
 
-module power_pack2 #(parameter WIDTH=20,
-										 HEIGHT=20, 
-										 box_size = 7'd64,
-										 COLOR=8'b000_000_11) 
-	 (input wire 			clk,
-	  input wire 			reset,
-	  input wire [10:0]	hcount,
-	  input wire [9:0]	vcount,
-	  output reg [10:0]	rx,
-	  output reg [9:0]	ry,
-	  output reg [9:0]	r2pixel
-	  );
-	 
-	wire [9:0]	randx, randy;
-	reg			display;
-	wire			randx_rdy_clr, randy_rdy_clr;
-	wire			randx_rdy, randy_rdy;
-	  
-//	random_gen x_coord(.clk(clk),
-//							.reset(reset),
-//							.rdy(randx_rdy),
-//							.rdy_clr(randx_rdy_clr),
-//							.random_num(randx));
-//			
-//	random_gen y_coord(.clk(clk),
-//							.reset(reset),
-//							.rdy(randy_rdy),
-//							.rdy_clr(randy_rdy_clr),
-//							.random_num(randy));
-	rndm_gen x_coor(.clock(clk),
-						 .reset(reset),
-						 .rnd(randx));
-						 
-	rndm_gen y_coor(.clock(clk),
-						 .reset(reset),
-						 .rnd(randy));
-							
-	always @(posedge clk)
-		begin
-			//if(randx_rdy && randy_rdy) begin
-				display <= 1;
-			//	end
-			end
-	  
-	always @(hcount or vcount) 
-		begin
-			if(display) begin
-				if ((hcount >= randx && hcount < (randx+WIDTH)) && (vcount >= randy && vcount < (randy+HEIGHT)))
-					r2pixel= COLOR;
-				else 
-					r2pixel= 0;	
-				end
-			end
-			
-endmodule
-
-
 module power_pack	
 	#(parameter WIDTH=30,
 	 HEIGHT=30, 
@@ -840,153 +843,6 @@ module power_pack
 	end
 endmodule
 
-//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
-//\\//\\//\\//\\IMPLEMENTING COLLISION CHECKING//\\//\\//\\//\\//\\//\\//\\//\\
-//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
-
-module collision(
-	input wire 			pixel_clk,
-	input wire [9:0]	paddle_x, paddle_y,
-	input wire [9:0]	paddle_width, paddle_height,
-	input wire [9:0]	object_x, object_y,
-	input wire [9:0]	object_r, object_width, object_height,
-	input wire 			object_isCircle,
-	output wire 		collide
-	);
-	
-	reg collide_reg;
-	
-	reg [9:0]		a1_x, a2_x, a3_x, a4_x, a5_x, a6_x, a7_x, a8_x;
-	reg [9:0]		a1_y, a2_y, a3_y, a4_y, a5_y, a6_y, a7_y, a8_y;
-	reg [9:0]		b1_x, b2_x, b3_x, b4_x, b5_x, b6_x, b7_x, b8_x;
-	reg [9:0]		b1_y, b2_y, b3_y, b4_y, b5_y, b6_y, b7_y, b8_y;
-	reg [9:0]		c1_x, c2_x, c3_x, c4_x, c5_x, c6_x, c7_x, c8_x;
-	reg [9:0]		c1_y, c2_y, c3_y, c4_y, c5_y, c6_y, c7_y, c8_y;
-	reg [9:0]		d1_x, d2_x, d3_x, d4_x, d5_x, d6_x, d7_x, d8_x;
-	reg [9:0]		d1_y, d2_y, d3_y, d4_y, d5_y, d6_y, d7_y, d8_y;
-	
-	
-	always @(*)
-		begin
-			if(object_isCircle) begin
-				a1_x = object_x + 2*object_r;
-				a1_y = object_y + object_r;
-				a2_x = object_x + 63;
-				a2_y = object_y + 25;
-				a3_x = object_x + 61;
-				a3_y = object_y + 19;
-				a4_x = object_x + 58;
-				a4_y = object_y + 14;
-				a5_x = object_x + 54;
-				a5_y = object_y + 9;
-				a6_x = object_x + 49;
-				a6_y = object_y + 5;
-				a7_x = object_x + 44;
-				a7_y = object_y + 2;
-				a8_x = object_x + 38;
-				a8_y = object_y + 1;
-				
-				b1_x = object_x + 32;
-				b1_y = object_y + 0;
-				b2_x = object_x + 25;
-				b2_y = object_y + 1;
-				b3_x = object_x + 19;
-				b3_y = object_y + 2;
-				b4_x = object_x + 14;
-				b4_y = object_y + 5;
-				b5_x = object_x + 9;
-				b5_y = object_y + 9;
-				b6_x = object_x + 5;
-				b6_y = object_y + 14;
-				b7_x = object_x + 2;
-				b7_y = object_y + 19;
-				b8_x = object_x + 1;
-				b8_y = object_y + 25;
-				
-				c1_x = object_x + 0;
-				c1_y = object_y + 31;
-				c2_x = object_x + 1;
-				c2_y = object_y + 38;
-				c3_x = object_x + 2;
-				c3_y = object_y + 44;
-				c4_x = object_x + 5;
-				c4_y = object_y + 49;
-				c5_x = object_x + 9;
-				c5_y = object_y + 54;
-				c6_x = object_x + 14;
-				c6_y = object_y + 58;
-				c7_x = object_x + 19;
-				c7_y = object_y + 61;
-				c8_x = object_x + 25;
-				c8_y = object_y + 63;
-				
-				d1_x = object_x + 31;
-				d1_y = object_y + 64;
-				d2_x = object_x + 38;
-				d2_y = object_y + 63;
-				d3_x = object_x + 44;
-				d3_y = object_y + 61;
-				d4_x = object_x + 49;
-				d4_y = object_y + 58;
-				d5_x = object_x + 54;
-				d5_y = object_y + 54;
-				d6_x = object_x + 58;
-				d6_y = object_y + 49;
-				d7_x = object_x + 61;
-				d7_y = object_y + 44;
-				d8_x = object_x + 63;
-				d8_y = object_y + 38;
-				end
-			end
-			
-	always @(posedge pixel_clk)
-		begin
-			if(object_isCircle) begin
-				collide_reg <= (a1_x >= paddle_x) && (a1_x <= paddle_x + paddle_width) && (a1_y >= paddle_y) && (a1_y <= paddle_y + paddle_height)
-								||	(a2_x >= paddle_x) && (a2_x <= paddle_x + paddle_width) && (a2_y >= paddle_y) && (a2_y <= paddle_y + paddle_height)
-								||	(a3_x >= paddle_x) && (a3_x <= paddle_x + paddle_width) && (a3_y >= paddle_y) && (a3_y <= paddle_y + paddle_height)
-								||	(a4_x >= paddle_x) && (a4_x <= paddle_x + paddle_width) && (a4_y >= paddle_y) && (a4_y <= paddle_y + paddle_height)
-								||	(a5_x >= paddle_x) && (a5_x <= paddle_x + paddle_width) && (a5_y >= paddle_y) && (a5_y <= paddle_y + paddle_height)
-								||	(a6_x >= paddle_x) && (a6_x <= paddle_x + paddle_width) && (a6_y >= paddle_y) && (a6_y <= paddle_y + paddle_height)
-								||	(a7_x >= paddle_x) && (a7_x <= paddle_x + paddle_width) && (a7_y >= paddle_y) && (a7_y <= paddle_y + paddle_height)
-								||	(a8_x >= paddle_x) && (a8_x <= paddle_x + paddle_width) && (a8_y >= paddle_y) && (a8_y <= paddle_y + paddle_height)
-								
-								||	(b1_x >= paddle_x) && (b1_x <= paddle_x + paddle_width) && (b1_y >= paddle_y) && (b1_y <= paddle_y + paddle_height)
-								||	(b2_x >= paddle_x) && (b2_x <= paddle_x + paddle_width) && (b2_y >= paddle_y) && (b2_y <= paddle_y + paddle_height)
-								||	(b3_x >= paddle_x) && (b3_x <= paddle_x + paddle_width) && (b3_y >= paddle_y) && (b3_y <= paddle_y + paddle_height)
-								||	(b4_x >= paddle_x) && (b4_x <= paddle_x + paddle_width) && (b4_y >= paddle_y) && (b4_y <= paddle_y + paddle_height)
-								||	(b5_x >= paddle_x) && (b5_x <= paddle_x + paddle_width) && (b5_y >= paddle_y) && (b5_y <= paddle_y + paddle_height)
-								||	(b6_x >= paddle_x) && (b6_x <= paddle_x + paddle_width) && (b6_y >= paddle_y) && (b6_y <= paddle_y + paddle_height)
-								||	(b7_x >= paddle_x) && (b7_x <= paddle_x + paddle_width) && (b7_y >= paddle_y) && (b7_y <= paddle_y + paddle_height)
-								||	(b8_x >= paddle_x) && (b8_x <= paddle_x + paddle_width) && (b8_y >= paddle_y) && (b8_y <= paddle_y + paddle_height)
-								
-								||	(c1_x >= paddle_x) && (c1_x <= paddle_x + paddle_width) && (c1_y >= paddle_y) && (c1_y <= paddle_y + paddle_height)
-								||	(c2_x >= paddle_x) && (c2_x <= paddle_x + paddle_width) && (c2_y >= paddle_y) && (c2_y <= paddle_y + paddle_height)
-								||	(c3_x >= paddle_x) && (c3_x <= paddle_x + paddle_width) && (c3_y >= paddle_y) && (c3_y <= paddle_y + paddle_height)
-								||	(c4_x >= paddle_x) && (c4_x <= paddle_x + paddle_width) && (c4_y >= paddle_y) && (c4_y <= paddle_y + paddle_height)
-								||	(c5_x >= paddle_x) && (c5_x <= paddle_x + paddle_width) && (c5_y >= paddle_y) && (c5_y <= paddle_y + paddle_height)
-								||	(c6_x >= paddle_x) && (c6_x <= paddle_x + paddle_width) && (c6_y >= paddle_y) && (c6_y <= paddle_y + paddle_height)
-								||	(c7_x >= paddle_x) && (c7_x <= paddle_x + paddle_width) && (c7_y >= paddle_y) && (c7_y <= paddle_y + paddle_height)
-								||	(c8_x >= paddle_x) && (c8_x <= paddle_x + paddle_width) && (c8_y >= paddle_y) && (c8_y <= paddle_y + paddle_height)
-								
-								||	(d1_x >= paddle_x) && (d1_x <= paddle_x + paddle_width) && (d1_y >= paddle_y) && (d1_y <= paddle_y + paddle_height)
-								||	(d2_x >= paddle_x) && (d2_x <= paddle_x + paddle_width) && (d2_y >= paddle_y) && (d2_y <= paddle_y + paddle_height)
-								||	(d3_x >= paddle_x) && (d3_x <= paddle_x + paddle_width) && (d3_y >= paddle_y) && (d3_y <= paddle_y + paddle_height)
-								||	(d4_x >= paddle_x) && (d4_x <= paddle_x + paddle_width) && (d4_y >= paddle_y) && (d4_y <= paddle_y + paddle_height)
-								||	(d5_x >= paddle_x) && (d5_x <= paddle_x + paddle_width) && (d5_y >= paddle_y) && (d5_y <= paddle_y + paddle_height)
-								||	(d6_x >= paddle_x) && (d6_x <= paddle_x + paddle_width) && (d6_y >= paddle_y) && (d6_y <= paddle_y + paddle_height)
-								||	(d7_x >= paddle_x) && (d7_x <= paddle_x + paddle_width) && (d7_y >= paddle_y) && (d7_y <= paddle_y + paddle_height)
-								||	(d8_x >= paddle_x) && (d8_x <= paddle_x + paddle_width) && (d8_y >= paddle_y) && (d8_y <= paddle_y + paddle_height);
-				end		
-			else
-				collide_reg <= (((object_x + object_width >= paddle_x) && (object_x + object_width <= paddle_x + paddle_width)) || ((object_x <= paddle_x + paddle_width) && (object_x >= paddle_x)))
-								&& (((object_y >= paddle_y) && (object_y <= paddle_y + paddle_height)) || ((object_y + object_height >= paddle_y) && (object_y + object_height <= paddle_y + paddle_height)));
-			end
-	
-	assign collide = collide_reg;
-	
-endmodule
-
 
 //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
 //\\//\\//\\//\\IMPLEMENTING RANDOM GENEREATOR//\\//\\//\\//\\//\\//\\//\\//
@@ -1030,57 +886,6 @@ module rndm_gen (
 	// X10+x7
 	assign feedback = lfsr[9] ^ lfsr[6]; 
 	assign lfsr_next = {lfsr[8:0], feedback};
-	
-endmodule
-
-module random_gen(
-	input wire 			clk,
-	input wire 			reset,
-	output wire			rdy,
-	input wire			rdy_clr,
-	output wire [9:0] random_num
-	);
-	
-	reg [9:0] random, random_next, random_done;
-	reg [3:0] count, count_next; //to keep track of the shifts
-	reg ready;
-
-	wire feedback =  random[9] ^ random[6];
-	
-
-	always @(posedge clk or posedge reset)
-		begin
-			if(reset) begin
-				random <= 10'hF;
-				count <= 0;
-				end
-			else begin
-				random <= random_next;
-				count <= count_next;
-				end
-			end
-			
-	always @(*)
-		begin
-			if(rdy_clr)
-				ready = 0;
-			if(!ready) begin
-				random_next = random;
-				count_next = count;
-				
-				random_next = {random[8:0], feedback};
-				count_next = count + 1;
-				
-				if(count == 10) begin
-					count = 0;
-					random_done = random;
-					ready = 1;
-					end
-				end
-			end
-			
-	assign random_num = 	random_done;
-	assign rdy = ready;
 	
 endmodule
 
@@ -1480,7 +1285,7 @@ module dcm_all_v2  #(parameter DCM_DIVIDE = 4,
       CLK,
 //    RST,
       CLKSYS,
-//      CLK25,
+      CLK25,
       CLK_out
 );
 
@@ -1491,7 +1296,7 @@ module dcm_all_v2  #(parameter DCM_DIVIDE = 4,
          input   CLK;
 //         input   RST;
          output  CLKSYS;
-//         output  CLK25;
+         output  CLK25;
          output  CLK_out;
 
 // =======================================================================================
@@ -1551,7 +1356,7 @@ module dcm_all_v2  #(parameter DCM_DIVIDE = 4,
                   .CLK2X(),                             // 2X DCM CLK output
                   .CLK2X180(),                          // 2X, 180 degree DCM CLK out
                   .CLK90(),                             // 90 degree DCM CLK output
-                  .CLKDV(), //(CLK25),                  // Divided DCM CLK out (CLKDV_DIVIDE)
+                  .CLKDV(CLK25), //(CLK25),                  // Divided DCM CLK out (CLKDV_DIVIDE)
                   .CLKFX(CLK_out),                      // DCM CLK synthesis out (M/D)
                   .CLKFX180(),                          // 180 degree CLK synthesis out
                   .LOCKED(),                            // DCM LOCK status output

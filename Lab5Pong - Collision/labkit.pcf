@@ -1,9 +1,8 @@
 //! **************************************************************************
-// Written by: Map P.68d on Tue Nov 28 15:00:21 2017
+// Written by: Map P.20131013 on Tue Nov 28 17:34:05 2017
 //! **************************************************************************
 
 SCHEMATIC START;
-COMP "exp_io_p<9>" LOCATE = SITE "D11" LEVEL 1;
 COMP "clk_100mhz" LOCATE = SITE "V10" LEVEL 1;
 COMP "vgablue<1>" LOCATE = SITE "R7" LEVEL 1;
 COMP "vgablue<2>" LOCATE = SITE "T7" LEVEL 1;
@@ -119,5 +118,6 @@ COMP "exp_io_p<5>" LOCATE = SITE "B6" LEVEL 1;
 COMP "exp_io_p<6>" LOCATE = SITE "C7" LEVEL 1;
 COMP "exp_io_p<7>" LOCATE = SITE "D8" LEVEL 1;
 COMP "exp_io_p<8>" LOCATE = SITE "B9" LEVEL 1;
+COMP "exp_io_p<9>" LOCATE = SITE "D11" LEVEL 1;
 SCHEMATIC END;
 

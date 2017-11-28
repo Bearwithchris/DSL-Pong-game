@@ -1,13 +1,13 @@
-Release 14.6 par P.68d (nt64)
+Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-CHRISTOPHERPC::  Tue Nov 28 15:00:30 2017
+WEITONG-PC::  Tue Nov 28 17:34:13 2017
 
 par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
 
 
 Constraints file: labkit.pcf.
-Loading device for application Rf_Device from file '6slx16.nph' in environment C:\Xilinx\14.6\ISE_DS\ISE\.
+Loading device for application Rf_Device from file '6slx16.nph' in environment D:\Xilinx\14.7\ISE_DS\ISE\.
    "labkit" is an NCD, version 3.2, device xc6slx16, package csg324, speed -3
 
 Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
@@ -19,23 +19,23 @@ INFO:Par:282 - No user timing constraints were detected or you have set the opti
    reported in the PAR report in this mode. The PAR timing summary will list the performance achieved for each clock.
    Note: For the fastest runtime, set the effort level to "std".  For best performance, set the effort level to "high".
 
-Device speed data version:  "PRODUCTION 1.23 2013-06-08".
+Device speed data version:  "PRODUCTION 1.23 2013-10-13".
 
 
 
 Device Utilization Summary:
 
 Slice Logic Utilization:
-  Number of Slice Registers:                   378 out of  18,224    2%
-    Number used as Flip Flops:                 376
+  Number of Slice Registers:                   370 out of  18,224    2%
+    Number used as Flip Flops:                 368
     Number used as Latches:                      0
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                2
-  Number of Slice LUTs:                      2,150 out of   9,112   23%
-    Number used as logic:                    2,091 out of   9,112   22%
-      Number using O6 output only:             803
+  Number of Slice LUTs:                      2,226 out of   9,112   24%
+    Number used as logic:                    2,155 out of   9,112   23%
+      Number using O6 output only:             840
       Number using O5 output only:             215
-      Number using O5 and O6:                1,073
+      Number using O5 and O6:                1,100
       Number used as ROM:                        0
     Number used as Memory:                       1 out of   2,176    1%
       Number used as Dual Port RAM:              0
@@ -44,18 +44,18 @@ Slice Logic Utilization:
         Number using O6 output only:             1
         Number using O5 output only:             0
         Number using O5 and O6:                  0
-    Number used exclusively as route-thrus:     58
+    Number used exclusively as route-thrus:     70
       Number with same-slice register load:      0
-      Number with same-slice carry load:        58
+      Number with same-slice carry load:        70
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                   760 out of   2,278   33%
-  Number of MUXCYs used:                     1,616 out of   4,556   35%
-  Number of LUT Flip Flop pairs used:        2,167
-    Number with an unused Flip Flop:         1,813 out of   2,167   83%
-    Number with an unused LUT:                  17 out of   2,167    1%
-    Number of fully used LUT-FF pairs:         337 out of   2,167   15%
+  Number of occupied Slices:                   758 out of   2,278   33%
+  Number of MUXCYs used:                     1,708 out of   4,556   37%
+  Number of LUT Flip Flop pairs used:        2,237
+    Number with an unused Flip Flop:         1,892 out of   2,237   84%
+    Number with an unused LUT:                  11 out of   2,237    1%
+    Number of fully used LUT-FF pairs:         334 out of   2,237   14%
     Number of slice register sites lost
       to control set restrictions:               0 out of  18,224    0%
 
@@ -104,10 +104,9 @@ Specific Feature Utilization:
 Overall effort level (-ol):   High 
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 13 secs 
-Finished initial Timing Analysis.  REAL time: 13 secs 
+Starting initial Timing Analysis.  REAL time: 14 secs 
+Finished initial Timing Analysis.  REAL time: 14 secs 
 
-WARNING:Par:288 - The signal exp_io_p<9>_IBUF has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal ja<0>_IBUF has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal ja<1>_IBUF has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal ja<2>_IBUF has no load.  PAR will not attempt to route this signal.
@@ -179,32 +178,33 @@ WARNING:Par:288 - The signal exp_io_p<5>_IBUF has no load.  PAR will not attempt
 WARNING:Par:288 - The signal exp_io_p<6>_IBUF has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal exp_io_p<7>_IBUF has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal exp_io_p<8>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal exp_io_p<9>_IBUF has no load.  PAR will not attempt to route this signal.
 Starting Router
 
 
-Phase  1  : 10848 unrouted;      REAL time: 13 secs 
+Phase  1  : 11072 unrouted;      REAL time: 14 secs 
 
-Phase  2  : 8536 unrouted;      REAL time: 15 secs 
+Phase  2  : 8739 unrouted;      REAL time: 16 secs 
 
-Phase  3  : 3315 unrouted;      REAL time: 20 secs 
+Phase  3  : 3426 unrouted;      REAL time: 21 secs 
 
-Phase  4  : 3316 unrouted; (Par is working to improve performance)     REAL time: 26 secs 
+Phase  4  : 3425 unrouted; (Par is working to improve performance)     REAL time: 28 secs 
 
 Updating file: labkit.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 31 secs 
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 33 secs 
 
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 31 secs 
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 33 secs 
 
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 31 secs 
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 33 secs 
 
-Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 31 secs 
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 33 secs 
 
-Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 31 secs 
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 33 secs 
 
-Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 32 secs 
-Total REAL time to Router completion: 32 secs 
-Total CPU time to Router completion: 32 secs 
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 34 secs 
+Total REAL time to Router completion: 34 secs 
+Total CPU time to Router completion: 35 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -224,8 +224,8 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net clk | SETUP       |         N/A|   468.630ns|     N/A|           0
-  _65mhz_BUFG                               | HOLD        |     0.388ns|            |       0|           0
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|   467.103ns|     N/A|           0
+  _65mhz_BUFG                               | HOLD        |     0.393ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
 
 
@@ -243,10 +243,10 @@ All signals are completely routed.
 
 WARNING:Par:283 - There are 72 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
 
-Total REAL time to PAR completion: 35 secs 
-Total CPU time to PAR completion: 35 secs 
+Total REAL time to PAR completion: 38 secs 
+Total CPU time to PAR completion: 38 secs 
 
-Peak Memory Usage:  546 MB
+Peak Memory Usage:  525 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.
