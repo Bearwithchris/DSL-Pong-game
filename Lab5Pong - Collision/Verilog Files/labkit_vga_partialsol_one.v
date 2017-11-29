@@ -281,9 +281,10 @@ module pong_game (
 //	   paddle (.pixel_clk(pixel_clk), .hcount(hcount), .vcount(vcount),
 //		.x(PADDLE_X), .y(paddle_y), .pixel(paddle_pix));
 		
+	wire grow;
 	draw_box #(.COLOR(8'b000_111_00))
 	   paddle (.pixel_clk(pixel_clk),.left(left),.right(right),.up(up),.down(down),.reset(reset), .hcount(hcount), .vcount(vcount),
-		.x(PADDLE_X), .y(paddle_y), .paddle_width(PADDLE_WIDTH), .paddle_height(PADDLE_HEIGHT), .pixel(paddle_pix));
+		.x(PADDLE_X), .y(paddle_y), .paddle_width(PADDLE_WIDTH),.grow(grow), .paddle_height(PADDLE_HEIGHT), .pixel(paddle_pix));
 
 
 //////////////////////////////////////////////////////////////////
@@ -317,10 +318,25 @@ module pong_game (
 	reg [9:0] ball_y4= 700; 
 	reg [10:0] ball_x4= 400;
 	
-
+	reg power_box_random_posX;
+	reg power_box_random_posY;
 always @(posedge pixel_clk)begin
+
 	 speed_x = pspeed[3:2]*2+boost;
 	 speed_y = pspeed[1:0]*2+boost;
+	 
+	 power_box_random_posX=(ball_x+ball_x2+ball_x3+ball_x4)/4;
+	 power_box_random_posY=(ball_y+ball_y2+ball_y3+ball_y4)/4;
+	 if(power_box_random_posX<200)
+		power_box_random_posX=power_box_random_posX+100;
+	 else if (power_box_random_posX>800)
+		power_box_random_posX=power_box_random_posX-100;
+		
+		 if(power_box_random_posY<200)
+		power_box_random_posY=power_box_random_posY+100;
+	 else if (power_box_random_posY>800)
+		power_box_random_posX=power_box_random_posX-100;
+	 
 	end
 
    parameter BALL_SIZE = 7'd64;
@@ -372,31 +388,31 @@ always @(posedge pixel_clk)begin
 					 .object_isCircle(1),
 					 .collide(stop2));
 					 
-//	collision c3(.pixel_clk(pixel_clk),
-//					 .paddle_x(PADDLE_X),
-//					 .paddle_y(paddle_y),
-//					 .paddle_width(PADDLE_WIDTH),
-//					 .paddle_height(PADDLE_HEIGHT),
-//					 .object_x(ball_x3),
-//					 .object_y(ball_y3),
-//					 .object_r(6'd32),
-//					 .object_width(),
-//					 .object_height(),
-//					 .object_isCircle(1),
-//					 .collide(stop3));
-//
-//	collision c4(.pixel_clk(pixel_clk),
-//					 .paddle_x(PADDLE_X),
-//					 .paddle_y(paddle_y),
-//					 .paddle_width(PADDLE_WIDTH),
-//					 .paddle_height(PADDLE_HEIGHT),
-//					 .object_x(ball_x4),
-//					 .object_y(ball_y4),
-//					 .object_r(6'd32),
-//					 .object_width(),
-//					 .object_height(),
-//					 .object_isCircle(1),
-//					 .collide(stop4));
+	collision c3(.pixel_clk(pixel_clk),
+					 .paddle_x(PADDLE_X),
+					 .paddle_y(paddle_y),
+					 .paddle_width(PADDLE_WIDTH),
+					 .paddle_height(PADDLE_HEIGHT),
+					 .object_x(ball_x3),
+					 .object_y(ball_y3),
+					 .object_r(6'd32),
+					 .object_width(),
+					 .object_height(),
+					 .object_isCircle(1),
+					 .collide(stop3));
+
+	collision c4(.pixel_clk(pixel_clk),
+					 .paddle_x(PADDLE_X),
+					 .paddle_y(paddle_y),
+					 .paddle_width(PADDLE_WIDTH),
+					 .paddle_height(PADDLE_HEIGHT),
+					 .object_x(ball_x4),
+					 .object_y(ball_y4),
+					 .object_r(6'd32),
+					 .object_width(),
+					 .object_height(),
+					 .object_isCircle(1),
+					 .collide(stop4));
 	
 	assign stop = stop1 | stop2 | stop3 | stop4;
 					 
@@ -721,6 +737,7 @@ module power_pack
 	 always@(posedge pixel_clk)begin
 	  rx<=rxreg;
 	  ry<=ryreg;
+	  
 	if(reset)begin
 		Rpressed<=0;
 		Rreleased<=0;
@@ -830,6 +847,7 @@ module power_pack
 	ry<=300;
 	end
 	 end
+	 
 
 	always @(hcount or vcount) begin
 	
@@ -837,7 +855,15 @@ module power_pack
 	if ((hcount >= rx && hcount < (rx+WIDTH)) &&
 		(vcount >= ry && vcount < (ry+HEIGHT)))
 		 r2pixel= COLOR;
-
+//heart test//=====================================
+	//if (((vcount>rx+6)&&(hcount>ry+18))&&((vcount>rx+1)&&(hcount>ry+15))&&
+		//	((vcount>rx)&&(hcount>ry))&&((vcount<rx+8)&&(hcount<ry))||
+			//((vcount<rx+12)&&(hcount<ry+5))&&((vcount<rx+16)&&(hcount<ry))&&
+		//	((vcount<rx+20)&&(hcount<ry+1))&&((vcount<rx+24)&&(hcount>ry+5))&&
+		//	((vcount<rx+24)&&(hcount<ry+11))&&((vcount<rx+20)&&(hcount>ry+15))&&
+		//	((vcount<rx+16)&&(hcount>ry+20))&&((hcount>ry+24)))
+		 //r2pixel= COLOR;
+//===================================================
 	else r2pixel= 0;
 	
 	end
@@ -906,6 +932,7 @@ module draw_box
 	input up,
 	input down,
 	input reset,
+	input grow,
 	output [9:0] paddle_height,
 	output [9:0] paddle_width,
 	output reg [7:0] pixel);
@@ -957,29 +984,42 @@ module draw_box
 	   Dreleased<=1;	
 	
 
-	if(left && Lpressed==1 && Lreleased==1)begin
+	if(left && Lpressed==1 && Lreleased==1 && grow!=1)begin
 	 WIDTH<=WIDTH+10;
 	 HEIGHT<=HEIGHT+10;
 	 Lpressed<=0;
 	 Lreleased<=0;
 	 end
-	if(right && Rpressed==1 && Rreleased==1)begin
+	if(right && Rpressed==1 && Rreleased==1 && grow!=1)begin
 	 WIDTH<=WIDTH+10;
 	 HEIGHT<=HEIGHT+10;
 	 Rpressed<=0;
 	 Rreleased<=0;
 	 end
-	if(up && Upressed==1 && Ureleased==1)begin
+	if(up && Upressed==1 && Ureleased==1 && grow!=1)begin
 	 WIDTH<=WIDTH+10;
 	 HEIGHT<=HEIGHT+10;
 	 Upressed<=0;
 	 Ureleased<=0;
 	 end
-	 if(down && Dpressed==1 && Dreleased==1)begin
+	 if(down && Dpressed==1 && Dreleased==1 && grow!=1)begin
 	 WIDTH<=WIDTH+10;
 	 HEIGHT<=HEIGHT+10;
 	 Dpressed<=0;
 	 Dreleased<=0;
+	 end
+	 if(grow==1)begin
+	 WIDTH<=WIDTH-10;
+	 HEIGHT<=HEIGHT-10;
+	 Dpressed<=0;
+	 Dreleased<=0;
+	 Upressed<=0;
+	 Ureleased<=0;
+	 Rpressed<=0;
+	 Rreleased<=0;
+	 Lpressed<=0;
+	 Lreleased<=0;
+
 	 end
 	 end
 	

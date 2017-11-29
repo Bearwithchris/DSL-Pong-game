@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Users\WeiTong\Desktop\Lab5Pong - Collision\labkit.ncd
+OUTFILE=D:\Users\WeiTong\Desktop\Lab5Pong - Collision\labkit.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=D:\Users\WeiTong\Desktop\Lab5Pong - Collision
+LICENSE=WebPack
+USER_INFO=211406160_0_0_137

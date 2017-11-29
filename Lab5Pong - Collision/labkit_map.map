@@ -1,4 +1,4 @@
-Release 14.7 Map P.20131013 (nt64)
+Release 14.6 Map P.68d (nt)
 Xilinx Map Application Log File for Design 'labkit'
 
 Design Information
@@ -10,7 +10,7 @@ Target Device  : xc6slx16
 Target Package : csg324
 Target Speed   : -3
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Tue Nov 28 17:32:45 2017
+Mapped Date    : Wed Nov 29 23:04:13 2017
 
 Mapping design into LUTs...
 Running directed packing...
@@ -19,57 +19,57 @@ Updating timing models...
 INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
    (.mrp).
 Running timing-driven placement...
-Total REAL time at the beginning of Placer: 25 secs 
-Total CPU  time at the beginning of Placer: 25 secs 
+Total REAL time at the beginning of Placer: 8 secs 
+Total CPU  time at the beginning of Placer: 8 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:8546f658) REAL time: 28 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:2ce9006) REAL time: 9 secs 
 
 Phase 2.7  Design Feasibility Check
-Phase 2.7  Design Feasibility Check (Checksum:8546f658) REAL time: 29 secs 
+Phase 2.7  Design Feasibility Check (Checksum:2ce9006) REAL time: 9 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:8546f658) REAL time: 29 secs 
+Phase 3.31  Local Placement Optimization (Checksum:2ce9006) REAL time: 9 secs 
 
 Phase 4.2  Initial Placement for Architecture Specific Features
 
 Phase 4.2  Initial Placement for Architecture Specific Features
-(Checksum:f3050fac) REAL time: 34 secs 
+(Checksum:323439eb) REAL time: 12 secs 
 
 Phase 5.36  Local Placement Optimization
-Phase 5.36  Local Placement Optimization (Checksum:f3050fac) REAL time: 34 secs 
+Phase 5.36  Local Placement Optimization (Checksum:323439eb) REAL time: 12 secs 
 
 Phase 6.30  Global Clock Region Assignment
-Phase 6.30  Global Clock Region Assignment (Checksum:f3050fac) REAL time: 34 secs 
+Phase 6.30  Global Clock Region Assignment (Checksum:323439eb) REAL time: 12 secs 
 
 Phase 7.3  Local Placement Optimization
-Phase 7.3  Local Placement Optimization (Checksum:f3050fac) REAL time: 34 secs 
+Phase 7.3  Local Placement Optimization (Checksum:323439eb) REAL time: 12 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:f3050fac) REAL time: 34 secs 
+Phase 8.5  Local Placement Optimization (Checksum:323439eb) REAL time: 12 secs 
 
 Phase 9.8  Global Placement
-..................
-.................................
-..........................................................................................................................................................
-...................
-..................
-Phase 9.8  Global Placement (Checksum:eaaaa709) REAL time: 1 mins 4 secs 
+........................
+.........................................................
+.................................................................................................................................................................................
+.............................................................................................................................................................................................................
+.............
+Phase 9.8  Global Placement (Checksum:9ff7c70) REAL time: 28 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:eaaaa709) REAL time: 1 mins 4 secs 
+Phase 10.5  Local Placement Optimization (Checksum:9ff7c70) REAL time: 28 secs 
 
 Phase 11.18  Placement Optimization
-Phase 11.18  Placement Optimization (Checksum:9ab18349) REAL time: 1 mins 17 secs 
+Phase 11.18  Placement Optimization (Checksum:6037daa8) REAL time: 32 secs 
 
 Phase 12.5  Local Placement Optimization
-Phase 12.5  Local Placement Optimization (Checksum:9ab18349) REAL time: 1 mins 17 secs 
+Phase 12.5  Local Placement Optimization (Checksum:6037daa8) REAL time: 33 secs 
 
 Phase 13.34  Placement Validation
-Phase 13.34  Placement Validation (Checksum:7746cb43) REAL time: 1 mins 17 secs 
+Phase 13.34  Placement Validation (Checksum:6037daa8) REAL time: 33 secs 
 
-Total REAL time to Placer completion: 1 mins 17 secs 
-Total CPU  time to Placer completion: 1 mins 17 secs 
+Total REAL time to Placer completion: 33 secs 
+Total CPU  time to Placer completion: 32 secs 
 Running post-placement packing...
 Writing output files...
 
@@ -80,16 +80,16 @@ Design Summary:
 Number of errors:      0
 Number of warnings:    0
 Slice Logic Utilization:
-  Number of Slice Registers:                   370 out of  18,224    2%
-    Number used as Flip Flops:                 368
+  Number of Slice Registers:                   374 out of  18,224    2%
+    Number used as Flip Flops:                 372
     Number used as Latches:                      0
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                2
-  Number of Slice LUTs:                      2,226 out of   9,112   24%
-    Number used as logic:                    2,155 out of   9,112   23%
-      Number using O6 output only:             840
-      Number using O5 output only:             215
-      Number using O5 and O6:                1,100
+  Number of Slice LUTs:                      3,388 out of   9,112   37%
+    Number used as logic:                    3,275 out of   9,112   35%
+      Number using O6 output only:           1,149
+      Number using O5 output only:             216
+      Number using O5 and O6:                1,910
       Number used as ROM:                        0
     Number used as Memory:                       1 out of   2,176    1%
       Number used as Dual Port RAM:              0
@@ -98,21 +98,21 @@ Slice Logic Utilization:
         Number using O6 output only:             1
         Number using O5 output only:             0
         Number using O5 and O6:                  0
-    Number used exclusively as route-thrus:     70
+    Number used exclusively as route-thrus:    112
       Number with same-slice register load:      0
-      Number with same-slice carry load:        70
+      Number with same-slice carry load:       112
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                   758 out of   2,278   33%
-  Number of MUXCYs used:                     1,708 out of   4,556   37%
-  Number of LUT Flip Flop pairs used:        2,237
-    Number with an unused Flip Flop:         1,892 out of   2,237   84%
-    Number with an unused LUT:                  11 out of   2,237    1%
-    Number of fully used LUT-FF pairs:         334 out of   2,237   14%
-    Number of unique control sets:              39
+  Number of occupied Slices:                 1,186 out of   2,278   52%
+  Number of MUXCYs used:                     2,604 out of   4,556   57%
+  Number of LUT Flip Flop pairs used:        3,399
+    Number with an unused Flip Flop:         3,049 out of   3,399   89%
+    Number with an unused LUT:                  11 out of   3,399    1%
+    Number of fully used LUT-FF pairs:         339 out of   3,399    9%
+    Number of unique control sets:              40
     Number of slice register sites lost
-      to control set restrictions:             207 out of  18,224    1%
+      to control set restrictions:             211 out of  18,224    1%
 
   A LUT Flip Flop pair for this architecture represents one LUT paired with
   one Flip Flop within a slice.  A control set is a unique combination of
@@ -155,11 +155,11 @@ Specific Feature Utilization:
   Number of STARTUPs:                            0 out of       1    0%
   Number of SUSPEND_SYNCs:                       0 out of       1    0%
 
-Average Fanout of Non-Clock Nets:                3.88
+Average Fanout of Non-Clock Nets:                4.24
 
-Peak Memory Usage:  605 MB
-Total REAL time to MAP completion:  1 mins 24 secs 
-Total CPU time to MAP completion:   1 mins 24 secs 
+Peak Memory Usage:  366 MB
+Total REAL time to MAP completion:  34 secs 
+Total CPU time to MAP completion:   34 secs 
 
 Mapping completed.
 See MAP report file "labkit_map.mrp" for details.
