@@ -104,7 +104,7 @@ module pp_timer(
 							.load(load),
 							.reset(),
 							.clear(0),
-							.value(1),
+							.value(2),
 							.expired(expired));
 	
 endmodule
@@ -149,4 +149,32 @@ module counter(
 		assign increment = one_hz && !(count == 15);
 		assign expired = ((count == 15) && !load) || stop;
 		
+endmodule
+
+
+module general_timer(
+	input wire 			clk,
+	input wire			reset,
+	output reg [31:0] seconds
+	);	
+	
+	wire 			increment, one_hz;
+	reg [25:0]	sec_count;
+	
+	parameter PRESCALER = 24999999;
+	
+	always @(posedge clk)
+		begin
+			if(reset) begin
+				seconds <= 0;
+				sec_count <= 0;
+				end
+			else begin
+				sec_count <= one_hz? 0 : sec_count + 1;
+				end
+			seconds <= one_hz? seconds + 1 : seconds;
+			end
+				
+	assign one_hz = (sec_count == PRESCALER);
+				
 endmodule
