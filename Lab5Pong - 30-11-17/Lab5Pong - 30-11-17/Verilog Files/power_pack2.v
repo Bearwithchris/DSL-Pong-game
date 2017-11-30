@@ -49,7 +49,7 @@ module power_pack2 #(parameter WIDTH=20,
 		begin
 			if ((hcount >= rx && hcount < (rx+WIDTH)) && (vcount >= ry && vcount < (ry+HEIGHT))) begin
 				if(display)
-					r2pixel= COLOR;
+					r2pixel = COLOR;
 				else
 					r2pixel = 0;
 				end
@@ -66,29 +66,35 @@ module shield(
 	input wire clk,
 	input wire reset,
 	input wire active,
-	input wire [10:0]	hcount, paddle_x,
-	input wire [9:0] vcount, paddle_y,
+	input wire [10:0] hcount, paddle_x,
+	input wire [9:0]  vcount, paddle_y,
 	input wire [9:0] paddle_width, paddle_height,
 	output reg [7:0] pixel
 	);
 
-	parameter COLOR = 8'b101_100_00;
-	parameter BORDER = 4;
+	reg [10:0] rx, p_h;
+	reg [9:0]  ry, p_w;
+
+	parameter COLOR = 8'b111_101_00;
+	parameter BORDER = 10;
+	
 	always @(posedge clk)
 		begin
-			if(active) begin
-				
-				end
-			end
-				
+			rx <= paddle_x;
+			ry <= paddle_y;
+			end			
+
 	always @(hcount or vcount) 
 		begin
 			if(active) begin
-				if ((((hcount >= paddle_x - BORDER) && hcount < paddle_x) ||  ((hcount >= paddle_x + paddle_width) && (hcount < paddle_x + paddle_width + BORDER))) 
-				&& (((vcount >= paddle_y - BORDER) && vcount < paddle_y) || (vcount >= paddle_y + paddle_height) && (vcount <= paddle_y + paddle_height + BORDER)))
-					pixel= COLOR;
-				else pixel= 0;
+				if((((hcount >= rx - BORDER) && (hcount < rx)) || ((hcount >= rx + p_w) && (hcount < rx + p_w + BORDER))) 
+								&& ((vcount >= ry - BORDER) && (vcount < ry + p_h + BORDER)) )begin
+//				 &&  ((vcount >= paddle_y - BORDER) && (vcount < paddle_y) || (vcount >= paddle_y + paddle_height) && (vcount < paddle_y + paddle_height + BORDER))
+//								&& (hcount >= paddle_x && (hcount < paddle_x + paddle_width))) begin
+					pixel = COLOR;
+					end
 				end
+			else pixel = 0;
 			end
 	
 endmodule

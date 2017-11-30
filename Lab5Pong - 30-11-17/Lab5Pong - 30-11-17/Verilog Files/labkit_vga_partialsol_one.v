@@ -161,7 +161,7 @@ module labkit(
 	
 	wire switch2 = switch[2];
 	
-   pong_game psolution(.pixel_clk(pixel_clk), .reset(reset), .switch(switch2) ,.up(up), .down(down),.left(left),.right(right), .pspeed(switch[7:4]),
+   pong_game psolution(.pixel_clk(pixel_clk), .clk_25mhz(clk_25mhz), .reset(reset), .switch(switch2) ,.up(up), .down(down),.left(left),.right(right), .pspeed(switch[7:4]),
 	    .hcount(hcount), .vcount(vcount), .hsync(hsync1), .vsync(vsync1), .blank(blank1),
 		 .phsync(phsync), .pvsync(pvsync), .pblank(pblank), .pixel(pong_pixel), .randop(led[0]));
 	
@@ -196,6 +196,7 @@ endmodule
 
 module pong_game (
    input pixel_clk,	// 65MHz clock
+	input clk_25mhz,
    input reset,		// 1 to initialize module
 	input switch,
    input up,		// 1 when paddle should move up
@@ -219,21 +220,13 @@ module pong_game (
    wire [2:0] checkerboard;
 	wire boostme, shield;
 	
-////////////////////////////////////////////////////////////////////	
-// REPLACE ME! The code below just generates a color checkerboard
-// using 64 pixel by 64 pixel squares.
-   
-//   assign phsync = hsync;
-//   assign pvsync = vsync;
-//   assign pblank = blank;
-//   assign checkerboard = hcount[8:6] + vcount[8:6];
-
-   // here we use three bits from hcount and vcount to generate the \
-   // checkerboard
-
-//  assign pixel = {{8{checkerboard[2]}}, {8{checkerboard[1]}}, {8{checkerboard[0]}}} ;
-////////////////////////////////////////////////////////////////////	
-
+	
+	//Generates the time since last reset
+	wire [31:0] gametime;
+	
+	game_timer gametimer(.clk(clk_25mhz),
+								.reset(reset),
+								.seconds(gametime));
 
 ////////////////////////////////////////////////////////////////////	
 // need to take care of the pipe line delays;
@@ -281,18 +274,13 @@ module pong_game (
  
  	wire [7:0] paddle_pix,ball,ball2,ball3,ball4,powerbox, powerbox2, shield_pix;
 
-   //parameter PADDLE_WIDTH = 16;
-	//parameter PADDLE_HEIGHT = 128;
+
 	wire [9:0] PADDLE_WIDTH;
 	wire [9:0] PADDLE_HEIGHT;
    wire [9:0] PADDLE_X;
    wire [9:0] paddle_y;
 	wire grow;
 	
-//	draw_box #(.WIDTH(PADDLE_WIDTH), .HEIGHT(PADDLE_HEIGHT), .COLOR(8'b000_111_00))
-//	   paddle (.pixel_clk(pixel_clk), .hcount(hcount), .vcount(vcount),
-//		.x(PADDLE_X), .y(paddle_y), .pixel(paddle_pix));
-		
 	draw_box #(.COLOR(8'b000_111_00))
 	   paddle (.pixel_clk(pixel_clk),.left(left),.right(right),.up(up),.down(down),.reset(reset), .grow(grow), .hcount(hcount), .vcount(vcount),
 		.x(PADDLE_X), .y(paddle_y), .paddle_width(PADDLE_WIDTH), .paddle_height(PADDLE_HEIGHT), .pixel(paddle_pix));
@@ -487,8 +475,8 @@ module pong_game (
 									 
 	shield pp_shield(.clk(pixel_clk),
 						  .reset(reset),
-						  .active(shield),
-						  .hcount(hcout),
+						  .active(pp_status[3]),
+						  .hcount(hcount),
 						  .vcount(vcount),
 						  .paddle_x(PADDLE_X),
 						  .paddle_y(paddle_y),
@@ -501,7 +489,7 @@ module pong_game (
 	assign shield = pp_status[3];
 	assign randop = pp_status[3];
 	
-	assign grow = pp_eaten & (pp_mode == 2'b00); 
+	assign grow = pp_eaten & (pp_mode == 2'b11); //Change back to 2'b00 later
 
 
 //////////////////////////////////////////////////////////////////
@@ -579,10 +567,10 @@ always @(posedge pixel_clk)
 		if (reset) begin
 			//speed_x <= {3'b0,switch[3:2]};
 			//speed_y <= {3'b0,switch[1:0]};
-			ball_x2 <= 10;
-			ball_y2 <= 100;
+			ball_x2 <= 465;
+			ball_y2 <= 251;
 			ball_up2 <= 1;
-			ball_right2 <= 1;
+			ball_right2 <= 0;
 			end
 		else if (vsync_pulse && ~stop) begin
 		// vertical movement
