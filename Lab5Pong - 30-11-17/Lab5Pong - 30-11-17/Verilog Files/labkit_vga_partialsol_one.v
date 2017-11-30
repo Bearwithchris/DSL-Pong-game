@@ -218,30 +218,33 @@ module pong_game (
    );
 
    wire [2:0] checkerboard;
-	wire boostme, shield, extra_ball;
+	wire boostme, slowme, shield, extra_ball;
 	
 	
 	//Generates the time since last reset
 	wire [31:0] gametime;
-	wire [31:0] three_seconds_counter;
+	wire [31:0] six_seconds_counter;
 	wire ten_hz;
 	
 	general_timer gametimer(.clk(clk_25mhz),
 								.reset(reset),
 								.seconds(gametime),
 								.ten_hz(ten_hz),
-								.three_sec(three_seconds_counter));
+								.six_sec(six_seconds_counter));
 								
 	reg [6:0] bonus_speed = 0;
+	wire two_balls;
 	
 	always @(posedge clk_25mhz)
 		begin
 			if(reset)
 				bonus_speed <= 0;
 			else begin
-				bonus_speed <= three_seconds_counter;
+				bonus_speed <= six_seconds_counter;
 				end
 			end
+			
+	assign two_balls = (gametime > 30);
 
 ////////////////////////////////////////////////////////////////////	
 // need to take care of the pipe line delays;
@@ -265,22 +268,29 @@ module pong_game (
    assign pblank = blank_delay[1]; 
 	
 	reg[5:0] boost;
+	reg[5:0] slow_factor;
+	reg slowme_done = 0;
 	
 	always @(posedge pixel_clk) begin
 	if (extra_ball) begin
 		//pixel <= paddle_pix_delay[15:8] | ball | ball2 | ball3 | ball4 | powerbox2;
-		pixel <= paddle_pix_delay[15:8] | ball | ball2 | ball3 | powerbox2;
-		//boost <= 40;
+		pixel <= two_balls? (paddle_pix_delay[15:8] | ball | ball2 | ball3 | powerbox2) : (paddle_pix_delay[15:8] | ball | ball3 | powerbox2);
 		end
 	else begin
 		//pixel <= paddle_pix_delay[15:8] | ball | ball2 | powerbox2;
-		pixel <= paddle_pix_delay[15:8] | ball | powerbox2;
-		//boost <=0;
+		pixel <= two_balls? (paddle_pix_delay[15:8] | ball | ball2 | powerbox2) : (paddle_pix_delay[15:8] | ball | powerbox2);
 		end
 	if(boostme)
-		boost <= bonus_speed + 20;
+		boost <= bonus_speed + 10;
 	else
 		boost <= bonus_speed;//0;
+		
+	if(slowme && !slowme_done) begin
+		slow_factor <= slow_factor + 1;
+		slowme_done <= 1;
+		end
+	else if(!slowme)
+		slowme_done <= 0;
 	end
   
 
@@ -343,8 +353,8 @@ module pong_game (
 	
 	always @(posedge pixel_clk)
 		begin
-			speed_x = pspeed[3:2]*2 + boost;
-			speed_y = pspeed[1:0]*2 + boost;
+			speed_x = pspeed[3:2]*2 + boost - slow_factor;
+			speed_y = pspeed[1:0]*2 + boost - slow_factor;
 			
 			power_box_random_posX = (ball_x + ball_x2 + ball_x3 + ball_x4)/4;
 			power_box_random_posY = (ball_y + ball_y2 + ball_y3 + ball_y4)/4;
@@ -384,48 +394,48 @@ module pong_game (
 
 	wire stop1, stop2, stop3, stop4;
 	
-//	collision c1(.pixel_clk(pixel_clk),
-//					 .reset(reset),
-//					 .paddle_x(PADDLE_X),
-//					 .paddle_y(paddle_y),
-//					 .paddle_width(PADDLE_WIDTH),
-//					 .paddle_height(PADDLE_HEIGHT),
-//					 .object_x(ball_x),
-//					 .object_y(ball_y),
-//					 .object_r(6'd32),
-//					 .object_width(),
-//					 .object_height(),
-//					 .object_isCircle(1),
-//					 .collide(stop1));
-//					 
-//	collision c2(.pixel_clk(pixel_clk),
-//					 .reset(reset),
-//					 .paddle_x(PADDLE_X),
-//					 .paddle_y(paddle_y),
-//					 .paddle_width(PADDLE_WIDTH),
-//					 .paddle_height(PADDLE_HEIGHT),
-//					 .object_x(ball_x2),
-//					 .object_y(ball_y2),
-//					 .object_r(6'd32),
-//					 .object_width(),
-//					 .object_height(),
-//					 .object_isCircle(1),
-//					 .collide(stop2));
-//					 
-//	collision c3(.pixel_clk(pixel_clk),
-//					 .reset(reset),
-//					 .paddle_x(PADDLE_X),
-//					 .paddle_y(paddle_y),
-//					 .paddle_width(PADDLE_WIDTH),
-//					 .paddle_height(PADDLE_HEIGHT),
-//					 .object_x(ball_x3),
-//					 .object_y(ball_y3),
-//					 .object_r(6'd32),
-//					 .object_width(),
-//					 .object_height(),
-//					 .object_isCircle(1),
-//					 .collide(stop3));
-//
+	collision c1(.pixel_clk(pixel_clk),
+					 .reset(reset),
+					 .paddle_x(PADDLE_X),
+					 .paddle_y(paddle_y),
+					 .paddle_width(PADDLE_WIDTH),
+					 .paddle_height(PADDLE_HEIGHT),
+					 .object_x(ball_x),
+					 .object_y(ball_y),
+					 .object_r(6'd32),
+					 .object_width(),
+					 .object_height(),
+					 .object_isCircle(1),
+					 .collide(stop1));
+					 
+	collision c2(.pixel_clk(pixel_clk),
+					 .reset(reset),
+					 .paddle_x(PADDLE_X),
+					 .paddle_y(paddle_y),
+					 .paddle_width(PADDLE_WIDTH),
+					 .paddle_height(PADDLE_HEIGHT),
+					 .object_x(ball_x2),
+					 .object_y(ball_y2),
+					 .object_r(6'd32),
+					 .object_width(),
+					 .object_height(),
+					 .object_isCircle(1),
+					 .collide(stop2));
+					 
+	collision c3(.pixel_clk(pixel_clk),
+					 .reset(reset),
+					 .paddle_x(PADDLE_X),
+					 .paddle_y(paddle_y),
+					 .paddle_width(PADDLE_WIDTH),
+					 .paddle_height(PADDLE_HEIGHT),
+					 .object_x(ball_x3),
+					 .object_y(ball_y3),
+					 .object_r(6'd32),
+					 .object_width(),
+					 .object_height(),
+					 .object_isCircle(1),
+					 .collide(stop3));
+
 //	collision c4(.pixel_clk(pixel_clk),
 //					 .reset(reset),
 //					 .paddle_x(PADDLE_X),
@@ -440,7 +450,7 @@ module pong_game (
 //					 .object_isCircle(1),
 //					 .collide(stop4));
 	
-	assign stop = shield? 0 : extra_ball? (stop1 | stop2 | stop3 | stop4) :(stop1 | stop2);
+	assign stop = shield? 0 : two_balls? (extra_ball? (stop1 | stop2 | stop3) : (stop1 | stop2)) : (extra_ball? (stop1 | stop3) : stop1);
 					 
 	wire 			pp_eaten;
 	wire [10:0] pp_x;
@@ -469,7 +479,7 @@ module pong_game (
   power_pack2 pack2(.clk(pixel_clk),
 						  .reset(reset),
 						  .eaten(pp_eaten),
-						  .spawn(spawn),
+						  .spawn(spawn || (gametime == 2)),
 						  .hcount(hcount),
 						  .vcount(vcount),
 						  .randx(power_box_random_posX),
@@ -493,26 +503,26 @@ module pong_game (
 									 .pp_status(pp_status),
 									 .warning(warning));
 									 
-									 
+	assign slowme		=	pp_status[0];								 
 	assign boostme 	=	pp_status[1];//pp_status[0] | pp_status[1] | pp_status[2];
 	assign extra_ball =	pp_status[2];
 	assign shield 		=	pp_status[3];
 	
 	assign grow = pp_eaten;// & (pp_mode == 2'b00);
 	
-	assign randop = (three_seconds_counter >= 4);//ten_hz;//(gametime >= 10);
+	assign randop = (six_seconds_counter >= 2);//ten_hz;//(gametime >= 10);
 
 
 //////////////////////////////////////////////////////////////////
 // create a round puck, pipelined by two stages
 /////////////////////////////////////////////////////////////////
-   round_piped #(.COLOR(8'b111_000_11)) round_puck(.pixel_clk(pixel_clk), .ball_size(BALL_SIZE), .rx(ball_x),
+   round_piped #(.COLOR(8'b101_000_00)) round_puck(.pixel_clk(pixel_clk), .ball_size(BALL_SIZE), .rx(ball_x),
 	   .hcount(hcount), .ry(ball_y), .vcount(vcount), .rpixel(ball));
 		
-   round_piped #(.COLOR(8'b111_111_00)) round_puck2(.pixel_clk(pixel_clk), .ball_size(BALL_SIZE), .rx(ball_x2),
+   round_piped #(.COLOR(8'b101_000_00)) round_puck2(.pixel_clk(pixel_clk), .ball_size(BALL_SIZE), .rx(ball_x2),
 	   .hcount(hcount), .ry(ball_y2), .vcount(vcount), .rpixel(ball2));
 		
-	round_piped #(.COLOR(8'b000_000_11)) round_puck3(.pixel_clk(pixel_clk), .ball_size(BALL_SIZE), .rx(ball_x3),
+	round_piped #(.COLOR(8'b101_000_00)) round_puck3(.pixel_clk(pixel_clk), .ball_size(BALL_SIZE), .rx(ball_x3),
 	   .hcount(hcount), .ry(ball_y3), .vcount(vcount), .rpixel(ball3));
 		
    round_piped round_puck4(.pixel_clk(pixel_clk), .ball_size(BALL_SIZE), .rx(ball_x4),

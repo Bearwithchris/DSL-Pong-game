@@ -7,9 +7,9 @@ module powerup_timer(
 	output wire warning
 	);
 	
-	parameter PP1_TIME = 3;
+	parameter PP1_TIME = 1;
 	parameter PP2_TIME = 2;
-	parameter PP3_TIME = 5;
+	parameter PP3_TIME = 4;
 	parameter PP4_TIME = 4;
 	
 	reg [3:0] load;
@@ -167,13 +167,13 @@ module general_timer(
 	input wire			reset,
 	output reg [31:0] seconds,
 	output wire			ten_hz,
-	output reg [31:0]	three_sec
+	output reg [31:0]	six_sec
 	);	
 	
 	wire 			increment, one_hz;
 	reg [25:0]	sec_count;
 	reg [22:0]	sec_count10;
-	reg [2:0]	sec_count3;
+	reg [2:0]	sec_count6;
 	
 	parameter PRESCALER = 24999999;
 	parameter PRESCALER10 = 2499999;
@@ -185,15 +185,15 @@ module general_timer(
 				seconds <= 0;
 				sec_count <= 0;
 				sec_count10 <= 0;
-				three_sec <= 0;
+				six_sec <= 0;
 				end
 			else begin
 				sec_count <= one_hz? 0 : sec_count + 1;
 				sec_count10 <= (sec_count10 == PRESCALER10)? 0 : sec_count10 + 1;
-				sec_count3 <= (sec_count3 == 3)? 0 : one_hz? sec_count3 + 1 : sec_count3;
+				sec_count6 <= (sec_count6 == 6)? 0 : one_hz? sec_count6 + 1 : sec_count6;
+				seconds <= one_hz? seconds + 1 : seconds;
+				six_sec <= (sec_count6 == 6)? six_sec + 1: six_sec; 
 				end
-			seconds <= one_hz? seconds + 1 : seconds;
-			three_sec <= (sec_count3 == 3)? three_sec + 1: three_sec;
 			end
 				
 	assign one_hz = (sec_count == PRESCALER);

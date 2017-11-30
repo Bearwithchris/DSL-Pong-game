@@ -23,13 +23,13 @@ module power_pack2 #(parameter WIDTH=20,
 	wire [7:0] randnum;
 	wire [9:0] randnum10;
 	
-	parameter SHRINK	= 	2'b00;
+	parameter SLOW		= 	2'b00;
 	parameter BOOST	= 	2'b01;
 	parameter EXTRA	= 	2'b10;
 	parameter SHIELD	=	2'b11; 	
 	
 	
-	parameter COLOR_SHRINK	= 	8'b000_000_11;
+	parameter COLOR_SLOW	= 	8'b000_000_11;
 	parameter COLOR_BOOST	=	8'b000_101_10;
 	parameter COLOR_EXTRA		=	8'b111_000_11;
 	parameter COLOR_SHIELD	=	8'b111_100_00;
@@ -43,8 +43,8 @@ module power_pack2 #(parameter WIDTH=20,
 			if(reset || (spawn && !eaten)) begin
 				mode = randnum10[5:4]; //randomly extract 2 bit number from the random generated number
 				case(mode)
-					SHRINK: begin
-						color = COLOR_SHRINK;
+					SLOW: begin
+						color = COLOR_SLOW;
 						end
 					BOOST: begin
 						color = COLOR_BOOST;
@@ -65,8 +65,8 @@ module power_pack2 #(parameter WIDTH=20,
 //				mode <= randnum10[5:4]; //randomly extract 2 bit number from the random generated number
 //				//mode <= SHIELD;
 //				case(mode)
-//					SHRINK: begin
-//						color <= COLOR_SHRINK;
+//					SLOW: begin
+//						color <= COLOR_SLOW;
 //						end
 //					BOOST: begin
 //						color <= COLOR_BOOST;
