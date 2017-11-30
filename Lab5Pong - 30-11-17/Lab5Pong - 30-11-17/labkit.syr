@@ -105,12 +105,18 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
+Analyzing Verilog file "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\randgen.v" into library work
+Parsing module <randgen>.
 Analyzing Verilog file "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" into library work
 Parsing module <power_pack2>.
-INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 24. parameter declaration becomes local in power_pack2 with formal parameter declaration list
 INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 25. parameter declaration becomes local in power_pack2 with formal parameter declaration list
 INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 26. parameter declaration becomes local in power_pack2 with formal parameter declaration list
 INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 27. parameter declaration becomes local in power_pack2 with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 28. parameter declaration becomes local in power_pack2 with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 31. parameter declaration becomes local in power_pack2 with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 32. parameter declaration becomes local in power_pack2 with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 33. parameter declaration becomes local in power_pack2 with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 34. parameter declaration becomes local in power_pack2 with formal parameter declaration list
 Parsing module <shield>.
 Analyzing Verilog file "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\counter.v" into library work
 Parsing module <powerup_timer>.
@@ -266,8 +272,11 @@ WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital 
 WARNING:HDLCompiler:1127 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 444: Assignment to pack1x ignored, since the identifier is never used
 
 Elaborating module <power_pack2>.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 50: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 51: Signal <display> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+
+Elaborating module <randgen>.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 74: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 75: Signal <display> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 76: Signal <color> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 457: Size mismatch in connection of port <randx>. Formal port size is 11-bit while actual signal size is 10-bit.
 WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 461: Size mismatch in connection of port <r2pixel>. Formal port size is 10-bit while actual signal size is 8-bit.
 
@@ -292,11 +301,8 @@ WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital 
 WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\counter.v" Line 41: Size mismatch in connection of port <value>. Formal port size is 4-bit while actual signal size is 32-bit.
 
 Elaborating module <shield>.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 89: Signal <active> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 90: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 91: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:634 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 75: Net <p_h[10]> does not have a driver.
-WARNING:HDLCompiler:634 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 76: Net <p_w[9]> does not have a driver.
+WARNING:HDLCompiler:1127 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 105: Assignment to rx ignored, since the identifier is never used
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 115: Signal <active> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 481: Size mismatch in connection of port <paddle_x>. Formal port size is 11-bit while actual signal size is 10-bit.
 WARNING:HDLCompiler:1127 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 489: Assignment to shield ignored, since the identifier is never used
 
@@ -651,21 +657,32 @@ Synthesizing Unit <power_pack2>.
         WIDTH = 20
         HEIGHT = 20
         box_size = 7'b1000000
-        COLOR = 8'b00000011
+    Found 8-bit register for signal <color>.
     Found 11-bit register for signal <rx>.
     Found 10-bit register for signal <ry>.
     Found 1-bit register for signal <randop_reg>.
-    Found 12-bit adder for signal <n0047> created at line 50.
-    Found 11-bit adder for signal <n0049> created at line 50.
-    Found 11-bit comparator lessequal for signal <n0015> created at line 50
-    Found 12-bit comparator greater for signal <GND_654_o_BUS_0001_LessThan_12_o> created at line 50
-    Found 10-bit comparator lessequal for signal <n0020> created at line 50
-    Found 11-bit comparator greater for signal <GND_654_o_BUS_0002_LessThan_15_o> created at line 50
+    Found 2-bit register for signal <mode>.
+    Found 12-bit adder for signal <n0054> created at line 74.
+    Found 11-bit adder for signal <n0056> created at line 74.
+    Found 4x8-bit Read Only RAM for signal <mode[1]_PWR_17_o_wide_mux_1_OUT>
+    Found 11-bit comparator lessequal for signal <n0018> created at line 74
+    Found 12-bit comparator greater for signal <GND_654_o_BUS_0001_LessThan_15_o> created at line 74
+    Found 10-bit comparator lessequal for signal <n0023> created at line 74
+    Found 11-bit comparator greater for signal <GND_654_o_BUS_0002_LessThan_18_o> created at line 74
     Summary:
+	inferred   1 RAM(s).
 	inferred   2 Adder/Subtractor(s).
-	inferred  22 D-type flip-flop(s).
+	inferred  32 D-type flip-flop(s).
 	inferred   4 Comparator(s).
+	inferred   1 Multiplexer(s).
 Unit <power_pack2> synthesized.
+
+Synthesizing Unit <randgen>.
+    Related source file is "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\randgen.v".
+    Found 8-bit register for signal <LFSR>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <randgen> synthesized.
 
 Synthesizing Unit <pp_timer>.
     Related source file is "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\counter.v".
@@ -683,13 +700,13 @@ Synthesizing Unit <counter>.
     Found 26-bit register for signal <sec_count>.
     Found 4-bit register for signal <count>.
     Found 1-bit register for signal <stop>.
-    Found 5-bit subtractor for signal <GND_656_o_GND_656_o_sub_6_OUT> created at line 142.
+    Found 5-bit subtractor for signal <GND_657_o_GND_657_o_sub_6_OUT> created at line 142.
     Found 27-bit adder for signal <n0041[26:0]> created at line 140.
     Found 5-bit adder for signal <n0043[4:0]> created at line 142.
     Summary:
 	inferred   3 Adder/Subtractor(s).
 	inferred  31 D-type flip-flop(s).
-	inferred   1 Multiplexer(s).
+	inferred   2 Multiplexer(s).
 Unit <counter> synthesized.
 
 Synthesizing Unit <powerup_timer>.
@@ -699,7 +716,7 @@ Synthesizing Unit <powerup_timer>.
         PP3_TIME = 5
         PP4_TIME = 4
     Found 4-bit register for signal <load>.
-    Found 4x4-bit Read Only RAM for signal <mode[1]_PWR_21_o_wide_mux_1_OUT>
+    Found 4x4-bit Read Only RAM for signal <mode[1]_PWR_22_o_wide_mux_1_OUT>
     Summary:
 	inferred   1 RAM(s).
 	inferred   4 D-type flip-flop(s).
@@ -708,30 +725,22 @@ Unit <powerup_timer> synthesized.
 
 Synthesizing Unit <shield>.
     Related source file is "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v".
-        COLOR = 8'b11110100
+        COLOR = 8'b11110000
         BORDER = 10
+WARNING:Xst:647 - Input <paddle_x> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <paddle_y> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <paddle_width> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <paddle_height> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:653 - Signal <p_h> is used but never assigned. This sourceless signal will be automatically connected to value GND.
-WARNING:Xst:653 - Signal <p_w> is used but never assigned. This sourceless signal will be automatically connected to value GND.
-    Found 10-bit register for signal <ry>.
-    Found 11-bit register for signal <rx>.
-    Found 12-bit subtractor for signal <GND_658_o_GND_658_o_sub_4_OUT> created at line 90.
-    Found 11-bit subtractor for signal <GND_658_o_GND_658_o_sub_12_OUT> created at line 91.
-    Found 13-bit adder for signal <n0054> created at line 90.
-    Found 13-bit adder for signal <n0061> created at line 91.
 WARNING:Xst:737 - Found 1-bit latch for signal <pixel<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-    Found 32-bit comparator lessequal for signal <n0003> created at line 90
-    Found 11-bit comparator greater for signal <hcount[10]_rx[10]_LessThan_6_o> created at line 90
-    Found 13-bit comparator greater for signal <GND_658_o_BUS_0003_LessThan_11_o> created at line 90
-    Found 32-bit comparator lessequal for signal <n0015> created at line 91
-    Found 13-bit comparator greater for signal <GND_658_o_BUS_0005_LessThan_16_o> created at line 91
+    Found 11-bit comparator lessequal for signal <n0001> created at line 118
+    Found 11-bit comparator greater for signal <hcount[10]_GND_659_o_LessThan_7_o> created at line 118
+    Found 10-bit comparator lessequal for signal <n0005> created at line 118
+    Found 10-bit comparator greater for signal <vcount[9]_GND_659_o_LessThan_9_o> created at line 118
     Summary:
-	inferred   4 Adder/Subtractor(s).
-	inferred  21 D-type flip-flop(s).
 	inferred   1 Latch(s).
-	inferred   5 Comparator(s).
+	inferred   4 Comparator(s).
 Unit <shield> synthesized.
 
 Synthesizing Unit <round_piped_1>.
@@ -742,14 +751,14 @@ WARNING:Xst:647 - Input <ball_size> is never used. This port will be preserved a
     Found 12-bit adder for signal <n0032> created at line 1110.
     Found 11-bit adder for signal <n0038> created at line 1115.
     Found 22-bit adder for signal <n0046> created at line 1120.
-    Found 11-bit subtractor for signal <GND_667_o_GND_667_o_sub_4_OUT<10:0>> created at line 1108.
-    Found 11-bit subtractor for signal <GND_667_o_GND_667_o_sub_6_OUT<10:0>> created at line 1110.
-    Found 10-bit subtractor for signal <GND_667_o_GND_667_o_sub_11_OUT<9:0>> created at line 1113.
-    Found 10-bit subtractor for signal <GND_667_o_GND_667_o_sub_13_OUT<9:0>> created at line 1115.
+    Found 11-bit subtractor for signal <GND_668_o_GND_668_o_sub_4_OUT<10:0>> created at line 1108.
+    Found 11-bit subtractor for signal <GND_668_o_GND_668_o_sub_6_OUT<10:0>> created at line 1110.
+    Found 10-bit subtractor for signal <GND_668_o_GND_668_o_sub_11_OUT<9:0>> created at line 1113.
+    Found 10-bit subtractor for signal <GND_668_o_GND_668_o_sub_13_OUT<9:0>> created at line 1115.
     Found 11x11-bit multiplier for signal <n0023> created at line 1117.
     Found 10x10-bit multiplier for signal <n0024> created at line 1118.
-    Found 12-bit comparator greater for signal <BUS_0001_GND_667_o_LessThan_2_o> created at line 1107
-    Found 11-bit comparator greater for signal <BUS_0004_GND_667_o_LessThan_9_o> created at line 1112
+    Found 12-bit comparator greater for signal <BUS_0001_GND_668_o_LessThan_2_o> created at line 1107
+    Found 11-bit comparator greater for signal <BUS_0004_GND_668_o_LessThan_9_o> created at line 1112
     Found 22-bit comparator lessequal for signal <n0013> created at line 1120
     Summary:
 	inferred   2 Multiplier(s).
@@ -761,30 +770,6 @@ Unit <round_piped_1> synthesized.
 Synthesizing Unit <round_piped_2>.
     Related source file is "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v".
         COLOR = 8'b11111100
-WARNING:Xst:647 - Input <pixel_clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <ball_size> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-    Found 12-bit adder for signal <n0032> created at line 1110.
-    Found 11-bit adder for signal <n0038> created at line 1115.
-    Found 22-bit adder for signal <n0046> created at line 1120.
-    Found 11-bit subtractor for signal <GND_670_o_GND_670_o_sub_4_OUT<10:0>> created at line 1108.
-    Found 11-bit subtractor for signal <GND_670_o_GND_670_o_sub_6_OUT<10:0>> created at line 1110.
-    Found 10-bit subtractor for signal <GND_670_o_GND_670_o_sub_11_OUT<9:0>> created at line 1113.
-    Found 10-bit subtractor for signal <GND_670_o_GND_670_o_sub_13_OUT<9:0>> created at line 1115.
-    Found 11x11-bit multiplier for signal <n0023> created at line 1117.
-    Found 10x10-bit multiplier for signal <n0024> created at line 1118.
-    Found 12-bit comparator greater for signal <BUS_0001_GND_670_o_LessThan_2_o> created at line 1107
-    Found 11-bit comparator greater for signal <BUS_0004_GND_670_o_LessThan_9_o> created at line 1112
-    Found 22-bit comparator lessequal for signal <n0013> created at line 1120
-    Summary:
-	inferred   2 Multiplier(s).
-	inferred   5 Adder/Subtractor(s).
-	inferred   3 Comparator(s).
-	inferred   4 Multiplexer(s).
-Unit <round_piped_2> synthesized.
-
-Synthesizing Unit <round_piped_3>.
-    Related source file is "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v".
-        COLOR = 8'b00000011
 WARNING:Xst:647 - Input <pixel_clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <ball_size> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 12-bit adder for signal <n0032> created at line 1110.
@@ -804,11 +789,11 @@ WARNING:Xst:647 - Input <ball_size> is never used. This port will be preserved a
 	inferred   5 Adder/Subtractor(s).
 	inferred   3 Comparator(s).
 	inferred   4 Multiplexer(s).
-Unit <round_piped_3> synthesized.
+Unit <round_piped_2> synthesized.
 
-Synthesizing Unit <round_piped>.
+Synthesizing Unit <round_piped_3>.
     Related source file is "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v".
-        COLOR = 8'b11100000
+        COLOR = 8'b00000011
 WARNING:Xst:647 - Input <pixel_clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <ball_size> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 12-bit adder for signal <n0032> created at line 1110.
@@ -828,6 +813,30 @@ WARNING:Xst:647 - Input <ball_size> is never used. This port will be preserved a
 	inferred   5 Adder/Subtractor(s).
 	inferred   3 Comparator(s).
 	inferred   4 Multiplexer(s).
+Unit <round_piped_3> synthesized.
+
+Synthesizing Unit <round_piped>.
+    Related source file is "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v".
+        COLOR = 8'b11100000
+WARNING:Xst:647 - Input <pixel_clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ball_size> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 12-bit adder for signal <n0032> created at line 1110.
+    Found 11-bit adder for signal <n0038> created at line 1115.
+    Found 22-bit adder for signal <n0046> created at line 1120.
+    Found 11-bit subtractor for signal <GND_673_o_GND_673_o_sub_4_OUT<10:0>> created at line 1108.
+    Found 11-bit subtractor for signal <GND_673_o_GND_673_o_sub_6_OUT<10:0>> created at line 1110.
+    Found 10-bit subtractor for signal <GND_673_o_GND_673_o_sub_11_OUT<9:0>> created at line 1113.
+    Found 10-bit subtractor for signal <GND_673_o_GND_673_o_sub_13_OUT<9:0>> created at line 1115.
+    Found 11x11-bit multiplier for signal <n0023> created at line 1117.
+    Found 10x10-bit multiplier for signal <n0024> created at line 1118.
+    Found 12-bit comparator greater for signal <BUS_0001_GND_673_o_LessThan_2_o> created at line 1107
+    Found 11-bit comparator greater for signal <BUS_0004_GND_673_o_LessThan_9_o> created at line 1112
+    Found 22-bit comparator lessequal for signal <n0013> created at line 1120
+    Summary:
+	inferred   2 Multiplier(s).
+	inferred   5 Adder/Subtractor(s).
+	inferred   3 Comparator(s).
+	inferred   4 Multiplexer(s).
 Unit <round_piped> synthesized.
 
 Synthesizing Unit <display_4hex>.
@@ -835,8 +844,8 @@ Synthesizing Unit <display_4hex>.
     Found 7-bit register for signal <seg>.
     Found 4-bit register for signal <strobe>.
     Found 14-bit register for signal <counter>.
-    Found 14-bit adder for signal <counter[13]_GND_673_o_add_17_OUT> created at line 1288.
-    Found 4x4-bit Read Only RAM for signal <counter[13]_PWR_32_o_wide_mux_23_OUT>
+    Found 14-bit adder for signal <counter[13]_GND_674_o_add_17_OUT> created at line 1288.
+    Found 4x4-bit Read Only RAM for signal <counter[13]_PWR_34_o_wide_mux_23_OUT>
     Found 7-bit 4-to-1 multiplexer for signal <counter[13]_data[3]_wide_mux_22_OUT> created at line 1289.
     Summary:
 	inferred   1 RAM(s).
@@ -849,21 +858,21 @@ Unit <display_4hex> synthesized.
 HDL Synthesis Report
 
 Macro Statistics
-# RAMs                                                 : 2
+# RAMs                                                 : 3
  4x4-bit single-port Read Only RAM                     : 2
+ 4x8-bit single-port Read Only RAM                     : 1
 # Multipliers                                          : 8
  10x10-bit multiplier                                  : 4
  11x11-bit multiplier                                  : 4
-# Adders/Subtractors                                   : 90
+# Adders/Subtractors                                   : 86
  10-bit adder                                          : 5
  10-bit addsub                                         : 5
  10-bit subtractor                                     : 5
  11-bit adder                                          : 10
  11-bit addsub                                         : 4
- 11-bit subtractor                                     : 7
+ 11-bit subtractor                                     : 6
  12-bit adder                                          : 10
- 12-bit subtractor                                     : 1
- 13-bit adder                                          : 4
+ 13-bit adder                                          : 2
  14-bit adder                                          : 1
  20-bit adder                                          : 5
  22-bit adder                                          : 4
@@ -877,13 +886,13 @@ Macro Statistics
  7-bit adder                                           : 1
  8-bit adder                                           : 1
  9-bit adder                                           : 1
-# Registers                                            : 105
+# Registers                                            : 106
  1-bit register                                        : 48
- 10-bit register                                       : 12
- 11-bit register                                       : 8
+ 10-bit register                                       : 11
+ 11-bit register                                       : 7
  14-bit register                                       : 1
  16-bit register                                       : 1
- 2-bit register                                        : 3
+ 2-bit register                                        : 4
  20-bit register                                       : 5
  26-bit register                                       : 5
  31-bit register                                       : 1
@@ -892,33 +901,33 @@ Macro Statistics
  5-bit register                                        : 2
  6-bit register                                        : 5
  7-bit register                                        : 1
- 8-bit register                                        : 2
+ 8-bit register                                        : 4
 # Latches                                              : 1
  1-bit latch                                           : 1
-# Comparators                                          : 75
+# Comparators                                          : 74
  1-bit comparator equal                                : 5
- 10-bit comparator greater                             : 15
- 10-bit comparator lessequal                           : 12
+ 10-bit comparator greater                             : 16
+ 10-bit comparator lessequal                           : 13
  11-bit comparator greater                             : 20
- 11-bit comparator lessequal                           : 4
+ 11-bit comparator lessequal                           : 5
  12-bit comparator greater                             : 6
- 13-bit comparator greater                             : 2
  22-bit comparator lessequal                           : 4
  32-bit comparator greater                             : 4
- 32-bit comparator lessequal                           : 2
  9-bit comparator greater                              : 1
-# Multiplexers                                         : 85
+# Multiplexers                                         : 91
  1-bit 2-to-1 multiplexer                              : 14
- 10-bit 2-to-1 multiplexer                             : 27
+ 10-bit 2-to-1 multiplexer                             : 28
  11-bit 2-to-1 multiplexer                             : 20
  2-bit 2-to-1 multiplexer                              : 1
  3-bit 2-to-1 multiplexer                              : 2
- 32-bit 2-to-1 multiplexer                             : 5
+ 32-bit 2-to-1 multiplexer                             : 10
  4-bit 2-to-1 multiplexer                              : 1
  6-bit 2-to-1 multiplexer                              : 12
  7-bit 4-to-1 multiplexer                              : 1
  8-bit 2-to-1 multiplexer                              : 1
  8-bit 4-to-1 multiplexer                              : 1
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
 
 =========================================================================
 INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
@@ -937,18 +946,17 @@ WARNING:Xst:1426 - The value init of the FF/Latch rxreg_5 hinder the constant cl
    You should achieve better results by setting this init to 0.
 WARNING:Xst:1426 - The value init of the FF/Latch ryreg_6 hinder the constant cleaning in the block pack1.
    You should achieve better results by setting this init to 1.
-WARNING:Xst:1710 - FF/Latch <boost_4> (without init value) has a constant value of 0 in block <psolution>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <boost_2> (without init value) has a constant value of 0 in block <psolution>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <boost_1> (without init value) has a constant value of 0 in block <psolution>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <boost_0> (without init value) has a constant value of 0 in block <psolution>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <paddle_pix_delay_7> (without init value) has a constant value of 0 in block <psolution>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <paddle_pix_delay_6> (without init value) has a constant value of 0 in block <psolution>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <paddle_pix_delay_5> (without init value) has a constant value of 0 in block <psolution>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <paddle_pix_delay_1> (without init value) has a constant value of 0 in block <psolution>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <paddle_pix_delay_0> (without init value) has a constant value of 0 in block <psolution>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <rx_10> (without init value) has a constant value of 0 in block <pp_shield>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <rx_10> (without init value) has a constant value of 0 in block <pack2>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1293 - FF/Latch <rxreg_0> has a constant value of 0 in block <pack1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rx_10> (without init value) has a constant value of 0 in block <pack2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <paddle_pix_delay_0> (without init value) has a constant value of 0 in block <psolution>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <paddle_pix_delay_1> (without init value) has a constant value of 0 in block <psolution>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <paddle_pix_delay_5> (without init value) has a constant value of 0 in block <psolution>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <paddle_pix_delay_6> (without init value) has a constant value of 0 in block <psolution>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <paddle_pix_delay_7> (without init value) has a constant value of 0 in block <psolution>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <boost_0> (without init value) has a constant value of 0 in block <psolution>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <boost_1> (without init value) has a constant value of 0 in block <psolution>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <boost_2> (without init value) has a constant value of 0 in block <psolution>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <boost_4> (without init value) has a constant value of 0 in block <psolution>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <paddle_pix_delay_8> (without init value) has a constant value of 0 in block <psolution>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <paddle_pix_delay_9> (without init value) has a constant value of 0 in block <psolution>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <paddle_pix_delay_13> (without init value) has a constant value of 0 in block <psolution>. This FF/Latch will be trimmed during the optimization process.
@@ -998,17 +1006,13 @@ WARNING:Xst:2677 - Node <ryreg_29> of sequential type is unconnected in block <p
 WARNING:Xst:2677 - Node <ryreg_30> of sequential type is unconnected in block <pack1>.
 WARNING:Xst:2677 - Node <ryreg_31> of sequential type is unconnected in block <pack1>.
 
-Synthesizing (advanced) Unit <counter>.
-The following registers are absorbed into counter <sec_count>: 1 register on signal <sec_count>.
-Unit <counter> synthesized (advanced).
-
 Synthesizing (advanced) Unit <debounce>.
 The following registers are absorbed into counter <count>: 1 register on signal <count>.
 Unit <debounce> synthesized (advanced).
 
 Synthesizing (advanced) Unit <display_4hex>.
 The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
-INFO:Xst:3231 - The small RAM <Mram_counter[13]_PWR_32_o_wide_mux_23_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+INFO:Xst:3231 - The small RAM <Mram_counter[13]_PWR_34_o_wide_mux_23_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
@@ -1042,8 +1046,22 @@ Synthesizing (advanced) Unit <power_pack>.
  	<Madd_n0243[6:0]> in block <power_pack>, 	<Madd_n0246[7:0]> in block <power_pack>, 	<Madd_n0228> in block <power_pack>.
 Unit <power_pack> synthesized (advanced).
 
+Synthesizing (advanced) Unit <power_pack2>.
+INFO:Xst:3231 - The small RAM <Mram_mode[1]_PWR_17_o_wide_mux_1_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 8-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <mode>          |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <power_pack2> synthesized (advanced).
+
 Synthesizing (advanced) Unit <powerup_timer>.
-INFO:Xst:3231 - The small RAM <Mram_mode[1]_PWR_21_o_wide_mux_1_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+INFO:Xst:3231 - The small RAM <Mram_mode[1]_PWR_22_o_wide_mux_1_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
@@ -1109,22 +1127,22 @@ WARNING:Xst:2677 - Node <ryreg_31> of sequential type is unconnected in block <p
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# RAMs                                                 : 2
+# RAMs                                                 : 3
  4x4-bit single-port distributed Read Only RAM         : 2
+ 4x8-bit single-port distributed Read Only RAM         : 1
 # Multipliers                                          : 8
  10x10-bit multiplier                                  : 4
  11x11-bit multiplier                                  : 4
-# Adders/Subtractors                                   : 65
+# Adders/Subtractors                                   : 66
  10-bit adder                                          : 5
  10-bit addsub                                         : 5
  10-bit subtractor                                     : 5
  11-bit adder                                          : 8
  11-bit addsub                                         : 4
- 11-bit subtractor                                     : 7
+ 11-bit subtractor                                     : 6
  12-bit adder                                          : 6
- 12-bit subtractor                                     : 1
- 13-bit adder                                          : 2
  22-bit adder                                          : 4
+ 27-bit adder                                          : 5
  32-bit adder                                          : 2
  5-bit adder                                           : 7
  5-bit subtractor                                      : 5
@@ -1132,41 +1150,40 @@ Macro Statistics
 # Adder Trees                                          : 3
  12-bit / 4-inputs adder tree                          : 2
  9-bit / 4-inputs adder tree                           : 1
-# Counters                                             : 14
+# Counters                                             : 9
  10-bit up counter                                     : 1
  11-bit up counter                                     : 1
  14-bit up counter                                     : 1
  20-bit up counter                                     : 5
- 26-bit up counter                                     : 5
  31-bit up counter                                     : 1
 # Accumulators                                         : 2
  32-bit updown accumulator                             : 2
-# Registers                                            : 368
- Flip-Flops                                            : 368
-# Comparators                                          : 75
+# Registers                                            : 495
+ Flip-Flops                                            : 495
+# Comparators                                          : 74
  1-bit comparator equal                                : 5
- 10-bit comparator greater                             : 15
- 10-bit comparator lessequal                           : 12
+ 10-bit comparator greater                             : 16
+ 10-bit comparator lessequal                           : 13
  11-bit comparator greater                             : 20
- 11-bit comparator lessequal                           : 4
+ 11-bit comparator lessequal                           : 5
  12-bit comparator greater                             : 6
- 13-bit comparator greater                             : 2
  22-bit comparator lessequal                           : 4
  32-bit comparator greater                             : 4
- 32-bit comparator lessequal                           : 2
  9-bit comparator greater                              : 1
-# Multiplexers                                         : 80
+# Multiplexers                                         : 86
  1-bit 2-to-1 multiplexer                              : 9
- 10-bit 2-to-1 multiplexer                             : 27
+ 10-bit 2-to-1 multiplexer                             : 28
  11-bit 2-to-1 multiplexer                             : 20
  2-bit 2-to-1 multiplexer                              : 1
  3-bit 2-to-1 multiplexer                              : 2
- 32-bit 2-to-1 multiplexer                             : 5
+ 32-bit 2-to-1 multiplexer                             : 10
  4-bit 2-to-1 multiplexer                              : 1
  6-bit 2-to-1 multiplexer                              : 12
  7-bit 4-to-1 multiplexer                              : 1
  8-bit 2-to-1 multiplexer                              : 1
  8-bit 4-to-1 multiplexer                              : 1
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
 
 =========================================================================
 
@@ -1192,8 +1209,8 @@ INFO:Xst:2261 - The FF/Latch <rxreg_2> in Unit <power_pack> is equivalent to the
 INFO:Xst:2261 - The FF/Latch <ryreg_2> in Unit <power_pack> is equivalent to the following FF/Latch, which will be removed : <ryreg_5> 
 INFO:Xst:2261 - The FF/Latch <rxreg_9> in Unit <power_pack> is equivalent to the following FF/Latch, which will be removed : <ryreg_4> 
 WARNING:Xst:1710 - FF/Latch <rx_10> (without init value) has a constant value of 0 in block <power_pack2>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <rx_10> (without init value) has a constant value of 0 in block <shield>. This FF/Latch will be trimmed during the optimization process.
 INFO:Xst:2146 - In block <draw_box>, Accumulator <WIDTH> <HEIGHT> are equivalent, XST will keep only <WIDTH>.
+WARNING:Xst:1710 - FF/Latch <color_3> (without init value) has a constant value of 0 in block <power_pack2>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <speed_x_0> (without init value) has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <speed_x_4> (without init value) has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <speed_y_0> (without init value) has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
@@ -1214,6 +1231,7 @@ INFO:Xst:2261 - The FF/Latch <speed_x_3> in Unit <pong_game> is equivalent to th
 INFO:Xst:2261 - The FF/Latch <ry_4> in Unit <power_pack> is equivalent to the following FF/Latch, which will be removed : <rx_9> 
 INFO:Xst:2261 - The FF/Latch <ry_2> in Unit <power_pack> is equivalent to the following FF/Latch, which will be removed : <ry_5> 
 INFO:Xst:2261 - The FF/Latch <ry_8> in Unit <power_pack> is equivalent to the following FF/Latch, which will be removed : <rx_8> 
+INFO:Xst:2261 - The FF/Latch <color_5> in Unit <power_pack2> is equivalent to the following 2 FFs/Latches, which will be removed : <color_6> <color_7> 
 WARNING:Xst:3002 - This design contains one or more registers/latches that are directly
    incompatible with the Spartan6 architecture. The two primary causes of this is
    either a register or latch described with both an asynchronous set and
@@ -1260,6 +1278,8 @@ Optimizing unit <power_pack> ...
 
 Optimizing unit <power_pack2> ...
 
+Optimizing unit <randgen> ...
+
 Optimizing unit <shield> ...
 
 Optimizing unit <round_piped_1> ...
@@ -1281,125 +1301,17 @@ Optimizing unit <powerup_timer> ...
 Optimizing unit <display_4hex> ...
 
 Optimizing unit <vga_general> ...
-WARNING:Xst:1710 - FF/Latch <psolution/pwruptimer/load_0> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <psolution/pwruptimer/load_1> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <psolution/pwruptimer/load_2> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <psolution/pwruptimer/powerup_3/stop> (without init value) has a constant value of 1 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <psolution/pwruptimer/powerup_2/stop> (without init value) has a constant value of 1 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <psolution/pwruptimer/powerup_1/stop> (without init value) has a constant value of 1 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <psolution/pp_shield/ry_0> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <psolution/pp_shield/ry_1> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <psolution/pp_shield/ry_2> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <psolution/pp_shield/rx_0> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <psolution/pp_shield/rx_1> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <psolution/pp_shield/rx_2> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <psolution/boost_3> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <psolution/paddle_pix_delay_0> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <psolution/paddle_pix_delay_1> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <psolution/paddle_pix_delay_5> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <psolution/paddle_pix_delay_6> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <psolution/paddle_pix_delay_7> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <psolution/paddle_pix_delay_8> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <psolution/paddle_pix_delay_9> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <psolution/paddle_pix_delay_13> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <psolution/paddle_pix_delay_14> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <psolution/paddle_pix_delay_6> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <psolution/paddle_pix_delay_5> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <psolution/paddle_pix_delay_1> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <psolution/paddle_pix_delay_0> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <psolution/paddle_pix_delay_15> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <psolution/speed_x_3> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <psolution/paddle_pix_delay_14> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <psolution/paddle_pix_delay_13> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <psolution/paddle_pix_delay_9> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <psolution/paddle_pix_delay_8> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:2677 - Node <psolution/pack2/randop_reg> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/round_puck3/Mmult_n0024> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/round_puck3/Mmult_n0023> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/round_puck4/Mmult_n0024> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/round_puck4/Mmult_n0023> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_1/count_0> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_1/count_1> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_1/count_2> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_1/count_3> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_1/sec_count_0> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_1/sec_count_1> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_1/sec_count_2> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_1/sec_count_3> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_1/sec_count_4> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_1/sec_count_5> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_1/sec_count_6> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_1/sec_count_7> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_1/sec_count_10> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_1/sec_count_8> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_1/sec_count_9> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_1/sec_count_11> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_1/sec_count_12> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_1/sec_count_13> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_1/sec_count_14> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_1/sec_count_15> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_1/sec_count_16> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_1/sec_count_17> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_1/sec_count_18> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_1/sec_count_19> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_1/sec_count_20> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_1/sec_count_21> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_1/sec_count_22> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_1/sec_count_25> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_1/sec_count_23> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_1/sec_count_24> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_2/count_0> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_2/count_1> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_2/count_2> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_2/count_3> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_2/sec_count_0> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_2/sec_count_1> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_2/sec_count_2> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_2/sec_count_3> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_2/sec_count_4> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_2/sec_count_5> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_2/sec_count_6> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_2/sec_count_7> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_2/sec_count_10> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_2/sec_count_8> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_2/sec_count_9> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_2/sec_count_11> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_2/sec_count_12> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_2/sec_count_13> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_2/sec_count_14> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_2/sec_count_15> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_2/sec_count_16> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_2/sec_count_17> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_2/sec_count_18> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_2/sec_count_19> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_2/sec_count_20> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_2/sec_count_21> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_2/sec_count_22> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_2/sec_count_25> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_2/sec_count_23> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_2/sec_count_24> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_3/count_0> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_3/count_1> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_3/count_2> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_3/count_3> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_3/sec_count_0> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_3/sec_count_1> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_3/sec_count_2> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_3/sec_count_3> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_3/sec_count_4> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_3/sec_count_5> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_3/sec_count_6> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_3/sec_count_7> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_3/sec_count_10> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_3/sec_count_8> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_3/sec_count_9> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_3/sec_count_11> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_3/sec_count_12> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_3/sec_count_13> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_3/sec_count_14> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_3/sec_count_15> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_3/sec_count_16> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_3/sec_count_17> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_3/sec_count_18> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_3/sec_count_19> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_3/sec_count_20> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_3/sec_count_21> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_3/sec_count_22> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_3/sec_count_25> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_3/sec_count_23> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:2677 - Node <psolution/pwruptimer/powerup_3/sec_count_24> of sequential type is unconnected in block <labkit>.
 WARNING:Xst:1293 - FF/Latch <psolution/pack1/downcount_5> has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1293 - FF/Latch <psolution/pack1/downcount_4> has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1293 - FF/Latch <psolution/pack1/downcount_3> has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
@@ -1415,8 +1327,6 @@ WARNING:Xst:1293 - FF/Latch <psolution/pack1/rightcount_4> has a constant value 
 WARNING:Xst:1293 - FF/Latch <psolution/pack1/rightcount_3> has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1293 - FF/Latch <psolution/pack1/rightcount_2> has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
 INFO:Xst:2261 - The FF/Latch <psolution/paddle_pix_delay_4> in Unit <labkit> is equivalent to the following 2 FFs/Latches, which will be removed : <psolution/paddle_pix_delay_3> <psolution/paddle_pix_delay_2> 
-INFO:Xst:2261 - The FF/Latch <psolution/pixel_1> in Unit <labkit> is equivalent to the following FF/Latch, which will be removed : <psolution/pixel_0> 
-INFO:Xst:2261 - The FF/Latch <psolution/pixel_4> in Unit <labkit> is equivalent to the following FF/Latch, which will be removed : <psolution/pixel_2> 
 INFO:Xst:2261 - The FF/Latch <psolution/pixel_7> in Unit <labkit> is equivalent to the following 2 FFs/Latches, which will be removed : <psolution/pixel_6> <psolution/pixel_5> 
 INFO:Xst:2261 - The FF/Latch <counter_0> in Unit <labkit> is equivalent to the following FF/Latch, which will be removed : <video_driver/hcount_0> 
 INFO:Xst:2261 - The FF/Latch <counter_1> in Unit <labkit> is equivalent to the following FF/Latch, which will be removed : <video_driver/hcount_1> 
@@ -1424,8 +1334,6 @@ INFO:Xst:2261 - The FF/Latch <counter_2> in Unit <labkit> is equivalent to the f
 INFO:Xst:2261 - The FF/Latch <counter_3> in Unit <labkit> is equivalent to the following FF/Latch, which will be removed : <video_driver/hcount_3> 
 INFO:Xst:2261 - The FF/Latch <counter_4> in Unit <labkit> is equivalent to the following FF/Latch, which will be removed : <video_driver/hcount_4> 
 INFO:Xst:2261 - The FF/Latch <counter_5> in Unit <labkit> is equivalent to the following FF/Latch, which will be removed : <video_driver/hcount_5> 
-INFO:Xst:2261 - The FF/Latch <rgb_0> in Unit <labkit> is equivalent to the following FF/Latch, which will be removed : <rgb_1> 
-INFO:Xst:2261 - The FF/Latch <rgb_2> in Unit <labkit> is equivalent to the following FF/Latch, which will be removed : <rgb_4> 
 INFO:Xst:2261 - The FF/Latch <rgb_5> in Unit <labkit> is equivalent to the following 2 FFs/Latches, which will be removed : <rgb_6> <rgb_7> 
 INFO:Xst:2261 - The FF/Latch <psolution/paddle_pix_delay_12> in Unit <labkit> is equivalent to the following 2 FFs/Latches, which will be removed : <psolution/paddle_pix_delay_11> <psolution/paddle_pix_delay_10> 
 INFO:Xst:3203 - The FF/Latch <psolution/pack1/rxreg_6> in Unit <labkit> is the opposite to the following FF/Latch, which will be removed : <psolution/pack1/rxreg_2> 
@@ -1437,24 +1345,31 @@ INFO:Xst:3203 - The FF/Latch <psolution/pack1/ry_9> in Unit <labkit> is the oppo
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block labkit, actual ratio is 21.
+Found area constraint ratio of 100 (+ 5) on block labkit, actual ratio is 27.
+FlipFlop counter_0 has been replicated 1 time(s)
+FlipFlop counter_2 has been replicated 1 time(s)
+FlipFlop counter_4 has been replicated 1 time(s)
 FlipFlop psolution/ball_x2_5 has been replicated 1 time(s)
+FlipFlop psolution/ball_x3_5 has been replicated 1 time(s)
 FlipFlop psolution/ball_x_5 has been replicated 1 time(s)
+FlipFlop video_driver/hcount_6 has been replicated 1 time(s)
 
 Final Macro Processing ...
 
 Processing Unit <labkit> :
 	Found 2-bit shift register for signal <psolution/hsync_delay_1>.
+	Found 5-bit shift register for signal <psolution/pack2/pptype_gen/LFSR_7>.
 Unit <labkit> processed.
 
 =========================================================================
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 503
- Flip-Flops                                            : 503
-# Shift Registers                                      : 1
+# Registers                                            : 606
+ Flip-Flops                                            : 606
+# Shift Registers                                      : 2
  2-bit shift register                                  : 1
+ 5-bit shift register                                  : 1
 
 =========================================================================
 
@@ -1477,30 +1392,30 @@ Top Level Output File Name         : labkit.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 2717
+# BELS                             : 3431
 #      GND                         : 1
-#      INV                         : 39
-#      LUT1                        : 267
-#      LUT2                        : 285
-#      LUT3                        : 150
-#      LUT4                        : 346
-#      LUT5                        : 195
-#      LUT6                        : 196
-#      MUXCY                       : 674
+#      INV                         : 43
+#      LUT1                        : 346
+#      LUT2                        : 446
+#      LUT3                        : 192
+#      LUT4                        : 383
+#      LUT5                        : 233
+#      LUT6                        : 223
+#      MUXCY                       : 838
 #      MUXF7                       : 5
 #      VCC                         : 1
-#      XORCY                       : 558
-# FlipFlops/Latches                : 505
-#      FD                          : 154
-#      FDE                         : 18
-#      FDR                         : 81
+#      XORCY                       : 720
+# FlipFlops/Latches                : 609
+#      FD                          : 152
+#      FDE                         : 26
+#      FDR                         : 164
 #      FDR_1                       : 8
-#      FDRE                        : 215
-#      FDS                         : 9
+#      FDRE                        : 227
+#      FDS                         : 12
 #      FDSE                        : 19
 #      LD                          : 1
-# Shift Registers                  : 1
-#      SRLC16E                     : 1
+# Shift Registers                  : 2
+#      SRLC16E                     : 2
 # Clock Buffers                    : 3
 #      BUFG                        : 3
 # IO Buffers                       : 44
@@ -1509,8 +1424,8 @@ Primitive and Black Box Usage:
 #      OBUF                        : 30
 # DCMs                             : 1
 #      DCM_SP                      : 1
-# DSPs                             : 4
-#      DSP48A1                     : 4
+# DSPs                             : 8
+#      DSP48A1                     : 8
 
 Device utilization summary:
 ---------------------------
@@ -1519,18 +1434,18 @@ Selected Device : 6slx16csg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             505  out of  18224     2%  
- Number of Slice LUTs:                 1479  out of   9112    16%  
-    Number used as Logic:              1478  out of   9112    16%  
-    Number used as Memory:                1  out of   2176     0%  
-       Number used as SRL:                1
+ Number of Slice Registers:             609  out of  18224     3%  
+ Number of Slice LUTs:                 1868  out of   9112    20%  
+    Number used as Logic:              1866  out of   9112    20%  
+    Number used as Memory:                2  out of   2176     0%  
+       Number used as SRL:                2
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   1586
-   Number with an unused Flip Flop:    1081  out of   1586    68%  
-   Number with an unused LUT:           107  out of   1586     6%  
-   Number of fully used LUT-FF pairs:   398  out of   1586    25%  
-   Number of unique control sets:        53
+ Number of LUT Flip Flop pairs used:   1986
+   Number with an unused Flip Flop:    1377  out of   1986    69%  
+   Number with an unused LUT:           118  out of   1986     5%  
+   Number of fully used LUT-FF pairs:   491  out of   1986    24%  
+   Number of unique control sets:        64
 
 IO Utilization: 
  Number of IOs:                         116
@@ -1538,7 +1453,7 @@ IO Utilization:
 
 Specific Feature Utilization:
  Number of BUFG/BUFGCTRLs:                3  out of     16    18%  
- Number of DSP48A1s:                      4  out of     32    12%  
+ Number of DSP48A1s:                      8  out of     32    25%  
 
 ---------------------------
 Partition Resource Summary:
@@ -1561,7 +1476,7 @@ Clock Information:
 --------------------------------------------------------------+-------------------------------------+-------+
 Clock Signal                                                  | Clock buffer(FF name)               | Load  |
 --------------------------------------------------------------+-------------------------------------+-------+
-clk_100mhz                                                    | DCM_SP:CLKFX                        | 480   |
+clk_100mhz                                                    | DCM_SP:CLKFX                        | 585   |
 clk_100mhz                                                    | DCM_SP:CLKDV                        | 25    |
 psolution/pp_shield/pixel_7_G(psolution/pp_shield/pixel_7_G:O)| NONE(*)(psolution/pp_shield/pixel_7)| 1     |
 --------------------------------------------------------------+-------------------------------------+-------+
@@ -1578,10 +1493,10 @@ Timing Summary:
 ---------------
 Speed Grade: -3
 
-   Minimum period: 8.211ns (Maximum Frequency: 121.781MHz)
+   Minimum period: 8.352ns (Maximum Frequency: 119.725MHz)
    Minimum input arrival time before clock: 4.228ns
-   Maximum output required time after clock: 6.088ns
-   Maximum combinational path delay: 4.622ns
+   Maximum output required time after clock: 6.035ns
+   Maximum combinational path delay: 4.675ns
 
 Timing Details:
 ---------------
@@ -1589,64 +1504,64 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk_100mhz'
-  Clock period: 8.211ns (frequency: 121.781MHz)
-  Total number of paths / destination ports: 37244696 / 1068
+  Clock period: 8.352ns (frequency: 119.725MHz)
+  Total number of paths / destination ports: 73546703 / 1279
 -------------------------------------------------------------------------
-Delay:               12.633ns (Levels of Logic = 36)
-  Source:            psolution/ball_y_7 (FF)
+Delay:               12.850ns (Levels of Logic = 36)
+  Source:            psolution/ball_y2_7 (FF)
   Destination:       psolution/pixel_7 (FF)
   Source Clock:      clk_100mhz rising 0.6X
   Destination Clock: clk_100mhz rising 0.6X
 
-  Data Path: psolution/ball_y_7 to psolution/pixel_7
+  Data Path: psolution/ball_y2_7 to psolution/pixel_7
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRE:C->Q            12   0.447   1.137  psolution/ball_y_7 (psolution/ball_y_7)
-     LUT5:I2->O            2   0.205   0.961  psolution/round_puck/n0038<9>1 (psolution/round_puck/n0038<9>)
-     LUT5:I0->O            0   0.203   0.000  psolution/round_puck/Mcompar_BUS_0004_GND_667_o_LessThan_9_o_lutdi4 (psolution/round_puck/Mcompar_BUS_0004_GND_667_o_LessThan_9_o_lutdi4)
-     MUXCY:DI->O           9   0.339   0.830  psolution/round_puck/Mcompar_BUS_0004_GND_667_o_LessThan_9_o_cy<4> (psolution/round_puck/Mcompar_BUS_0004_GND_667_o_LessThan_9_o_cy<4>)
-     LUT3:I2->O            0   0.205   0.000  psolution/round_puck/Mmux_changeY_A11 (psolution/round_puck/Mmux_changeY_rs_A<0>)
-     MUXCY:DI->O           1   0.145   0.000  psolution/round_puck/Mmux_changeY_rs_cy<0> (psolution/round_puck/Mmux_changeY_rs_cy<0>)
-     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck/Mmux_changeY_rs_cy<1> (psolution/round_puck/Mmux_changeY_rs_cy<1>)
-     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck/Mmux_changeY_rs_cy<2> (psolution/round_puck/Mmux_changeY_rs_cy<2>)
-     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck/Mmux_changeY_rs_cy<3> (psolution/round_puck/Mmux_changeY_rs_cy<3>)
-     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck/Mmux_changeY_rs_cy<4> (psolution/round_puck/Mmux_changeY_rs_cy<4>)
-     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck/Mmux_changeY_rs_cy<5> (psolution/round_puck/Mmux_changeY_rs_cy<5>)
-     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck/Mmux_changeY_rs_cy<6> (psolution/round_puck/Mmux_changeY_rs_cy<6>)
-     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck/Mmux_changeY_rs_cy<7> (psolution/round_puck/Mmux_changeY_rs_cy<7>)
-     MUXCY:CI->O           0   0.019   0.000  psolution/round_puck/Mmux_changeY_rs_cy<8> (psolution/round_puck/Mmux_changeY_rs_cy<8>)
-     XORCY:CI->O           2   0.180   0.616  psolution/round_puck/Mmux_changeY_rs_xor<9> (psolution/round_puck/changeY<9>)
-     DSP48A1:B9->M0        1   3.364   0.684  psolution/round_puck/Mmult_n0024 (psolution/round_puck/n0024<0>)
-     LUT2:I0->O            1   0.203   0.000  psolution/round_puck/Madd_n0046_lut<0> (psolution/round_puck/Madd_n0046_lut<0>)
-     MUXCY:S->O            1   0.172   0.000  psolution/round_puck/Madd_n0046_cy<0> (psolution/round_puck/Madd_n0046_cy<0>)
-     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck/Madd_n0046_cy<1> (psolution/round_puck/Madd_n0046_cy<1>)
-     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck/Madd_n0046_cy<2> (psolution/round_puck/Madd_n0046_cy<2>)
-     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck/Madd_n0046_cy<3> (psolution/round_puck/Madd_n0046_cy<3>)
-     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck/Madd_n0046_cy<4> (psolution/round_puck/Madd_n0046_cy<4>)
-     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck/Madd_n0046_cy<5> (psolution/round_puck/Madd_n0046_cy<5>)
-     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck/Madd_n0046_cy<6> (psolution/round_puck/Madd_n0046_cy<6>)
-     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck/Madd_n0046_cy<7> (psolution/round_puck/Madd_n0046_cy<7>)
-     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck/Madd_n0046_cy<8> (psolution/round_puck/Madd_n0046_cy<8>)
-     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck/Madd_n0046_cy<9> (psolution/round_puck/Madd_n0046_cy<9>)
-     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck/Madd_n0046_cy<10> (psolution/round_puck/Madd_n0046_cy<10>)
-     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck/Madd_n0046_cy<11> (psolution/round_puck/Madd_n0046_cy<11>)
-     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck/Madd_n0046_cy<12> (psolution/round_puck/Madd_n0046_cy<12>)
-     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck/Madd_n0046_cy<13> (psolution/round_puck/Madd_n0046_cy<13>)
-     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck/Madd_n0046_cy<14> (psolution/round_puck/Madd_n0046_cy<14>)
-     XORCY:CI->O           1   0.180   0.924  psolution/round_puck/Madd_n0046_xor<15> (psolution/round_puck/n0046<15>)
-     LUT5:I0->O            1   0.203   0.000  psolution/round_puck/Mcompar_BUS_0007_GND_667_o_LessThan_18_o_lut<3> (psolution/round_puck/Mcompar_BUS_0007_GND_667_o_LessThan_18_o_lut<3>)
-     MUXCY:S->O            1   0.172   0.000  psolution/round_puck/Mcompar_BUS_0007_GND_667_o_LessThan_18_o_cy<3> (psolution/round_puck/Mcompar_BUS_0007_GND_667_o_LessThan_18_o_cy<3>)
-     MUXCY:CI->O           2   0.019   0.721  psolution/round_puck/Mcompar_BUS_0007_GND_667_o_LessThan_18_o_cy<4> (psolution/ball<0>)
-     LUT4:I2->O            1   0.203   0.000  psolution/Mmux_pixel[7]_paddle_pix_delay[15]_mux_22_OUT81 (psolution/pixel[7]_paddle_pix_delay[15]_mux_22_OUT<7>)
+     FD:C->Q              13   0.447   1.161  psolution/ball_y2_7 (psolution/ball_y2_7)
+     LUT5:I2->O            2   0.205   0.961  psolution/round_puck2/n0038<9>1 (psolution/round_puck2/n0038<9>)
+     LUT5:I0->O            0   0.203   0.000  psolution/round_puck2/Mcompar_BUS_0004_GND_671_o_LessThan_9_o_lutdi4 (psolution/round_puck2/Mcompar_BUS_0004_GND_671_o_LessThan_9_o_lutdi4)
+     MUXCY:DI->O           9   0.339   0.830  psolution/round_puck2/Mcompar_BUS_0004_GND_671_o_LessThan_9_o_cy<4> (psolution/round_puck2/Mcompar_BUS_0004_GND_671_o_LessThan_9_o_cy<4>)
+     LUT3:I2->O            0   0.205   0.000  psolution/round_puck2/Mmux_changeY_A11 (psolution/round_puck2/Mmux_changeY_rs_A<0>)
+     MUXCY:DI->O           1   0.145   0.000  psolution/round_puck2/Mmux_changeY_rs_cy<0> (psolution/round_puck2/Mmux_changeY_rs_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck2/Mmux_changeY_rs_cy<1> (psolution/round_puck2/Mmux_changeY_rs_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck2/Mmux_changeY_rs_cy<2> (psolution/round_puck2/Mmux_changeY_rs_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck2/Mmux_changeY_rs_cy<3> (psolution/round_puck2/Mmux_changeY_rs_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck2/Mmux_changeY_rs_cy<4> (psolution/round_puck2/Mmux_changeY_rs_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck2/Mmux_changeY_rs_cy<5> (psolution/round_puck2/Mmux_changeY_rs_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck2/Mmux_changeY_rs_cy<6> (psolution/round_puck2/Mmux_changeY_rs_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck2/Mmux_changeY_rs_cy<7> (psolution/round_puck2/Mmux_changeY_rs_cy<7>)
+     MUXCY:CI->O           0   0.019   0.000  psolution/round_puck2/Mmux_changeY_rs_cy<8> (psolution/round_puck2/Mmux_changeY_rs_cy<8>)
+     XORCY:CI->O           2   0.180   0.616  psolution/round_puck2/Mmux_changeY_rs_xor<9> (psolution/round_puck2/changeY<9>)
+     DSP48A1:B9->M0        1   3.364   0.684  psolution/round_puck2/Mmult_n0024 (psolution/round_puck2/n0024<0>)
+     LUT2:I0->O            1   0.203   0.000  psolution/round_puck2/Madd_n0046_lut<0> (psolution/round_puck2/Madd_n0046_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  psolution/round_puck2/Madd_n0046_cy<0> (psolution/round_puck2/Madd_n0046_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck2/Madd_n0046_cy<1> (psolution/round_puck2/Madd_n0046_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck2/Madd_n0046_cy<2> (psolution/round_puck2/Madd_n0046_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck2/Madd_n0046_cy<3> (psolution/round_puck2/Madd_n0046_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck2/Madd_n0046_cy<4> (psolution/round_puck2/Madd_n0046_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck2/Madd_n0046_cy<5> (psolution/round_puck2/Madd_n0046_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck2/Madd_n0046_cy<6> (psolution/round_puck2/Madd_n0046_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck2/Madd_n0046_cy<7> (psolution/round_puck2/Madd_n0046_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck2/Madd_n0046_cy<8> (psolution/round_puck2/Madd_n0046_cy<8>)
+     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck2/Madd_n0046_cy<9> (psolution/round_puck2/Madd_n0046_cy<9>)
+     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck2/Madd_n0046_cy<10> (psolution/round_puck2/Madd_n0046_cy<10>)
+     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck2/Madd_n0046_cy<11> (psolution/round_puck2/Madd_n0046_cy<11>)
+     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck2/Madd_n0046_cy<12> (psolution/round_puck2/Madd_n0046_cy<12>)
+     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck2/Madd_n0046_cy<13> (psolution/round_puck2/Madd_n0046_cy<13>)
+     MUXCY:CI->O           1   0.019   0.000  psolution/round_puck2/Madd_n0046_cy<14> (psolution/round_puck2/Madd_n0046_cy<14>)
+     XORCY:CI->O           1   0.180   0.924  psolution/round_puck2/Madd_n0046_xor<15> (psolution/round_puck2/n0046<15>)
+     LUT5:I0->O            1   0.203   0.000  psolution/round_puck2/Mcompar_BUS_0007_GND_671_o_LessThan_18_o_lut<3> (psolution/round_puck2/Mcompar_BUS_0007_GND_671_o_LessThan_18_o_lut<3>)
+     MUXCY:S->O            1   0.172   0.000  psolution/round_puck2/Mcompar_BUS_0007_GND_671_o_LessThan_18_o_cy<3> (psolution/round_puck2/Mcompar_BUS_0007_GND_671_o_LessThan_18_o_cy<3>)
+     MUXCY:CI->O           4   0.019   0.912  psolution/round_puck2/Mcompar_BUS_0007_GND_671_o_LessThan_18_o_cy<4> (psolution/ball2<2>)
+     LUT6:I3->O            1   0.205   0.000  psolution/Mmux_pixel[7]_paddle_pix_delay[15]_mux_22_OUT8 (psolution/pixel[7]_paddle_pix_delay[15]_mux_22_OUT<7>)
      FD:D                      0.102          psolution/pixel_7
     ----------------------------------------
-    Total                     12.633ns (6.760ns logic, 5.873ns route)
-                                       (53.5% logic, 46.5% route)
+    Total                     12.850ns (6.762ns logic, 6.088ns route)
+                                       (52.6% logic, 47.4% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_100mhz'
-  Total number of paths / destination ports: 145 / 130
+  Total number of paths / destination ports: 153 / 132
 -------------------------------------------------------------------------
 Offset:              4.228ns (Levels of Logic = 3)
   Source:            btn_enter (PAD)
@@ -1669,7 +1584,7 @@ Offset:              4.228ns (Levels of Logic = 3)
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_100mhz'
   Total number of paths / destination ports: 36 / 22
 -------------------------------------------------------------------------
-Offset:              6.088ns (Levels of Logic = 2)
+Offset:              6.035ns (Levels of Logic = 2)
   Source:            db_enter/clean (FF)
   Destination:       led<0> (PAD)
   Source Clock:      clk_100mhz rising 0.6X
@@ -1678,18 +1593,18 @@ Offset:              6.088ns (Levels of Logic = 2)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDE:C->Q            135   0.447   2.216  db_enter/clean (db_enter/clean)
-     LUT4:I0->O            3   0.203   0.650  psolution/pwruptimer/Mmux_pp_status41 (led_0_OBUF)
+     FDE:C->Q            142   0.447   2.235  db_enter/clean (db_enter/clean)
+     LUT4:I0->O            1   0.203   0.579  psolution/pwruptimer/Mmux_pp_status41 (led_0_OBUF)
      OBUF:I->O                 2.571          led_0_OBUF (led<0>)
     ----------------------------------------
-    Total                      6.088ns (3.221ns logic, 2.867ns route)
-                                       (52.9% logic, 47.1% route)
+    Total                      6.035ns (3.221ns logic, 2.814ns route)
+                                       (53.4% logic, 46.6% route)
 
 =========================================================================
 Timing constraint: Default path analysis
   Total number of paths / destination ports: 7 / 7
 -------------------------------------------------------------------------
-Delay:               4.622ns (Levels of Logic = 2)
+Delay:               4.675ns (Levels of Logic = 2)
   Source:            switch<1> (PAD)
   Destination:       led<1> (PAD)
 
@@ -1697,11 +1612,11 @@ Delay:               4.622ns (Levels of Logic = 2)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             9   1.222   0.829  switch_1_IBUF (led_1_OBUF)
+     IBUF:I->O            11   1.222   0.882  switch_1_IBUF (led_1_OBUF)
      OBUF:I->O                 2.571          led_1_OBUF (led<1>)
     ----------------------------------------
-    Total                      4.622ns (3.793ns logic, 0.829ns route)
-                                       (82.1% logic, 17.9% route)
+    Total                      4.675ns (3.793ns logic, 0.882ns route)
+                                       (81.1% logic, 18.9% route)
 
 =========================================================================
 
@@ -1713,8 +1628,8 @@ Clock to Setup on destination clock clk_100mhz
                              | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                 |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 -----------------------------+---------+---------+---------+---------+
-clk_100mhz                   |   12.633|    5.929|    5.031|         |
-psolution/pp_shield/pixel_7_G|         |    1.667|         |         |
+clk_100mhz                   |   12.850|    5.929|    5.290|         |
+psolution/pp_shield/pixel_7_G|         |    2.891|         |         |
 -----------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock psolution/pp_shield/pixel_7_G
@@ -1722,20 +1637,20 @@ Clock to Setup on destination clock psolution/pp_shield/pixel_7_G
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk_100mhz     |         |         |    6.011|         |
+clk_100mhz     |         |         |    6.237|         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
 Total REAL time to Xst completion: 55.00 secs
-Total CPU time to Xst completion: 54.72 secs
+Total CPU time to Xst completion: 55.65 secs
  
 --> 
 
-Total memory usage is 365260 kilobytes
+Total memory usage is 381392 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  475 (   0 filtered)
-Number of infos    :   49 (   0 filtered)
+Number of warnings :  365 (   0 filtered)
+Number of infos    :   47 (   0 filtered)
 

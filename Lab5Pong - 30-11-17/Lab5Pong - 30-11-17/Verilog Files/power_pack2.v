@@ -1,7 +1,6 @@
 module power_pack2 #(parameter WIDTH=20,
 										 HEIGHT=20, 
-										 box_size = 7'd64,
-										 COLOR=8'b000_000_11) 
+										 box_size = 7'd64) 
 	 (input wire 			clk,
 	  input wire 			reset,
 	  input wire			eaten,
@@ -20,17 +19,42 @@ module power_pack2 #(parameter WIDTH=20,
 	reg			display;
 	wire			x_valid, y_valid;
 	reg randop_reg;  
+	reg [7:0] color;
+	wire [7:0] randnum;
 	
 	parameter SHRINK	= 	2'b00;
 	parameter BOOST	= 	2'b01;
 	parameter idk		= 	2'b10;
 	parameter SHIELD	=	2'b11; 	
 	
+	
+	parameter COLOR_SHRINK	= 	8'b000_000_11;
+	parameter COLOR_BOOST	=	8'b000_101_10;
+	parameter COLOR_IDK		=	8'b111_000_11;
+	parameter COLOR_SHIELD	=	8'b111_100_00;
+	
+	
+	randgen pptype_gen(.clk(clk), .LFSR(randnum));
 	  
 	always @(posedge clk)
 		begin
 			if(reset || (spawn && !eaten)) begin
-				mode <= 2'b11;
+				mode <= randnum[1:0];
+				//mode <= SHIELD;
+				case(mode)
+					SHRINK: begin
+						color <= COLOR_SHRINK;
+						end
+					BOOST: begin
+						color <= COLOR_BOOST;
+						end
+					SHIELD: begin
+						color <= COLOR_SHIELD;
+						end
+					idk: begin
+						color <= COLOR_IDK;
+						end
+					endcase
 				display <= 1;
 				rx <= randx;//700;
 				ry <= randy;//500;
@@ -49,7 +73,7 @@ module power_pack2 #(parameter WIDTH=20,
 		begin
 			if ((hcount >= rx && hcount < (rx+WIDTH)) && (vcount >= ry && vcount < (ry+HEIGHT))) begin
 				if(display)
-					r2pixel = COLOR;
+					r2pixel = color;
 				else
 					r2pixel = 0;
 				end
@@ -72,25 +96,26 @@ module shield(
 	output reg [7:0] pixel
 	);
 
-	reg [10:0] rx, p_h;
-	reg [9:0]  ry, p_w;
+	reg [10:0] rx, height;
+	reg [9:0]  ry, width;
 
-	parameter COLOR = 8'b111_101_00;
+	parameter COLOR = 8'b111_100_00;
 	parameter BORDER = 10;
 	
 	always @(posedge clk)
 		begin
-			rx <= paddle_x;
-			ry <= paddle_y;
+			rx <= 100;//paddle_x;
+			ry <= 100;//paddle_y;
+			width <= 50;//paddle_width;
+			height <= 50;//paddle_height;
 			end			
 
 	always @(hcount or vcount) 
 		begin
 			if(active) begin
-				if((((hcount >= rx - BORDER) && (hcount < rx)) || ((hcount >= rx + p_w) && (hcount < rx + p_w + BORDER))) 
-								&& ((vcount >= ry - BORDER) && (vcount < ry + p_h + BORDER)) )begin
-//				 &&  ((vcount >= paddle_y - BORDER) && (vcount < paddle_y) || (vcount >= paddle_y + paddle_height) && (vcount < paddle_y + paddle_height + BORDER))
-//								&& (hcount >= paddle_x && (hcount < paddle_x + paddle_width))) begin
+				//if((hcount >= rx - BORDER) && hcount < rx && (vcount >= ry - BORDER) && (vcount < ry + height + BORDER)) begin
+				//if ((hcount >= (rx - 4'd10) && hcount < rx) && ((vcount >= ry - 4'd10) && vcount < (ry + height + 4'd10))) begin
+				if ((hcount >= 90 && hcount < 110) && (vcount >= 90 && vcount < 160)) begin
 					pixel = COLOR;
 					end
 				end
