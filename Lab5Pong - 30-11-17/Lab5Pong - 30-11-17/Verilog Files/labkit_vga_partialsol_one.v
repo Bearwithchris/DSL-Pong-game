@@ -376,61 +376,61 @@ module pong_game (
 
 	wire stop1, stop2, stop3, stop4;
 	
-	collision c1(.pixel_clk(pixel_clk),
-					 .reset(reset),
-					 .paddle_x(PADDLE_X),
-					 .paddle_y(paddle_y),
-					 .paddle_width(PADDLE_WIDTH),
-					 .paddle_height(PADDLE_HEIGHT),
-					 .object_x(ball_x),
-					 .object_y(ball_y),
-					 .object_r(6'd32),
-					 .object_width(),
-					 .object_height(),
-					 .object_isCircle(1),
-					 .collide(stop1));
-					 
-	collision c2(.pixel_clk(pixel_clk),
-					 .reset(reset),
-					 .paddle_x(PADDLE_X),
-					 .paddle_y(paddle_y),
-					 .paddle_width(PADDLE_WIDTH),
-					 .paddle_height(PADDLE_HEIGHT),
-					 .object_x(ball_x2),
-					 .object_y(ball_y2),
-					 .object_r(6'd32),
-					 .object_width(),
-					 .object_height(),
-					 .object_isCircle(1),
-					 .collide(stop2));
-					 
-	collision c3(.pixel_clk(pixel_clk),
-					 .reset(reset),
-					 .paddle_x(PADDLE_X),
-					 .paddle_y(paddle_y),
-					 .paddle_width(PADDLE_WIDTH),
-					 .paddle_height(PADDLE_HEIGHT),
-					 .object_x(ball_x3),
-					 .object_y(ball_y3),
-					 .object_r(6'd32),
-					 .object_width(),
-					 .object_height(),
-					 .object_isCircle(1),
-					 .collide(stop3));
-
-	collision c4(.pixel_clk(pixel_clk),
-					 .reset(reset),
-					 .paddle_x(PADDLE_X),
-					 .paddle_y(paddle_y),
-					 .paddle_width(PADDLE_WIDTH),
-					 .paddle_height(PADDLE_HEIGHT),
-					 .object_x(ball_x4),
-					 .object_y(ball_y4),
-					 .object_r(6'd32),
-					 .object_width(),
-					 .object_height(),
-					 .object_isCircle(1),
-					 .collide(stop4));
+//	collision c1(.pixel_clk(pixel_clk),
+//					 .reset(reset),
+//					 .paddle_x(PADDLE_X),
+//					 .paddle_y(paddle_y),
+//					 .paddle_width(PADDLE_WIDTH),
+//					 .paddle_height(PADDLE_HEIGHT),
+//					 .object_x(ball_x),
+//					 .object_y(ball_y),
+//					 .object_r(6'd32),
+//					 .object_width(),
+//					 .object_height(),
+//					 .object_isCircle(1),
+//					 .collide(stop1));
+//					 
+//	collision c2(.pixel_clk(pixel_clk),
+//					 .reset(reset),
+//					 .paddle_x(PADDLE_X),
+//					 .paddle_y(paddle_y),
+//					 .paddle_width(PADDLE_WIDTH),
+//					 .paddle_height(PADDLE_HEIGHT),
+//					 .object_x(ball_x2),
+//					 .object_y(ball_y2),
+//					 .object_r(6'd32),
+//					 .object_width(),
+//					 .object_height(),
+//					 .object_isCircle(1),
+//					 .collide(stop2));
+//					 
+//	collision c3(.pixel_clk(pixel_clk),
+//					 .reset(reset),
+//					 .paddle_x(PADDLE_X),
+//					 .paddle_y(paddle_y),
+//					 .paddle_width(PADDLE_WIDTH),
+//					 .paddle_height(PADDLE_HEIGHT),
+//					 .object_x(ball_x3),
+//					 .object_y(ball_y3),
+//					 .object_r(6'd32),
+//					 .object_width(),
+//					 .object_height(),
+//					 .object_isCircle(1),
+//					 .collide(stop3));
+//
+//	collision c4(.pixel_clk(pixel_clk),
+//					 .reset(reset),
+//					 .paddle_x(PADDLE_X),
+//					 .paddle_y(paddle_y),
+//					 .paddle_width(PADDLE_WIDTH),
+//					 .paddle_height(PADDLE_HEIGHT),
+//					 .object_x(ball_x4),
+//					 .object_y(ball_y4),
+//					 .object_r(6'd32),
+//					 .object_width(),
+//					 .object_height(),
+//					 .object_isCircle(1),
+//					 .collide(stop4));
 	
 	assign stop = boostme ? (stop1 | stop2 | stop3 | stop4) : (stop1 | stop2);
 					 
@@ -1047,12 +1047,12 @@ module draw_box
 				
 				if(WIDTH < 20)
 					WIDTH <= 20;
+				else if(WIDTH > 1000)
+					WIDTH <= 1000;					
 				if(HEIGHT < 20)
 					HEIGHT <= 20;
-				if(WIDTH > 1000)
-					WIDTH <= 1000;
-				if(HEIGHT > 700)
-					HEIGHT <= 700;
+				else if(HEIGHT > 750)
+					HEIGHT <= 750;
 			end
 	
 	 
