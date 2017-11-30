@@ -25,13 +25,13 @@ module power_pack2 #(parameter WIDTH=20,
 	
 	parameter SHRINK	= 	2'b00;
 	parameter BOOST	= 	2'b01;
-	parameter idk		= 	2'b10;
+	parameter EXTRA	= 	2'b10;
 	parameter SHIELD	=	2'b11; 	
 	
 	
 	parameter COLOR_SHRINK	= 	8'b000_000_11;
 	parameter COLOR_BOOST	=	8'b000_101_10;
-	parameter COLOR_IDK		=	8'b111_000_11;
+	parameter COLOR_EXTRA		=	8'b111_000_11;
 	parameter COLOR_SHIELD	=	8'b111_100_00;
 	
 	
@@ -52,8 +52,8 @@ module power_pack2 #(parameter WIDTH=20,
 					SHIELD: begin
 						color = COLOR_SHIELD;
 						end
-					idk: begin
-						color = COLOR_IDK;
+					EXTRA: begin
+						color = COLOR_EXTRA;
 						end
 					endcase
 				end
@@ -74,8 +74,8 @@ module power_pack2 #(parameter WIDTH=20,
 //					SHIELD: begin
 //						color <= COLOR_SHIELD;
 //						end
-//					idk: begin
-//						color <= COLOR_IDK;
+//					EXTRA: begin
+//						color <= COLOR_EXTRA;
 //						end
 //					endcase
 				display <= 1;
@@ -84,7 +84,7 @@ module power_pack2 #(parameter WIDTH=20,
 				randop_reg <= 1;
 				end
 			else if(eaten) begin
-				//display <= 0;
+				display <= 0;
 				rx <= 0;
 				ry <= 0;
 				end
@@ -105,44 +105,5 @@ module power_pack2 #(parameter WIDTH=20,
 			end
 			
 	assign randop = randop_reg;
-	
-endmodule
-
-
-module shield(
-	input wire clk,
-	input wire reset,
-	input wire active,
-	input wire [10:0] hcount, paddle_x,
-	input wire [9:0]  vcount, paddle_y,
-	input wire [9:0] paddle_width, paddle_height,
-	output reg [7:0] pixel
-	);
-
-	reg [10:0] rx, height;
-	reg [9:0]  ry, width;
-
-	parameter COLOR = 8'b011_100_10;
-	parameter BORDER = 10;
-	
-	always @(posedge clk)
-		begin
-			rx <= 100;//paddle_x;
-			ry <= 100;//paddle_y;
-			width <= 50;//paddle_width;
-			height <= 50;//paddle_height;
-			end			
-
-	always @(hcount or vcount) 
-		begin
-			if(active) begin
-				//if((hcount >= rx - BORDER) && hcount < rx && (vcount >= ry - BORDER) && (vcount < ry + height + BORDER)) begin
-				//if ((hcount >= (rx - 4'd10) && hcount < rx) && ((vcount >= ry - 4'd10) && vcount < (ry + height + 4'd10))) begin
-				if ((hcount >= 90 && hcount < 120) && (vcount >= 200 && vcount < 400)) begin
-					pixel = COLOR;
-					end
-				end
-			else pixel = 0;
-			end
 	
 endmodule

@@ -218,15 +218,30 @@ module pong_game (
    );
 
    wire [2:0] checkerboard;
-	wire boostme, shield;
+	wire boostme, shield, extra_ball;
 	
 	
 	//Generates the time since last reset
 	wire [31:0] gametime;
+	wire [31:0] three_seconds_counter;
+	wire ten_hz;
 	
 	general_timer gametimer(.clk(clk_25mhz),
 								.reset(reset),
-								.seconds(gametime));
+								.seconds(gametime),
+								.ten_hz(ten_hz),
+								.three_sec(three_seconds_counter));
+								
+	reg [6:0] bonus_speed = 0;
+	
+	always @(posedge clk_25mhz)
+		begin
+			if(reset)
+				bonus_speed <= 0;
+			else begin
+				bonus_speed <= three_seconds_counter;
+				end
+			end
 
 ////////////////////////////////////////////////////////////////////	
 // need to take care of the pipe line delays;
@@ -252,16 +267,20 @@ module pong_game (
 	reg[5:0] boost;
 	
 	always @(posedge pixel_clk) begin
-	//if (switch == 0)begin
-	if (boostme == 0) begin
-		pixel <= paddle_pix_delay[15:8] | ball | ball2 |powerbox | powerbox2 | shield_pix;
-		boost <=0;
+	if (extra_ball) begin
+		//pixel <= paddle_pix_delay[15:8] | ball | ball2 | ball3 | ball4 | powerbox2;
+		pixel <= paddle_pix_delay[15:8] | ball | ball2 | ball3 | powerbox2;
+		//boost <= 40;
 		end
-	//else if(switch == 1)begin
-	else if(boostme == 1) begin
-		pixel <= paddle_pix_delay[15:8] | ball | ball2 | ball3 | ball4 | powerbox | powerbox2 | shield_pix;
-		boost <= 40;
+	else begin
+		//pixel <= paddle_pix_delay[15:8] | ball | ball2 | powerbox2;
+		pixel <= paddle_pix_delay[15:8] | ball | powerbox2;
+		//boost <=0;
 		end
+	if(boostme)
+		boost <= bonus_speed + 20;
+	else
+		boost <= bonus_speed;//0;
 	end
   
 
@@ -272,7 +291,7 @@ module pong_game (
 //   assign pixel =  paddle_pix | ball; //{{8{checkerboard[2]}}, {8{checkerboard[1]}}, {8{checkerboard[0]}}} ;
  
  
- 	wire [7:0] paddle_pix,ball,ball2,ball3,ball4,powerbox, powerbox2, shield_pix;
+ 	wire [7:0] paddle_pix,ball,ball2,ball3,ball4, powerbox2;
 
 
 	wire [9:0] PADDLE_WIDTH;
@@ -280,10 +299,11 @@ module pong_game (
    wire [9:0] PADDLE_X;
    wire [9:0] paddle_y;
 	wire grow;
+	wire warning;
 	
 	draw_box #(.COLOR(8'b000_111_00))
 	   paddle (.pixel_clk(pixel_clk),.left(left),.right(right),.up(up),.down(down),.reset(reset), .grow(grow), .shield(shield), .hcount(hcount), .vcount(vcount),
-		.x(PADDLE_X), .y(paddle_y), .paddle_width(PADDLE_WIDTH), .paddle_height(PADDLE_HEIGHT), .pixel(paddle_pix));
+		.ten_hz(ten_hz), .warning(warning), .x(PADDLE_X), .y(paddle_y), .paddle_width(PADDLE_WIDTH), .paddle_height(PADDLE_HEIGHT), .pixel(paddle_pix));
 
 
 //////////////////////////////////////////////////////////////////
@@ -364,33 +384,33 @@ module pong_game (
 
 	wire stop1, stop2, stop3, stop4;
 	
-	collision c1(.pixel_clk(pixel_clk),
-					 .reset(reset),
-					 .paddle_x(PADDLE_X),
-					 .paddle_y(paddle_y),
-					 .paddle_width(PADDLE_WIDTH),
-					 .paddle_height(PADDLE_HEIGHT),
-					 .object_x(ball_x),
-					 .object_y(ball_y),
-					 .object_r(6'd32),
-					 .object_width(),
-					 .object_height(),
-					 .object_isCircle(1),
-					 .collide(stop1));
-					 
-	collision c2(.pixel_clk(pixel_clk),
-					 .reset(reset),
-					 .paddle_x(PADDLE_X),
-					 .paddle_y(paddle_y),
-					 .paddle_width(PADDLE_WIDTH),
-					 .paddle_height(PADDLE_HEIGHT),
-					 .object_x(ball_x2),
-					 .object_y(ball_y2),
-					 .object_r(6'd32),
-					 .object_width(),
-					 .object_height(),
-					 .object_isCircle(1),
-					 .collide(stop2));
+//	collision c1(.pixel_clk(pixel_clk),
+//					 .reset(reset),
+//					 .paddle_x(PADDLE_X),
+//					 .paddle_y(paddle_y),
+//					 .paddle_width(PADDLE_WIDTH),
+//					 .paddle_height(PADDLE_HEIGHT),
+//					 .object_x(ball_x),
+//					 .object_y(ball_y),
+//					 .object_r(6'd32),
+//					 .object_width(),
+//					 .object_height(),
+//					 .object_isCircle(1),
+//					 .collide(stop1));
+//					 
+//	collision c2(.pixel_clk(pixel_clk),
+//					 .reset(reset),
+//					 .paddle_x(PADDLE_X),
+//					 .paddle_y(paddle_y),
+//					 .paddle_width(PADDLE_WIDTH),
+//					 .paddle_height(PADDLE_HEIGHT),
+//					 .object_x(ball_x2),
+//					 .object_y(ball_y2),
+//					 .object_r(6'd32),
+//					 .object_width(),
+//					 .object_height(),
+//					 .object_isCircle(1),
+//					 .collide(stop2));
 //					 
 //	collision c3(.pixel_clk(pixel_clk),
 //					 .reset(reset),
@@ -420,7 +440,7 @@ module pong_game (
 //					 .object_isCircle(1),
 //					 .collide(stop4));
 	
-	assign stop = boostme? (stop1 | stop2 | stop3 | stop4) : shield? 0 :(stop1 | stop2);
+	assign stop = shield? 0 : extra_ball? (stop1 | stop2 | stop3 | stop4) :(stop1 | stop2);
 					 
 	wire 			pp_eaten;
 	wire [10:0] pp_x;
@@ -463,31 +483,24 @@ module pong_game (
 	pp_timer	pptimer(.clk(pixel_clk),
 						  .eaten(pp_eaten),
 						  .spawn(spawn),
-						  .started_op());
+						  .started_op(),
+						  .expired());
 						  
 	powerup_timer pwruptimer(.clk(pixel_clk),
 									 .reset(reset),
 									 .eaten(pp_eaten),
 									 .mode(pp_mode),
-									 .pp_status(pp_status));
+									 .pp_status(pp_status),
+									 .warning(warning));
 									 
-//	shield pp_shield(.clk(pixel_clk),
-//						  .reset(reset),
-//						  .active(shield),
-//						  .hcount(hcount),
-//						  .vcount(vcount),
-//						  .paddle_x(PADDLE_X),
-//						  .paddle_y(paddle_y),
-//						  .paddle_width(PADDLE_WIDTH),
-//						  .paddle_height(PADDLE_HEIGHT),
-//						  .pixel(shield_pix));
-
 									 
-	assign boostme = pp_status[0] | pp_status[1] | pp_status[2];
-	assign shield = pp_status[3];
-	assign randop = (gametime >= 10);
+	assign boostme 	=	pp_status[1];//pp_status[0] | pp_status[1] | pp_status[2];
+	assign extra_ball =	pp_status[2];
+	assign shield 		=	pp_status[3];
 	
 	assign grow = pp_eaten;// & (pp_mode == 2'b00);
+	
+	assign randop = (three_seconds_counter >= 4);//ten_hz;//(gametime >= 10);
 
 
 //////////////////////////////////////////////////////////////////
@@ -860,6 +873,8 @@ module draw_box
 	input reset,
 	input grow,
 	input shield,
+	input ten_hz,
+	input warning,
 	output [9:0] paddle_height,
 	output [9:0] paddle_width,
 	output reg [7:0] pixel);
@@ -956,10 +971,16 @@ module draw_box
 	 
 	always @(hcount or vcount) 
 		begin
-			if((shield && hcount >= (x - 10) && hcount < (x + WIDTH + 10)) && (vcount >= (y - 10) && vcount < (y + HEIGHT + 10)))
-				pixel = 8'b111_101_00;
-			if ((hcount >= x && hcount < (x+WIDTH)) && (vcount >= y && vcount < (y+HEIGHT)))
-				pixel= COLOR;
+			if ((hcount >= x && hcount < (x+WIDTH)) && (vcount >= y && vcount < (y+HEIGHT))) begin
+				if(shield) begin
+					if(warning)
+						pixel = ten_hz? 8'b111_101_00 : COLOR;
+					else
+						pixel = 8'b111_101_00;
+					end
+				else
+					pixel= COLOR;
+				end
 			else pixel= 0;
 			end
 	

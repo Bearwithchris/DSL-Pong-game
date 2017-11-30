@@ -3,7 +3,8 @@ module powerup_timer(
 	input wire reset,
 	input wire eaten,
 	input wire [1:0] mode,
-	output wire [3:0] pp_status
+	output wire [3:0] pp_status,
+	output wire warning
 	);
 	
 	parameter PP1_TIME = 3;
@@ -18,28 +19,32 @@ module powerup_timer(
 							.reset(reset),
 							.clear(0),
 							.value(PP1_TIME),
-							.expired(pp1_expired));
+							.expired(pp1_expired),
+							.warning());
 							
 	counter powerup_2(.clk(clk),
 							.load(load[1]), //rmb to add load value
 							.reset(reset),
 							.clear(0),
 							.value(PP2_TIME),
-							.expired(pp2_expired));
+							.expired(pp2_expired),
+							.warning());
 							
 	counter powerup_3(.clk(clk),
 							.load(load[2]), //rmb to add load value
 							.reset(reset),
 							.clear(0),
 							.value(PP3_TIME),
-							.expired(pp3_expired));
+							.expired(pp3_expired),
+							.warning());
 							
 	counter powerup_4(.clk(clk),
 							.load(load[3]), //rmb to add load value
 							.reset(reset),
 							.clear(0),
 							.value(PP4_TIME),
-							.expired(pp4_expired));
+							.expired(pp4_expired),
+							.warning(warning));
 	
 	
 	always @(posedge clk)
@@ -84,6 +89,7 @@ module pp_timer(
 				if(eaten) begin
 					started <= 1;
 					load_reg <= 1;
+					spawn_reg <= 0;
 					end
 			if(started) begin
 				load_reg <= 0;
@@ -105,9 +111,11 @@ module pp_timer(
 							.reset(),
 							.clear(0),
 							.value(2),
-							.expired(expired));
+							.expired(expired),
+							.warning());
 	
 endmodule
+
 
 module counter(
 	input wire			clk,
@@ -115,7 +123,8 @@ module counter(
 	input wire			reset,
 	input wire 			clear,
 	input wire [3:0]	value,
-	output wire			expired
+	output wire			expired,
+	output wire			warning
 	);
 	
 	reg[25:0] sec_count;
@@ -148,6 +157,7 @@ module counter(
 		assign one_hz = (sec_count == PRESCALER);
 		assign increment = one_hz && !(count == 15);
 		assign expired = ((count == 15) && !load) || stop;
+		assign warning = (count == 13) || (count == 14);
 		
 endmodule
 
@@ -155,26 +165,38 @@ endmodule
 module general_timer(
 	input wire 			clk,
 	input wire			reset,
-	output reg [31:0] seconds
+	output reg [31:0] seconds,
+	output wire			ten_hz,
+	output reg [31:0]	three_sec
 	);	
 	
 	wire 			increment, one_hz;
 	reg [25:0]	sec_count;
+	reg [22:0]	sec_count10;
+	reg [2:0]	sec_count3;
 	
 	parameter PRESCALER = 24999999;
+	parameter PRESCALER10 = 2499999;
+	//parameter PRESCALER10 = 6249999;
 	
 	always @(posedge clk)
 		begin
 			if(reset) begin
 				seconds <= 0;
 				sec_count <= 0;
+				sec_count10 <= 0;
+				three_sec <= 0;
 				end
 			else begin
 				sec_count <= one_hz? 0 : sec_count + 1;
+				sec_count10 <= (sec_count10 == PRESCALER10)? 0 : sec_count10 + 1;
+				sec_count3 <= (sec_count3 == 3)? 0 : one_hz? sec_count3 + 1 : sec_count3;
 				end
 			seconds <= one_hz? seconds + 1 : seconds;
+			three_sec <= (sec_count3 == 3)? three_sec + 1: three_sec;
 			end
 				
 	assign one_hz = (sec_count == PRESCALER);
+	assign ten_hz = (sec_count10 == PRESCALER10)? !ten_hz : ten_hz;
 				
 endmodule
