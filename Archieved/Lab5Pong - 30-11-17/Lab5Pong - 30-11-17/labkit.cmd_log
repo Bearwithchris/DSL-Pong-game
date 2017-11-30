@@ -1,0 +1,1370 @@
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/chris/Documents/Current in use/Lab5/par_solution/par_solution/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 labkit.ngc labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.xst" -ofn "C:/Users/chris/Documents/Current in use/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+xst -intstyle ise -ifn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.xst" -ofn "D:/Users/WeiTong/Desktop/Lab5Pong - Collision/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Git/DSL-Pong-game/Lab5Pong - 30-11-17/Lab5Pong - 30-11-17/labkit.xst" -ofn "C:/Users/chris/Documents/Git/DSL-Pong-game/Lab5Pong - 30-11-17/Lab5Pong - 30-11-17/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Git/DSL-Pong-game/Lab5Pong - 30-11-17/Lab5Pong - 30-11-17/labkit.xst" -ofn "C:/Users/chris/Documents/Git/DSL-Pong-game/Lab5Pong - 30-11-17/Lab5Pong - 30-11-17/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Git/DSL-Pong-game/Lab5Pong - 30-11-17/Lab5Pong - 30-11-17/labkit.xst" -ofn "C:/Users/chris/Documents/Git/DSL-Pong-game/Lab5Pong - 30-11-17/Lab5Pong - 30-11-17/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Git/DSL-Pong-game/Lab5Pong - 30-11-17/Lab5Pong - 30-11-17/labkit.xst" -ofn "C:/Users/chris/Documents/Git/DSL-Pong-game/Lab5Pong - 30-11-17/Lab5Pong - 30-11-17/labkit.syr" 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Git/DSL-Pong-game/Lab5Pong - 30-11-17/Lab5Pong - 30-11-17/labkit.xst" -ofn "C:/Users/chris/Documents/Git/DSL-Pong-game/Lab5Pong - 30-11-17/Lab5Pong - 30-11-17/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 
+xst -intstyle ise -ifn "C:/Users/chris/Documents/Git/DSL-Pong-game/Lab5Pong - 30-11-17/Lab5Pong - 30-11-17/labkit.xst" -ofn "C:/Users/chris/Documents/Git/DSL-Pong-game/Lab5Pong - 30-11-17/Lab5Pong - 30-11-17/labkit.syr" 
+ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -uc "Verilog Files/labkit_nexys3.ucf" -p xc6slx16-csg324-3 "labkit.ngc" labkit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o labkit_map.ncd labkit.ngd labkit.pcf 
+par -w -intstyle ise -ol high -mt off labkit_map.ncd labkit.ncd labkit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf 
+bitgen -intstyle ise -f labkit.ut labkit.ncd 

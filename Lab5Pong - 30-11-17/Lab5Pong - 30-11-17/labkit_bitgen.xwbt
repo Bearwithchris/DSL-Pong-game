@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\labkit.ncd
-OUTFILE=D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\labkit.bit
+INFILE=C:\Users\chris\Documents\Git\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\labkit.ncd
+OUTFILE=C:\Users\chris\Documents\Git\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\labkit.bit
 FAMILY=Spartan6
 PART=xc6slx16-3csg324
-WORKINGDIR=D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17
+WORKINGDIR=C:\Users\chris\Documents\Git\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17
 LICENSE=WebPack
-USER_INFO=211406160_0_0_137
+USER_INFO=211413530_0_0_172

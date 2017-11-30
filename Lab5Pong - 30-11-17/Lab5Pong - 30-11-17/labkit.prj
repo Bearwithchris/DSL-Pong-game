@@ -1,4 +1,3 @@
-verilog work "Verilog Files/randgen.v"
 verilog work "Verilog Files/power_pack2.v"
 verilog work "Verilog Files/counter.v"
 verilog work "Verilog Files/collision.v"

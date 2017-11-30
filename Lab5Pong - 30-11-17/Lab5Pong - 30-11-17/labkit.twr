@@ -1,13 +1,13 @@
 --------------------------------------------------------------------------------
-Release 14.7 Trace  (nt64)
+Release 14.6 Trace  (nt)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
--n 3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf
+C:\Xilinx\14.6\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml labkit.twx labkit.ncd -o labkit.twr labkit.pcf
 
 Design file:              labkit.ncd
 Physical constraint file: labkit.pcf
-Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-06-08)
 Report level:             verbose report
 
 Environment Variable      Effect 
@@ -36,17 +36,17 @@ Setup/Hold to clock clk_100mhz
             |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
 Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
 ------------+------------+------------+------------+------------+------------------+--------+
-btn_down    |    5.498(R)|      SLOW  |   -1.522(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
-btn_enter   |    6.182(R)|      SLOW  |   -1.346(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
-btn_left    |    5.592(R)|      SLOW  |   -1.461(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
-btn_right   |    4.750(R)|      SLOW  |   -1.423(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
-btn_up      |    5.398(R)|      SLOW  |   -1.217(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
-switch<0>   |    5.207(R)|      SLOW  |   -1.793(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
-switch<1>   |    5.553(R)|      SLOW  |   -1.450(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
-switch<4>   |    2.853(R)|      SLOW  |   -1.420(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
-switch<5>   |    3.031(R)|      SLOW  |   -1.485(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
-switch<6>   |    3.399(R)|      SLOW  |   -1.698(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
-switch<7>   |    4.396(R)|      SLOW  |   -2.356(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
+btn_down    |    5.187(R)|      SLOW  |   -1.716(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
+btn_enter   |    4.608(R)|      SLOW  |   -1.213(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
+btn_left    |    5.579(R)|      SLOW  |   -1.753(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
+btn_right   |    5.620(R)|      SLOW  |   -1.560(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
+btn_up      |    5.036(R)|      SLOW  |   -1.281(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
+switch<0>   |    4.483(R)|      SLOW  |   -1.747(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
+switch<1>   |    5.046(R)|      SLOW  |   -1.573(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
+switch<4>   |    4.273(R)|      SLOW  |   -2.233(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
+switch<5>   |    4.591(R)|      SLOW  |   -2.548(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
+switch<6>   |    3.467(R)|      SLOW  |   -1.764(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
+switch<7>   |    3.370(R)|      SLOW  |   -1.699(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
 ------------+------------+------------+------------+------------+------------------+--------+
 
 Clock clk_100mhz to Pad
@@ -54,28 +54,27 @@ Clock clk_100mhz to Pad
             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
 Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
-dig<0>      |         5.920(R)|      SLOW  |         3.803(R)|      FAST  |clk_25mhz_BUFG    |   0.000|
-dig<1>      |         5.845(R)|      SLOW  |         3.761(R)|      FAST  |clk_25mhz_BUFG    |   0.000|
-dig<2>      |         5.570(R)|      SLOW  |         3.593(R)|      FAST  |clk_25mhz_BUFG    |   0.000|
-dig<3>      |         5.656(R)|      SLOW  |         3.648(R)|      FAST  |clk_25mhz_BUFG    |   0.000|
-hsync       |         6.527(R)|      SLOW  |         4.219(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
-led<0>      |         8.748(R)|      SLOW  |         5.101(R)|      FAST  |clk_25mhz_BUFG    |   0.000|
-seg<0>      |         6.621(R)|      SLOW  |         4.259(R)|      FAST  |clk_25mhz_BUFG    |   0.000|
-seg<1>      |         6.838(R)|      SLOW  |         4.380(R)|      FAST  |clk_25mhz_BUFG    |   0.000|
-seg<2>      |         6.508(R)|      SLOW  |         4.203(R)|      FAST  |clk_25mhz_BUFG    |   0.000|
-seg<3>      |         6.885(R)|      SLOW  |         4.454(R)|      FAST  |clk_25mhz_BUFG    |   0.000|
-seg<4>      |         6.704(R)|      SLOW  |         4.320(R)|      FAST  |clk_25mhz_BUFG    |   0.000|
+dig<0>      |         6.033(R)|      SLOW  |         3.910(R)|      FAST  |clk_25mhz_BUFG    |   0.000|
+dig<1>      |         5.962(R)|      SLOW  |         3.867(R)|      FAST  |clk_25mhz_BUFG    |   0.000|
+dig<2>      |         5.932(R)|      SLOW  |         3.881(R)|      FAST  |clk_25mhz_BUFG    |   0.000|
+dig<3>      |         5.920(R)|      SLOW  |         3.857(R)|      FAST  |clk_25mhz_BUFG    |   0.000|
+hsync       |         7.837(R)|      SLOW  |         5.080(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
+seg<0>      |         6.287(R)|      SLOW  |         4.070(R)|      FAST  |clk_25mhz_BUFG    |   0.000|
+seg<1>      |         6.619(R)|      SLOW  |         4.257(R)|      FAST  |clk_25mhz_BUFG    |   0.000|
+seg<2>      |         6.783(R)|      SLOW  |         4.386(R)|      FAST  |clk_25mhz_BUFG    |   0.000|
+seg<3>      |         6.932(R)|      SLOW  |         4.492(R)|      FAST  |clk_25mhz_BUFG    |   0.000|
+seg<4>      |         6.919(R)|      SLOW  |         4.445(R)|      FAST  |clk_25mhz_BUFG    |   0.000|
 seg<5>      |         6.718(R)|      SLOW  |         4.323(R)|      FAST  |clk_25mhz_BUFG    |   0.000|
-seg<6>      |         6.667(R)|      SLOW  |         4.298(R)|      FAST  |clk_25mhz_BUFG    |   0.000|
-vgablue<1>  |         8.006(R)|      SLOW  |         4.699(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
-vgablue<2>  |         7.947(R)|      SLOW  |         4.601(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
-vgagreen<0> |         8.086(R)|      SLOW  |         4.593(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
-vgagreen<1> |         8.040(R)|      SLOW  |         4.906(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
-vgagreen<2> |         7.545(R)|      SLOW  |         4.579(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
-vgared<0>   |         7.424(R)|      SLOW  |         4.619(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
-vgared<1>   |         7.416(R)|      SLOW  |         4.611(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
-vgared<2>   |         7.581(R)|      SLOW  |         4.700(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
-vsync       |         8.014(R)|      SLOW  |         5.099(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
+seg<6>      |         6.889(R)|      SLOW  |         4.428(R)|      FAST  |clk_25mhz_BUFG    |   0.000|
+vgablue<1>  |         7.450(R)|      SLOW  |         4.619(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
+vgablue<2>  |         7.450(R)|      SLOW  |         4.619(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
+vgagreen<0> |         7.520(R)|      SLOW  |         4.450(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
+vgagreen<1> |         7.556(R)|      SLOW  |         4.494(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
+vgagreen<2> |         7.723(R)|      SLOW  |         4.623(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
+vgared<0>   |         7.048(R)|      SLOW  |         4.435(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
+vgared<1>   |         7.382(R)|      SLOW  |         4.693(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
+vgared<2>   |         7.206(R)|      SLOW  |         4.517(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
+vsync       |         6.846(R)|      SLOW  |         4.408(R)|      FAST  |clk_65mhz_BUFG    |   0.000|
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
 
 Clock to Setup on destination clock clk_100mhz
@@ -83,7 +82,7 @@ Clock to Setup on destination clock clk_100mhz
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk_100mhz     |  232.285|  223.459|  220.149|  222.289|
+clk_100mhz     |  232.552|  224.074|  219.877|  219.888|
 ---------------+---------+---------+---------+---------+
 
 Pad to Pad
@@ -93,21 +92,21 @@ Source Pad     |Destination Pad|  Delay  |
 switch<1>      |led<1>         |    7.688|
 switch<2>      |led<2>         |    7.352|
 switch<3>      |led<3>         |    8.125|
-switch<4>      |led<4>         |    6.955|
+switch<4>      |led<4>         |    6.953|
 switch<5>      |led<5>         |    7.008|
-switch<6>      |led<6>         |    6.941|
-switch<7>      |led<7>         |    7.506|
+switch<6>      |led<6>         |    6.942|
+switch<7>      |led<7>         |    7.507|
 ---------------+---------------+---------+
 
 
-Analysis completed Thu Nov 30 17:34:21 2017 
+Analysis completed Wed Nov 29 23:58:48 2017 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 401 MB
+Peak Memory Usage: 198 MB
 
 
 

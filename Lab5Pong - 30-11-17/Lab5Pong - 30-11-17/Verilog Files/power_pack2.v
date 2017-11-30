@@ -1,6 +1,7 @@
 module power_pack2 #(parameter WIDTH=20,
 										 HEIGHT=20, 
-										 box_size = 7'd64) 
+										 box_size = 7'd64,
+										 COLOR=8'b000_000_11) 
 	 (input wire 			clk,
 	  input wire 			reset,
 	  input wire			eaten,
@@ -8,7 +9,7 @@ module power_pack2 #(parameter WIDTH=20,
 	  input wire [10:0]	hcount,
 	  input wire [9:0]	vcount,
 	  input wire [10:0]	randx,
-	  input wire [9:0]	randy,
+	  input wire  [9:0]	randy,
 	  output reg [10:0]	rx,
 	  output reg [9:0]	ry,
 	  output reg [9:0]	r2pixel,
@@ -19,68 +20,20 @@ module power_pack2 #(parameter WIDTH=20,
 	reg			display;
 	wire			x_valid, y_valid;
 	reg randop_reg;  
-	reg [7:0] color;
-	wire [7:0] randnum;
-	wire [9:0] randnum10;
 	
 	parameter SHRINK	= 	2'b00;
 	parameter BOOST	= 	2'b01;
 	parameter idk		= 	2'b10;
 	parameter SHIELD	=	2'b11; 	
 	
-	
-	parameter COLOR_SHRINK	= 	8'b000_000_11;
-	parameter COLOR_BOOST	=	8'b000_101_10;
-	parameter COLOR_IDK		=	8'b111_000_11;
-	parameter COLOR_SHIELD	=	8'b111_100_00;
-	
-	
-	randgen pptype_gen(.clk(clk), .LFSR(randnum));
-	randgen_10bit bitgen10(.clk(clk), .LFSR(randnum10));
-	
-	always @(*)
-		begin
-			if(reset || (spawn && !eaten)) begin
-				mode = randnum10[5:4]; //randomly extract 2 bit number from the random generated number
-				case(mode)
-					SHRINK: begin
-						color = COLOR_SHRINK;
-						end
-					BOOST: begin
-						color = COLOR_BOOST;
-						end
-					SHIELD: begin
-						color = COLOR_SHIELD;
-						end
-					idk: begin
-						color = COLOR_IDK;
-						end
-					endcase
-				end
-			end
 	  
 	always @(posedge clk)
 		begin
 			if(reset || (spawn && !eaten)) begin
-//				mode <= randnum10[5:4]; //randomly extract 2 bit number from the random generated number
-//				//mode <= SHIELD;
-//				case(mode)
-//					SHRINK: begin
-//						color <= COLOR_SHRINK;
-//						end
-//					BOOST: begin
-//						color <= COLOR_BOOST;
-//						end
-//					SHIELD: begin
-//						color <= COLOR_SHIELD;
-//						end
-//					idk: begin
-//						color <= COLOR_IDK;
-//						end
-//					endcase
+				mode <= 2'b00;
 				display <= 1;
-				rx <= randnum10;//randx;//700;
-				ry <= randnum + randnum10[8:0];//randy;//500;
+				rx <= randx;//700;
+				ry <= randy;//500;
 				randop_reg <= 1;
 				end
 			else if(eaten) begin
@@ -96,7 +49,7 @@ module power_pack2 #(parameter WIDTH=20,
 		begin
 			if ((hcount >= rx && hcount < (rx+WIDTH)) && (vcount >= ry && vcount < (ry+HEIGHT))) begin
 				if(display)
-					r2pixel = color;
+					r2pixel= COLOR;
 				else
 					r2pixel = 0;
 				end
@@ -113,36 +66,22 @@ module shield(
 	input wire clk,
 	input wire reset,
 	input wire active,
-	input wire [10:0] hcount, paddle_x,
-	input wire [9:0]  vcount, paddle_y,
-	input wire [9:0] paddle_width, paddle_height,
-	output reg [7:0] pixel
+	input wire [10:0]	hcount, paddle_x,
+	input wire [9:0] vcount, paddle_y,
+	input wire [9:0] paddle_width, paddle_height
 	);
 
-	reg [10:0] rx, height;
-	reg [9:0]  ry, width;
-
-	parameter COLOR = 8'b011_100_10;
-	parameter BORDER = 10;
-	
 	always @(posedge clk)
 		begin
-			rx <= 100;//paddle_x;
-			ry <= 100;//paddle_y;
-			width <= 50;//paddle_width;
-			height <= 50;//paddle_height;
-			end			
-
-	always @(hcount or vcount) 
-		begin
 			if(active) begin
-				//if((hcount >= rx - BORDER) && hcount < rx && (vcount >= ry - BORDER) && (vcount < ry + height + BORDER)) begin
-				//if ((hcount >= (rx - 4'd10) && hcount < rx) && ((vcount >= ry - 4'd10) && vcount < (ry + height + 4'd10))) begin
-				if ((hcount >= 90 && hcount < 120) && (vcount >= 200 && vcount < 400)) begin
-					pixel = COLOR;
-					end
 				end
-			else pixel = 0;
 			end
+				
+//	always @(hcount or vcount) 
+//		begin
+//			if ((hcount >= x && hcount < (x+WIDTH)) && (vcount >= y && vcount < (y+HEIGHT)))
+//				pixel= COLOR;
+//			else pixel= 0;
+//			end
 	
 endmodule

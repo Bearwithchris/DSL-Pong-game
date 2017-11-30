@@ -161,7 +161,7 @@ module labkit(
 	
 	wire switch2 = switch[2];
 	
-   pong_game psolution(.pixel_clk(pixel_clk), .clk_25mhz(clk_25mhz), .reset(reset), .switch(switch2) ,.up(up), .down(down),.left(left),.right(right), .pspeed(switch[7:4]),
+   pong_game psolution(.pixel_clk(pixel_clk), .reset(reset), .switch(switch2) ,.up(up), .down(down),.left(left),.right(right), .pspeed(switch[7:4]),
 	    .hcount(hcount), .vcount(vcount), .hsync(hsync1), .vsync(vsync1), .blank(blank1),
 		 .phsync(phsync), .pvsync(pvsync), .pblank(pblank), .pixel(pong_pixel), .randop(led[0]));
 	
@@ -196,7 +196,6 @@ endmodule
 
 module pong_game (
    input pixel_clk,	// 65MHz clock
-	input clk_25mhz,
    input reset,		// 1 to initialize module
 	input switch,
    input up,		// 1 when paddle should move up
@@ -218,15 +217,24 @@ module pong_game (
    );
 
    wire [2:0] checkerboard;
+	wire pp_eaten;
 	wire boostme, shield;
 	
-	
-	//Generates the time since last reset
-	wire [31:0] gametime;
-	
-	general_timer gametimer(.clk(clk_25mhz),
-								.reset(reset),
-								.seconds(gametime));
+////////////////////////////////////////////////////////////////////	
+// REPLACE ME! The code below just generates a color checkerboard
+// using 64 pixel by 64 pixel squares.
+   
+//   assign phsync = hsync;
+//   assign pvsync = vsync;
+//   assign pblank = blank;
+//   assign checkerboard = hcount[8:6] + vcount[8:6];
+
+   // here we use three bits from hcount and vcount to generate the \
+   // checkerboard
+
+//  assign pixel = {{8{checkerboard[2]}}, {8{checkerboard[1]}}, {8{checkerboard[0]}}} ;
+////////////////////////////////////////////////////////////////////	
+
 
 ////////////////////////////////////////////////////////////////////	
 // need to take care of the pipe line delays;
@@ -254,12 +262,12 @@ module pong_game (
 	always @(posedge pixel_clk) begin
 	//if (switch == 0)begin
 	if (boostme == 0) begin
-		pixel <= paddle_pix_delay[15:8] | ball | ball2 |powerbox | powerbox2 | shield_pix;
+		pixel <= paddle_pix_delay[15:8] | ball | ball2 |powerbox | powerbox2;
 		boost <=0;
 		end
 	//else if(switch == 1)begin
 	else if(boostme == 1) begin
-		pixel <= paddle_pix_delay[15:8] | ball | ball2 | ball3 | ball4 | powerbox | powerbox2 | shield_pix;
+		pixel <= paddle_pix_delay[15:8] | ball | ball2 | ball3 | ball4 | powerbox | powerbox2;
 		boost <= 40;
 		end
 	end
@@ -272,17 +280,22 @@ module pong_game (
 //   assign pixel =  paddle_pix | ball; //{{8{checkerboard[2]}}, {8{checkerboard[1]}}, {8{checkerboard[0]}}} ;
  
  
- 	wire [7:0] paddle_pix,ball,ball2,ball3,ball4,powerbox, powerbox2, shield_pix;
+ 	wire [7:0] paddle_pix,ball,ball2,ball3,ball4,powerbox, powerbox2;
 
-
+   //parameter PADDLE_WIDTH = 16;
+	//parameter PADDLE_HEIGHT = 128;
 	wire [9:0] PADDLE_WIDTH;
 	wire [9:0] PADDLE_HEIGHT;
    wire [9:0] PADDLE_X;
    wire [9:0] paddle_y;
 	wire grow;
 	
+//	draw_box #(.WIDTH(PADDLE_WIDTH), .HEIGHT(PADDLE_HEIGHT), .COLOR(8'b000_111_00))
+//	   paddle (.pixel_clk(pixel_clk), .hcount(hcount), .vcount(vcount),
+//		.x(PADDLE_X), .y(paddle_y), .pixel(paddle_pix));
+		
 	draw_box #(.COLOR(8'b000_111_00))
-	   paddle (.pixel_clk(pixel_clk),.left(left),.right(right),.up(up),.down(down),.reset(reset), .grow(grow), .shield(shield), .hcount(hcount), .vcount(vcount),
+	   paddle (.pixel_clk(pixel_clk),.left(left),.right(right),.up(up),.down(down),.reset(reset), .grow(grow), .hcount(hcount), .vcount(vcount),
 		.x(PADDLE_X), .y(paddle_y), .paddle_width(PADDLE_WIDTH), .paddle_height(PADDLE_HEIGHT), .pixel(paddle_pix));
 
 
@@ -301,7 +314,7 @@ module pong_game (
 	wire stop;  // used to halt the game
 	
    move_paddle paddle_motion(.pixel_clk(pixel_clk), .vsync_pulse(vsync_pulse),
-		.up(up), .down(down),.left(left),.right(right), .paddle_x(PADDLE_X),.paddle_y(paddle_y), .reset(reset), .stop(stop));
+		.up(up), .down(down),.left(left),.right(right),.paddle_width(PADDLE_WIDTH),.paddle_height(PADDLE_HEIGHT), .paddle_x(PADDLE_X),.paddle_y(paddle_y), .reset(reset), .stop(stop));
 
 //===========Ball1=====================
 	reg [9:0] ball_y = 300; 
@@ -345,7 +358,6 @@ module pong_game (
    parameter MIN_BALL_Y = 1;
    parameter MAX_BALL_X = 1023 - BALL_SIZE; //
 	parameter MIN_BALL_X = 5;
-	
 	reg ball_up, ball_right, ball_up2,ball_right2, ball_up3,ball_right3, ball_up4,ball_right4;
 	
 	wire [10:0] new_ball_x = ball_right ? ball_x + speed_x : ball_x - speed_x;
@@ -391,38 +403,38 @@ module pong_game (
 					 .object_height(),
 					 .object_isCircle(1),
 					 .collide(stop2));
-//					 
-//	collision c3(.pixel_clk(pixel_clk),
-//					 .reset(reset),
-//					 .paddle_x(PADDLE_X),
-//					 .paddle_y(paddle_y),
-//					 .paddle_width(PADDLE_WIDTH),
-//					 .paddle_height(PADDLE_HEIGHT),
-//					 .object_x(ball_x3),
-//					 .object_y(ball_y3),
-//					 .object_r(6'd32),
-//					 .object_width(),
-//					 .object_height(),
-//					 .object_isCircle(1),
-//					 .collide(stop3));
-//
-//	collision c4(.pixel_clk(pixel_clk),
-//					 .reset(reset),
-//					 .paddle_x(PADDLE_X),
-//					 .paddle_y(paddle_y),
-//					 .paddle_width(PADDLE_WIDTH),
-//					 .paddle_height(PADDLE_HEIGHT),
-//					 .object_x(ball_x4),
-//					 .object_y(ball_y4),
-//					 .object_r(6'd32),
-//					 .object_width(),
-//					 .object_height(),
-//					 .object_isCircle(1),
-//					 .collide(stop4));
-	
-	assign stop = boostme? (stop1 | stop2 | stop3 | stop4) : shield? 0 :(stop1 | stop2);
 					 
-	wire 			pp_eaten;
+	collision c3(.pixel_clk(pixel_clk),
+					 .reset(reset),
+					 .paddle_x(PADDLE_X),
+					 .paddle_y(paddle_y),
+					 .paddle_width(PADDLE_WIDTH),
+					 .paddle_height(PADDLE_HEIGHT),
+					 .object_x(ball_x3),
+					 .object_y(ball_y3),
+					 .object_r(6'd32),
+					 .object_width(),
+					 .object_height(),
+					 .object_isCircle(1),
+					 .collide(stop3));
+
+	collision c4(.pixel_clk(pixel_clk),
+					 .reset(reset),
+					 .paddle_x(PADDLE_X),
+					 .paddle_y(paddle_y),
+					 .paddle_width(PADDLE_WIDTH),
+					 .paddle_height(PADDLE_HEIGHT),
+					 .object_x(ball_x4),
+					 .object_y(ball_y4),
+					 .object_r(6'd32),
+					 .object_width(),
+					 .object_height(),
+					 .object_isCircle(1),
+					 .collide(stop4));
+	
+	assign stop = boostme ? (stop1 | stop2 | stop3 | stop4) : (stop1 | stop2);
+					 
+	//wire 			pp_eaten;
 	wire [10:0] pp_x;
 	wire [9:0]	pp_y;
 	
@@ -438,9 +450,30 @@ module pong_game (
 					 .object_height(20),
 					 .object_isCircle(0),
 					 .collide(pp_eaten));
+					 
 
-//  power_pack pack1(.pixel_clk(pixel_clk),.reset(reset),.up(up), .down(down),.left(left),.right(right),.rx(pack1x),.hcount(hcount),.ry(pack1y)
-//  , .vcount(vcount), .r2pixel(powerbox));
+
+   //assign stop = ball_x + 1 < PADDLE_X + PADDLE_WIDTH;
+
+//////////////////////////////////////////////////////////////////	
+// use to draw a square puck
+//
+//	draw_box #(.WIDTH(BALL_SIZE), .HEIGHT(BALL_SIZE), .COLOR(8'b111_111_11))
+//	   create_ball (.pixel_clk(pixel_clk), .hcount(hcount), .vcount(vcount),
+//		.x(ball_x), .y(ball_y), .pixel(ball));
+//
+//////////////////////////////////////////////////////////////////
+//   Power pack
+	//wire pack1x;
+	//wire pack1y;
+
+
+//	randomGrid rg(.pixel_clk(pixel_clk),.rand_X(pack1x),.rand_Y(pack1y));
+
+	//reg [9:0] pack1x = 0; 
+	//reg [10:0] pack1y = 300;
+  power_pack pack1(.pixel_clk(pixel_clk),.reset(reset),.up(up), .down(down),.left(left),.right(right),.rx(pack1x),.hcount(hcount),.ry(pack1y)
+  , .vcount(vcount), .r2pixel(powerbox));
   
   wire spawn, counter_expired;
   wire [1:0] pp_mode;
@@ -471,23 +504,11 @@ module pong_game (
 									 .mode(pp_mode),
 									 .pp_status(pp_status));
 									 
-//	shield pp_shield(.clk(pixel_clk),
-//						  .reset(reset),
-//						  .active(shield),
-//						  .hcount(hcount),
-//						  .vcount(vcount),
-//						  .paddle_x(PADDLE_X),
-//						  .paddle_y(paddle_y),
-//						  .paddle_width(PADDLE_WIDTH),
-//						  .paddle_height(PADDLE_HEIGHT),
-//						  .pixel(shield_pix));
-
-									 
 	assign boostme = pp_status[0] | pp_status[1] | pp_status[2];
 	assign shield = pp_status[3];
-	assign randop = (gametime >= 10);
+	assign randop = pp_status[3];
 	
-	assign grow = pp_eaten;// & (pp_mode == 2'b00);
+	assign grow = pp_eaten & (pp_mode == 2'b00); 
 
 
 //////////////////////////////////////////////////////////////////
@@ -565,10 +586,10 @@ always @(posedge pixel_clk)
 		if (reset) begin
 			//speed_x <= {3'b0,switch[3:2]};
 			//speed_y <= {3'b0,switch[1:0]};
-			ball_x2 <= 465;
-			ball_y2 <= 251;
+			ball_x2 <= 10;
+			ball_y2 <= 100;
 			ball_up2 <= 1;
-			ball_right2 <= 0;
+			ball_right2 <= 1;
 			end
 		else if (vsync_pulse && ~stop) begin
 		// vertical movement
@@ -682,166 +703,244 @@ endmodule
 //                  INNOVATIVE PORTION
 //////////////////////////////////////////////////////////////////
 
-//module power_pack	
-//	#(parameter WIDTH=30,
-//	 HEIGHT=30, 
-//	 box_size = 7'd64,
-//	 COLOR=8'b111_000_00) //deault colour: red
-//	
-//	(input pixel_clk,
-//	 input reset,
-//	 input up,down,left,right, 
-//	 input [10:0] hcount,
-//	 output reg [10:0] rx,
-//	 input [9:0] vcount,
-//	 output reg [9:0] ry,
-//	 output reg [7:0] r2pixel);
-//	 
-//	 reg[5:0] upcount=0;
-//	 reg[5:0] downcount=0;
-//	 reg[5:0] leftcount=0;
-//	 reg[5:0] rightcount=0;
-//	 
-//	 reg Rpressed=0;
-//	 reg Rreleased=0;
-//	 reg Lpressed=0;
-//	 reg Lreleased=0;
-//	 reg Upressed=0;
-//	 reg Ureleased=0;
-//	 reg Dpressed=0;
-//	 reg Dreleased=0;
-//	 
-//	 integer offset=10;
-//	 integer multiplier=1;
-//	 
-//	 integer rxreg=300;
-//	 integer ryreg=300;
-//	 always@(posedge pixel_clk)begin
-//	  rx<=rxreg;
-//	  ry<=ryreg;
-//	if(reset)begin
-//		Rpressed<=0;
-//		Rreleased<=0;
-//		Lpressed<=0;
-//		Lreleased<=0;
-//		Upressed<=0;
-//		Ureleased<=0;
-//		Dpressed<=0;
-//		Dreleased<=0;
-//		rxreg<=600;
-//		ryreg<=600;
-//		leftcount<=0;
-//		rightcount<=0;
-//		upcount<=0;
-//		downcount<=0;
-//		end
-//		
-//	if(right==1)
-//   	Rpressed<=1;
-//	else if(right==0)
-//	   Rreleased<=1;
-//	if(left==1)
-//   	Lpressed<=1;
-//	else if(left==0)
-//	   Lreleased<=1;
-//	if(up==1)
-//   	Upressed<=1;
-//	else if(up==0)
-//	   Ureleased<=1;
-//	if(down==1)
-//   	Dpressed<=1;
-//	else if(down==0)
-//	   Dreleased<=1;	
-//
-//	if(Lpressed==1 && Lreleased==1)begin
-//	 Lpressed<=0;
-//	 Lreleased<=0;
-//	 leftcount<=leftcount+1;
-//	 //rxreg<=100*leftcount;
-//	 end
-//	if(Rpressed==1 && Rreleased==1)begin
-//	 Rpressed<=0;
-//	 Rreleased<=0;
-//	 rightcount<=rightcount+1;
-//	 //ryreg<=100*rightcount;
-//	 end
-//	if(Upressed==1 && Ureleased==1)begin
-//	 Upressed<=0;
-//	 Ureleased<=0;
-//	 upcount<=upcount+1;
-//	 end
-//	 if(Dpressed==1 && Dreleased==1)begin
-//	 Dpressed<=0;
-//	 Dreleased<=0;
-//	 downcount<=downcount+1;
-//	 end
-//	 
-//
-//	
-//	 if(leftcount==3||upcount==2)begin
-//	 //rxreg<=300+offset;
-//	 //ryreg<=500-offset;
-//	 rxreg<=900;
-//	 ryreg<=500;
-//	 upcount<=0;
-//	 downcount<=0;
-//	 leftcount<=0;
-//	 rightcount<=0;
-//	 offset<=offset*multiplier;
-//	 end
-//	 
-//	 else if(downcount==2||rightcount==3)begin
-//	 //rxreg<=700-offset;
-//	 //ryreg<=500+offset;
-//		rxreg<=200;
-//		ryreg<=100;
-//	 upcount<=0;
-//	 downcount<=0;
-//	 leftcount<=0;
-//	 rightcount<=0;
-//	 //offset<=offset*multiplier;
-//	 end
-//	 else if(upcount==1&&downcount==1&&leftcount==1&&rightcount==1)begin
-//	 rx<=100;
-//	 ry<=100;
-//	 upcount<=0;
-//	 downcount<=0;
-//	 leftcount<=0;
-//	 rightcount<=0;
-//	 end
-//	 else if(upcount+downcount+leftcount+rightcount>4)begin
-//	 rx<=1000;
-//	 ry<=500;
-//	 upcount<=0;
-//	 downcount<=0;
-//	 leftcount<=0;
-//	 rightcount<=0;
-//	 end
-//
-//
-//	if (offset>700)
-//	offset<=300;
-//	if (multiplier>5)
-//	multiplier<=1;
-//	if(rx>1000 ||ry>700 || rx<0 ||ry<0)begin
-//	rx<=500;
-//	ry<=300;
-//	end
-//	 end
-//
-//	always @(hcount or vcount) begin
-//	
-//
-//	if ((hcount >= rx && hcount < (rx+WIDTH)) &&
-//		(vcount >= ry && vcount < (ry+HEIGHT)))
-//		 r2pixel= COLOR;
-//
-//	else r2pixel= 0;
-//	
-//	end
-//endmodule
+/*
+module randomGrid(
+	input pixel_clk,
+	output reg [10:0]rand_X,
+	output reg [9:0]rand_Y);
+	
+	reg [6:0] pointX, pointY = 5;
+
+	always @(posedge pixel_clk)begin
+	 if(pointX<200)begin
+		pointX<=pointX+1;
+		pointY<=pointY+1;
+		rand_X<=20;
+		rand_Y<=20;
+	end
+	else begin
+		pointX<=pointX-2;
+		pointX<=pointX-2;
+		rand_X<=100;
+		rand_Y<=100;
+	end
+	end
+endmodule
+*/
+
+module power_pack	
+	#(parameter WIDTH=30,
+	 HEIGHT=30, 
+	 box_size = 7'd64,
+	 COLOR=8'b111_000_00) //deault colour: red
+	
+	(input pixel_clk,
+	 input reset,
+	 input up,down,left,right, 
+	 input [10:0] hcount,
+	 output reg [10:0] rx,
+	 input [9:0] vcount,
+	 output reg [9:0] ry,
+	 output reg [7:0] r2pixel);
+	 
+	 reg[5:0] upcount=0;
+	 reg[5:0] downcount=0;
+	 reg[5:0] leftcount=0;
+	 reg[5:0] rightcount=0;
+	 
+	 reg Rpressed=0;
+	 reg Rreleased=0;
+	 reg Lpressed=0;
+	 reg Lreleased=0;
+	 reg Upressed=0;
+	 reg Ureleased=0;
+	 reg Dpressed=0;
+	 reg Dreleased=0;
+	 
+	 integer offset=10;
+	 integer multiplier=1;
+	 
+	 integer rxreg=300;
+	 integer ryreg=300;
+	 always@(posedge pixel_clk)begin
+	  rx<=rxreg;
+	  ry<=ryreg;
+	if(reset)begin
+		Rpressed<=0;
+		Rreleased<=0;
+		Lpressed<=0;
+		Lreleased<=0;
+		Upressed<=0;
+		Ureleased<=0;
+		Dpressed<=0;
+		Dreleased<=0;
+		rxreg<=600;
+		ryreg<=600;
+		leftcount<=0;
+		rightcount<=0;
+		upcount<=0;
+		downcount<=0;
+		end
+		
+	if(right==1)
+   	Rpressed<=1;
+	else if(right==0)
+	   Rreleased<=1;
+	if(left==1)
+   	Lpressed<=1;
+	else if(left==0)
+	   Lreleased<=1;
+	if(up==1)
+   	Upressed<=1;
+	else if(up==0)
+	   Ureleased<=1;
+	if(down==1)
+   	Dpressed<=1;
+	else if(down==0)
+	   Dreleased<=1;	
+
+	if(Lpressed==1 && Lreleased==1)begin
+	 Lpressed<=0;
+	 Lreleased<=0;
+	 leftcount<=leftcount+1;
+	 //rxreg<=100*leftcount;
+	 end
+	if(Rpressed==1 && Rreleased==1)begin
+	 Rpressed<=0;
+	 Rreleased<=0;
+	 rightcount<=rightcount+1;
+	 //ryreg<=100*rightcount;
+	 end
+	if(Upressed==1 && Ureleased==1)begin
+	 Upressed<=0;
+	 Ureleased<=0;
+	 upcount<=upcount+1;
+	 end
+	 if(Dpressed==1 && Dreleased==1)begin
+	 Dpressed<=0;
+	 Dreleased<=0;
+	 downcount<=downcount+1;
+	 end
+	 
+
+	
+	 if(leftcount==3||upcount==2)begin
+	 //rxreg<=300+offset;
+	 //ryreg<=500-offset;
+	 rxreg<=900;
+	 ryreg<=500;
+	 upcount<=0;
+	 downcount<=0;
+	 leftcount<=0;
+	 rightcount<=0;
+	 offset<=offset*multiplier;
+	 end
+	 
+	 else if(downcount==2||rightcount==3)begin
+	 //rxreg<=700-offset;
+	 //ryreg<=500+offset;
+		rxreg<=200;
+		ryreg<=100;
+	 upcount<=0;
+	 downcount<=0;
+	 leftcount<=0;
+	 rightcount<=0;
+	 //offset<=offset*multiplier;
+	 end
+	 else if(upcount==1&&downcount==1&&leftcount==1&&rightcount==1)begin
+	 rx<=100;
+	 ry<=100;
+	 upcount<=0;
+	 downcount<=0;
+	 leftcount<=0;
+	 rightcount<=0;
+	 end
+	 else if(upcount+downcount+leftcount+rightcount>4)begin
+	 rx<=1000;
+	 ry<=500;
+	 upcount<=0;
+	 downcount<=0;
+	 leftcount<=0;
+	 rightcount<=0;
+	 end
 
 
+	if (offset>700)
+	offset<=300;
+	if (multiplier>5)
+	multiplier<=1;
+	if(rx>1000 ||ry>700 || rx<0 ||ry<0)begin
+	rx<=500;
+	ry<=300;
+	end
+	 end
+
+	always @(hcount or vcount) begin
+	
+
+	if ((hcount >= rx && hcount < (rx+WIDTH)) &&
+		(vcount >= ry && vcount < (ry+HEIGHT)))
+		 r2pixel= COLOR;
+
+	else r2pixel= 0;
+	
+	end
+endmodule
+
+
+//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
+//\\//\\//\\//\\IMPLEMENTING RANDOM GENEREATOR//\\//\\//\\//\\//\\//\\//\\//
+//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
+
+module rndm_gen (
+	input clock,
+	input reset,
+	output rdy,
+	output reg [9:0] rnd 
+);
+
+	wire feedback;
+	wire [9:0] lfsr_next;
+
+	//An LFSR cannot have an all 0 state, thus reset to non-zero value
+	reg [9:0] reset_value = 300;
+	reg [9:0] lfsr;
+	reg [3:0] count;
+	reg rdy_reg;
+
+	always @ (posedge clock or posedge reset)
+		begin
+			if (reset) begin
+				lfsr <= reset_value; 
+				count <= 4'hF; 
+				rdy_reg <= 0;
+				rnd <= 0;
+				end
+			else begin
+				if(count < 4'd9) begin
+					lfsr <= lfsr_next;
+					count <= count + 1;
+					end
+				// a new random value is ready
+				else if (count == 4'd9) begin
+					count <= 0;
+					rnd <= lfsr; //assign the lfsr number to output after 10 shifts
+					if(rnd <= 20)
+						rdy_reg <= 0;
+					else
+						rdy_reg <= 1;
+					end
+				end
+			end
+
+	// X10+x7
+	assign feedback = lfsr[9] ^ lfsr[6]; 
+	assign lfsr_next = {lfsr[8:0], feedback};
+	assign rdy = rdy_reg;
+	
+endmodule
+
+ 
 //////////////////////////////////////////////////////////////////
 //						draw paddle
 ///////////////////////////////////////////////////////////////////
@@ -859,7 +958,6 @@ module draw_box
 	input down,
 	input reset,
 	input grow,
-	input shield,
 	output [9:0] paddle_height,
 	output [9:0] paddle_width,
 	output reg [7:0] pixel);
@@ -877,9 +975,6 @@ module draw_box
 	 reg Ureleased;
 	 reg Dpressed;
 	 reg Dreleased;
-	 
-	 parameter GROW_SIZE = 5;
-	 parameter SHRINK_SIZE = 10;
 	 
 	always @(negedge pixel_clk)
 		begin
@@ -914,50 +1009,55 @@ module draw_box
 				Dreleased <= 1;	
 				
 			if(left && Lpressed == 1 && Lreleased == 1 && grow != 1) begin
-				 WIDTH <= WIDTH + GROW_SIZE;
-				 HEIGHT <= HEIGHT + GROW_SIZE;
+				 WIDTH <= WIDTH + 10;
+				 HEIGHT <= HEIGHT + 10;
 				 Lpressed <= 0;
 				 Lreleased <= 0;
 				 end
 			if(right && Rpressed == 1 && Rreleased == 1 && grow != 1) begin
-				 WIDTH <= WIDTH + GROW_SIZE;
-				 HEIGHT <= HEIGHT + GROW_SIZE;
+				 WIDTH <= WIDTH + 10;
+				 HEIGHT <= HEIGHT + 10;
 				 Rpressed <= 0;
 				 Rreleased <= 0;
 				 end
 			if(up && Upressed == 1 && Ureleased == 1 && grow != 1) begin
-				 WIDTH <= WIDTH + GROW_SIZE;
-				 HEIGHT <= HEIGHT + GROW_SIZE;
+				 WIDTH <= WIDTH + 10;
+				 HEIGHT <= HEIGHT + 10;
 				 Upressed <= 0;
 				 Ureleased <= 0;
 				 end
-			if(down && Dpressed == 1 && Dreleased == 1 && grow != 1) begin
-				 WIDTH <= WIDTH + GROW_SIZE;
-				 HEIGHT <= HEIGHT + GROW_SIZE;
+			 if(down && Dpressed == 1 && Dreleased == 1 && grow != 1) begin
+				 WIDTH <= WIDTH + 10;
+				 HEIGHT <= HEIGHT + 10;
 				 Dpressed <= 0;
 				 Dreleased <= 0;
 				 end
-			if(grow == 1) begin
-				if(WIDTH - SHRINK_SIZE > 5)
-					WIDTH <= WIDTH - SHRINK_SIZE;
-				if(HEIGHT - SHRINK_SIZE > 5)
-					HEIGHT <= HEIGHT - SHRINK_SIZE;
-				Dpressed <= 0;
-				Dreleased <= 0;
-				Upressed <= 0;
-				Ureleased <= 0;
-				Rpressed <= 0;
-				Rreleased <= 0;
-				Lpressed <= 0;
-				Lreleased <= 0;
+			 if(grow == 1) begin
+				 WIDTH <= WIDTH - 10;
+				 HEIGHT <= HEIGHT - 10;
+				 Dpressed <= 0;
+				 Dreleased <= 0;
+				 Upressed <= 0;
+				 Ureleased <= 0;
+				 Rpressed <= 0;
+				 Rreleased <= 0;
+				 Lpressed <= 0;
+				 Lreleased <= 0;
 				end
-			end
+/*				
+				if(WIDTH < 20)
+					WIDTH <= 20;
+				if(HEIGHT < 20)
+					HEIGHT <= 20;
+				if(WIDTH > 1000)
+					WIDTH <= 1000;
+				if(HEIGHT > 700)
+					HEIGHT <= 700;
+*/			end
 	
 	 
 	always @(hcount or vcount) 
 		begin
-			if((shield && hcount >= (x - 10) && hcount < (x + WIDTH + 10)) && (vcount >= (y - 10) && vcount < (y + HEIGHT + 10)))
-				pixel = 8'b111_101_00;
 			if ((hcount >= x && hcount < (x+WIDTH)) && (vcount >= y && vcount < (y+HEIGHT)))
 				pixel= COLOR;
 			else pixel= 0;
@@ -977,6 +1077,8 @@ module move_paddle
 		input down,
 		input left,
 		input right,
+		input paddle_width,
+		input paddle_height,
 		output reg [9:0] paddle_x,paddle_y,
 		input reset,
 		input stop);
@@ -986,14 +1088,14 @@ module move_paddle
 			paddle_x <= 320;
 			end
 		else if (vsync_pulse && ~stop) begin
-			if (down && paddle_x - 8 > 20) 
+			if (down && paddle_x - 8 > 0) 
 			paddle_x <= paddle_x - 8;
-			else if (up && paddle_x + 8 < 1000) //else if (down && paddle_y + 4 < 648) 
+			else if (up && paddle_x + 8 < 1023+paddle_width) //else if (down && paddle_y + 4 < 648) 
 			paddle_x <= paddle_x + 8;
 			
-			if (left && paddle_y - 8 > 20) 
+			if (left && paddle_y - 8 > 0) 
 			paddle_y <= paddle_y- 8;
-			else if (right && paddle_y + 8 < 648) //else if (down && paddle_y + 4 < 648) 
+			else if (right && paddle_y + 8 < 767+paddle_height) //else if (down && paddle_y + 4 < 648) 
 			paddle_y <= paddle_y + 8;
 		end
 		end				
