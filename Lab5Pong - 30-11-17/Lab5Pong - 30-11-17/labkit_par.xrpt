@@ -5,14 +5,14 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="par" timeStamp="Wed Nov 29 22:41:27 2017">
+  <application stringID="par" timeStamp="Thu Nov 30 11:19:02 2017">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
         <column stringID="value"/>
         <row stringID="row" value="0">
           <item stringID="variable" value="Path"/>
-          <item stringID="value" value="D:\Xilinx\14.7\ISE_DS\ISE\\lib\nt64;D:\Xilinx\14.7\ISE_DS\ISE\\bin\nt64;D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64;D:\Xilinx\14.7\ISE_DS\ISE\lib\nt64;D:\Xilinx\14.7\ISE_DS\ISE\..\..\..\DocNav;D:\Xilinx\14.7\ISE_DS\PlanAhead\bin;D:\Xilinx\14.7\ISE_DS\EDK\bin\nt64;D:\Xilinx\14.7\ISE_DS\EDK\lib\nt64;D:\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\nt\bin;D:\Xilinx\14.7\ISE_DS\EDK\gnu\powerpc-eabi\nt\bin;D:\Xilinx\14.7\ISE_DS\EDK\gnuwin\bin;D:\Xilinx\14.7\ISE_DS\EDK\gnu\arm\nt\bin;D:\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_be\bin;D:\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_le\bin;D:\Xilinx\14.7\ISE_DS\common\bin\nt64;D:\Xilinx\14.7\ISE_DS\common\lib\nt64;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Python27\;C:\Python27\Scripts\"/>
+          <item stringID="value" value="D:\Xilinx\14.7\ISE_DS\ISE\\lib\nt64;D:\Xilinx\14.7\ISE_DS\ISE\\bin\nt64;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Python27\;C:\Python27\Scripts\"/>
         </row>
         <row stringID="row" value="1">
           <item stringID="variable" value="PATHEXT"/>
@@ -21,18 +21,6 @@
         <row stringID="row" value="2">
           <item stringID="variable" value="XILINX"/>
           <item stringID="value" value="D:\Xilinx\14.7\ISE_DS\ISE\"/>
-        </row>
-        <row stringID="row" value="3">
-          <item stringID="variable" value="XILINX_DSP"/>
-          <item stringID="value" value="D:\Xilinx\14.7\ISE_DS\ISE"/>
-        </row>
-        <row stringID="row" value="4">
-          <item stringID="variable" value="XILINX_EDK"/>
-          <item stringID="value" value="D:\Xilinx\14.7\ISE_DS\EDK"/>
-        </row>
-        <row stringID="row" value="5">
-          <item stringID="variable" value="XILINX_PLANAHEAD"/>
-          <item stringID="value" value="D:\Xilinx\14.7\ISE_DS\PlanAhead"/>
         </row>
       </table>
       <item stringID="User_EnvOs" value="OS Information">
@@ -59,12 +47,12 @@
     </task>
     <task stringID="PAR_PAR">
       <section stringID="PAR_DESIGN_SUMMARY">
-        <item stringID="PAR_REAL_TIME_COMPLETION_ROUTER" value="36 secs "/>
-        <item stringID="PAR_CPU_TIME_COMPLETION_ROUTER" value="36 secs "/>
+        <item stringID="PAR_REAL_TIME_COMPLETION_ROUTER" value="28 secs "/>
+        <item stringID="PAR_CPU_TIME_COMPLETION_ROUTER" value="27 secs "/>
         <item dataType="int" stringID="PAR_UNROUTES" value="0"/>
         <item dataType="float" stringID="PAR_TIMING_SCORE" value="0.000000"/>
-        <item stringID="PAR_REAL_TIME_COMPLETION_PAR" value="41 secs "/>
-        <item stringID="PAR_CPU_TIME_COMPLETION_PAR" value="41 secs "/>
+        <item stringID="PAR_REAL_TIME_COMPLETION_PAR" value="31 secs "/>
+        <item stringID="PAR_CPU_TIME_COMPLETION_PAR" value="31 secs "/>
       </section>
     </task>
     <task stringID="PAR_par">
@@ -2889,14 +2877,14 @@
     </task>
   </application>
 
-  <application stringID="Par" timeStamp="Wed Nov 29 22:41:27 2017">
+  <application stringID="Par" timeStamp="Thu Nov 30 11:19:02 2017">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
         <column stringID="value"/>
         <row stringID="row" value="0">
           <item stringID="variable" value="Path"/>
-          <item stringID="value" value="D:\Xilinx\14.7\ISE_DS\ISE\\lib\nt64;D:\Xilinx\14.7\ISE_DS\ISE\\bin\nt64;D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64;D:\Xilinx\14.7\ISE_DS\ISE\lib\nt64;D:\Xilinx\14.7\ISE_DS\ISE\..\..\..\DocNav;D:\Xilinx\14.7\ISE_DS\PlanAhead\bin;D:\Xilinx\14.7\ISE_DS\EDK\bin\nt64;D:\Xilinx\14.7\ISE_DS\EDK\lib\nt64;D:\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\nt\bin;D:\Xilinx\14.7\ISE_DS\EDK\gnu\powerpc-eabi\nt\bin;D:\Xilinx\14.7\ISE_DS\EDK\gnuwin\bin;D:\Xilinx\14.7\ISE_DS\EDK\gnu\arm\nt\bin;D:\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_be\bin;D:\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_le\bin;D:\Xilinx\14.7\ISE_DS\common\bin\nt64;D:\Xilinx\14.7\ISE_DS\common\lib\nt64;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Python27\;C:\Python27\Scripts\"/>
+          <item stringID="value" value="D:\Xilinx\14.7\ISE_DS\ISE\\lib\nt64;D:\Xilinx\14.7\ISE_DS\ISE\\bin\nt64;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Python27\;C:\Python27\Scripts\"/>
         </row>
         <row stringID="row" value="1">
           <item stringID="variable" value="PATHEXT"/>
@@ -2905,18 +2893,6 @@
         <row stringID="row" value="2">
           <item stringID="variable" value="XILINX"/>
           <item stringID="value" value="D:\Xilinx\14.7\ISE_DS\ISE\"/>
-        </row>
-        <row stringID="row" value="3">
-          <item stringID="variable" value="XILINX_DSP"/>
-          <item stringID="value" value="D:\Xilinx\14.7\ISE_DS\ISE"/>
-        </row>
-        <row stringID="row" value="4">
-          <item stringID="variable" value="XILINX_EDK"/>
-          <item stringID="value" value="D:\Xilinx\14.7\ISE_DS\EDK"/>
-        </row>
-        <row stringID="row" value="5">
-          <item stringID="variable" value="XILINX_PLANAHEAD"/>
-          <item stringID="value" value="D:\Xilinx\14.7\ISE_DS\PlanAhead"/>
         </row>
       </table>
       <item stringID="User_EnvOs" value="OS Information">
@@ -2935,16 +2911,16 @@
     </section>
     <task label="Device Utilization Summary" stringID="PAR_DEVICE_UTLIZATION">
       <section stringID="PAR_SLICE_REPORTING">
-        <item AVAILABLE="18224" dataType="int" label="Number of Slice Registers" stringID="PAR_SLICE_REGISTERS" value="456">
-          <item dataType="int" stringID="PAR_NUM_SLICE_FF" value="454"/>
-          <item dataType="int" stringID="PAR_NUM_SLICE_LATCH" value="0"/>
+        <item AVAILABLE="18224" dataType="int" label="Number of Slice Registers" stringID="PAR_SLICE_REGISTERS" value="509">
+          <item dataType="int" stringID="PAR_NUM_SLICE_FF" value="491"/>
+          <item dataType="int" stringID="PAR_NUM_SLICE_LATCH" value="1"/>
           <item dataType="int" stringID="PAR_NUM_SLICE_LATCHTHRU" value="0"/>
-          <item dataType="int" stringID="PAR_NUM_SLICE_LATCHLOGIC" value="2"/>
+          <item dataType="int" stringID="PAR_NUM_SLICE_LATCHLOGIC" value="17"/>
         </item>
-        <item AVAILABLE="9112" dataType="int" label="Number of Slice LUTS" stringID="PAR_SLICE_LUTS" value="1142">
-          <item dataType="int" stringID="PAR_NUM_LOGIC_O5ONLY" value="247"/>
-          <item dataType="int" stringID="PAR_NUM_LOGIC_O6ONLY" value="563"/>
-          <item dataType="int" stringID="PAR_NUM_LOGIC_O5ANDO6" value="305"/>
+        <item AVAILABLE="9112" dataType="int" label="Number of Slice LUTS" stringID="PAR_SLICE_LUTS" value="1168">
+          <item dataType="int" stringID="PAR_NUM_LOGIC_O5ONLY" value="243"/>
+          <item dataType="int" stringID="PAR_NUM_LOGIC_O6ONLY" value="536"/>
+          <item dataType="int" stringID="PAR_NUM_LOGIC_O5ANDO6" value="326"/>
           <item dataType="int" stringID="PAR_NUM_ROM_O5ONLY" value="0"/>
           <item dataType="int" stringID="PAR_NUM_ROM_O6ONLY" value="0"/>
           <item dataType="int" stringID="PAR_NUM_ROM_O5ANDO6" value="0"/>
@@ -2957,22 +2933,22 @@
           <item dataType="int" stringID="PAR_NUM_SRL_O5ONLY" value="0"/>
           <item dataType="int" stringID="PAR_NUM_SRL_O6ONLY" value="1"/>
           <item dataType="int" stringID="PAR_NUM_SRL_O5ANDO6" value="0"/>
-          <item dataType="int" stringID="PAR_NUM_LUT_RT_EXO6" value="26"/>
+          <item dataType="int" stringID="PAR_NUM_LUT_RT_EXO6" value="62"/>
           <item dataType="int" stringID="PAR_NUM_LUT_RT_EXO5" value="0"/>
           <item dataType="int" stringID="PAR_NUM_LUT_RT_O5ANDO6" value="0"/>
           <item dataType="int" stringID="PAR_NUM_LUT_RT_DRIVES_FLOP" value="0"/>
-          <item dataType="int" stringID="PAR_NUM_LUT_RT_DRIVES_CARRY4" value="26"/>
+          <item dataType="int" stringID="PAR_NUM_LUT_RT_DRIVES_CARRY4" value="62"/>
           <item dataType="int" stringID="PAR_NUM_LUT_RT_DRIVES_OTHERS" value="0"/>
         </item>
-        <item AVAILABLE="2278" dataType="int" stringID="PAR_OCCUPIED_SLICES" value="379">
-          <item AVAILABLE="595" dataType="int" stringID="PAR_NUM_SLICEL" value="224"/>
+        <item AVAILABLE="2278" dataType="int" stringID="PAR_OCCUPIED_SLICES" value="402">
+          <item AVAILABLE="595" dataType="int" stringID="PAR_NUM_SLICEL" value="222"/>
           <item AVAILABLE="544" dataType="int" stringID="PAR_NUM_SLICEM" value="1"/>
-          <item AVAILABLE="1139" dataType="int" stringID="PAR_NUM_SLICEX" value="154"/>
+          <item AVAILABLE="1139" dataType="int" stringID="PAR_NUM_SLICEX" value="179"/>
         </item>
-        <item dataType="int" stringID="PAR_OCCUPIED_LUT_AND_FF" value="1155">
-          <item dataType="int" stringID="PAR_OCCUPIED_LUT_ONLY" value="734"/>
-          <item dataType="int" stringID="PAR_OCCUPIED_FF_ONLY" value="13"/>
-          <item dataType="int" stringID="PAR_OCCUPIED_FF_AND_LUT" value="408"/>
+        <item dataType="int" stringID="PAR_OCCUPIED_LUT_AND_FF" value="1194">
+          <item dataType="int" stringID="PAR_OCCUPIED_LUT_ONLY" value="717"/>
+          <item dataType="int" stringID="PAR_OCCUPIED_FF_ONLY" value="26"/>
+          <item dataType="int" stringID="PAR_OCCUPIED_FF_AND_LUT" value="451"/>
         </item>
       </section>
       <section stringID="PAR_IOB_REPORTING">
@@ -2999,7 +2975,7 @@
         <item AVAILABLE="128" dataType="int" stringID="PAR_NUM_BUFH" value="0"/>
         <item AVAILABLE="8" dataType="int" stringID="PAR_NUM_BUFPLL" value="0"/>
         <item AVAILABLE="4" dataType="int" stringID="PAR_NUM_BUFPLL_MCB" value="0"/>
-        <item AVAILABLE="32" dataType="int" stringID="PAR_NUM_DSP48A1" value="8"/>
+        <item AVAILABLE="32" dataType="int" stringID="PAR_NUM_DSP48A1" value="4"/>
         <item AVAILABLE="0" dataType="int" stringID="PAR_NUM_GTPA1_DUAL" value="0"/>
         <item AVAILABLE="1" dataType="int" stringID="PAR_NUM_ICAP" value="0"/>
         <item AVAILABLE="2" dataType="int" stringID="PAR_NUM_MCB" value="0"/>

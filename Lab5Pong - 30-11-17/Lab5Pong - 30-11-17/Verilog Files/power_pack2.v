@@ -8,8 +8,8 @@ module power_pack2 #(parameter WIDTH=20,
 	  input wire			spawn,
 	  input wire [10:0]	hcount,
 	  input wire [9:0]	vcount,
-	  input reg	 [10:0]	randx,
-	  input reg  [9:0]	randy,
+	  input wire [10:0]	randx,
+	  input wire [9:0]	randy,
 	  output reg [10:0]	rx,
 	  output reg [9:0]	ry,
 	  output reg [9:0]	r2pixel,
@@ -30,7 +30,7 @@ module power_pack2 #(parameter WIDTH=20,
 	always @(posedge clk)
 		begin
 			if(reset || (spawn && !eaten)) begin
-				mode <= 2'b00;
+				mode <= 2'b11;
 				display <= 1;
 				rx <= randx;//700;
 				ry <= randy;//500;
@@ -68,20 +68,27 @@ module shield(
 	input wire active,
 	input wire [10:0]	hcount, paddle_x,
 	input wire [9:0] vcount, paddle_y,
-	input wire [9:0] paddle_width, paddle_height
+	input wire [9:0] paddle_width, paddle_height,
+	output reg [7:0] pixel
 	);
 
+	parameter COLOR = 8'b101_100_00;
+	parameter BORDER = 4;
 	always @(posedge clk)
 		begin
 			if(active) begin
+				
 				end
 			end
 				
-//	always @(hcount or vcount) 
-//		begin
-//			if ((hcount >= x && hcount < (x+WIDTH)) && (vcount >= y && vcount < (y+HEIGHT)))
-//				pixel= COLOR;
-//			else pixel= 0;
-//			end
+	always @(hcount or vcount) 
+		begin
+			if(active) begin
+				if ((((hcount >= paddle_x - BORDER) && hcount < paddle_x) ||  ((hcount >= paddle_x + paddle_width) && (hcount < paddle_x + paddle_width + BORDER))) 
+				&& (((vcount >= paddle_y - BORDER) && vcount < paddle_y) || (vcount >= paddle_y + paddle_height) && (vcount <= paddle_y + paddle_height + BORDER)))
+					pixel= COLOR;
+				else pixel= 0;
+				end
+			end
 	
 endmodule

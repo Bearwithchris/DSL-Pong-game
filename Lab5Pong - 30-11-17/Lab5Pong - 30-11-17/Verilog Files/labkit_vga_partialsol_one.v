@@ -217,7 +217,6 @@ module pong_game (
    );
 
    wire [2:0] checkerboard;
-	wire pp_eaten;
 	wire boostme, shield;
 	
 ////////////////////////////////////////////////////////////////////	
@@ -262,12 +261,12 @@ module pong_game (
 	always @(posedge pixel_clk) begin
 	//if (switch == 0)begin
 	if (boostme == 0) begin
-		pixel <= paddle_pix_delay[15:8] | ball | ball2 |powerbox | powerbox2;
+		pixel <= paddle_pix_delay[15:8] | ball | ball2 |powerbox | powerbox2 | shield_pix;
 		boost <=0;
 		end
 	//else if(switch == 1)begin
 	else if(boostme == 1) begin
-		pixel <= paddle_pix_delay[15:8] | ball | ball2 | ball3 | ball4 | powerbox | powerbox2;
+		pixel <= paddle_pix_delay[15:8] | ball | ball2 | ball3 | ball4 | powerbox | powerbox2 | shield_pix;
 		boost <= 40;
 		end
 	end
@@ -280,7 +279,7 @@ module pong_game (
 //   assign pixel =  paddle_pix | ball; //{{8{checkerboard[2]}}, {8{checkerboard[1]}}, {8{checkerboard[0]}}} ;
  
  
- 	wire [7:0] paddle_pix,ball,ball2,ball3,ball4,powerbox, powerbox2;
+ 	wire [7:0] paddle_pix,ball,ball2,ball3,ball4,powerbox, powerbox2, shield_pix;
 
    //parameter PADDLE_WIDTH = 16;
 	//parameter PADDLE_HEIGHT = 128;
@@ -434,7 +433,7 @@ module pong_game (
 	
 	assign stop = boostme ? (stop1 | stop2 | stop3 | stop4) : (stop1 | stop2);
 					 
-	//wire 			pp_eaten;
+	wire 			pp_eaten;
 	wire [10:0] pp_x;
 	wire [9:0]	pp_y;
 	
@@ -450,28 +449,10 @@ module pong_game (
 					 .object_height(20),
 					 .object_isCircle(0),
 					 .collide(pp_eaten));
-					 
-
-
-   //assign stop = ball_x + 1 < PADDLE_X + PADDLE_WIDTH;
-
-//////////////////////////////////////////////////////////////////	
-// use to draw a square puck
-//
-//	draw_box #(.WIDTH(BALL_SIZE), .HEIGHT(BALL_SIZE), .COLOR(8'b111_111_11))
-//	   create_ball (.pixel_clk(pixel_clk), .hcount(hcount), .vcount(vcount),
-//		.x(ball_x), .y(ball_y), .pixel(ball));
-//
-//////////////////////////////////////////////////////////////////
-//   Power pack
-	//wire pack1x;
-	//wire pack1y;
 
 
 //	randomGrid rg(.pixel_clk(pixel_clk),.rand_X(pack1x),.rand_Y(pack1y));
 
-	//reg [9:0] pack1x = 0; 
-	//reg [10:0] pack1y = 300;
   power_pack pack1(.pixel_clk(pixel_clk),.reset(reset),.up(up), .down(down),.left(left),.right(right),.rx(pack1x),.hcount(hcount),.ry(pack1y)
   , .vcount(vcount), .r2pixel(powerbox));
   
@@ -503,6 +484,18 @@ module pong_game (
 									 .eaten(pp_eaten),
 									 .mode(pp_mode),
 									 .pp_status(pp_status));
+									 
+	shield pp_shield(.clk(pixel_clk),
+						  .reset(reset),
+						  .active(shield),
+						  .hcount(hcout),
+						  .vcount(vcount),
+						  .paddle_x(PADDLE_X),
+						  .paddle_y(paddle_y),
+						  .paddle_width(PADDLE_WIDTH),
+						  .paddle_height(PADDLE_HEIGHT),
+						  .pixel(shield_pix));
+
 									 
 	assign boostme = pp_status[0] | pp_status[1] | pp_status[2];
 	assign shield = pp_status[3];
@@ -1045,14 +1038,14 @@ module draw_box
 				 Lreleased <= 0;
 				end
 				
-				if(WIDTH < 20)
-					WIDTH <= 20;
-				else if(WIDTH > 1000)
-					WIDTH <= 1000;					
-				if(HEIGHT < 20)
-					HEIGHT <= 20;
-				else if(HEIGHT > 750)
-					HEIGHT <= 750;
+//				if(WIDTH < 20)
+//					WIDTH <= 20;
+//				else if(WIDTH > 1000)
+//					WIDTH <= 1000;					
+//				if(HEIGHT < 20)
+//					HEIGHT <= 20;
+//				else if(HEIGHT > 750)
+//					HEIGHT <= 750;
 			end
 	
 	 

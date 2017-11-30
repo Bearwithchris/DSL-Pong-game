@@ -5,4 +5,1544 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 943: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 76: Assignment to <arg fmt="%s" index="1">clk_100mhz_buf</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1259: Result of <arg fmt="%d" index="1">21</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">20</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1228: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1229: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 116: Assignment to <arg fmt="%s" index="1">hblank1</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 440: Port <arg fmt="%s" index="1">reset</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 477: Port <arg fmt="%s" index="1">expired</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1054: Signal &lt;<arg fmt="%s" index="1">x</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1059: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1060: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 298: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">x</arg>&gt;. Formal port size is <arg fmt="%d" index="2">11</arg>-bit while actual signal size is <arg fmt="%d" index="1">10</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1083: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1085: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1088: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1090: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 338: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 339: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 341: Result of <arg fmt="%d" index="1">12</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 342: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 345: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 347: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 350: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 352: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 27: Result of <arg fmt="%d" index="1">12</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 29: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 30: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 31: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 32: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 33: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 34: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 35: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 36: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 37: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 38: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 39: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 40: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 41: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 42: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 44: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 46: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 47: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 48: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 49: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 50: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 51: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 52: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 53: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 54: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 55: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 56: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 57: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 58: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 59: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 62: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 63: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 64: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 65: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 66: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 67: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 68: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 69: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 70: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 71: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 72: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 73: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 74: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 75: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 76: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 78: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 79: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 80: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 81: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 82: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 83: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 84: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 85: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 86: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 87: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 88: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 89: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 90: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 91: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 92: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 93: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 141: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 445: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">object_x</arg>&gt;. Formal port size is <arg fmt="%d" index="2">10</arg>-bit while actual signal size is <arg fmt="%d" index="1">11</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 448: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">object_width</arg>&gt;. Formal port size is <arg fmt="%d" index="2">10</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 449: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">object_height</arg>&gt;. Formal port size is <arg fmt="%d" index="2">10</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 450: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">object_isCircle</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 759: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 760: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 798: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 804: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 810: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 815: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 874: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 875: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 456: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">rx</arg>&gt;. Formal port size is <arg fmt="%d" index="2">11</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 456: Assignment to <arg fmt="%s" index="1">pack1x</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 50: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 51: Signal &lt;<arg fmt="%s" index="1">display</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 469: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">randx</arg>&gt;. Formal port size is <arg fmt="%d" index="2">11</arg>-bit while actual signal size is <arg fmt="%d" index="1">10</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 473: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">r2pixel</arg>&gt;. Formal port size is <arg fmt="%d" index="2">10</arg>-bit while actual signal size is <arg fmt="%d" index="1">8</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\counter.v" Line 140: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">26</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\counter.v" Line 142: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\counter.v" Line 130: Assignment to <arg fmt="%s" index="1">old_expired</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\counter.v" Line 106: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">clear</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\counter.v" Line 107: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">value</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\counter.v" Line 103: Input port <arg fmt="%s" index="1">reset</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\counter.v" Line 19: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">clear</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\counter.v" Line 20: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">value</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\counter.v" Line 26: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">clear</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\counter.v" Line 27: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">value</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\counter.v" Line 33: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">clear</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\counter.v" Line 34: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">value</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\counter.v" Line 40: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">clear</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\counter.v" Line 41: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">value</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 86: Signal &lt;<arg fmt="%s" index="1">active</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 87: Signal &lt;<arg fmt="%s" index="1">paddle_x</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 88: Signal &lt;<arg fmt="%s" index="1">paddle_y</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 491: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">hcount</arg>&gt;. Formal port size is <arg fmt="%d" index="2">11</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 493: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">paddle_x</arg>&gt;. Formal port size is <arg fmt="%d" index="2">11</arg>-bit while actual signal size is <arg fmt="%d" index="1">10</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1119: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1120: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1120: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1122: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1122: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1124: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1125: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1125: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1127: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1127: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 510: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">ball_size</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">7</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1119: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1120: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1120: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1122: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1122: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1124: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1125: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1125: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1127: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1127: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 513: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">ball_size</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">7</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1119: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1120: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1120: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1122: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1122: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1124: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1125: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1125: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1127: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1127: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 516: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">ball_size</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">7</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1119: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1120: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1120: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1122: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1122: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1124: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1125: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1125: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1127: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1127: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 519: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">ball_size</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">7</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 376: Net &lt;<arg fmt="%s" index="1">stop1</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 491: Net &lt;<arg fmt="%s" index="1">hcout</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 440: Input port <arg fmt="%s" index="1">reset</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 175: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">31</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1300: Result of <arg fmt="%d" index="1">15</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">14</arg>-bit target.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">jd</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v</arg>&quot; line <arg fmt="%s" index="2">74</arg>: Output port &lt;<arg fmt="%s" index="3">CLKSYS</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">my_clocks</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v</arg>&quot; line <arg fmt="%s" index="2">115</arg>: Output port &lt;<arg fmt="%s" index="3">hblank</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">video_driver</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">object_r</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">pp</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">reset</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">pp</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">switch</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v</arg>&quot; line <arg fmt="%s" index="2">456</arg>: Output port &lt;<arg fmt="%s" index="3">rx</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pack1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v</arg>&quot; line <arg fmt="%s" index="2">456</arg>: Output port &lt;<arg fmt="%s" index="3">ry</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pack1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v</arg>&quot; line <arg fmt="%s" index="2">463</arg>: Output port &lt;<arg fmt="%s" index="3">randop</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pack2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v</arg>&quot; line <arg fmt="%s" index="2">477</arg>: Output port &lt;<arg fmt="%s" index="3">expired</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pptimer</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v</arg>&quot; line <arg fmt="%s" index="2">477</arg>: Output port &lt;<arg fmt="%s" index="3">started_op</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pptimer</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">stop1</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">stop2</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">stop3</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">stop4</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">hcout</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">reset</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">mycounter</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">reset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">pixel&lt;6&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">pixel&lt;7&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pixel_clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ball_size</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pixel_clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ball_size</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pixel_clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ball_size</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pixel_clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ball_size</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rxreg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pack1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rxreg_8&gt; &lt;ryreg_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rxreg_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pack1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ryreg_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rxreg_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pack1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ryreg_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rxreg_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pack1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rxreg_1&gt; &lt;rxreg_10&gt; &lt;ryreg_0&gt; &lt;ryreg_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ryreg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pack1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ryreg_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">vsync_delay_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">psolution</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;vsync_delayed&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">rxreg_5</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">pack1</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">ryreg_6</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">pack1</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">boost_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">psolution</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">boost_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">psolution</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">boost_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">psolution</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">boost_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">psolution</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">paddle_pix_delay_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">psolution</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">paddle_pix_delay_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">psolution</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">paddle_pix_delay_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">psolution</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">paddle_pix_delay_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">psolution</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">paddle_pix_delay_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">psolution</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">pixel_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pp_shield</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">rx_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pack2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">rxreg_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pack1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">paddle_pix_delay_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">psolution</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">paddle_pix_delay_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">psolution</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">paddle_pix_delay_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">psolution</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">paddle_pix_delay_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">psolution</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">paddle_pix_delay_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">psolution</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_counter[13]_PWR_28_o_wide_mux_23_OUT</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_mode[1]_PWR_20_o_wide_mux_1_OUT</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">boost_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pong_game</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">boost_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">boost_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">boost_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">boost_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">rxreg_5</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">power_pack</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">ryreg_6</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">power_pack</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">rxreg_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">power_pack</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxreg_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">power_pack</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxreg_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">power_pack</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ryreg_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">power_pack</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ryreg_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">power_pack</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">pixel_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">shield</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">vsync_delay_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pong_game</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;vsync_delayed&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rxreg_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">power_pack</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ryreg_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rxreg_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">power_pack</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ryreg_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rxreg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">power_pack</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rxreg_8&gt; &lt;ryreg_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ryreg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">power_pack</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ryreg_5&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">rx_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">power_pack2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2146" delta="new" >In block &lt;<arg fmt="%s" index="1">draw_box</arg>&gt;, <arg fmt="%s" index="2">Accumulator</arg> &lt;<arg fmt="%s" index="3">WIDTH</arg>&gt; </msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">speed_x_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">speed_x_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">speed_y_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">speed_y_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ry_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">power_pack</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ry_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">power_pack</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rx_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">power_pack</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rx_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">power_pack</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rx_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">power_pack</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">paddle_y_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">move_paddle</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">paddle_y_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">move_paddle</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">paddle_y_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">move_paddle</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">paddle_x_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">move_paddle</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">paddle_x_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">move_paddle</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">paddle_x_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">move_paddle</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">my_clocks/DCM_inst</arg> in unit <arg fmt="%s" index="2">labkit</arg> of type <arg fmt="%s" index="3">DCM</arg> has been replaced by <arg fmt="%s" index="4">DCM_SP</arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">speed_x_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pong_game</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;speed_y_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ry_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">power_pack</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ry_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ry_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">power_pack</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ry_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">power_pack</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_9&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ball_x_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ball_x3_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ball_x2_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ball_x4_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ball_x_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ball_x3_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ball_x2_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ball_x4_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pwruptimer/load_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pwruptimer/load_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pwruptimer/load_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/stop</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/stop</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/stop</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/boost_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/paddle_pix_delay_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/paddle_pix_delay_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/paddle_pix_delay_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/paddle_pix_delay_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/paddle_pix_delay_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">psolution/paddle_pix_delay_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">psolution/paddle_pix_delay_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">psolution/paddle_pix_delay_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">psolution/paddle_pix_delay_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">psolution/paddle_pix_delay_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">psolution/speed_x_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pack2/randop_reg</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/round_puck3/Mmult_n0024</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/round_puck3/Mmult_n0023</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/round_puck4/Mmult_n0024</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/round_puck4/Mmult_n0023</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/count_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/count_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/count_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/count_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/sec_count_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/sec_count_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/sec_count_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/sec_count_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/sec_count_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/sec_count_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/sec_count_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/sec_count_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/sec_count_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/sec_count_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/sec_count_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/sec_count_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/sec_count_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/sec_count_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/sec_count_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/sec_count_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/sec_count_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/sec_count_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/sec_count_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/sec_count_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/sec_count_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/sec_count_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/sec_count_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/sec_count_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/sec_count_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_1/sec_count_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/count_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/count_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/count_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/count_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/sec_count_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/sec_count_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/sec_count_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/sec_count_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/sec_count_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/sec_count_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/sec_count_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/sec_count_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/sec_count_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/sec_count_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/sec_count_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/sec_count_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/sec_count_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/sec_count_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/sec_count_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/sec_count_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/sec_count_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/sec_count_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/sec_count_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/sec_count_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/sec_count_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/sec_count_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/sec_count_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/sec_count_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/sec_count_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_2/sec_count_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/count_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/count_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/count_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/count_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/sec_count_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/sec_count_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/sec_count_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/sec_count_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/sec_count_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/sec_count_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/sec_count_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/sec_count_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/sec_count_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/sec_count_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/sec_count_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/sec_count_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/sec_count_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/sec_count_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/sec_count_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/sec_count_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/sec_count_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/sec_count_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/sec_count_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/sec_count_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/sec_count_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/sec_count_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/sec_count_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/sec_count_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/sec_count_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pwruptimer/powerup_3/sec_count_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/downcount_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/downcount_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/downcount_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/upcount_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/upcount_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/upcount_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/upcount_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/leftcount_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/leftcount_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/leftcount_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/leftcount_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/rightcount_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/rightcount_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/rightcount_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/rightcount_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">psolution/paddle_pix_delay_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;psolution/paddle_pix_delay_3&gt; &lt;psolution/paddle_pix_delay_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">psolution/pixel_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;psolution/pixel_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">psolution/pixel_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;psolution/pixel_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">psolution/pixel_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;psolution/pixel_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">counter_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;video_driver/hcount_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">counter_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;video_driver/hcount_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">counter_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;video_driver/hcount_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">counter_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;video_driver/hcount_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">counter_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;video_driver/hcount_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">counter_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;video_driver/hcount_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rgb_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rgb_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">rgb_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rgb_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">rgb_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rgb_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">psolution/paddle_pix_delay_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;psolution/paddle_pix_delay_11&gt; &lt;psolution/paddle_pix_delay_10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/rxreg_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;psolution/pack1/rxreg_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/ryreg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;psolution/pack1/rxreg_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/ryreg_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;psolution/pack1/rxreg_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/ryreg_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;psolution/pack1/rxreg_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/ryreg_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;psolution/pack1/rxreg_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/ry_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;psolution/pack1/ry_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
 </messages>
+

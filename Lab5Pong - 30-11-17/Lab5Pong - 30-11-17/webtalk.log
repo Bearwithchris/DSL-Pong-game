@@ -4,7 +4,7 @@ Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
 Project Information
 --------------------
 ProjectID=0F19747BBC324DFB8C4CEED3197B7A6C
-ProjectIteration=180
+ProjectIteration=183
 
 WebTalk Summary
 ----------------
@@ -13,4 +13,4 @@ INFO:WebTalk:1 - WebTalk is enabled because you are using a WebPACK license.
 INFO:WebTalk:8 - WebTalk Install setting is ON.
 INFO:WebTalk:6 - WebTalk User setting is ON.
 
-INFO:WebTalk:5 - D:/Users/WeiTong/Desktop/Lab5Pong - Collision/usage_statistics_webtalk.html WebTalk report has not been sent to Xilinx.  Please check your network and proxy settings.  For additional details about this file, please refer to the WebTalk help file at D:/Xilinx/14.7/ISE_DS/ISE/data/reports/webtalk_introduction.html
+INFO:WebTalk:5 - D:/Users/WeiTong/Desktop/SUTD Stuff/Subjects/Digital Systems Lab/Lab 5/DSL-Pong-game/Lab5Pong - 30-11-17/Lab5Pong - 30-11-17/usage_statistics_webtalk.html WebTalk report has not been sent to Xilinx.  Please check your network and proxy settings.  For additional details about this file, please refer to the WebTalk help file at D:/Xilinx/14.7/ISE_DS/ISE/data/reports/webtalk_introduction.html
