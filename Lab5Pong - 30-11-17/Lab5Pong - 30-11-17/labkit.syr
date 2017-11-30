@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
+Total REAL time to Xst completion: 1.00 secs
 Total CPU time to Xst completion: 0.28 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.28 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.29 secs
  
 --> Reading design: labkit.prj
 
@@ -107,36 +107,38 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 Analyzing Verilog file "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\randgen.v" into library work
 Parsing module <randgen>.
+Parsing module <randgen_10bit>.
 Analyzing Verilog file "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" into library work
 Parsing module <power_pack2>.
-INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 25. parameter declaration becomes local in power_pack2 with formal parameter declaration list
 INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 26. parameter declaration becomes local in power_pack2 with formal parameter declaration list
 INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 27. parameter declaration becomes local in power_pack2 with formal parameter declaration list
 INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 28. parameter declaration becomes local in power_pack2 with formal parameter declaration list
-INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 31. parameter declaration becomes local in power_pack2 with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 29. parameter declaration becomes local in power_pack2 with formal parameter declaration list
 INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 32. parameter declaration becomes local in power_pack2 with formal parameter declaration list
 INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 33. parameter declaration becomes local in power_pack2 with formal parameter declaration list
 INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 34. parameter declaration becomes local in power_pack2 with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 35. parameter declaration becomes local in power_pack2 with formal parameter declaration list
 Parsing module <shield>.
 Analyzing Verilog file "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\counter.v" into library work
 Parsing module <powerup_timer>.
 Parsing module <pp_timer>.
 Parsing module <counter>.
-Parsing module <game_timer>.
+Parsing module <general_timer>.
 Analyzing Verilog file "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" into library work
 Parsing module <collision>.
 Analyzing Verilog file "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" into library work
 Parsing module <labkit>.
 Parsing module <pong_game>.
 Parsing module <power_pack>.
-Parsing module <rndm_gen>.
 Parsing module <draw_box>.
-WARNING:HDLCompiler:568 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 931: Constant value is truncated to fit in <8> bits.
+WARNING:HDLCompiler:568 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 878: Constant value is truncated to fit in <8> bits.
+INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 907. parameter declaration becomes local in draw_box with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 908. parameter declaration becomes local in draw_box with formal parameter declaration list
 Parsing module <move_paddle>.
 Parsing module <round_piped>.
-INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1097. parameter declaration becomes local in round_piped with formal parameter declaration list
-INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1098. parameter declaration becomes local in round_piped with formal parameter declaration list
-INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1099. parameter declaration becomes local in round_piped with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1047. parameter declaration becomes local in round_piped with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1048. parameter declaration becomes local in round_piped with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1049. parameter declaration becomes local in round_piped with formal parameter declaration list
 Parsing module <vga_general>.
 Parsing module <debounce>.
 Parsing module <display_4hex>.
@@ -156,32 +158,31 @@ Elaborating module <DCM(CLK_FEEDBACK="1X",CLKDV_DIVIDE=4.0,CLKFX_DIVIDE=20,CLKFX
 WARNING:HDLCompiler:1127 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 76: Assignment to clk_100mhz_buf ignored, since the identifier is never used
 
 Elaborating module <debounce>.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1247: Result of 21-bit expression is truncated to fit in 20-bit target.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1197: Result of 21-bit expression is truncated to fit in 20-bit target.
 
 Elaborating module <vga_general>.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1216: Result of 32-bit expression is truncated to fit in 11-bit target.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1217: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1166: Result of 32-bit expression is truncated to fit in 11-bit target.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1167: Result of 32-bit expression is truncated to fit in 10-bit target.
 WARNING:HDLCompiler:1127 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 116: Assignment to hblank1 ignored, since the identifier is never used
 WARNING:HDLCompiler:1016 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 428: Port reset is not connected to this instance
 WARNING:HDLCompiler:1016 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 465: Port expired is not connected to this instance
 
 Elaborating module <pong_game>.
 
-Elaborating module <game_timer>.
+Elaborating module <general_timer>.
 WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\counter.v" Line 173: Result of 32-bit expression is truncated to fit in 26-bit target.
-WARNING:HDLCompiler:1127 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 229: Assignment to gametime ignored, since the identifier is never used
 
 Elaborating module <draw_box(COLOR=8'b011100)>.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1042: Signal <x> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1047: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1048: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 992: Signal <x> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 997: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 998: Result of 32-bit expression is truncated to fit in 10-bit target.
 WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 286: Size mismatch in connection of port <x>. Formal port size is 11-bit while actual signal size is 10-bit.
 
 Elaborating module <move_paddle>.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1071: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1073: Result of 11-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1076: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1078: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1021: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1023: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1026: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1028: Result of 11-bit expression is truncated to fit in 10-bit target.
 WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 326: Result of 7-bit expression is truncated to fit in 5-bit target.
 WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 327: Result of 7-bit expression is truncated to fit in 5-bit target.
 WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 329: Result of 12-bit expression is truncated to fit in 10-bit target.
@@ -259,24 +260,14 @@ WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital 
 WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 437: Size mismatch in connection of port <object_height>. Formal port size is 10-bit while actual signal size is 32-bit.
 WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 438: Size mismatch in connection of port <object_isCircle>. Formal port size is 1-bit while actual signal size is 32-bit.
 
-Elaborating module <power_pack>.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 747: Result of 32-bit expression is truncated to fit in 11-bit target.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 748: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 786: Result of 7-bit expression is truncated to fit in 6-bit target.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 792: Result of 7-bit expression is truncated to fit in 6-bit target.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 798: Result of 7-bit expression is truncated to fit in 6-bit target.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 803: Result of 7-bit expression is truncated to fit in 6-bit target.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 862: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 863: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 444: Size mismatch in connection of port <rx>. Formal port size is 11-bit while actual signal size is 1-bit.
-WARNING:HDLCompiler:1127 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 444: Assignment to pack1x ignored, since the identifier is never used
-
 Elaborating module <power_pack2>.
 
 Elaborating module <randgen>.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 74: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 75: Signal <display> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 76: Signal <color> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+
+Elaborating module <randgen_10bit>.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 97: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 98: Signal <display> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 99: Signal <color> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 457: Size mismatch in connection of port <randx>. Formal port size is 11-bit while actual signal size is 10-bit.
 WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 461: Size mismatch in connection of port <r2pixel>. Formal port size is 10-bit while actual signal size is 8-bit.
 
@@ -301,69 +292,68 @@ WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital 
 WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\counter.v" Line 41: Size mismatch in connection of port <value>. Formal port size is 4-bit while actual signal size is 32-bit.
 
 Elaborating module <shield>.
-WARNING:HDLCompiler:1127 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 105: Assignment to rx ignored, since the identifier is never used
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 115: Signal <active> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:1127 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 128: Assignment to rx ignored, since the identifier is never used
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 138: Signal <active> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 481: Size mismatch in connection of port <paddle_x>. Formal port size is 11-bit while actual signal size is 10-bit.
-WARNING:HDLCompiler:1127 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 489: Assignment to shield ignored, since the identifier is never used
 
 Elaborating module <round_piped(COLOR=8'b11100011)>.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1107: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1108: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1108: Result of 32-bit expression is truncated to fit in 11-bit target.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1110: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1110: Result of 32-bit expression is truncated to fit in 11-bit target.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1112: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1113: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1113: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1115: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1115: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1057: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1058: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1058: Result of 32-bit expression is truncated to fit in 11-bit target.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1060: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1060: Result of 32-bit expression is truncated to fit in 11-bit target.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1062: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1063: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1063: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1065: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1065: Result of 32-bit expression is truncated to fit in 10-bit target.
 WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 498: Size mismatch in connection of port <ball_size>. Formal port size is 1-bit while actual signal size is 7-bit.
 
 Elaborating module <round_piped(COLOR=8'b11111100)>.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1107: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1108: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1108: Result of 32-bit expression is truncated to fit in 11-bit target.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1110: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1110: Result of 32-bit expression is truncated to fit in 11-bit target.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1112: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1113: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1113: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1115: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1115: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1057: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1058: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1058: Result of 32-bit expression is truncated to fit in 11-bit target.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1060: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1060: Result of 32-bit expression is truncated to fit in 11-bit target.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1062: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1063: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1063: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1065: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1065: Result of 32-bit expression is truncated to fit in 10-bit target.
 WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 501: Size mismatch in connection of port <ball_size>. Formal port size is 1-bit while actual signal size is 7-bit.
 
 Elaborating module <round_piped(COLOR=8'b011)>.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1107: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1108: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1108: Result of 32-bit expression is truncated to fit in 11-bit target.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1110: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1110: Result of 32-bit expression is truncated to fit in 11-bit target.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1112: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1113: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1113: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1115: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1115: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1057: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1058: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1058: Result of 32-bit expression is truncated to fit in 11-bit target.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1060: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1060: Result of 32-bit expression is truncated to fit in 11-bit target.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1062: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1063: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1063: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1065: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1065: Result of 32-bit expression is truncated to fit in 10-bit target.
 WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 504: Size mismatch in connection of port <ball_size>. Formal port size is 1-bit while actual signal size is 7-bit.
 
 Elaborating module <round_piped>.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1107: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1108: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1108: Result of 32-bit expression is truncated to fit in 11-bit target.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1110: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1110: Result of 32-bit expression is truncated to fit in 11-bit target.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1112: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1113: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1113: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1115: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1115: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1057: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1058: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1058: Result of 32-bit expression is truncated to fit in 11-bit target.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1060: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1060: Result of 32-bit expression is truncated to fit in 11-bit target.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1062: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1063: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1063: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1065: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1065: Result of 32-bit expression is truncated to fit in 10-bit target.
 WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 507: Size mismatch in connection of port <ball_size>. Formal port size is 1-bit while actual signal size is 7-bit.
+WARNING:HDLCompiler:634 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 275: Net <powerbox[7]> does not have a driver.
 WARNING:HDLCompiler:634 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 364: Net <stop1> does not have a driver.
 WARNING:HDLCompiler:552 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 428: Input port reset is not connected on this instance
 WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 175: Result of 32-bit expression is truncated to fit in 31-bit target.
 
 Elaborating module <display_4hex>.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1288: Result of 15-bit expression is truncated to fit in 14-bit target.
-WARNING:Xst:2972 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" line 227. All outputs of instance <gametimer> of block <game_timer> are unconnected in block <pong_game>. Underlying logic will be removed.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1238: Result of 15-bit expression is truncated to fit in 14-bit target.
 
 =========================================================================
 *                           HDL Synthesis                               *
@@ -401,8 +391,8 @@ Synthesizing Unit <debounce>.
     Found 1-bit register for signal <new>.
     Found 1-bit register for signal <clean>.
     Found 20-bit register for signal <count>.
-    Found 20-bit adder for signal <count[19]_GND_5_o_add_3_OUT> created at line 1247.
-    Found 1-bit comparator equal for signal <n0000> created at line 1239
+    Found 20-bit adder for signal <count[19]_GND_5_o_add_3_OUT> created at line 1197.
+    Found 1-bit comparator equal for signal <n0000> created at line 1189
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred  22 D-type flip-flop(s).
@@ -422,14 +412,14 @@ Synthesizing Unit <vga_general>.
         vsize = 767
     Found 10-bit register for signal <vcount>.
     Found 11-bit register for signal <hcount>.
-    Found 12-bit adder for signal <n0033[11:0]> created at line 1216.
-    Found 11-bit adder for signal <n0035[10:0]> created at line 1217.
-    Found 11-bit comparator greater for signal <hcount[10]_PWR_6_o_LessThan_3_o> created at line 1206
-    Found 11-bit comparator greater for signal <PWR_6_o_hcount[10]_LessThan_4_o> created at line 1206
-    Found 10-bit comparator greater for signal <vcount[9]_PWR_6_o_LessThan_5_o> created at line 1207
-    Found 10-bit comparator greater for signal <PWR_6_o_vcount[9]_LessThan_6_o> created at line 1207
-    Found 11-bit comparator lessequal for signal <n0008> created at line 1209
-    Found 10-bit comparator lessequal for signal <n0010> created at line 1210
+    Found 12-bit adder for signal <n0033[11:0]> created at line 1166.
+    Found 11-bit adder for signal <n0035[10:0]> created at line 1167.
+    Found 11-bit comparator greater for signal <hcount[10]_PWR_6_o_LessThan_3_o> created at line 1156
+    Found 11-bit comparator greater for signal <PWR_6_o_hcount[10]_LessThan_4_o> created at line 1156
+    Found 10-bit comparator greater for signal <vcount[9]_PWR_6_o_LessThan_5_o> created at line 1157
+    Found 10-bit comparator greater for signal <PWR_6_o_vcount[9]_LessThan_6_o> created at line 1157
+    Found 11-bit comparator lessequal for signal <n0008> created at line 1159
+    Found 10-bit comparator lessequal for signal <n0010> created at line 1160
     Summary:
 	inferred   2 Adder/Subtractor(s).
 	inferred  21 D-type flip-flop(s).
@@ -446,12 +436,10 @@ Synthesizing Unit <pong_game>.
 WARNING:Xst:2898 - Port 'object_r', unconnected in block instance 'pp', is tied to GND.
 WARNING:Xst:2898 - Port 'reset', unconnected in block instance 'pp', is tied to GND.
 WARNING:Xst:647 - Input <switch> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-INFO:Xst:3210 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" line 227: Output port <seconds> of the instance <gametimer> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" line 444: Output port <rx> of the instance <pack1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" line 444: Output port <ry> of the instance <pack1> is unconnected or connected to loadless signal.
 INFO:Xst:3210 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" line 451: Output port <randop> of the instance <pack2> is unconnected or connected to loadless signal.
 INFO:Xst:3210 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" line 465: Output port <expired> of the instance <pptimer> is unconnected or connected to loadless signal.
 INFO:Xst:3210 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" line 465: Output port <started_op> of the instance <pptimer> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <powerbox> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <stop1> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <stop2> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <stop3> is used but never assigned. This sourceless signal will be automatically connected to value GND.
@@ -491,10 +479,10 @@ WARNING:Xst:653 - Signal <stop4> is used but never assigned. This sourceless sig
     Found 10-bit subtractor for signal <ball_y3[9]_GND_7_o_sub_69_OUT> created at line 357.
     Found 11-bit subtractor for signal <ball_x4[10]_GND_7_o_sub_73_OUT> created at line 359.
     Found 10-bit subtractor for signal <ball_y4[9]_GND_7_o_sub_75_OUT> created at line 360.
-    Found 6-bit adder for signal <n0275> created at line 326.
-    Found 6-bit adder for signal <n0276> created at line 327.
-    Found 12-bit adder for signal <n0386[11:0]> created at line 329.
-    Found 11-bit adder for signal <n0395[10:0]> created at line 330.
+    Found 6-bit adder for signal <n0277> created at line 326.
+    Found 6-bit adder for signal <n0278> created at line 327.
+    Found 12-bit adder for signal <n0388[11:0]> created at line 329.
+    Found 11-bit adder for signal <n0397[10:0]> created at line 330.
     Found 10-bit adder for signal <BUS_0004_GND_7_o_add_37_OUT> created at line 333.
     Found 10-bit adder for signal <BUS_0007_GND_7_o_add_43_OUT> created at line 338.
     Found 11-bit adder for signal <ball_x[10]_GND_7_o_add_53_OUT> created at line 350.
@@ -507,36 +495,49 @@ WARNING:Xst:653 - Signal <stop4> is used but never assigned. This sourceless sig
     Found 10-bit adder for signal <ball_y4[9]_GND_7_o_add_75_OUT> created at line 360.
     Found 10-bit subtractor for signal <GND_7_o_GND_7_o_sub_40_OUT<9:0>> created at line 335.
     Found 10-bit subtractor for signal <GND_7_o_GND_7_o_sub_46_OUT<9:0>> created at line 340.
-    Found 13-bit adder for signal <_n0437> created at line 329.
-    Found 13-bit adder for signal <n0279> created at line 329.
-    Found 12-bit adder for signal <_n0439> created at line 330.
-    Found 12-bit adder for signal <n0282> created at line 330.
+    Found 13-bit adder for signal <_n0439> created at line 329.
+    Found 13-bit adder for signal <n0281> created at line 329.
+    Found 12-bit adder for signal <_n0441> created at line 330.
+    Found 12-bit adder for signal <n0284> created at line 330.
     Found 10-bit comparator greater for signal <BUS_0004_GND_7_o_LessThan_37_o> created at line 332
     Found 10-bit comparator greater for signal <PWR_7_o_BUS_0004_LessThan_39_o> created at line 334
     Found 10-bit comparator greater for signal <BUS_0007_GND_7_o_LessThan_43_o> created at line 337
     Found 10-bit comparator greater for signal <PWR_7_o_BUS_0007_LessThan_45_o> created at line 339
-    Found 10-bit comparator greater for signal <new_ball_y[9]_GND_7_o_LessThan_80_o> created at line 525
-    Found 10-bit comparator greater for signal <PWR_7_o_new_ball_y[9]_LessThan_81_o> created at line 525
-    Found 11-bit comparator greater for signal <new_ball_x[10]_GND_7_o_LessThan_85_o> created at line 535
-    Found 11-bit comparator greater for signal <GND_7_o_new_ball_x[10]_LessThan_86_o> created at line 535
-    Found 10-bit comparator greater for signal <new_ball_y2[9]_GND_7_o_LessThan_97_o> created at line 578
-    Found 10-bit comparator greater for signal <PWR_7_o_new_ball_y2[9]_LessThan_98_o> created at line 578
-    Found 11-bit comparator greater for signal <new_ball_x2[10]_GND_7_o_LessThan_102_o> created at line 588
-    Found 11-bit comparator greater for signal <GND_7_o_new_ball_x2[10]_LessThan_103_o> created at line 588
-    Found 10-bit comparator greater for signal <new_ball_y3[9]_GND_7_o_LessThan_114_o> created at line 621
-    Found 10-bit comparator greater for signal <PWR_7_o_new_ball_y3[9]_LessThan_115_o> created at line 621
-    Found 11-bit comparator greater for signal <new_ball_x3[10]_GND_7_o_LessThan_119_o> created at line 631
-    Found 11-bit comparator greater for signal <GND_7_o_new_ball_x3[10]_LessThan_120_o> created at line 631
-    Found 10-bit comparator greater for signal <new_ball_y4[9]_GND_7_o_LessThan_131_o> created at line 659
-    Found 10-bit comparator greater for signal <PWR_7_o_new_ball_y4[9]_LessThan_132_o> created at line 659
-    Found 11-bit comparator greater for signal <new_ball_x4[10]_GND_7_o_LessThan_136_o> created at line 669
-    Found 11-bit comparator greater for signal <GND_7_o_new_ball_x4[10]_LessThan_137_o> created at line 669
+    Found 32-bit comparator lessequal for signal <n0084> created at line 490
+    Found 10-bit comparator greater for signal <new_ball_y[9]_GND_7_o_LessThan_81_o> created at line 525
+    Found 10-bit comparator greater for signal <PWR_7_o_new_ball_y[9]_LessThan_82_o> created at line 525
+    Found 11-bit comparator greater for signal <new_ball_x[10]_GND_7_o_LessThan_86_o> created at line 535
+    Found 11-bit comparator greater for signal <GND_7_o_new_ball_x[10]_LessThan_87_o> created at line 535
+    Found 10-bit comparator greater for signal <new_ball_y2[9]_GND_7_o_LessThan_98_o> created at line 578
+    Found 10-bit comparator greater for signal <PWR_7_o_new_ball_y2[9]_LessThan_99_o> created at line 578
+    Found 11-bit comparator greater for signal <new_ball_x2[10]_GND_7_o_LessThan_103_o> created at line 588
+    Found 11-bit comparator greater for signal <GND_7_o_new_ball_x2[10]_LessThan_104_o> created at line 588
+    Found 10-bit comparator greater for signal <new_ball_y3[9]_GND_7_o_LessThan_115_o> created at line 621
+    Found 10-bit comparator greater for signal <PWR_7_o_new_ball_y3[9]_LessThan_116_o> created at line 621
+    Found 11-bit comparator greater for signal <new_ball_x3[10]_GND_7_o_LessThan_120_o> created at line 631
+    Found 11-bit comparator greater for signal <GND_7_o_new_ball_x3[10]_LessThan_121_o> created at line 631
+    Found 10-bit comparator greater for signal <new_ball_y4[9]_GND_7_o_LessThan_132_o> created at line 659
+    Found 10-bit comparator greater for signal <PWR_7_o_new_ball_y4[9]_LessThan_133_o> created at line 659
+    Found 11-bit comparator greater for signal <new_ball_x4[10]_GND_7_o_LessThan_137_o> created at line 669
+    Found 11-bit comparator greater for signal <GND_7_o_new_ball_x4[10]_LessThan_138_o> created at line 669
     Summary:
 	inferred  19 Adder/Subtractor(s).
 	inferred 159 D-type flip-flop(s).
-	inferred  20 Comparator(s).
+	inferred  21 Comparator(s).
 	inferred  22 Multiplexer(s).
 Unit <pong_game> synthesized.
+
+Synthesizing Unit <general_timer>.
+    Related source file is "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\counter.v".
+        PRESCALER = 24999999
+    Found 26-bit register for signal <sec_count>.
+    Found 32-bit register for signal <seconds>.
+    Found 27-bit adder for signal <n0018[26:0]> created at line 173.
+    Found 32-bit adder for signal <seconds[31]_GND_8_o_add_5_OUT> created at line 175.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  58 D-type flip-flop(s).
+Unit <general_timer> synthesized.
 
 Synthesizing Unit <draw_box>.
     Related source file is "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v".
@@ -551,34 +552,35 @@ Synthesizing Unit <draw_box>.
     Found 1-bit register for signal <Dpressed>.
     Found 1-bit register for signal <Dreleased>.
     Found 32-bit register for signal <WIDTH>.
-    Found 32-bit subtractor for signal <WIDTH[31]_GND_9_o_sub_41_OUT> created at line 1017.
-    Found 32-bit subtractor for signal <HEIGHT[31]_GND_9_o_sub_42_OUT> created at line 1018.
-    Found 32-bit adder for signal <WIDTH[31]_GND_9_o_add_14_OUT> created at line 993.
-    Found 32-bit adder for signal <HEIGHT[31]_GND_9_o_add_15_OUT> created at line 994.
-    Found 32-bit adder for signal <GND_9_o_WIDTH[31]_add_47_OUT> created at line 1042.
-    Found 32-bit adder for signal <GND_9_o_HEIGHT[31]_add_50_OUT> created at line 1042.
-    Found 11-bit comparator lessequal for signal <n0093> created at line 1042
-    Found 32-bit comparator greater for signal <GND_9_o_GND_9_o_LessThan_49_o> created at line 1042
-    Found 10-bit comparator lessequal for signal <n0098> created at line 1042
-    Found 32-bit comparator greater for signal <GND_9_o_GND_9_o_LessThan_52_o> created at line 1042
+    Found 32-bit subtractor for signal <WIDTH[31]_GND_9_o_sub_41_OUT> created at line 967.
+    Found 32-bit subtractor for signal <HEIGHT[31]_GND_9_o_sub_42_OUT> created at line 968.
+    Found 32-bit adder for signal <WIDTH[31]_GND_9_o_add_14_OUT> created at line 943.
+    Found 32-bit adder for signal <HEIGHT[31]_GND_9_o_add_15_OUT> created at line 944.
+    Found 32-bit adder for signal <GND_9_o_WIDTH[31]_add_47_OUT> created at line 992.
+    Found 32-bit adder for signal <GND_9_o_HEIGHT[31]_add_50_OUT> created at line 992.
+    Found 11-bit comparator lessequal for signal <n0093> created at line 992
+    Found 32-bit comparator greater for signal <GND_9_o_GND_9_o_LessThan_49_o> created at line 992
+    Found 10-bit comparator lessequal for signal <n0098> created at line 992
+    Found 32-bit comparator greater for signal <GND_9_o_GND_9_o_LessThan_52_o> created at line 992
     Summary:
 	inferred   4 Adder/Subtractor(s).
 	inferred  72 D-type flip-flop(s).
 	inferred   4 Comparator(s).
+	inferred   2 Multiplexer(s).
 Unit <draw_box> synthesized.
 
 Synthesizing Unit <move_paddle>.
     Related source file is "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v".
     Found 10-bit register for signal <paddle_y>.
     Found 10-bit register for signal <paddle_x>.
-    Found 11-bit subtractor for signal <n0026[10:0]> created at line 1071.
-    Found 11-bit subtractor for signal <n0030[10:0]> created at line 1076.
-    Found 11-bit adder for signal <n0040> created at line 1073.
-    Found 11-bit adder for signal <n0043> created at line 1078.
-    Found 32-bit comparator greater for signal <GND_10_o_GND_10_o_LessThan_3_o> created at line 1070
-    Found 11-bit comparator greater for signal <BUS_0001_GND_10_o_LessThan_6_o> created at line 1072
-    Found 32-bit comparator greater for signal <GND_10_o_GND_10_o_LessThan_11_o> created at line 1075
-    Found 11-bit comparator greater for signal <BUS_0003_GND_10_o_LessThan_14_o> created at line 1077
+    Found 11-bit subtractor for signal <n0026[10:0]> created at line 1021.
+    Found 11-bit subtractor for signal <n0030[10:0]> created at line 1026.
+    Found 11-bit adder for signal <n0040> created at line 1023.
+    Found 11-bit adder for signal <n0043> created at line 1028.
+    Found 32-bit comparator greater for signal <GND_10_o_GND_10_o_LessThan_3_o> created at line 1020
+    Found 11-bit comparator greater for signal <BUS_0001_GND_10_o_LessThan_6_o> created at line 1022
+    Found 32-bit comparator greater for signal <GND_10_o_GND_10_o_LessThan_11_o> created at line 1025
+    Found 11-bit comparator greater for signal <BUS_0003_GND_10_o_LessThan_14_o> created at line 1027
     Summary:
 	inferred   4 Adder/Subtractor(s).
 	inferred  20 D-type flip-flop(s).
@@ -607,72 +609,37 @@ Synthesizing Unit <collision>.
 	inferred   8 Comparator(s).
 Unit <collision> synthesized.
 
-Synthesizing Unit <power_pack>.
-    Related source file is "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v".
-        WIDTH = 30
-        HEIGHT = 30
-        box_size = 7'b1000000
-        COLOR = 8'b11100000
-    Found 10-bit register for signal <ry>.
-    Found 1-bit register for signal <Rpressed>.
-    Found 1-bit register for signal <Rreleased>.
-    Found 1-bit register for signal <Lpressed>.
-    Found 1-bit register for signal <Lreleased>.
-    Found 1-bit register for signal <Upressed>.
-    Found 1-bit register for signal <Ureleased>.
-    Found 1-bit register for signal <Dpressed>.
-    Found 1-bit register for signal <Dreleased>.
-    Found 32-bit register for signal <rxreg>.
-    Found 32-bit register for signal <ryreg>.
-    Found 6-bit register for signal <leftcount>.
-    Found 6-bit register for signal <rightcount>.
-    Found 6-bit register for signal <upcount>.
-    Found 6-bit register for signal <downcount>.
-    Found 11-bit register for signal <rx>.
-    Found 6-bit adder for signal <leftcount[5]_GND_652_o_add_17_OUT> created at line 786.
-    Found 6-bit adder for signal <rightcount[5]_GND_652_o_add_21_OUT> created at line 792.
-    Found 6-bit adder for signal <upcount[5]_GND_652_o_add_25_OUT> created at line 798.
-    Found 6-bit adder for signal <downcount[5]_GND_652_o_add_29_OUT> created at line 803.
-    Found 7-bit adder for signal <n0243[6:0]> created at line 839.
-    Found 8-bit adder for signal <n0246[7:0]> created at line 839.
-    Found 9-bit adder for signal <n0228> created at line 839.
-    Found 12-bit adder for signal <n0230> created at line 862.
-    Found 11-bit adder for signal <n0232> created at line 863.
-    Found 9-bit comparator greater for signal <GND_652_o_BUS_0007_LessThan_44_o> created at line 839
-    Found 11-bit comparator greater for signal <GND_652_o_rx[10]_LessThan_78_o> created at line 853
-    Found 10-bit comparator greater for signal <PWR_15_o_ry[9]_LessThan_79_o> created at line 853
-    Found 11-bit comparator lessequal for signal <n0127> created at line 862
-    Found 12-bit comparator greater for signal <GND_652_o_BUS_0008_LessThan_94_o> created at line 862
-    Found 10-bit comparator lessequal for signal <n0132> created at line 863
-    Found 11-bit comparator greater for signal <GND_652_o_BUS_0009_LessThan_97_o> created at line 863
-    Summary:
-	inferred   9 Adder/Subtractor(s).
-	inferred 117 D-type flip-flop(s).
-	inferred   7 Comparator(s).
-	inferred  20 Multiplexer(s).
-Unit <power_pack> synthesized.
-
 Synthesizing Unit <power_pack2>.
     Related source file is "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v".
         WIDTH = 20
         HEIGHT = 20
         box_size = 7'b1000000
-    Found 8-bit register for signal <color>.
+WARNING:Xst:647 - Input <randx> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <randy> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 11-bit register for signal <rx>.
     Found 10-bit register for signal <ry>.
     Found 1-bit register for signal <randop_reg>.
-    Found 2-bit register for signal <mode>.
-    Found 12-bit adder for signal <n0054> created at line 74.
-    Found 11-bit adder for signal <n0056> created at line 74.
-    Found 4x8-bit Read Only RAM for signal <mode[1]_PWR_17_o_wide_mux_1_OUT>
-    Found 11-bit comparator lessequal for signal <n0018> created at line 74
-    Found 12-bit comparator greater for signal <GND_654_o_BUS_0001_LessThan_15_o> created at line 74
-    Found 10-bit comparator lessequal for signal <n0023> created at line 74
-    Found 11-bit comparator greater for signal <GND_654_o_BUS_0002_LessThan_18_o> created at line 74
+    Found 10-bit adder for signal <n0060> created at line 83.
+    Found 12-bit adder for signal <n0062> created at line 97.
+    Found 11-bit adder for signal <n0064> created at line 97.
+    Found 4x5-bit Read Only RAM for signal <_n0096>
+WARNING:Xst:737 - Found 1-bit latch for signal <mode<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <color<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <color<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <color<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <color<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <color<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <color<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <mode<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 11-bit comparator lessequal for signal <n0025> created at line 97
+    Found 12-bit comparator greater for signal <GND_652_o_BUS_0002_LessThan_14_o> created at line 97
+    Found 10-bit comparator lessequal for signal <n0030> created at line 97
+    Found 11-bit comparator greater for signal <GND_652_o_BUS_0003_LessThan_17_o> created at line 97
     Summary:
 	inferred   1 RAM(s).
-	inferred   2 Adder/Subtractor(s).
-	inferred  32 D-type flip-flop(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred  22 D-type flip-flop(s).
+	inferred   8 Latch(s).
 	inferred   4 Comparator(s).
 	inferred   1 Multiplexer(s).
 Unit <power_pack2> synthesized.
@@ -683,6 +650,13 @@ Synthesizing Unit <randgen>.
     Summary:
 	inferred   8 D-type flip-flop(s).
 Unit <randgen> synthesized.
+
+Synthesizing Unit <randgen_10bit>.
+    Related source file is "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\randgen.v".
+    Found 10-bit register for signal <LFSR>.
+    Summary:
+	inferred  10 D-type flip-flop(s).
+Unit <randgen_10bit> synthesized.
 
 Synthesizing Unit <pp_timer>.
     Related source file is "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\counter.v".
@@ -700,13 +674,13 @@ Synthesizing Unit <counter>.
     Found 26-bit register for signal <sec_count>.
     Found 4-bit register for signal <count>.
     Found 1-bit register for signal <stop>.
-    Found 5-bit subtractor for signal <GND_657_o_GND_657_o_sub_6_OUT> created at line 142.
+    Found 5-bit subtractor for signal <GND_666_o_GND_666_o_sub_6_OUT> created at line 142.
     Found 27-bit adder for signal <n0041[26:0]> created at line 140.
     Found 5-bit adder for signal <n0043[4:0]> created at line 142.
     Summary:
 	inferred   3 Adder/Subtractor(s).
 	inferred  31 D-type flip-flop(s).
-	inferred   2 Multiplexer(s).
+	inferred   1 Multiplexer(s).
 Unit <counter> synthesized.
 
 Synthesizing Unit <powerup_timer>.
@@ -716,7 +690,7 @@ Synthesizing Unit <powerup_timer>.
         PP3_TIME = 5
         PP4_TIME = 4
     Found 4-bit register for signal <load>.
-    Found 4x4-bit Read Only RAM for signal <mode[1]_PWR_22_o_wide_mux_1_OUT>
+    Found 4x4-bit Read Only RAM for signal <mode[1]_PWR_21_o_wide_mux_1_OUT>
     Summary:
 	inferred   1 RAM(s).
 	inferred   4 D-type flip-flop(s).
@@ -725,7 +699,7 @@ Unit <powerup_timer> synthesized.
 
 Synthesizing Unit <shield>.
     Related source file is "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v".
-        COLOR = 8'b11110000
+        COLOR = 8'b01110010
         BORDER = 10
 WARNING:Xst:647 - Input <paddle_x> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <paddle_y> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -733,11 +707,11 @@ WARNING:Xst:647 - Input <paddle_width> is never used. This port will be preserve
 WARNING:Xst:647 - Input <paddle_height> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:737 - Found 1-bit latch for signal <pixel<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-    Found 11-bit comparator lessequal for signal <n0001> created at line 118
-    Found 11-bit comparator greater for signal <hcount[10]_GND_659_o_LessThan_7_o> created at line 118
-    Found 10-bit comparator lessequal for signal <n0005> created at line 118
-    Found 10-bit comparator greater for signal <vcount[9]_GND_659_o_LessThan_9_o> created at line 118
+WARNING:Xst:737 - Found 1-bit latch for signal <pixel<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 11-bit comparator lessequal for signal <n0000> created at line 141
+    Found 11-bit comparator greater for signal <hcount[10]_GND_668_o_LessThan_7_o> created at line 141
+    Found 10-bit comparator lessequal for signal <n0004> created at line 141
+    Found 10-bit comparator greater for signal <vcount[9]_GND_668_o_LessThan_9_o> created at line 141
     Summary:
 	inferred   1 Latch(s).
 	inferred   4 Comparator(s).
@@ -748,18 +722,18 @@ Synthesizing Unit <round_piped_1>.
         COLOR = 8'b11100011
 WARNING:Xst:647 - Input <pixel_clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <ball_size> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-    Found 12-bit adder for signal <n0032> created at line 1110.
-    Found 11-bit adder for signal <n0038> created at line 1115.
-    Found 22-bit adder for signal <n0046> created at line 1120.
-    Found 11-bit subtractor for signal <GND_668_o_GND_668_o_sub_4_OUT<10:0>> created at line 1108.
-    Found 11-bit subtractor for signal <GND_668_o_GND_668_o_sub_6_OUT<10:0>> created at line 1110.
-    Found 10-bit subtractor for signal <GND_668_o_GND_668_o_sub_11_OUT<9:0>> created at line 1113.
-    Found 10-bit subtractor for signal <GND_668_o_GND_668_o_sub_13_OUT<9:0>> created at line 1115.
-    Found 11x11-bit multiplier for signal <n0023> created at line 1117.
-    Found 10x10-bit multiplier for signal <n0024> created at line 1118.
-    Found 12-bit comparator greater for signal <BUS_0001_GND_668_o_LessThan_2_o> created at line 1107
-    Found 11-bit comparator greater for signal <BUS_0004_GND_668_o_LessThan_9_o> created at line 1112
-    Found 22-bit comparator lessequal for signal <n0013> created at line 1120
+    Found 12-bit adder for signal <n0032> created at line 1060.
+    Found 11-bit adder for signal <n0038> created at line 1065.
+    Found 22-bit adder for signal <n0046> created at line 1070.
+    Found 11-bit subtractor for signal <GND_677_o_GND_677_o_sub_4_OUT<10:0>> created at line 1058.
+    Found 11-bit subtractor for signal <GND_677_o_GND_677_o_sub_6_OUT<10:0>> created at line 1060.
+    Found 10-bit subtractor for signal <GND_677_o_GND_677_o_sub_11_OUT<9:0>> created at line 1063.
+    Found 10-bit subtractor for signal <GND_677_o_GND_677_o_sub_13_OUT<9:0>> created at line 1065.
+    Found 11x11-bit multiplier for signal <n0023> created at line 1067.
+    Found 10x10-bit multiplier for signal <n0024> created at line 1068.
+    Found 12-bit comparator greater for signal <BUS_0001_GND_677_o_LessThan_2_o> created at line 1057
+    Found 11-bit comparator greater for signal <BUS_0004_GND_677_o_LessThan_9_o> created at line 1062
+    Found 22-bit comparator lessequal for signal <n0013> created at line 1070
     Summary:
 	inferred   2 Multiplier(s).
 	inferred   5 Adder/Subtractor(s).
@@ -772,18 +746,18 @@ Synthesizing Unit <round_piped_2>.
         COLOR = 8'b11111100
 WARNING:Xst:647 - Input <pixel_clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <ball_size> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-    Found 12-bit adder for signal <n0032> created at line 1110.
-    Found 11-bit adder for signal <n0038> created at line 1115.
-    Found 22-bit adder for signal <n0046> created at line 1120.
-    Found 11-bit subtractor for signal <GND_671_o_GND_671_o_sub_4_OUT<10:0>> created at line 1108.
-    Found 11-bit subtractor for signal <GND_671_o_GND_671_o_sub_6_OUT<10:0>> created at line 1110.
-    Found 10-bit subtractor for signal <GND_671_o_GND_671_o_sub_11_OUT<9:0>> created at line 1113.
-    Found 10-bit subtractor for signal <GND_671_o_GND_671_o_sub_13_OUT<9:0>> created at line 1115.
-    Found 11x11-bit multiplier for signal <n0023> created at line 1117.
-    Found 10x10-bit multiplier for signal <n0024> created at line 1118.
-    Found 12-bit comparator greater for signal <BUS_0001_GND_671_o_LessThan_2_o> created at line 1107
-    Found 11-bit comparator greater for signal <BUS_0004_GND_671_o_LessThan_9_o> created at line 1112
-    Found 22-bit comparator lessequal for signal <n0013> created at line 1120
+    Found 12-bit adder for signal <n0032> created at line 1060.
+    Found 11-bit adder for signal <n0038> created at line 1065.
+    Found 22-bit adder for signal <n0046> created at line 1070.
+    Found 11-bit subtractor for signal <GND_680_o_GND_680_o_sub_4_OUT<10:0>> created at line 1058.
+    Found 11-bit subtractor for signal <GND_680_o_GND_680_o_sub_6_OUT<10:0>> created at line 1060.
+    Found 10-bit subtractor for signal <GND_680_o_GND_680_o_sub_11_OUT<9:0>> created at line 1063.
+    Found 10-bit subtractor for signal <GND_680_o_GND_680_o_sub_13_OUT<9:0>> created at line 1065.
+    Found 11x11-bit multiplier for signal <n0023> created at line 1067.
+    Found 10x10-bit multiplier for signal <n0024> created at line 1068.
+    Found 12-bit comparator greater for signal <BUS_0001_GND_680_o_LessThan_2_o> created at line 1057
+    Found 11-bit comparator greater for signal <BUS_0004_GND_680_o_LessThan_9_o> created at line 1062
+    Found 22-bit comparator lessequal for signal <n0013> created at line 1070
     Summary:
 	inferred   2 Multiplier(s).
 	inferred   5 Adder/Subtractor(s).
@@ -796,18 +770,18 @@ Synthesizing Unit <round_piped_3>.
         COLOR = 8'b00000011
 WARNING:Xst:647 - Input <pixel_clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <ball_size> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-    Found 12-bit adder for signal <n0032> created at line 1110.
-    Found 11-bit adder for signal <n0038> created at line 1115.
-    Found 22-bit adder for signal <n0046> created at line 1120.
-    Found 11-bit subtractor for signal <GND_672_o_GND_672_o_sub_4_OUT<10:0>> created at line 1108.
-    Found 11-bit subtractor for signal <GND_672_o_GND_672_o_sub_6_OUT<10:0>> created at line 1110.
-    Found 10-bit subtractor for signal <GND_672_o_GND_672_o_sub_11_OUT<9:0>> created at line 1113.
-    Found 10-bit subtractor for signal <GND_672_o_GND_672_o_sub_13_OUT<9:0>> created at line 1115.
-    Found 11x11-bit multiplier for signal <n0023> created at line 1117.
-    Found 10x10-bit multiplier for signal <n0024> created at line 1118.
-    Found 12-bit comparator greater for signal <BUS_0001_GND_672_o_LessThan_2_o> created at line 1107
-    Found 11-bit comparator greater for signal <BUS_0004_GND_672_o_LessThan_9_o> created at line 1112
-    Found 22-bit comparator lessequal for signal <n0013> created at line 1120
+    Found 12-bit adder for signal <n0032> created at line 1060.
+    Found 11-bit adder for signal <n0038> created at line 1065.
+    Found 22-bit adder for signal <n0046> created at line 1070.
+    Found 11-bit subtractor for signal <GND_681_o_GND_681_o_sub_4_OUT<10:0>> created at line 1058.
+    Found 11-bit subtractor for signal <GND_681_o_GND_681_o_sub_6_OUT<10:0>> created at line 1060.
+    Found 10-bit subtractor for signal <GND_681_o_GND_681_o_sub_11_OUT<9:0>> created at line 1063.
+    Found 10-bit subtractor for signal <GND_681_o_GND_681_o_sub_13_OUT<9:0>> created at line 1065.
+    Found 11x11-bit multiplier for signal <n0023> created at line 1067.
+    Found 10x10-bit multiplier for signal <n0024> created at line 1068.
+    Found 12-bit comparator greater for signal <BUS_0001_GND_681_o_LessThan_2_o> created at line 1057
+    Found 11-bit comparator greater for signal <BUS_0004_GND_681_o_LessThan_9_o> created at line 1062
+    Found 22-bit comparator lessequal for signal <n0013> created at line 1070
     Summary:
 	inferred   2 Multiplier(s).
 	inferred   5 Adder/Subtractor(s).
@@ -820,18 +794,18 @@ Synthesizing Unit <round_piped>.
         COLOR = 8'b11100000
 WARNING:Xst:647 - Input <pixel_clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <ball_size> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-    Found 12-bit adder for signal <n0032> created at line 1110.
-    Found 11-bit adder for signal <n0038> created at line 1115.
-    Found 22-bit adder for signal <n0046> created at line 1120.
-    Found 11-bit subtractor for signal <GND_673_o_GND_673_o_sub_4_OUT<10:0>> created at line 1108.
-    Found 11-bit subtractor for signal <GND_673_o_GND_673_o_sub_6_OUT<10:0>> created at line 1110.
-    Found 10-bit subtractor for signal <GND_673_o_GND_673_o_sub_11_OUT<9:0>> created at line 1113.
-    Found 10-bit subtractor for signal <GND_673_o_GND_673_o_sub_13_OUT<9:0>> created at line 1115.
-    Found 11x11-bit multiplier for signal <n0023> created at line 1117.
-    Found 10x10-bit multiplier for signal <n0024> created at line 1118.
-    Found 12-bit comparator greater for signal <BUS_0001_GND_673_o_LessThan_2_o> created at line 1107
-    Found 11-bit comparator greater for signal <BUS_0004_GND_673_o_LessThan_9_o> created at line 1112
-    Found 22-bit comparator lessequal for signal <n0013> created at line 1120
+    Found 12-bit adder for signal <n0032> created at line 1060.
+    Found 11-bit adder for signal <n0038> created at line 1065.
+    Found 22-bit adder for signal <n0046> created at line 1070.
+    Found 11-bit subtractor for signal <GND_682_o_GND_682_o_sub_4_OUT<10:0>> created at line 1058.
+    Found 11-bit subtractor for signal <GND_682_o_GND_682_o_sub_6_OUT<10:0>> created at line 1060.
+    Found 10-bit subtractor for signal <GND_682_o_GND_682_o_sub_11_OUT<9:0>> created at line 1063.
+    Found 10-bit subtractor for signal <GND_682_o_GND_682_o_sub_13_OUT<9:0>> created at line 1065.
+    Found 11x11-bit multiplier for signal <n0023> created at line 1067.
+    Found 10x10-bit multiplier for signal <n0024> created at line 1068.
+    Found 12-bit comparator greater for signal <BUS_0001_GND_682_o_LessThan_2_o> created at line 1057
+    Found 11-bit comparator greater for signal <BUS_0004_GND_682_o_LessThan_9_o> created at line 1062
+    Found 22-bit comparator lessequal for signal <n0013> created at line 1070
     Summary:
 	inferred   2 Multiplier(s).
 	inferred   5 Adder/Subtractor(s).
@@ -844,9 +818,9 @@ Synthesizing Unit <display_4hex>.
     Found 7-bit register for signal <seg>.
     Found 4-bit register for signal <strobe>.
     Found 14-bit register for signal <counter>.
-    Found 14-bit adder for signal <counter[13]_GND_674_o_add_17_OUT> created at line 1288.
-    Found 4x4-bit Read Only RAM for signal <counter[13]_PWR_34_o_wide_mux_23_OUT>
-    Found 7-bit 4-to-1 multiplexer for signal <counter[13]_data[3]_wide_mux_22_OUT> created at line 1289.
+    Found 14-bit adder for signal <counter[13]_GND_683_o_add_17_OUT> created at line 1238.
+    Found 4x4-bit Read Only RAM for signal <counter[13]_PWR_33_o_wide_mux_23_OUT>
+    Found 7-bit 4-to-1 multiplexer for signal <counter[13]_data[3]_wide_mux_22_OUT> created at line 1239.
     Summary:
 	inferred   1 RAM(s).
 	inferred   1 Adder/Subtractor(s).
@@ -860,74 +834,70 @@ HDL Synthesis Report
 Macro Statistics
 # RAMs                                                 : 3
  4x4-bit single-port Read Only RAM                     : 2
- 4x8-bit single-port Read Only RAM                     : 1
+ 4x5-bit single-port Read Only RAM                     : 1
 # Multipliers                                          : 8
  10x10-bit multiplier                                  : 4
  11x11-bit multiplier                                  : 4
-# Adders/Subtractors                                   : 86
- 10-bit adder                                          : 5
+# Adders/Subtractors                                   : 80
+ 10-bit adder                                          : 6
  10-bit addsub                                         : 5
  10-bit subtractor                                     : 5
- 11-bit adder                                          : 10
+ 11-bit adder                                          : 9
  11-bit addsub                                         : 4
  11-bit subtractor                                     : 6
- 12-bit adder                                          : 10
+ 12-bit adder                                          : 9
  13-bit adder                                          : 2
  14-bit adder                                          : 1
  20-bit adder                                          : 5
  22-bit adder                                          : 4
- 27-bit adder                                          : 5
+ 27-bit adder                                          : 6
  31-bit adder                                          : 1
- 32-bit adder                                          : 2
+ 32-bit adder                                          : 3
  32-bit addsub                                         : 2
  5-bit adder                                           : 5
  5-bit subtractor                                      : 5
- 6-bit adder                                           : 6
- 7-bit adder                                           : 1
- 8-bit adder                                           : 1
- 9-bit adder                                           : 1
-# Registers                                            : 106
- 1-bit register                                        : 48
+ 6-bit adder                                           : 2
+# Registers                                            : 91
+ 1-bit register                                        : 40
  10-bit register                                       : 11
- 11-bit register                                       : 7
+ 11-bit register                                       : 6
  14-bit register                                       : 1
  16-bit register                                       : 1
- 2-bit register                                        : 4
+ 2-bit register                                        : 3
  20-bit register                                       : 5
- 26-bit register                                       : 5
+ 26-bit register                                       : 6
  31-bit register                                       : 1
- 32-bit register                                       : 4
+ 32-bit register                                       : 3
  4-bit register                                        : 7
  5-bit register                                        : 2
- 6-bit register                                        : 5
+ 6-bit register                                        : 1
  7-bit register                                        : 1
- 8-bit register                                        : 4
-# Latches                                              : 1
- 1-bit latch                                           : 1
-# Comparators                                          : 74
+ 8-bit register                                        : 3
+# Latches                                              : 9
+ 1-bit latch                                           : 9
+# Comparators                                          : 68
  1-bit comparator equal                                : 5
- 10-bit comparator greater                             : 16
- 10-bit comparator lessequal                           : 13
- 11-bit comparator greater                             : 20
- 11-bit comparator lessequal                           : 5
- 12-bit comparator greater                             : 6
+ 10-bit comparator greater                             : 15
+ 10-bit comparator lessequal                           : 12
+ 11-bit comparator greater                             : 18
+ 11-bit comparator lessequal                           : 4
+ 12-bit comparator greater                             : 5
  22-bit comparator lessequal                           : 4
  32-bit comparator greater                             : 4
- 9-bit comparator greater                              : 1
-# Multiplexers                                         : 91
+ 32-bit comparator lessequal                           : 1
+# Multiplexers                                         : 68
  1-bit 2-to-1 multiplexer                              : 14
- 10-bit 2-to-1 multiplexer                             : 28
- 11-bit 2-to-1 multiplexer                             : 20
+ 10-bit 2-to-1 multiplexer                             : 24
+ 11-bit 2-to-1 multiplexer                             : 16
  2-bit 2-to-1 multiplexer                              : 1
  3-bit 2-to-1 multiplexer                              : 2
- 32-bit 2-to-1 multiplexer                             : 10
+ 32-bit 2-to-1 multiplexer                             : 7
  4-bit 2-to-1 multiplexer                              : 1
- 6-bit 2-to-1 multiplexer                              : 12
  7-bit 4-to-1 multiplexer                              : 1
  8-bit 2-to-1 multiplexer                              : 1
  8-bit 4-to-1 multiplexer                              : 1
-# Xors                                                 : 1
- 1-bit xor2                                            : 1
+# Xors                                                 : 7
+ 1-bit xor2                                            : 7
 
 =========================================================================
 INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
@@ -936,18 +906,9 @@ INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmet
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
-INFO:Xst:2261 - The FF/Latch <rxreg_4> in Unit <pack1> is equivalent to the following FF/Latch, which will be removed : <ryreg_9> 
-INFO:Xst:2261 - The FF/Latch <ryreg_2> in Unit <pack1> is equivalent to the following FF/Latch, which will be removed : <ryreg_5> 
-INFO:Xst:2261 - The FF/Latch <rxreg_9> in Unit <pack1> is equivalent to the following FF/Latch, which will be removed : <ryreg_4> 
-INFO:Xst:2261 - The FF/Latch <rxreg_2> in Unit <pack1> is equivalent to the following 2 FFs/Latches, which will be removed : <rxreg_8> <ryreg_8> 
-INFO:Xst:2261 - The FF/Latch <rxreg_0> in Unit <pack1> is equivalent to the following 4 FFs/Latches, which will be removed : <rxreg_1> <rxreg_10> <ryreg_0> <ryreg_1> 
 INFO:Xst:2261 - The FF/Latch <vsync_delay_0> in Unit <psolution> is equivalent to the following FF/Latch, which will be removed : <vsync_delayed> 
-WARNING:Xst:1426 - The value init of the FF/Latch rxreg_5 hinder the constant cleaning in the block pack1.
-   You should achieve better results by setting this init to 0.
-WARNING:Xst:1426 - The value init of the FF/Latch ryreg_6 hinder the constant cleaning in the block pack1.
-   You should achieve better results by setting this init to 1.
-WARNING:Xst:1293 - FF/Latch <rxreg_0> has a constant value of 0 in block <pack1>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <rx_10> (without init value) has a constant value of 0 in block <pack2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <color_3> (without init value) has a constant value of 0 in block <pack2>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <paddle_pix_delay_0> (without init value) has a constant value of 0 in block <psolution>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <paddle_pix_delay_1> (without init value) has a constant value of 0 in block <psolution>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <paddle_pix_delay_5> (without init value) has a constant value of 0 in block <psolution>. This FF/Latch will be trimmed during the optimization process.
@@ -962,49 +923,11 @@ WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <paddle_pix_delay_9>
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <paddle_pix_delay_13> (without init value) has a constant value of 0 in block <psolution>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <paddle_pix_delay_14> (without init value) has a constant value of 0 in block <psolution>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <paddle_pix_delay_15> (without init value) has a constant value of 0 in block <psolution>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:2677 - Node <rxreg_11> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <rxreg_12> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <rxreg_13> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <rxreg_14> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <rxreg_15> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <rxreg_16> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <rxreg_17> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <rxreg_18> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <rxreg_19> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <rxreg_20> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <rxreg_21> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <rxreg_22> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <rxreg_23> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <rxreg_24> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <rxreg_25> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <rxreg_26> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <rxreg_27> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <rxreg_28> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <rxreg_29> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <rxreg_30> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <rxreg_31> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <ryreg_10> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <ryreg_11> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <ryreg_12> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <ryreg_13> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <ryreg_14> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <ryreg_15> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <ryreg_16> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <ryreg_17> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <ryreg_18> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <ryreg_19> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <ryreg_20> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <ryreg_21> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <ryreg_22> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <ryreg_23> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <ryreg_24> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <ryreg_25> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <ryreg_26> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <ryreg_27> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <ryreg_28> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <ryreg_29> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <ryreg_30> of sequential type is unconnected in block <pack1>.
-WARNING:Xst:2677 - Node <ryreg_31> of sequential type is unconnected in block <pack1>.
+WARNING:Xst:2404 -  FFs/Latches <rx<10:10>> (without init value) have a constant value of 0 in block <power_pack2>.
+
+Synthesizing (advanced) Unit <counter>.
+The following registers are absorbed into counter <sec_count>: 1 register on signal <sec_count>.
+Unit <counter> synthesized (advanced).
 
 Synthesizing (advanced) Unit <debounce>.
 The following registers are absorbed into counter <count>: 1 register on signal <count>.
@@ -1012,7 +935,7 @@ Unit <debounce> synthesized (advanced).
 
 Synthesizing (advanced) Unit <display_4hex>.
 The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
-INFO:Xst:3231 - The small RAM <Mram_counter[13]_PWR_34_o_wide_mux_23_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+INFO:Xst:3231 - The small RAM <Mram_counter[13]_PWR_33_o_wide_mux_23_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
@@ -1026,42 +949,39 @@ INFO:Xst:3231 - The small RAM <Mram_counter[13]_PWR_34_o_wide_mux_23_OUT> will b
 Unit <display_4hex> synthesized (advanced).
 
 Synthesizing (advanced) Unit <draw_box>.
-The following registers are absorbed into accumulator <WIDTH>: 1 register on signal <WIDTH>.
 The following registers are absorbed into accumulator <HEIGHT>: 1 register on signal <HEIGHT>.
+The following registers are absorbed into accumulator <WIDTH>: 1 register on signal <WIDTH>.
 Unit <draw_box> synthesized (advanced).
+
+Synthesizing (advanced) Unit <general_timer>.
+The following registers are absorbed into counter <seconds>: 1 register on signal <seconds>.
+The following registers are absorbed into counter <sec_count>: 1 register on signal <sec_count>.
+Unit <general_timer> synthesized (advanced).
 
 Synthesizing (advanced) Unit <labkit>.
 The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
 Unit <labkit> synthesized (advanced).
 
 Synthesizing (advanced) Unit <pong_game>.
-	The following adders/subtractors are grouped into adder tree <Madd_n02821> :
- 	<Madd_n0395[10:0]> in block <pong_game>, 	<Madd__n0439> in block <pong_game>.
-	The following adders/subtractors are grouped into adder tree <Madd_n0279_Madd1> :
- 	<Madd_n0386[11:0]> in block <pong_game>, 	<Madd__n0437_Madd> in block <pong_game>.
-Unit <pong_game> synthesized (advanced).
-
-Synthesizing (advanced) Unit <power_pack>.
-	The following adders/subtractors are grouped into adder tree <Madd_n02281> :
- 	<Madd_n0243[6:0]> in block <power_pack>, 	<Madd_n0246[7:0]> in block <power_pack>, 	<Madd_n0228> in block <power_pack>.
-Unit <power_pack> synthesized (advanced).
-
-Synthesizing (advanced) Unit <power_pack2>.
-INFO:Xst:3231 - The small RAM <Mram_mode[1]_PWR_17_o_wide_mux_1_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+	The following adders/subtractors are grouped into adder tree <Madd_n02841> :
+ 	<Madd_n0397[10:0]> in block <pong_game>, 	<Madd__n0441> in block <pong_game>.
+	The following adders/subtractors are grouped into adder tree <Madd_n0281_Madd1> :
+ 	<Madd_n0388[11:0]> in block <pong_game>, 	<Madd__n0439_Madd> in block <pong_game>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <pack2/Mram__n0096> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
     | Port A                                                              |
-    |     aspect ratio   | 4-word x 8-bit                      |          |
+    |     aspect ratio   | 4-word x 5-bit                      |          |
     |     weA            | connected to signal <GND>           | high     |
-    |     addrA          | connected to signal <mode>          |          |
+    |     addrA          | connected to signal <pack2/randnum10<5:4>> |          |
     |     diA            | connected to signal <GND>           |          |
     |     doA            | connected to internal node          |          |
     -----------------------------------------------------------------------
-Unit <power_pack2> synthesized (advanced).
+Unit <pong_game> synthesized (advanced).
 
 Synthesizing (advanced) Unit <powerup_timer>.
-INFO:Xst:3231 - The small RAM <Mram_mode[1]_PWR_22_o_wide_mux_1_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+INFO:Xst:3231 - The small RAM <Mram_mode[1]_PWR_21_o_wide_mux_1_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
@@ -1079,49 +999,6 @@ The following registers are absorbed into counter <hcount>: 1 register on signal
 The following registers are absorbed into counter <vcount>: 1 register on signal <vcount>.
 Unit <vga_general> synthesized (advanced).
 WARNING:Xst:2677 - Node <boost_5> of sequential type is unconnected in block <pong_game>.
-WARNING:Xst:2677 - Node <rxreg_11> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <rxreg_12> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <rxreg_13> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <rxreg_14> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <rxreg_15> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <rxreg_16> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <rxreg_17> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <rxreg_18> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <rxreg_19> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <rxreg_20> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <rxreg_21> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <rxreg_22> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <rxreg_23> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <rxreg_24> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <rxreg_25> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <rxreg_26> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <rxreg_27> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <rxreg_28> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <rxreg_29> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <rxreg_30> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <rxreg_31> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <ryreg_10> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <ryreg_11> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <ryreg_12> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <ryreg_13> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <ryreg_14> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <ryreg_15> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <ryreg_16> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <ryreg_17> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <ryreg_18> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <ryreg_19> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <ryreg_20> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <ryreg_21> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <ryreg_22> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <ryreg_23> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <ryreg_24> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <ryreg_25> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <ryreg_26> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <ryreg_27> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <ryreg_28> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <ryreg_29> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <ryreg_30> of sequential type is unconnected in block <power_pack>.
-WARNING:Xst:2677 - Node <ryreg_31> of sequential type is unconnected in block <power_pack>.
 
 =========================================================================
 Advanced HDL Synthesis Report
@@ -1129,97 +1006,74 @@ Advanced HDL Synthesis Report
 Macro Statistics
 # RAMs                                                 : 3
  4x4-bit single-port distributed Read Only RAM         : 2
- 4x8-bit single-port distributed Read Only RAM         : 1
+ 4x5-bit single-port distributed Read Only RAM         : 1
 # Multipliers                                          : 8
  10x10-bit multiplier                                  : 4
  11x11-bit multiplier                                  : 4
-# Adders/Subtractors                                   : 66
+# Adders/Subtractors                                   : 53
  10-bit adder                                          : 5
- 10-bit addsub                                         : 5
- 10-bit subtractor                                     : 5
- 11-bit adder                                          : 8
+ 10-bit addsub                                         : 4
+ 10-bit subtractor                                     : 4
+ 11-bit adder                                          : 7
  11-bit addsub                                         : 4
  11-bit subtractor                                     : 6
- 12-bit adder                                          : 6
+ 12-bit adder                                          : 5
  22-bit adder                                          : 4
- 27-bit adder                                          : 5
  32-bit adder                                          : 2
  5-bit adder                                           : 7
  5-bit subtractor                                      : 5
- 6-bit adder                                           : 4
-# Adder Trees                                          : 3
- 12-bit / 4-inputs adder tree                          : 2
- 9-bit / 4-inputs adder tree                           : 1
-# Counters                                             : 9
+# Counters                                             : 16
  10-bit up counter                                     : 1
  11-bit up counter                                     : 1
  14-bit up counter                                     : 1
  20-bit up counter                                     : 5
+ 26-bit up counter                                     : 6
  31-bit up counter                                     : 1
+ 32-bit up counter                                     : 1
 # Accumulators                                         : 2
  32-bit updown accumulator                             : 2
-# Registers                                            : 495
- Flip-Flops                                            : 495
-# Comparators                                          : 74
+# Registers                                            : 269
+ Flip-Flops                                            : 269
+# Comparators                                          : 64
  1-bit comparator equal                                : 5
- 10-bit comparator greater                             : 16
- 10-bit comparator lessequal                           : 13
- 11-bit comparator greater                             : 20
- 11-bit comparator lessequal                           : 5
- 12-bit comparator greater                             : 6
+ 10-bit comparator greater                             : 11
+ 10-bit comparator lessequal                           : 12
+ 11-bit comparator greater                             : 18
+ 11-bit comparator lessequal                           : 4
+ 12-bit comparator greater                             : 5
  22-bit comparator lessequal                           : 4
  32-bit comparator greater                             : 4
- 9-bit comparator greater                              : 1
-# Multiplexers                                         : 86
+ 32-bit comparator lessequal                           : 1
+# Multiplexers                                         : 58
  1-bit 2-to-1 multiplexer                              : 9
- 10-bit 2-to-1 multiplexer                             : 28
- 11-bit 2-to-1 multiplexer                             : 20
+ 10-bit 2-to-1 multiplexer                             : 19
+ 11-bit 2-to-1 multiplexer                             : 16
  2-bit 2-to-1 multiplexer                              : 1
  3-bit 2-to-1 multiplexer                              : 2
- 32-bit 2-to-1 multiplexer                             : 10
+ 32-bit 2-to-1 multiplexer                             : 7
  4-bit 2-to-1 multiplexer                              : 1
- 6-bit 2-to-1 multiplexer                              : 12
  7-bit 4-to-1 multiplexer                              : 1
  8-bit 2-to-1 multiplexer                              : 1
  8-bit 4-to-1 multiplexer                              : 1
-# Xors                                                 : 1
- 1-bit xor2                                            : 1
+# Xors                                                 : 7
+ 1-bit xor2                                            : 7
 
 =========================================================================
 
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
-WARNING:Xst:1710 - FF/Latch <boost_0> (without init value) has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <pack2/color_3> (without init value) has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <boost_0> (without init value) has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <boost_1> (without init value) has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <boost_2> (without init value) has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <boost_4> (without init value) has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1426 - The value init of the FF/Latch rxreg_5 hinder the constant cleaning in the block power_pack.
-   You should achieve better results by setting this init to 0.
-WARNING:Xst:1426 - The value init of the FF/Latch ryreg_6 hinder the constant cleaning in the block power_pack.
-   You should achieve better results by setting this init to 1.
-WARNING:Xst:1293 - FF/Latch <rxreg_0> has a constant value of 0 in block <power_pack>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <rxreg_1> has a constant value of 0 in block <power_pack>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <rxreg_10> has a constant value of 0 in block <power_pack>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ryreg_0> has a constant value of 0 in block <power_pack>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ryreg_1> has a constant value of 0 in block <power_pack>. This FF/Latch will be trimmed during the optimization process.
 INFO:Xst:2261 - The FF/Latch <vsync_delay_0> in Unit <pong_game> is equivalent to the following FF/Latch, which will be removed : <vsync_delayed> 
-INFO:Xst:2261 - The FF/Latch <rxreg_4> in Unit <power_pack> is equivalent to the following FF/Latch, which will be removed : <ryreg_9> 
-INFO:Xst:2261 - The FF/Latch <rxreg_2> in Unit <power_pack> is equivalent to the following 2 FFs/Latches, which will be removed : <rxreg_8> <ryreg_8> 
-INFO:Xst:2261 - The FF/Latch <ryreg_2> in Unit <power_pack> is equivalent to the following FF/Latch, which will be removed : <ryreg_5> 
-INFO:Xst:2261 - The FF/Latch <rxreg_9> in Unit <power_pack> is equivalent to the following FF/Latch, which will be removed : <ryreg_4> 
-WARNING:Xst:1710 - FF/Latch <rx_10> (without init value) has a constant value of 0 in block <power_pack2>. This FF/Latch will be trimmed during the optimization process.
-INFO:Xst:2146 - In block <draw_box>, Accumulator <WIDTH> <HEIGHT> are equivalent, XST will keep only <WIDTH>.
-WARNING:Xst:1710 - FF/Latch <color_3> (without init value) has a constant value of 0 in block <power_pack2>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <speed_x_0> (without init value) has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <speed_x_4> (without init value) has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <speed_y_0> (without init value) has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <speed_y_4> (without init value) has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <ry_0> (without init value) has a constant value of 0 in block <power_pack>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ry_1> (without init value) has a constant value of 0 in block <power_pack>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rx_0> (without init value) has a constant value of 0 in block <power_pack>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rx_1> (without init value) has a constant value of 0 in block <power_pack>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <rx_10> (without init value) has a constant value of 0 in block <power_pack>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <LFSR_8> has a constant value of 0 in block <randgen_10bit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <paddle_y_0> (without init value) has a constant value of 0 in block <move_paddle>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <paddle_y_1> (without init value) has a constant value of 0 in block <move_paddle>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <paddle_y_2> (without init value) has a constant value of 0 in block <move_paddle>. This FF/Latch will be trimmed during the optimization process.
@@ -1227,11 +1081,9 @@ WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <paddle_x_0> (withou
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <paddle_x_1> (without init value) has a constant value of 0 in block <move_paddle>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <paddle_x_2> (without init value) has a constant value of 0 in block <move_paddle>. This FF/Latch will be trimmed during the optimization process.
 INFO:Xst:1901 - Instance my_clocks/DCM_inst in unit labkit of type DCM has been replaced by DCM_SP
+INFO:Xst:2261 - The FF/Latch <pack2/mode_0> in Unit <pong_game> is equivalent to the following FF/Latch, which will be removed : <pack2/color_4> 
 INFO:Xst:2261 - The FF/Latch <speed_x_3> in Unit <pong_game> is equivalent to the following FF/Latch, which will be removed : <speed_y_3> 
-INFO:Xst:2261 - The FF/Latch <ry_4> in Unit <power_pack> is equivalent to the following FF/Latch, which will be removed : <rx_9> 
-INFO:Xst:2261 - The FF/Latch <ry_2> in Unit <power_pack> is equivalent to the following FF/Latch, which will be removed : <ry_5> 
-INFO:Xst:2261 - The FF/Latch <ry_8> in Unit <power_pack> is equivalent to the following FF/Latch, which will be removed : <rx_8> 
-INFO:Xst:2261 - The FF/Latch <color_5> in Unit <power_pack2> is equivalent to the following 2 FFs/Latches, which will be removed : <color_6> <color_7> 
+INFO:Xst:2261 - The FF/Latch <pack2/mode_1> in Unit <pong_game> is equivalent to the following FF/Latch, which will be removed : <pack2/color_7> 
 WARNING:Xst:3002 - This design contains one or more registers/latches that are directly
    incompatible with the Spartan6 architecture. The two primary causes of this is
    either a register or latch described with both an asynchronous set and
@@ -1255,7 +1107,7 @@ WARNING:Xst:3002 - This design contains one or more registers/latches that are d
   Please refer to http://www.xilinx.com search string "Spartan6 asynchronous set/reset" for more details.
 
   List of register instances with asynchronous set and reset:
-    pixel_7 in unit <shield>
+    pixel_6 in unit <shield>
 
 
 Optimizing unit <labkit> ...
@@ -1263,22 +1115,20 @@ Optimizing unit <labkit> ...
 Optimizing unit <debounce> ...
 
 Optimizing unit <pong_game> ...
-WARNING:Xst:1293 - FF/Latch <ball_x_10> has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <ball_x2_10> has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ball_x_10> has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ball_x3_10> has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ball_x2_10> has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ball_x4_10> has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <ball_x_10> has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <ball_x2_10> has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ball_x_10> has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ball_x3_10> has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ball_x2_10> has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ball_x4_10> has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
 
 Optimizing unit <draw_box> ...
 
-Optimizing unit <power_pack> ...
-
-Optimizing unit <power_pack2> ...
-
 Optimizing unit <randgen> ...
+
+Optimizing unit <randgen_10bit> ...
 
 Optimizing unit <shield> ...
 
@@ -1292,8 +1142,6 @@ Optimizing unit <round_piped> ...
 
 Optimizing unit <move_paddle> ...
 
-Optimizing unit <collision> ...
-
 Optimizing unit <counter> ...
 
 Optimizing unit <powerup_timer> ...
@@ -1301,75 +1149,49 @@ Optimizing unit <powerup_timer> ...
 Optimizing unit <display_4hex> ...
 
 Optimizing unit <vga_general> ...
+WARNING:Xst:1710 - FF/Latch <psolution/pack2/ry_9> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <psolution/paddle_pix_delay_7> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <psolution/paddle_pix_delay_6> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <psolution/paddle_pix_delay_5> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <psolution/paddle_pix_delay_1> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <psolution/paddle_pix_delay_0> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <psolution/pack2/rx_8> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <psolution/paddle_pix_delay_15> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <psolution/paddle_pix_delay_14> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <psolution/paddle_pix_delay_13> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <psolution/paddle_pix_delay_9> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <psolution/paddle_pix_delay_8> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:2677 - Node <psolution/pack2/randop_reg> of sequential type is unconnected in block <labkit>.
-WARNING:Xst:1293 - FF/Latch <psolution/pack1/downcount_5> has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <psolution/pack1/downcount_4> has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <psolution/pack1/downcount_3> has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <psolution/pack1/upcount_5> has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <psolution/pack1/upcount_4> has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <psolution/pack1/upcount_3> has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <psolution/pack1/leftcount_5> has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <psolution/pack1/leftcount_4> has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <psolution/pack1/leftcount_3> has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <psolution/pack1/leftcount_2> has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <psolution/pack1/rightcount_5> has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <psolution/pack1/rightcount_4> has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <psolution/pack1/rightcount_3> has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <psolution/pack1/rightcount_2> has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
 INFO:Xst:2261 - The FF/Latch <psolution/paddle_pix_delay_4> in Unit <labkit> is equivalent to the following 2 FFs/Latches, which will be removed : <psolution/paddle_pix_delay_3> <psolution/paddle_pix_delay_2> 
-INFO:Xst:2261 - The FF/Latch <psolution/pixel_7> in Unit <labkit> is equivalent to the following 2 FFs/Latches, which will be removed : <psolution/pixel_6> <psolution/pixel_5> 
+INFO:Xst:2261 - The FF/Latch <psolution/pixel_6> in Unit <labkit> is equivalent to the following FF/Latch, which will be removed : <psolution/pixel_5> 
 INFO:Xst:2261 - The FF/Latch <counter_0> in Unit <labkit> is equivalent to the following FF/Latch, which will be removed : <video_driver/hcount_0> 
 INFO:Xst:2261 - The FF/Latch <counter_1> in Unit <labkit> is equivalent to the following FF/Latch, which will be removed : <video_driver/hcount_1> 
 INFO:Xst:2261 - The FF/Latch <counter_2> in Unit <labkit> is equivalent to the following FF/Latch, which will be removed : <video_driver/hcount_2> 
 INFO:Xst:2261 - The FF/Latch <counter_3> in Unit <labkit> is equivalent to the following FF/Latch, which will be removed : <video_driver/hcount_3> 
 INFO:Xst:2261 - The FF/Latch <counter_4> in Unit <labkit> is equivalent to the following FF/Latch, which will be removed : <video_driver/hcount_4> 
 INFO:Xst:2261 - The FF/Latch <counter_5> in Unit <labkit> is equivalent to the following FF/Latch, which will be removed : <video_driver/hcount_5> 
-INFO:Xst:2261 - The FF/Latch <rgb_5> in Unit <labkit> is equivalent to the following 2 FFs/Latches, which will be removed : <rgb_6> <rgb_7> 
+INFO:Xst:2261 - The FF/Latch <rgb_5> in Unit <labkit> is equivalent to the following FF/Latch, which will be removed : <rgb_6> 
 INFO:Xst:2261 - The FF/Latch <psolution/paddle_pix_delay_12> in Unit <labkit> is equivalent to the following 2 FFs/Latches, which will be removed : <psolution/paddle_pix_delay_11> <psolution/paddle_pix_delay_10> 
-INFO:Xst:3203 - The FF/Latch <psolution/pack1/rxreg_6> in Unit <labkit> is the opposite to the following FF/Latch, which will be removed : <psolution/pack1/rxreg_2> 
-INFO:Xst:3203 - The FF/Latch <psolution/pack1/ryreg_2> in Unit <labkit> is the opposite to the following FF/Latch, which will be removed : <psolution/pack1/rxreg_4> 
-INFO:Xst:3203 - The FF/Latch <psolution/pack1/ryreg_3> in Unit <labkit> is the opposite to the following FF/Latch, which will be removed : <psolution/pack1/rxreg_7> 
-INFO:Xst:3203 - The FF/Latch <psolution/pack1/ryreg_6> in Unit <labkit> is the opposite to the following FF/Latch, which will be removed : <psolution/pack1/rxreg_5> 
-INFO:Xst:3203 - The FF/Latch <psolution/pack1/ryreg_7> in Unit <labkit> is the opposite to the following FF/Latch, which will be removed : <psolution/pack1/rxreg_3> 
-INFO:Xst:3203 - The FF/Latch <psolution/pack1/ry_9> in Unit <labkit> is the opposite to the following FF/Latch, which will be removed : <psolution/pack1/ry_2> 
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block labkit, actual ratio is 27.
+Found area constraint ratio of 100 (+ 5) on block labkit, actual ratio is 23.
 FlipFlop counter_0 has been replicated 1 time(s)
 FlipFlop counter_2 has been replicated 1 time(s)
-FlipFlop counter_4 has been replicated 1 time(s)
-FlipFlop psolution/ball_x2_5 has been replicated 1 time(s)
-FlipFlop psolution/ball_x3_5 has been replicated 1 time(s)
-FlipFlop psolution/ball_x_5 has been replicated 1 time(s)
-FlipFlop video_driver/hcount_6 has been replicated 1 time(s)
 
 Final Macro Processing ...
 
 Processing Unit <labkit> :
 	Found 2-bit shift register for signal <psolution/hsync_delay_1>.
-	Found 5-bit shift register for signal <psolution/pack2/pptype_gen/LFSR_7>.
 Unit <labkit> processed.
 
 =========================================================================
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 606
- Flip-Flops                                            : 606
-# Shift Registers                                      : 2
+# Registers                                            : 642
+ Flip-Flops                                            : 642
+# Shift Registers                                      : 1
  2-bit shift register                                  : 1
- 5-bit shift register                                  : 1
 
 =========================================================================
 
@@ -1392,30 +1214,30 @@ Top Level Output File Name         : labkit.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 3431
+# BELS                             : 3260
 #      GND                         : 1
-#      INV                         : 43
-#      LUT1                        : 346
-#      LUT2                        : 446
-#      LUT3                        : 192
-#      LUT4                        : 383
-#      LUT5                        : 233
-#      LUT6                        : 223
-#      MUXCY                       : 838
+#      INV                         : 47
+#      LUT1                        : 406
+#      LUT2                        : 295
+#      LUT3                        : 138
+#      LUT4                        : 338
+#      LUT5                        : 213
+#      LUT6                        : 197
+#      MUXCY                       : 862
 #      MUXF7                       : 5
 #      VCC                         : 1
-#      XORCY                       : 720
-# FlipFlops/Latches                : 609
-#      FD                          : 152
-#      FDE                         : 26
-#      FDR                         : 164
+#      XORCY                       : 757
+# FlipFlops/Latches                : 649
+#      FD                          : 140
+#      FDE                         : 50
+#      FDR                         : 176
 #      FDR_1                       : 8
-#      FDRE                        : 227
-#      FDS                         : 12
-#      FDSE                        : 19
-#      LD                          : 1
-# Shift Registers                  : 2
-#      SRLC16E                     : 2
+#      FDRE                        : 244
+#      FDS                         : 5
+#      FDSE                        : 20
+#      LD                          : 6
+# Shift Registers                  : 1
+#      SRLC16E                     : 1
 # Clock Buffers                    : 3
 #      BUFG                        : 3
 # IO Buffers                       : 44
@@ -1434,18 +1256,18 @@ Selected Device : 6slx16csg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             609  out of  18224     3%  
- Number of Slice LUTs:                 1868  out of   9112    20%  
-    Number used as Logic:              1866  out of   9112    20%  
-    Number used as Memory:                2  out of   2176     0%  
-       Number used as SRL:                2
+ Number of Slice Registers:             649  out of  18224     3%  
+ Number of Slice LUTs:                 1635  out of   9112    17%  
+    Number used as Logic:              1634  out of   9112    17%  
+    Number used as Memory:                1  out of   2176     0%  
+       Number used as SRL:                1
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   1986
-   Number with an unused Flip Flop:    1377  out of   1986    69%  
-   Number with an unused LUT:           118  out of   1986     5%  
-   Number of fully used LUT-FF pairs:   491  out of   1986    24%  
-   Number of unique control sets:        64
+ Number of LUT Flip Flop pairs used:   1761
+   Number with an unused Flip Flop:    1112  out of   1761    63%  
+   Number with an unused LUT:           126  out of   1761     7%  
+   Number of fully used LUT-FF pairs:   523  out of   1761    29%  
+   Number of unique control sets:        56
 
 IO Utilization: 
  Number of IOs:                         116
@@ -1473,14 +1295,15 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
---------------------------------------------------------------+-------------------------------------+-------+
-Clock Signal                                                  | Clock buffer(FF name)               | Load  |
---------------------------------------------------------------+-------------------------------------+-------+
-clk_100mhz                                                    | DCM_SP:CLKFX                        | 585   |
-clk_100mhz                                                    | DCM_SP:CLKDV                        | 25    |
-psolution/pp_shield/pixel_7_G(psolution/pp_shield/pixel_7_G:O)| NONE(*)(psolution/pp_shield/pixel_7)| 1     |
---------------------------------------------------------------+-------------------------------------+-------+
-(*) This 1 clock signal(s) are generated by combinatorial logic,
+-----------------------------------------------------------------------------+-------------------------------------+-------+
+Clock Signal                                                                 | Clock buffer(FF name)               | Load  |
+-----------------------------------------------------------------------------+-------------------------------------+-------+
+clk_100mhz                                                                   | DCM_SP:CLKFX                        | 561   |
+clk_100mhz                                                                   | DCM_SP:CLKDV                        | 83    |
+psolution/pack2/reset_spawn_OR_113_o(psolution/pack2/reset_spawn_OR_113_o1:O)| NONE(*)(psolution/pack2/color_2)    | 5     |
+psolution/pp_shield/pixel_6_G(psolution/pp_shield/pixel_6_G:O)               | NONE(*)(psolution/pp_shield/pixel_6)| 1     |
+-----------------------------------------------------------------------------+-------------------------------------+-------+
+(*) These 2 clock signal(s) are generated by combinatorial logic,
 and XST is not able to identify which are the primary clock signals.
 Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
 INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
@@ -1493,10 +1316,10 @@ Timing Summary:
 ---------------
 Speed Grade: -3
 
-   Minimum period: 8.352ns (Maximum Frequency: 119.725MHz)
-   Minimum input arrival time before clock: 4.228ns
-   Maximum output required time after clock: 6.035ns
-   Maximum combinational path delay: 4.675ns
+   Minimum period: 8.340ns (Maximum Frequency: 119.900MHz)
+   Minimum input arrival time before clock: 4.094ns
+   Maximum output required time after clock: 5.275ns
+   Maximum combinational path delay: 4.701ns
 
 Timing Details:
 ---------------
@@ -1504,10 +1327,10 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk_100mhz'
-  Clock period: 8.352ns (frequency: 119.725MHz)
-  Total number of paths / destination ports: 73546703 / 1279
+  Clock period: 8.340ns (frequency: 119.900MHz)
+  Total number of paths / destination ports: 94407900 / 1376
 -------------------------------------------------------------------------
-Delay:               12.850ns (Levels of Logic = 36)
+Delay:               12.831ns (Levels of Logic = 36)
   Source:            psolution/ball_y2_7 (FF)
   Destination:       psolution/pixel_7 (FF)
   Source Clock:      clk_100mhz rising 0.6X
@@ -1517,10 +1340,10 @@ Delay:               12.850ns (Levels of Logic = 36)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q              13   0.447   1.161  psolution/ball_y2_7 (psolution/ball_y2_7)
+     FD:C->Q              11   0.447   1.111  psolution/ball_y2_7 (psolution/ball_y2_7)
      LUT5:I2->O            2   0.205   0.961  psolution/round_puck2/n0038<9>1 (psolution/round_puck2/n0038<9>)
-     LUT5:I0->O            0   0.203   0.000  psolution/round_puck2/Mcompar_BUS_0004_GND_671_o_LessThan_9_o_lutdi4 (psolution/round_puck2/Mcompar_BUS_0004_GND_671_o_LessThan_9_o_lutdi4)
-     MUXCY:DI->O           9   0.339   0.830  psolution/round_puck2/Mcompar_BUS_0004_GND_671_o_LessThan_9_o_cy<4> (psolution/round_puck2/Mcompar_BUS_0004_GND_671_o_LessThan_9_o_cy<4>)
+     LUT5:I0->O            0   0.203   0.000  psolution/round_puck2/Mcompar_BUS_0004_GND_680_o_LessThan_9_o_lutdi4 (psolution/round_puck2/Mcompar_BUS_0004_GND_680_o_LessThan_9_o_lutdi4)
+     MUXCY:DI->O           9   0.339   0.830  psolution/round_puck2/Mcompar_BUS_0004_GND_680_o_LessThan_9_o_cy<4> (psolution/round_puck2/Mcompar_BUS_0004_GND_680_o_LessThan_9_o_cy<4>)
      LUT3:I2->O            0   0.205   0.000  psolution/round_puck2/Mmux_changeY_A11 (psolution/round_puck2/Mmux_changeY_rs_A<0>)
      MUXCY:DI->O           1   0.145   0.000  psolution/round_puck2/Mmux_changeY_rs_cy<0> (psolution/round_puck2/Mmux_changeY_rs_cy<0>)
      MUXCY:CI->O           1   0.019   0.000  psolution/round_puck2/Mmux_changeY_rs_cy<1> (psolution/round_puck2/Mmux_changeY_rs_cy<1>)
@@ -1550,20 +1373,20 @@ Delay:               12.850ns (Levels of Logic = 36)
      MUXCY:CI->O           1   0.019   0.000  psolution/round_puck2/Madd_n0046_cy<13> (psolution/round_puck2/Madd_n0046_cy<13>)
      MUXCY:CI->O           1   0.019   0.000  psolution/round_puck2/Madd_n0046_cy<14> (psolution/round_puck2/Madd_n0046_cy<14>)
      XORCY:CI->O           1   0.180   0.924  psolution/round_puck2/Madd_n0046_xor<15> (psolution/round_puck2/n0046<15>)
-     LUT5:I0->O            1   0.203   0.000  psolution/round_puck2/Mcompar_BUS_0007_GND_671_o_LessThan_18_o_lut<3> (psolution/round_puck2/Mcompar_BUS_0007_GND_671_o_LessThan_18_o_lut<3>)
-     MUXCY:S->O            1   0.172   0.000  psolution/round_puck2/Mcompar_BUS_0007_GND_671_o_LessThan_18_o_cy<3> (psolution/round_puck2/Mcompar_BUS_0007_GND_671_o_LessThan_18_o_cy<3>)
-     MUXCY:CI->O           4   0.019   0.912  psolution/round_puck2/Mcompar_BUS_0007_GND_671_o_LessThan_18_o_cy<4> (psolution/ball2<2>)
-     LUT6:I3->O            1   0.205   0.000  psolution/Mmux_pixel[7]_paddle_pix_delay[15]_mux_22_OUT8 (psolution/pixel[7]_paddle_pix_delay[15]_mux_22_OUT<7>)
-     FD:D                      0.102          psolution/pixel_7
+     LUT5:I0->O            1   0.203   0.000  psolution/round_puck2/Mcompar_BUS_0007_GND_680_o_LessThan_18_o_lut<3> (psolution/round_puck2/Mcompar_BUS_0007_GND_680_o_LessThan_18_o_lut<3>)
+     MUXCY:S->O            1   0.172   0.000  psolution/round_puck2/Mcompar_BUS_0007_GND_680_o_LessThan_18_o_cy<3> (psolution/round_puck2/Mcompar_BUS_0007_GND_680_o_LessThan_18_o_cy<3>)
+     MUXCY:CI->O           5   0.019   0.943  psolution/round_puck2/Mcompar_BUS_0007_GND_680_o_LessThan_18_o_cy<4> (psolution/ball2<2>)
+     LUT6:I3->O            1   0.205   0.000  psolution/Mmux_pixel[7]_paddle_pix_delay[15]_mux_22_OUT7 (psolution/pixel[7]_paddle_pix_delay[15]_mux_22_OUT<6>)
+     FD:D                      0.102          psolution/pixel_6
     ----------------------------------------
-    Total                     12.850ns (6.762ns logic, 6.088ns route)
-                                       (52.6% logic, 47.4% route)
+    Total                     12.831ns (6.762ns logic, 6.069ns route)
+                                       (52.7% logic, 47.3% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_100mhz'
-  Total number of paths / destination ports: 153 / 132
+  Total number of paths / destination ports: 157 / 133
 -------------------------------------------------------------------------
-Offset:              4.228ns (Levels of Logic = 3)
+Offset:              4.094ns (Levels of Logic = 3)
   Source:            btn_enter (PAD)
   Destination:       db_enter/clean (FF)
   Destination Clock: clk_100mhz rising 0.6X
@@ -1573,38 +1396,45 @@ Offset:              4.228ns (Levels of Logic = 3)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUF:I->O             3   1.222   0.755  btn_enter_IBUF (btn_enter_IBUF)
-     LUT2:I0->O            1   0.203   0.944  db_enter/n00001 (db_enter/n00001)
-     LUT6:I0->O            1   0.203   0.579  db_enter/_n0032_inv1 (db_enter/_n0032_inv)
+     LUT2:I0->O            1   0.203   0.808  db_enter/n00001 (db_enter/n00001)
+     LUT6:I3->O            1   0.205   0.579  db_enter/_n0032_inv1 (db_enter/_n0032_inv)
      FDE:CE                    0.322          db_enter/clean
     ----------------------------------------
-    Total                      4.228ns (1.950ns logic, 2.278ns route)
-                                       (46.1% logic, 53.9% route)
+    Total                      4.094ns (1.952ns logic, 2.142ns route)
+                                       (47.7% logic, 52.3% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_100mhz'
-  Total number of paths / destination ports: 36 / 22
+  Total number of paths / destination ports: 90 / 22
 -------------------------------------------------------------------------
-Offset:              6.035ns (Levels of Logic = 2)
-  Source:            db_enter/clean (FF)
+Offset:              5.275ns (Levels of Logic = 9)
+  Source:            psolution/gametimer/seconds_2 (FF)
   Destination:       led<0> (PAD)
-  Source Clock:      clk_100mhz rising 0.6X
+  Source Clock:      clk_100mhz rising 0.3X
 
-  Data Path: db_enter/clean to led<0>
+  Data Path: psolution/gametimer/seconds_2 to led<0>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDE:C->Q            142   0.447   2.235  db_enter/clean (db_enter/clean)
-     LUT4:I0->O            1   0.203   0.579  psolution/pwruptimer/Mmux_pp_status41 (led_0_OBUF)
+     FDE:C->Q              3   0.447   0.995  psolution/gametimer/seconds_2 (psolution/gametimer/seconds_2)
+     LUT5:I0->O            1   0.203   0.000  psolution/Mcompar_randop_lut<0> (psolution/Mcompar_randop_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  psolution/Mcompar_randop_cy<0> (psolution/Mcompar_randop_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  psolution/Mcompar_randop_cy<1> (psolution/Mcompar_randop_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  psolution/Mcompar_randop_cy<2> (psolution/Mcompar_randop_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  psolution/Mcompar_randop_cy<3> (psolution/Mcompar_randop_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  psolution/Mcompar_randop_cy<4> (psolution/Mcompar_randop_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  psolution/Mcompar_randop_cy<5> (psolution/Mcompar_randop_cy<5>)
+     MUXCY:CI->O           1   0.213   0.579  psolution/Mcompar_randop_cy<6> (led_0_OBUF)
      OBUF:I->O                 2.571          led_0_OBUF (led<0>)
     ----------------------------------------
-    Total                      6.035ns (3.221ns logic, 2.814ns route)
-                                       (53.4% logic, 46.6% route)
+    Total                      5.275ns (3.701ns logic, 1.574ns route)
+                                       (70.2% logic, 29.8% route)
 
 =========================================================================
 Timing constraint: Default path analysis
   Total number of paths / destination ports: 7 / 7
 -------------------------------------------------------------------------
-Delay:               4.675ns (Levels of Logic = 2)
+Delay:               4.701ns (Levels of Logic = 2)
   Source:            switch<1> (PAD)
   Destination:       led<1> (PAD)
 
@@ -1612,11 +1442,11 @@ Delay:               4.675ns (Levels of Logic = 2)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            11   1.222   0.882  switch_1_IBUF (led_1_OBUF)
+     IBUF:I->O            12   1.222   0.908  switch_1_IBUF (led_1_OBUF)
      OBUF:I->O                 2.571          led_1_OBUF (led<1>)
     ----------------------------------------
-    Total                      4.675ns (3.793ns logic, 0.882ns route)
-                                       (81.1% logic, 18.9% route)
+    Total                      4.701ns (3.793ns logic, 0.908ns route)
+                                       (80.7% logic, 19.3% route)
 
 =========================================================================
 
@@ -1624,33 +1454,42 @@ Cross Clock Domains Report:
 --------------------------
 
 Clock to Setup on destination clock clk_100mhz
------------------------------+---------+---------+---------+---------+
-                             | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
-Source Clock                 |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
------------------------------+---------+---------+---------+---------+
-clk_100mhz                   |   12.850|    5.929|    5.290|         |
-psolution/pp_shield/pixel_7_G|         |    2.891|         |         |
------------------------------+---------+---------+---------+---------+
+------------------------------------+---------+---------+---------+---------+
+                                    | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                        |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+------------------------------------+---------+---------+---------+---------+
+clk_100mhz                          |   12.831|    5.865|    5.652|         |
+psolution/pack2/reset_spawn_OR_113_o|         |    3.495|    5.931|         |
+psolution/pp_shield/pixel_6_G       |         |    2.112|         |         |
+------------------------------------+---------+---------+---------+---------+
 
-Clock to Setup on destination clock psolution/pp_shield/pixel_7_G
+Clock to Setup on destination clock psolution/pack2/reset_spawn_OR_113_o
 ---------------+---------+---------+---------+---------+
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk_100mhz     |         |         |    6.237|         |
+clk_100mhz     |         |         |    2.041|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock psolution/pp_shield/pixel_6_G
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_100mhz     |         |         |    4.258|         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 55.00 secs
-Total CPU time to Xst completion: 55.65 secs
+Total REAL time to Xst completion: 51.00 secs
+Total CPU time to Xst completion: 51.12 secs
  
 --> 
 
-Total memory usage is 381392 kilobytes
+Total memory usage is 365228 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  365 (   0 filtered)
-Number of infos    :   47 (   0 filtered)
+Number of warnings :  252 (   0 filtered)
+Number of infos    :   26 (   0 filtered)
 

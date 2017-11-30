@@ -224,7 +224,7 @@ module pong_game (
 	//Generates the time since last reset
 	wire [31:0] gametime;
 	
-	game_timer gametimer(.clk(clk_25mhz),
+	general_timer gametimer(.clk(clk_25mhz),
 								.reset(reset),
 								.seconds(gametime));
 
@@ -441,8 +441,8 @@ module pong_game (
 
 //	randomGrid rg(.pixel_clk(pixel_clk),.rand_X(pack1x),.rand_Y(pack1y));
 
-  power_pack pack1(.pixel_clk(pixel_clk),.reset(reset),.up(up), .down(down),.left(left),.right(right),.rx(pack1x),.hcount(hcount),.ry(pack1y)
-  , .vcount(vcount), .r2pixel(powerbox));
+//  power_pack pack1(.pixel_clk(pixel_clk),.reset(reset),.up(up), .down(down),.left(left),.right(right),.rx(pack1x),.hcount(hcount),.ry(pack1y)
+//  , .vcount(vcount), .r2pixel(powerbox));
   
   wire spawn, counter_expired;
   wire [1:0] pp_mode;
@@ -475,7 +475,7 @@ module pong_game (
 									 
 	shield pp_shield(.clk(pixel_clk),
 						  .reset(reset),
-						  .active(pp_status[3]),
+						  .active(shield),
 						  .hcount(hcount),
 						  .vcount(vcount),
 						  .paddle_x(PADDLE_X),
@@ -487,7 +487,7 @@ module pong_game (
 									 
 	assign boostme = pp_status[0] | pp_status[1] | pp_status[2];
 	assign shield = pp_status[3];
-	assign randop = pp_status[3];
+	assign randop = (gametime >= 10);
 	
 	assign grow = pp_eaten & (pp_mode == 2'b11); //Change back to 2'b00 later
 
@@ -869,59 +869,6 @@ module power_pack
 endmodule
 
 
-//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
-//\\//\\//\\//\\IMPLEMENTING RANDOM GENEREATOR//\\//\\//\\//\\//\\//\\//\\//
-//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
-
-module rndm_gen (
-	input clock,
-	input reset,
-	output rdy,
-	output reg [9:0] rnd 
-);
-
-	wire feedback;
-	wire [9:0] lfsr_next;
-
-	//An LFSR cannot have an all 0 state, thus reset to non-zero value
-	reg [9:0] reset_value = 300;
-	reg [9:0] lfsr;
-	reg [3:0] count;
-	reg rdy_reg;
-
-	always @ (posedge clock or posedge reset)
-		begin
-			if (reset) begin
-				lfsr <= reset_value; 
-				count <= 4'hF; 
-				rdy_reg <= 0;
-				rnd <= 0;
-				end
-			else begin
-				if(count < 4'd9) begin
-					lfsr <= lfsr_next;
-					count <= count + 1;
-					end
-				// a new random value is ready
-				else if (count == 4'd9) begin
-					count <= 0;
-					rnd <= lfsr; //assign the lfsr number to output after 10 shifts
-					if(rnd <= 20)
-						rdy_reg <= 0;
-					else
-						rdy_reg <= 1;
-					end
-				end
-			end
-
-	// X10+x7
-	assign feedback = lfsr[9] ^ lfsr[6]; 
-	assign lfsr_next = {lfsr[8:0], feedback};
-	assign rdy = rdy_reg;
-	
-endmodule
-
- 
 //////////////////////////////////////////////////////////////////
 //						draw paddle
 ///////////////////////////////////////////////////////////////////
@@ -957,6 +904,9 @@ module draw_box
 	 reg Dpressed;
 	 reg Dreleased;
 	 
+	 parameter GROW_SIZE = 5;
+	 parameter SHRINK_SIZE = 10;
+	 
 	always @(negedge pixel_clk)
 		begin
 			if(reset) begin
@@ -990,32 +940,32 @@ module draw_box
 				Dreleased <= 1;	
 				
 			if(left && Lpressed == 1 && Lreleased == 1 && grow != 1) begin
-				 WIDTH <= WIDTH + 10;
-				 HEIGHT <= HEIGHT + 10;
+				 WIDTH <= WIDTH + GROW_SIZE;
+				 HEIGHT <= HEIGHT + GROW_SIZE;
 				 Lpressed <= 0;
 				 Lreleased <= 0;
 				 end
 			if(right && Rpressed == 1 && Rreleased == 1 && grow != 1) begin
-				 WIDTH <= WIDTH + 10;
-				 HEIGHT <= HEIGHT + 10;
+				 WIDTH <= WIDTH + GROW_SIZE;
+				 HEIGHT <= HEIGHT + GROW_SIZE;
 				 Rpressed <= 0;
 				 Rreleased <= 0;
 				 end
 			if(up && Upressed == 1 && Ureleased == 1 && grow != 1) begin
-				 WIDTH <= WIDTH + 10;
-				 HEIGHT <= HEIGHT + 10;
+				 WIDTH <= WIDTH + GROW_SIZE;
+				 HEIGHT <= HEIGHT + GROW_SIZE;
 				 Upressed <= 0;
 				 Ureleased <= 0;
 				 end
 			 if(down && Dpressed == 1 && Dreleased == 1 && grow != 1) begin
-				 WIDTH <= WIDTH + 10;
-				 HEIGHT <= HEIGHT + 10;
+				 WIDTH <= WIDTH + GROW_SIZE;
+				 HEIGHT <= HEIGHT + GROW_SIZE;
 				 Dpressed <= 0;
 				 Dreleased <= 0;
 				 end
 			 if(grow == 1) begin
-				 WIDTH <= WIDTH - 10;
-				 HEIGHT <= HEIGHT - 10;
+				 WIDTH <= WIDTH - SHRINK_SIZE;
+				 HEIGHT <= HEIGHT - SHRINK_SIZE;
 				 Dpressed <= 0;
 				 Dreleased <= 0;
 				 Upressed <= 0;

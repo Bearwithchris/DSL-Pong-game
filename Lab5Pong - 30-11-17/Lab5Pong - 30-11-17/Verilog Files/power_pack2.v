@@ -21,6 +21,7 @@ module power_pack2 #(parameter WIDTH=20,
 	reg randop_reg;  
 	reg [7:0] color;
 	wire [7:0] randnum;
+	wire [9:0] randnum10;
 	
 	parameter SHRINK	= 	2'b00;
 	parameter BOOST	= 	2'b01;
@@ -35,29 +36,51 @@ module power_pack2 #(parameter WIDTH=20,
 	
 	
 	randgen pptype_gen(.clk(clk), .LFSR(randnum));
+	randgen_10bit bitgen10(.clk(clk), .LFSR(randnum10));
+	
+	always @(*)
+		begin
+			if(reset || (spawn && !eaten)) begin
+				mode = randnum10[5:4]; //randomly extract 2 bit number from the random generated number
+				case(mode)
+					SHRINK: begin
+						color = COLOR_SHRINK;
+						end
+					BOOST: begin
+						color = COLOR_BOOST;
+						end
+					SHIELD: begin
+						color = COLOR_SHIELD;
+						end
+					idk: begin
+						color = COLOR_IDK;
+						end
+					endcase
+				end
+			end
 	  
 	always @(posedge clk)
 		begin
 			if(reset || (spawn && !eaten)) begin
-				mode <= randnum[1:0];
-				//mode <= SHIELD;
-				case(mode)
-					SHRINK: begin
-						color <= COLOR_SHRINK;
-						end
-					BOOST: begin
-						color <= COLOR_BOOST;
-						end
-					SHIELD: begin
-						color <= COLOR_SHIELD;
-						end
-					idk: begin
-						color <= COLOR_IDK;
-						end
-					endcase
+//				mode <= randnum10[5:4]; //randomly extract 2 bit number from the random generated number
+//				//mode <= SHIELD;
+//				case(mode)
+//					SHRINK: begin
+//						color <= COLOR_SHRINK;
+//						end
+//					BOOST: begin
+//						color <= COLOR_BOOST;
+//						end
+//					SHIELD: begin
+//						color <= COLOR_SHIELD;
+//						end
+//					idk: begin
+//						color <= COLOR_IDK;
+//						end
+//					endcase
 				display <= 1;
-				rx <= randx;//700;
-				ry <= randy;//500;
+				rx <= randnum10;//randx;//700;
+				ry <= randnum + randnum10[8:0];//randy;//500;
 				randop_reg <= 1;
 				end
 			else if(eaten) begin
@@ -99,7 +122,7 @@ module shield(
 	reg [10:0] rx, height;
 	reg [9:0]  ry, width;
 
-	parameter COLOR = 8'b111_100_00;
+	parameter COLOR = 8'b011_100_10;
 	parameter BORDER = 10;
 	
 	always @(posedge clk)
@@ -115,7 +138,7 @@ module shield(
 			if(active) begin
 				//if((hcount >= rx - BORDER) && hcount < rx && (vcount >= ry - BORDER) && (vcount < ry + height + BORDER)) begin
 				//if ((hcount >= (rx - 4'd10) && hcount < rx) && ((vcount >= ry - 4'd10) && vcount < (ry + height + 4'd10))) begin
-				if ((hcount >= 90 && hcount < 110) && (vcount >= 90 && vcount < 160)) begin
+				if ((hcount >= 90 && hcount < 120) && (vcount >= 200 && vcount < 400)) begin
 					pixel = COLOR;
 					end
 				end

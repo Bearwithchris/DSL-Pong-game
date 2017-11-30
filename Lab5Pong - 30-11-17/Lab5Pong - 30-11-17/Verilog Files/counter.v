@@ -104,7 +104,7 @@ module pp_timer(
 							.load(load),
 							.reset(),
 							.clear(0),
-							.value(1),
+							.value(2),
 							.expired(expired));
 	
 endmodule
@@ -152,7 +152,7 @@ module counter(
 endmodule
 
 
-module game_timer(
+module general_timer(
 	input wire 			clk,
 	input wire			reset,
 	output reg [31:0] seconds

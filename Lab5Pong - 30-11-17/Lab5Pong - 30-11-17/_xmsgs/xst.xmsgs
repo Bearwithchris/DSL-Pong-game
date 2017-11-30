@@ -5,19 +5,19 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="568" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 931: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 878: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 76: Assignment to <arg fmt="%s" index="1">clk_100mhz_buf</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1247: Result of <arg fmt="%d" index="1">21</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">20</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1197: Result of <arg fmt="%d" index="1">21</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">20</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1216: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1166: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1217: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1167: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 116: Assignment to <arg fmt="%s" index="1">hblank1</arg> ignored, since the identifier is never used
@@ -32,31 +32,28 @@
 <msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\counter.v" Line 173: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">26</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 229: Assignment to <arg fmt="%s" index="1">gametime</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 992: Signal &lt;<arg fmt="%s" index="1">x</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1042: Signal &lt;<arg fmt="%s" index="1">x</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 997: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1047: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1048: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 998: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 286: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">x</arg>&gt;. Formal port size is <arg fmt="%d" index="2">11</arg>-bit while actual signal size is <arg fmt="%d" index="1">10</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1071: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1021: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1073: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1023: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1076: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1026: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1078: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1028: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 326: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
@@ -281,43 +278,13 @@
 <msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 438: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">object_isCircle</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 747: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 97: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 748: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 98: Signal &lt;<arg fmt="%s" index="1">display</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 786: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 792: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 798: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 803: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 862: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 863: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 444: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">rx</arg>&gt;. Formal port size is <arg fmt="%d" index="2">11</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 444: Assignment to <arg fmt="%s" index="1">pack1x</arg> ignored, since the identifier is never used
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 74: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 75: Signal &lt;<arg fmt="%s" index="1">display</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 76: Signal &lt;<arg fmt="%s" index="1">color</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 99: Signal &lt;<arg fmt="%s" index="1">color</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 457: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">randx</arg>&gt;. Formal port size is <arg fmt="%d" index="2">11</arg>-bit while actual signal size is <arg fmt="%d" index="1">10</arg>-bit.
@@ -368,148 +335,148 @@
 <msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\counter.v" Line 41: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">value</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 105: Assignment to <arg fmt="%s" index="1">rx</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 128: Assignment to <arg fmt="%s" index="1">rx</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 115: Signal &lt;<arg fmt="%s" index="1">active</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 138: Signal &lt;<arg fmt="%s" index="1">active</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 481: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">paddle_x</arg>&gt;. Formal port size is <arg fmt="%d" index="2">11</arg>-bit while actual signal size is <arg fmt="%d" index="1">10</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 489: Assignment to <arg fmt="%s" index="1">shield</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1057: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1107: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1058: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1108: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1058: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1108: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1060: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1110: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1060: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1110: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1062: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1112: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1063: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1113: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1063: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1113: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1065: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1115: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1115: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1065: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 498: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">ball_size</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">7</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1107: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1057: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1108: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1058: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1108: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1058: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1110: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1060: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1110: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1060: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1112: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1062: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1113: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1063: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1113: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1063: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1115: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1065: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1115: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1065: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 501: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">ball_size</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">7</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1107: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1057: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1108: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1058: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1108: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1058: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1110: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1060: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1110: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1060: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1112: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1062: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1113: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1063: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1113: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1063: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1115: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1065: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1115: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1065: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 504: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">ball_size</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">7</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1107: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1057: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1108: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1058: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1108: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1058: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1110: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1060: Signal &lt;<arg fmt="%s" index="1">rx</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1110: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1060: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1112: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1062: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1113: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1063: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1113: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1063: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1115: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1065: Signal &lt;<arg fmt="%s" index="1">ry</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1115: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1065: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 507: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">ball_size</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">7</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 275: Net &lt;<arg fmt="%s" index="1">powerbox[7]</arg>&gt; does not have a driver.
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="634" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 364: Net &lt;<arg fmt="%s" index="1">stop1</arg>&gt; does not have a driver.
@@ -521,10 +488,7 @@
 <msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 175: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">31</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1288: Result of <arg fmt="%d" index="1">15</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">14</arg>-bit target.
-</msg>
-
-<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v</arg>&quot; line <arg fmt="%d" index="2">227</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">gametimer</arg>&gt; of block &lt;<arg fmt="%s" index="4">game_timer</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">pong_game</arg>&gt;. Underlying logic will be removed.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1238: Result of <arg fmt="%d" index="1">15</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">14</arg>-bit target.
 </msg>
 
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">jd</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -545,15 +509,6 @@
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">switch</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v</arg>&quot; line <arg fmt="%s" index="2">227</arg>: Output port &lt;<arg fmt="%s" index="3">seconds</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gametimer</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v</arg>&quot; line <arg fmt="%s" index="2">444</arg>: Output port &lt;<arg fmt="%s" index="3">rx</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pack1</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v</arg>&quot; line <arg fmt="%s" index="2">444</arg>: Output port &lt;<arg fmt="%s" index="3">ry</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pack1</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
 <msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v</arg>&quot; line <arg fmt="%s" index="2">451</arg>: Output port &lt;<arg fmt="%s" index="3">randop</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pack2</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
@@ -561,6 +516,9 @@
 </msg>
 
 <msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\Lab 5\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v</arg>&quot; line <arg fmt="%s" index="2">465</arg>: Output port &lt;<arg fmt="%s" index="3">started_op</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pptimer</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">powerbox</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
 </msg>
 
 <msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">stop1</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
@@ -573,6 +531,36 @@
 </msg>
 
 <msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">stop4</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">randx</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">randy</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">mode&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">color&lt;7&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">color&lt;4&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">color&lt;3&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">color&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">color&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">color&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">mode&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 </msg>
 
 <msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">reset</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">mycounter</arg>&apos;, is tied to GND.
@@ -596,7 +584,7 @@
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">reset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">pixel&lt;7&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">pixel&lt;6&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 </msg>
 
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pixel_clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -626,36 +614,13 @@
 <msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rxreg_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pack1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ryreg_9&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ryreg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pack1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ryreg_5&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rxreg_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pack1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ryreg_4&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rxreg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pack1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rxreg_8&gt; &lt;ryreg_8&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rxreg_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pack1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rxreg_1&gt; &lt;rxreg_10&gt; &lt;ryreg_0&gt; &lt;ryreg_1&gt; </arg>
-</msg>
-
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">vsync_delay_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">psolution</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;vsync_delayed&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">rxreg_5</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">pack1</arg>.
-You should achieve better results by setting this init to <arg fmt="%i" index="3">0</arg>.
-</msg>
-
-<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">ryreg_6</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">pack1</arg>.
-You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
-</msg>
-
-<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">rxreg_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pack1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
 <msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">rx_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pack2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">color_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pack2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
 <msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">paddle_pix_delay_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">psolution</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
@@ -700,277 +665,25 @@ You should achieve better results by setting this init to <arg fmt="%i" index="3
 <msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">paddle_pix_delay_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">psolution</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">rx</arg>&lt;<arg fmt="%d" index="2">10</arg>:<arg fmt="%d" index="3">10</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">power_pack2</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_counter[13]_PWR_33_o_wide_mux_23_OUT</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">pack2/Mram__n0096</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pack1</arg>&gt;.
-</msg>
-
-<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_counter[13]_PWR_34_o_wide_mux_23_OUT</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
-</msg>
-
-<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_mode[1]_PWR_17_o_wide_mux_1_OUT</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
-</msg>
-
-<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_mode[1]_PWR_22_o_wide_mux_1_OUT</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_mode[1]_PWR_21_o_wide_mux_1_OUT</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
 </msg>
 
 <msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">boost_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pong_game</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">pack2/color_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rxreg_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ryreg_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">power_pack</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">boost_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">boost_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
 <msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">boost_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
@@ -982,50 +695,7 @@ You should achieve better results by setting this init to <arg fmt="%i" index="3
 <msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">boost_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">rxreg_5</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">power_pack</arg>.
-You should achieve better results by setting this init to <arg fmt="%i" index="3">0</arg>.
-</msg>
-
-<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">ryreg_6</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">power_pack</arg>.
-You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
-</msg>
-
-<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">rxreg_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">power_pack</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxreg_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">power_pack</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rxreg_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">power_pack</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ryreg_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">power_pack</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ryreg_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">power_pack</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">vsync_delay_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pong_game</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;vsync_delayed&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rxreg_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">power_pack</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ryreg_9&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rxreg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">power_pack</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rxreg_8&gt; &lt;ryreg_8&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ryreg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">power_pack</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ryreg_5&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rxreg_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">power_pack</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ryreg_4&gt; </arg>
-</msg>
-
-<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">rx_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">power_pack2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="info" file="Xst" num="2146" delta="old" >In block &lt;<arg fmt="%s" index="1">draw_box</arg>&gt;, <arg fmt="%s" index="2">Accumulator</arg> &lt;<arg fmt="%s" index="3">WIDTH</arg>&gt; </msg>
-
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">color_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">power_pack2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
 <msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">speed_x_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
@@ -1040,19 +710,7 @@ You should achieve better results by setting this init to <arg fmt="%i" index="3
 <msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">speed_y_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ry_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">power_pack</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ry_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">power_pack</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rx_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">power_pack</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rx_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">power_pack</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">rx_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">power_pack</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">LFSR_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">randgen_10bit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
 <msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">paddle_y_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">move_paddle</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
@@ -1076,19 +734,13 @@ You should achieve better results by setting this init to <arg fmt="%i" index="3
 <msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">my_clocks/DCM_inst</arg> in unit <arg fmt="%s" index="2">labkit</arg> of type <arg fmt="%s" index="3">DCM</arg> has been replaced by <arg fmt="%s" index="4">DCM_SP</arg>
 </msg>
 
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">pack2/mode_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pong_game</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;pack2/color_4&gt; </arg>
+</msg>
+
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">speed_x_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pong_game</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;speed_y_3&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ry_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">power_pack</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_9&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ry_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">power_pack</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ry_5&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ry_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">power_pack</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_8&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">color_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">power_pack2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;color_6&gt; &lt;color_7&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">pack2/mode_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pong_game</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;pack2/color_7&gt; </arg>
 </msg>
 
 <msg type="warning" file="Xst" num="3002" delta="old" >This design contains one or more registers/latches that are directly
@@ -1112,28 +764,31 @@ Xilinx highly recommends one of the following:
           (timing simulation highly recommended when using this option)
 </msg>
 
-<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ball_x_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ball_x2_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ball_x_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
 <msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ball_x3_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ball_x2_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
 <msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ball_x4_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ball_x_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ball_x2_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ball_x_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
 <msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ball_x3_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ball_x2_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ball_x4_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ball_x4_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pong_game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack2/ry_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
 <msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/paddle_pix_delay_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
@@ -1151,6 +806,9 @@ Xilinx highly recommends one of the following:
 <msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/paddle_pix_delay_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack2/rx_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
 <msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">psolution/paddle_pix_delay_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
@@ -1166,55 +824,10 @@ Xilinx highly recommends one of the following:
 <msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">psolution/paddle_pix_delay_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">psolution/pack2/randop_reg</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">labkit</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/downcount_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/downcount_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/downcount_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/upcount_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/upcount_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/upcount_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/leftcount_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/leftcount_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/leftcount_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/leftcount_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/rightcount_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/rightcount_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/rightcount_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/rightcount_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">labkit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">psolution/paddle_pix_delay_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;psolution/paddle_pix_delay_3&gt; &lt;psolution/paddle_pix_delay_2&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">psolution/pixel_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;psolution/pixel_6&gt; &lt;psolution/pixel_5&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">psolution/pixel_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;psolution/pixel_5&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">counter_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;video_driver/hcount_0&gt; </arg>
@@ -1235,28 +848,10 @@ Xilinx highly recommends one of the following:
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">counter_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;video_driver/hcount_5&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rgb_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rgb_6&gt; &lt;rgb_7&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rgb_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rgb_6&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">psolution/paddle_pix_delay_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;psolution/paddle_pix_delay_11&gt; &lt;psolution/paddle_pix_delay_10&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/rxreg_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;psolution/pack1/rxreg_2&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/ryreg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;psolution/pack1/rxreg_4&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/ryreg_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;psolution/pack1/rxreg_7&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/ryreg_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;psolution/pack1/rxreg_5&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/ryreg_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;psolution/pack1/rxreg_3&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">psolution/pack1/ry_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">labkit</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;psolution/pack1/ry_2&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
