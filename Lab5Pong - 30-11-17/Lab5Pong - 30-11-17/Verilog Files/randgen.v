@@ -19,9 +19,31 @@ module randgen(
 endmodule
 
 
+module randgen_9bit(
+	input clk,
+	output reg [8:0] LFSR = 112
+	);
+
+	wire feedback = LFSR[7];
+
+	always @(posedge clk)
+		begin
+			LFSR[0] <= feedback;
+			LFSR[1] <= LFSR[0];
+			LFSR[2] <= LFSR[1] ^ feedback;
+			LFSR[3] <= LFSR[2];
+			LFSR[4] <= LFSR[3];
+			LFSR[5] <= LFSR[4];
+			LFSR[6] <= LFSR[5] ^ feedback;
+			LFSR[7] <= LFSR[6] ^ feedback;
+			LFSR[8] <= LFSR[7];
+			end
+endmodule
+
+
 module randgen_10bit(
 	input clk,
-	output reg [9:0] LFSR = 255
+	output reg [9:0] LFSR = 625
 	);
 
 	wire feedback = LFSR[7];

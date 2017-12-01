@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.28 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.36 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.28 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.37 secs
  
 --> Reading design: labkit.prj
 
@@ -107,17 +107,18 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 Analyzing Verilog file "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\randgen.v" into library work
 Parsing module <randgen>.
+Parsing module <randgen_9bit>.
 Parsing module <randgen_10bit>.
 Analyzing Verilog file "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" into library work
 Parsing module <power_pack2>.
-INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 26. parameter declaration becomes local in power_pack2 with formal parameter declaration list
 INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 27. parameter declaration becomes local in power_pack2 with formal parameter declaration list
 INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 28. parameter declaration becomes local in power_pack2 with formal parameter declaration list
 INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 29. parameter declaration becomes local in power_pack2 with formal parameter declaration list
-INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 32. parameter declaration becomes local in power_pack2 with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 30. parameter declaration becomes local in power_pack2 with formal parameter declaration list
 INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 33. parameter declaration becomes local in power_pack2 with formal parameter declaration list
 INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 34. parameter declaration becomes local in power_pack2 with formal parameter declaration list
 INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 35. parameter declaration becomes local in power_pack2 with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 36. parameter declaration becomes local in power_pack2 with formal parameter declaration list
 Analyzing Verilog file "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\counter.v" into library work
 Parsing module <powerup_timer>.
 Parsing module <pp_timer>.
@@ -129,14 +130,14 @@ Analyzing Verilog file "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Sys
 Parsing module <labkit>.
 Parsing module <pong_game>.
 Parsing module <draw_box>.
-WARNING:HDLCompiler:568 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 874: Constant value is truncated to fit in <8> bits.
-INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 906. parameter declaration becomes local in draw_box with formal parameter declaration list
-INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 907. parameter declaration becomes local in draw_box with formal parameter declaration list
+WARNING:HDLCompiler:568 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 884: Constant value is truncated to fit in <8> bits.
+INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 916. parameter declaration becomes local in draw_box with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 917. parameter declaration becomes local in draw_box with formal parameter declaration list
 Parsing module <move_paddle>.
 Parsing module <round_piped>.
-INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1048. parameter declaration becomes local in round_piped with formal parameter declaration list
-INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1049. parameter declaration becomes local in round_piped with formal parameter declaration list
-INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1050. parameter declaration becomes local in round_piped with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1058. parameter declaration becomes local in round_piped with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1059. parameter declaration becomes local in round_piped with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1060. parameter declaration becomes local in round_piped with formal parameter declaration list
 Parsing module <vga_general>.
 Parsing module <debounce>.
 Parsing module <display_4hex>.
@@ -156,13 +157,13 @@ Elaborating module <DCM(CLK_FEEDBACK="1X",CLKDV_DIVIDE=4.0,CLKFX_DIVIDE=20,CLKFX
 WARNING:HDLCompiler:1127 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 76: Assignment to clk_100mhz_buf ignored, since the identifier is never used
 
 Elaborating module <debounce>.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1198: Result of 21-bit expression is truncated to fit in 20-bit target.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1208: Result of 21-bit expression is truncated to fit in 20-bit target.
 
 Elaborating module <vga_general>.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1167: Result of 32-bit expression is truncated to fit in 11-bit target.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1168: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1177: Result of 32-bit expression is truncated to fit in 11-bit target.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1178: Result of 32-bit expression is truncated to fit in 10-bit target.
 WARNING:HDLCompiler:1127 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 116: Assignment to hblank1 ignored, since the identifier is never used
-WARNING:HDLCompiler:1016 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 459: Port reset is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 469: Port reset is not connected to this instance
 
 Elaborating module <pong_game>.
 
@@ -176,19 +177,19 @@ WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital 
 WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 289: Result of 7-bit expression is truncated to fit in 6-bit target.
 
 Elaborating module <draw_box(COLOR=8'b011100)>.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 984: Signal <x> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 985: Signal <shield> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 986: Signal <warning> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 987: Signal <ten_hz> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 997: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 998: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 994: Signal <x> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 995: Signal <shield> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 996: Signal <warning> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 997: Signal <ten_hz> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1007: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1008: Result of 32-bit expression is truncated to fit in 10-bit target.
 WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 316: Size mismatch in connection of port <x>. Formal port size is 11-bit while actual signal size is 10-bit.
 
 Elaborating module <move_paddle>.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1022: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1024: Result of 11-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1027: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1029: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1032: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1034: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1037: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1039: Result of 11-bit expression is truncated to fit in 10-bit target.
 WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 356: Result of 32-bit expression is truncated to fit in 5-bit target.
 WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 357: Result of 32-bit expression is truncated to fit in 5-bit target.
 WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 359: Result of 12-bit expression is truncated to fit in 10-bit target.
@@ -261,31 +262,33 @@ WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital 
 WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 92: Result of 11-bit expression is truncated to fit in 10-bit target.
 WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 93: Result of 11-bit expression is truncated to fit in 10-bit target.
 WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\collision.v" Line 141: Result of 32-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 403: Size mismatch in connection of port <object_x>. Formal port size is 10-bit while actual signal size is 11-bit.
-WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 405: Size mismatch in connection of port <object_r>. Formal port size is 10-bit while actual signal size is 6-bit.
-WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 408: Size mismatch in connection of port <object_isCircle>. Formal port size is 1-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 417: Size mismatch in connection of port <object_x>. Formal port size is 10-bit while actual signal size is 11-bit.
-WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 419: Size mismatch in connection of port <object_r>. Formal port size is 10-bit while actual signal size is 6-bit.
-WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 422: Size mismatch in connection of port <object_isCircle>. Formal port size is 1-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 431: Size mismatch in connection of port <object_x>. Formal port size is 10-bit while actual signal size is 11-bit.
-WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 433: Size mismatch in connection of port <object_r>. Formal port size is 10-bit while actual signal size is 6-bit.
-WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 436: Size mismatch in connection of port <object_isCircle>. Formal port size is 1-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 453: Result of 32-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 464: Size mismatch in connection of port <object_x>. Formal port size is 10-bit while actual signal size is 11-bit.
-WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 467: Size mismatch in connection of port <object_width>. Formal port size is 10-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 468: Size mismatch in connection of port <object_height>. Formal port size is 10-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 469: Size mismatch in connection of port <object_isCircle>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 405: Size mismatch in connection of port <object_x>. Formal port size is 10-bit while actual signal size is 11-bit.
+WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 407: Size mismatch in connection of port <object_r>. Formal port size is 10-bit while actual signal size is 6-bit.
+WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 410: Size mismatch in connection of port <object_isCircle>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 419: Size mismatch in connection of port <object_x>. Formal port size is 10-bit while actual signal size is 11-bit.
+WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 421: Size mismatch in connection of port <object_r>. Formal port size is 10-bit while actual signal size is 6-bit.
+WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 424: Size mismatch in connection of port <object_isCircle>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 433: Size mismatch in connection of port <object_x>. Formal port size is 10-bit while actual signal size is 11-bit.
+WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 435: Size mismatch in connection of port <object_r>. Formal port size is 10-bit while actual signal size is 6-bit.
+WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 438: Size mismatch in connection of port <object_isCircle>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 462: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 474: Size mismatch in connection of port <object_x>. Formal port size is 10-bit while actual signal size is 11-bit.
+WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 477: Size mismatch in connection of port <object_width>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 478: Size mismatch in connection of port <object_height>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 479: Size mismatch in connection of port <object_isCircle>. Formal port size is 1-bit while actual signal size is 32-bit.
 
 Elaborating module <power_pack2>.
 
 Elaborating module <randgen>.
 
+Elaborating module <randgen_9bit>.
+
 Elaborating module <randgen_10bit>.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 97: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 98: Signal <display> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 99: Signal <color> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 485: Size mismatch in connection of port <randx>. Formal port size is 11-bit while actual signal size is 10-bit.
-WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 489: Size mismatch in connection of port <r2pixel>. Formal port size is 10-bit while actual signal size is 8-bit.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 99: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 100: Signal <display> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\power_pack2.v" Line 101: Signal <color> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 495: Size mismatch in connection of port <randx>. Formal port size is 11-bit while actual signal size is 10-bit.
+WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 499: Size mismatch in connection of port <r2pixel>. Formal port size is 10-bit while actual signal size is 8-bit.
 
 Elaborating module <pp_timer>.
 
@@ -308,42 +311,42 @@ WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital 
 WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\counter.v" Line 45: Size mismatch in connection of port <value>. Formal port size is 4-bit while actual signal size is 32-bit.
 
 Elaborating module <round_piped(COLOR=8'b10100000)>.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1058: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1059: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1059: Result of 32-bit expression is truncated to fit in 11-bit target.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1061: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1061: Result of 32-bit expression is truncated to fit in 11-bit target.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1063: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1064: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1064: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1066: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1066: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 519: Size mismatch in connection of port <ball_size>. Formal port size is 1-bit while actual signal size is 7-bit.
-WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 522: Size mismatch in connection of port <ball_size>. Formal port size is 1-bit while actual signal size is 7-bit.
-WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 525: Size mismatch in connection of port <ball_size>. Formal port size is 1-bit while actual signal size is 7-bit.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1068: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1069: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1069: Result of 32-bit expression is truncated to fit in 11-bit target.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1071: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1071: Result of 32-bit expression is truncated to fit in 11-bit target.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1073: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1074: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1074: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1076: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1076: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 529: Size mismatch in connection of port <ball_size>. Formal port size is 1-bit while actual signal size is 7-bit.
+WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 532: Size mismatch in connection of port <ball_size>. Formal port size is 1-bit while actual signal size is 7-bit.
+WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 535: Size mismatch in connection of port <ball_size>. Formal port size is 1-bit while actual signal size is 7-bit.
 
 Elaborating module <round_piped>.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1058: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1059: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1059: Result of 32-bit expression is truncated to fit in 11-bit target.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1061: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1061: Result of 32-bit expression is truncated to fit in 11-bit target.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1063: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1064: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1064: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1066: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1066: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 528: Size mismatch in connection of port <ball_size>. Formal port size is 1-bit while actual signal size is 7-bit.
-WARNING:HDLCompiler:1127 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 529: Assignment to ball4 ignored, since the identifier is never used
-WARNING:HDLCompiler:552 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 397: Input port object_width[9] is not connected on this instance
-WARNING:HDLCompiler:552 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 411: Input port object_width[9] is not connected on this instance
-WARNING:HDLCompiler:552 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 425: Input port object_width[9] is not connected on this instance
-WARNING:HDLCompiler:552 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 459: Input port reset is not connected on this instance
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1068: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1069: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1069: Result of 32-bit expression is truncated to fit in 11-bit target.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1071: Signal <rx> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1071: Result of 32-bit expression is truncated to fit in 11-bit target.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1073: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1074: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1074: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:91 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1076: Signal <ry> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1076: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:189 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 538: Size mismatch in connection of port <ball_size>. Formal port size is 1-bit while actual signal size is 7-bit.
+WARNING:HDLCompiler:1127 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 539: Assignment to ball4 ignored, since the identifier is never used
+WARNING:HDLCompiler:552 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 399: Input port object_width[9] is not connected on this instance
+WARNING:HDLCompiler:552 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 413: Input port object_width[9] is not connected on this instance
+WARNING:HDLCompiler:552 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 427: Input port object_width[9] is not connected on this instance
+WARNING:HDLCompiler:552 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 469: Input port reset is not connected on this instance
 WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 175: Result of 32-bit expression is truncated to fit in 31-bit target.
 
 Elaborating module <display_4hex>.
-WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1239: Result of 15-bit expression is truncated to fit in 14-bit target.
-WARNING:Xst:2972 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" line 528. All outputs of instance <round_puck4> of block <round_piped> are unconnected in block <pong_game>. Underlying logic will be removed.
+WARNING:HDLCompiler:413 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" Line 1249: Result of 15-bit expression is truncated to fit in 14-bit target.
+WARNING:Xst:2972 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" line 538. All outputs of instance <round_puck4> of block <round_piped> are unconnected in block <pong_game>. Underlying logic will be removed.
 
 =========================================================================
 *                           HDL Synthesis                               *
@@ -381,8 +384,8 @@ Synthesizing Unit <debounce>.
     Found 1-bit register for signal <new>.
     Found 1-bit register for signal <clean>.
     Found 20-bit register for signal <count>.
-    Found 20-bit adder for signal <count[19]_GND_5_o_add_3_OUT> created at line 1198.
-    Found 1-bit comparator equal for signal <n0000> created at line 1190
+    Found 20-bit adder for signal <count[19]_GND_5_o_add_3_OUT> created at line 1208.
+    Found 1-bit comparator equal for signal <n0000> created at line 1200
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred  22 D-type flip-flop(s).
@@ -402,14 +405,14 @@ Synthesizing Unit <vga_general>.
         vsize = 767
     Found 10-bit register for signal <vcount>.
     Found 11-bit register for signal <hcount>.
-    Found 12-bit adder for signal <n0033[11:0]> created at line 1167.
-    Found 11-bit adder for signal <n0035[10:0]> created at line 1168.
-    Found 11-bit comparator greater for signal <hcount[10]_PWR_6_o_LessThan_3_o> created at line 1157
-    Found 11-bit comparator greater for signal <PWR_6_o_hcount[10]_LessThan_4_o> created at line 1157
-    Found 10-bit comparator greater for signal <vcount[9]_PWR_6_o_LessThan_5_o> created at line 1158
-    Found 10-bit comparator greater for signal <PWR_6_o_vcount[9]_LessThan_6_o> created at line 1158
-    Found 11-bit comparator lessequal for signal <n0008> created at line 1160
-    Found 10-bit comparator lessequal for signal <n0010> created at line 1161
+    Found 12-bit adder for signal <n0033[11:0]> created at line 1177.
+    Found 11-bit adder for signal <n0035[10:0]> created at line 1178.
+    Found 11-bit comparator greater for signal <hcount[10]_PWR_6_o_LessThan_3_o> created at line 1167
+    Found 11-bit comparator greater for signal <PWR_6_o_hcount[10]_LessThan_4_o> created at line 1167
+    Found 10-bit comparator greater for signal <vcount[9]_PWR_6_o_LessThan_5_o> created at line 1168
+    Found 10-bit comparator greater for signal <PWR_6_o_vcount[9]_LessThan_6_o> created at line 1168
+    Found 11-bit comparator lessequal for signal <n0008> created at line 1170
+    Found 10-bit comparator lessequal for signal <n0010> created at line 1171
     Summary:
 	inferred   2 Adder/Subtractor(s).
 	inferred  21 D-type flip-flop(s).
@@ -432,10 +435,10 @@ WARNING:Xst:2898 - Port 'object_height', unconnected in block instance 'c3', is 
 WARNING:Xst:2898 - Port 'object_r', unconnected in block instance 'pp', is tied to GND.
 WARNING:Xst:2898 - Port 'reset', unconnected in block instance 'pp', is tied to GND.
 WARNING:Xst:647 - Input <switch> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-INFO:Xst:3210 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" line 479: Output port <randop> of the instance <pack2> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" line 493: Output port <expired> of the instance <pptimer> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" line 493: Output port <started_op> of the instance <pptimer> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" line 528: Output port <rpixel> of the instance <round_puck4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" line 489: Output port <randop> of the instance <pack2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" line 503: Output port <expired> of the instance <pptimer> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" line 503: Output port <started_op> of the instance <pptimer> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v" line 538: Output port <rpixel> of the instance <round_puck4> is unconnected or connected to loadless signal.
     Found 2-bit register for signal <hsync_delay>.
     Found 2-bit register for signal <vsync_delay>.
     Found 2-bit register for signal <blank_delay>.
@@ -449,6 +452,7 @@ INFO:Xst:3210 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems La
     Found 5-bit register for signal <speed_y>.
     Found 10-bit register for signal <power_box_random_posX>.
     Found 10-bit register for signal <power_box_random_posY>.
+    Found 1-bit register for signal <stopgame>.
     Found 11-bit register for signal <ball_x>.
     Found 10-bit register for signal <ball_y>.
     Found 1-bit register for signal <ball_up>.
@@ -474,12 +478,12 @@ INFO:Xst:3210 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems La
     Found 10-bit subtractor for signal <ball_y3[9]_GND_7_o_sub_77_OUT> created at line 388.
     Found 11-bit subtractor for signal <ball_x4[10]_GND_7_o_sub_81_OUT> created at line 390.
     Found 10-bit subtractor for signal <ball_y4[9]_GND_7_o_sub_83_OUT> created at line 391.
-    Found 7-bit adder for signal <n0291> created at line 284.
+    Found 7-bit adder for signal <n0295> created at line 284.
     Found 6-bit adder for signal <slow_factor[5]_GND_7_o_add_27_OUT> created at line 289.
-    Found 7-bit adder for signal <n0426> created at line 356.
-    Found 7-bit adder for signal <n0429> created at line 357.
-    Found 12-bit adder for signal <n0432[11:0]> created at line 359.
-    Found 11-bit adder for signal <n0441[10:0]> created at line 360.
+    Found 7-bit adder for signal <n0430> created at line 356.
+    Found 7-bit adder for signal <n0433> created at line 357.
+    Found 12-bit adder for signal <n0436[11:0]> created at line 359.
+    Found 11-bit adder for signal <n0445[10:0]> created at line 360.
     Found 10-bit adder for signal <BUS_0006_GND_7_o_add_45_OUT> created at line 363.
     Found 10-bit adder for signal <BUS_0009_GND_7_o_add_51_OUT> created at line 368.
     Found 11-bit adder for signal <ball_x[10]_GND_7_o_add_61_OUT> created at line 381.
@@ -494,35 +498,35 @@ INFO:Xst:3210 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems La
     Found 5-bit subtractor for signal <GND_7_o_GND_7_o_sub_38_OUT<4:0>> created at line 357.
     Found 10-bit subtractor for signal <GND_7_o_GND_7_o_sub_48_OUT<9:0>> created at line 365.
     Found 10-bit subtractor for signal <GND_7_o_GND_7_o_sub_54_OUT<9:0>> created at line 370.
-    Found 12-bit adder for signal <_n0484> created at line 360.
-    Found 12-bit adder for signal <n0304> created at line 360.
-    Found 13-bit adder for signal <_n0486> created at line 359.
-    Found 13-bit adder for signal <n0301> created at line 359.
+    Found 13-bit adder for signal <_n0616> created at line 359.
+    Found 13-bit adder for signal <n0305> created at line 359.
+    Found 12-bit adder for signal <_n0618> created at line 360.
+    Found 12-bit adder for signal <n0308> created at line 360.
     Found 32-bit comparator greater for signal <two_balls> created at line 247
     Found 10-bit comparator greater for signal <BUS_0006_GND_7_o_LessThan_45_o> created at line 362
     Found 10-bit comparator greater for signal <PWR_7_o_BUS_0006_LessThan_47_o> created at line 364
     Found 10-bit comparator greater for signal <BUS_0009_GND_7_o_LessThan_51_o> created at line 367
     Found 10-bit comparator greater for signal <PWR_7_o_BUS_0009_LessThan_53_o> created at line 369
-    Found 32-bit comparator lessequal for signal <n0101> created at line 513
-    Found 10-bit comparator greater for signal <new_ball_y[9]_GND_7_o_LessThan_97_o> created at line 546
-    Found 10-bit comparator greater for signal <PWR_7_o_new_ball_y[9]_LessThan_98_o> created at line 546
-    Found 11-bit comparator greater for signal <new_ball_x[10]_GND_7_o_LessThan_102_o> created at line 556
-    Found 11-bit comparator greater for signal <GND_7_o_new_ball_x[10]_LessThan_103_o> created at line 556
-    Found 10-bit comparator greater for signal <new_ball_y2[9]_GND_7_o_LessThan_114_o> created at line 599
-    Found 10-bit comparator greater for signal <PWR_7_o_new_ball_y2[9]_LessThan_115_o> created at line 599
-    Found 11-bit comparator greater for signal <new_ball_x2[10]_GND_7_o_LessThan_119_o> created at line 609
-    Found 11-bit comparator greater for signal <GND_7_o_new_ball_x2[10]_LessThan_120_o> created at line 609
-    Found 10-bit comparator greater for signal <new_ball_y3[9]_GND_7_o_LessThan_131_o> created at line 642
-    Found 10-bit comparator greater for signal <PWR_7_o_new_ball_y3[9]_LessThan_132_o> created at line 642
-    Found 11-bit comparator greater for signal <new_ball_x3[10]_GND_7_o_LessThan_136_o> created at line 652
-    Found 11-bit comparator greater for signal <GND_7_o_new_ball_x3[10]_LessThan_137_o> created at line 652
-    Found 10-bit comparator greater for signal <new_ball_y4[9]_GND_7_o_LessThan_148_o> created at line 680
-    Found 10-bit comparator greater for signal <PWR_7_o_new_ball_y4[9]_LessThan_149_o> created at line 680
-    Found 11-bit comparator greater for signal <new_ball_x4[10]_GND_7_o_LessThan_153_o> created at line 690
-    Found 11-bit comparator greater for signal <GND_7_o_new_ball_x4[10]_LessThan_154_o> created at line 690
+    Found 32-bit comparator lessequal for signal <n0105> created at line 523
+    Found 10-bit comparator greater for signal <new_ball_y[9]_GND_7_o_LessThan_98_o> created at line 556
+    Found 10-bit comparator greater for signal <PWR_7_o_new_ball_y[9]_LessThan_99_o> created at line 556
+    Found 11-bit comparator greater for signal <new_ball_x[10]_GND_7_o_LessThan_103_o> created at line 566
+    Found 11-bit comparator greater for signal <GND_7_o_new_ball_x[10]_LessThan_104_o> created at line 566
+    Found 10-bit comparator greater for signal <new_ball_y2[9]_GND_7_o_LessThan_115_o> created at line 609
+    Found 10-bit comparator greater for signal <PWR_7_o_new_ball_y2[9]_LessThan_116_o> created at line 609
+    Found 11-bit comparator greater for signal <new_ball_x2[10]_GND_7_o_LessThan_120_o> created at line 619
+    Found 11-bit comparator greater for signal <GND_7_o_new_ball_x2[10]_LessThan_121_o> created at line 619
+    Found 10-bit comparator greater for signal <new_ball_y3[9]_GND_7_o_LessThan_132_o> created at line 652
+    Found 10-bit comparator greater for signal <PWR_7_o_new_ball_y3[9]_LessThan_133_o> created at line 652
+    Found 11-bit comparator greater for signal <new_ball_x3[10]_GND_7_o_LessThan_137_o> created at line 662
+    Found 11-bit comparator greater for signal <GND_7_o_new_ball_x3[10]_LessThan_138_o> created at line 662
+    Found 10-bit comparator greater for signal <new_ball_y4[9]_GND_7_o_LessThan_149_o> created at line 690
+    Found 10-bit comparator greater for signal <PWR_7_o_new_ball_y4[9]_LessThan_150_o> created at line 690
+    Found 11-bit comparator greater for signal <new_ball_x4[10]_GND_7_o_LessThan_154_o> created at line 700
+    Found 11-bit comparator greater for signal <GND_7_o_new_ball_x4[10]_LessThan_155_o> created at line 700
     Summary:
 	inferred  23 Adder/Subtractor(s).
-	inferred 173 D-type flip-flop(s).
+	inferred 174 D-type flip-flop(s).
 	inferred  22 Comparator(s).
 	inferred  29 Multiplexer(s).
 Unit <pong_game> synthesized.
@@ -562,18 +566,18 @@ Synthesizing Unit <draw_box>.
     Found 1-bit register for signal <Dpressed>.
     Found 1-bit register for signal <Dreleased>.
     Found 32-bit register for signal <WIDTH>.
-    Found 32-bit subtractor for signal <WIDTH[31]_GND_10_o_sub_43_OUT> created at line 967.
-    Found 32-bit subtractor for signal <HEIGHT[31]_GND_10_o_sub_47_OUT> created at line 969.
-    Found 32-bit adder for signal <WIDTH[31]_GND_10_o_add_14_OUT> created at line 942.
-    Found 32-bit adder for signal <HEIGHT[31]_GND_10_o_add_15_OUT> created at line 943.
-    Found 32-bit adder for signal <GND_10_o_WIDTH[31]_add_53_OUT> created at line 984.
-    Found 32-bit adder for signal <GND_10_o_HEIGHT[31]_add_56_OUT> created at line 984.
-    Found 32-bit comparator greater for signal <WIDTH[31]_GND_10_o_LessThan_42_o> created at line 966
-    Found 32-bit comparator greater for signal <HEIGHT[31]_GND_10_o_LessThan_46_o> created at line 968
-    Found 11-bit comparator lessequal for signal <n0097> created at line 984
-    Found 32-bit comparator greater for signal <GND_10_o_GND_10_o_LessThan_55_o> created at line 984
-    Found 10-bit comparator lessequal for signal <n0102> created at line 984
-    Found 32-bit comparator greater for signal <GND_10_o_GND_10_o_LessThan_58_o> created at line 984
+    Found 32-bit subtractor for signal <WIDTH[31]_GND_10_o_sub_43_OUT> created at line 977.
+    Found 32-bit subtractor for signal <HEIGHT[31]_GND_10_o_sub_47_OUT> created at line 979.
+    Found 32-bit adder for signal <WIDTH[31]_GND_10_o_add_14_OUT> created at line 952.
+    Found 32-bit adder for signal <HEIGHT[31]_GND_10_o_add_15_OUT> created at line 953.
+    Found 32-bit adder for signal <GND_10_o_WIDTH[31]_add_53_OUT> created at line 994.
+    Found 32-bit adder for signal <GND_10_o_HEIGHT[31]_add_56_OUT> created at line 994.
+    Found 32-bit comparator greater for signal <WIDTH[31]_GND_10_o_LessThan_42_o> created at line 976
+    Found 32-bit comparator greater for signal <HEIGHT[31]_GND_10_o_LessThan_46_o> created at line 978
+    Found 11-bit comparator lessequal for signal <n0097> created at line 994
+    Found 32-bit comparator greater for signal <GND_10_o_GND_10_o_LessThan_55_o> created at line 994
+    Found 10-bit comparator lessequal for signal <n0102> created at line 994
+    Found 32-bit comparator greater for signal <GND_10_o_GND_10_o_LessThan_58_o> created at line 994
     Summary:
 	inferred   6 Adder/Subtractor(s).
 	inferred  72 D-type flip-flop(s).
@@ -585,14 +589,14 @@ Synthesizing Unit <move_paddle>.
     Related source file is "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\labkit_vga_partialsol_one.v".
     Found 10-bit register for signal <paddle_y>.
     Found 10-bit register for signal <paddle_x>.
-    Found 11-bit subtractor for signal <n0026[10:0]> created at line 1022.
-    Found 11-bit subtractor for signal <n0030[10:0]> created at line 1027.
-    Found 11-bit adder for signal <n0040> created at line 1024.
-    Found 11-bit adder for signal <n0043> created at line 1029.
-    Found 32-bit comparator greater for signal <GND_11_o_GND_11_o_LessThan_3_o> created at line 1021
-    Found 11-bit comparator greater for signal <BUS_0001_PWR_11_o_LessThan_6_o> created at line 1023
-    Found 32-bit comparator greater for signal <GND_11_o_GND_11_o_LessThan_11_o> created at line 1026
-    Found 11-bit comparator greater for signal <BUS_0003_GND_11_o_LessThan_14_o> created at line 1028
+    Found 11-bit subtractor for signal <n0026[10:0]> created at line 1032.
+    Found 11-bit subtractor for signal <n0030[10:0]> created at line 1037.
+    Found 11-bit adder for signal <n0040> created at line 1034.
+    Found 11-bit adder for signal <n0043> created at line 1039.
+    Found 32-bit comparator greater for signal <GND_11_o_GND_11_o_LessThan_3_o> created at line 1031
+    Found 11-bit comparator greater for signal <BUS_0001_PWR_11_o_LessThan_6_o> created at line 1033
+    Found 32-bit comparator greater for signal <GND_11_o_GND_11_o_LessThan_11_o> created at line 1036
+    Found 11-bit comparator greater for signal <BUS_0003_GND_11_o_LessThan_14_o> created at line 1038
     Summary:
 	inferred   4 Adder/Subtractor(s).
 	inferred  20 D-type flip-flop(s).
@@ -1100,10 +1104,10 @@ WARNING:Xst:647 - Input <randy> is never used. This port will be preserved and l
     Found 11-bit register for signal <rx>.
     Found 10-bit register for signal <ry>.
     Found 1-bit register for signal <randop_reg>.
-    Found 10-bit adder for signal <n0061> created at line 83.
-    Found 12-bit adder for signal <n0063> created at line 97.
-    Found 11-bit adder for signal <n0065> created at line 97.
-    Found 4x5-bit Read Only RAM for signal <_n0099>
+    Found 10-bit adder for signal <n0064> created at line 85.
+    Found 12-bit adder for signal <n0066> created at line 99.
+    Found 11-bit adder for signal <n0068> created at line 99.
+    Found 4x5-bit Read Only RAM for signal <_n0102>
 WARNING:Xst:737 - Found 1-bit latch for signal <mode<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <color<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <color<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
@@ -1112,10 +1116,10 @@ WARNING:Xst:737 - Found 1-bit latch for signal <color<2>>. Latches may be genera
 WARNING:Xst:737 - Found 1-bit latch for signal <color<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <color<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <mode<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-    Found 11-bit comparator lessequal for signal <n0026> created at line 97
-    Found 12-bit comparator greater for signal <GND_653_o_BUS_0002_LessThan_14_o> created at line 97
-    Found 10-bit comparator lessequal for signal <n0031> created at line 97
-    Found 11-bit comparator greater for signal <GND_653_o_BUS_0003_LessThan_17_o> created at line 97
+    Found 11-bit comparator lessequal for signal <n0026> created at line 99
+    Found 12-bit comparator greater for signal <GND_653_o_BUS_0002_LessThan_14_o> created at line 99
+    Found 10-bit comparator lessequal for signal <n0031> created at line 99
+    Found 11-bit comparator greater for signal <GND_653_o_BUS_0003_LessThan_17_o> created at line 99
     Summary:
 	inferred   1 RAM(s).
 	inferred   3 Adder/Subtractor(s).
@@ -1131,6 +1135,13 @@ Synthesizing Unit <randgen>.
     Summary:
 	inferred   8 D-type flip-flop(s).
 Unit <randgen> synthesized.
+
+Synthesizing Unit <randgen_9bit>.
+    Related source file is "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\randgen.v".
+    Found 9-bit register for signal <LFSR>.
+    Summary:
+	inferred   9 D-type flip-flop(s).
+Unit <randgen_9bit> synthesized.
 
 Synthesizing Unit <randgen_10bit>.
     Related source file is "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\randgen.v".
@@ -1156,7 +1167,7 @@ Synthesizing Unit <counter>.
     Found 26-bit register for signal <sec_count>.
     Found 4-bit register for signal <count>.
     Found 1-bit register for signal <stop>.
-    Found 5-bit subtractor for signal <GND_667_o_GND_667_o_sub_6_OUT> created at line 151.
+    Found 5-bit subtractor for signal <GND_668_o_GND_668_o_sub_6_OUT> created at line 151.
     Found 27-bit adder for signal <n0046[26:0]> created at line 149.
     Found 5-bit adder for signal <n0048[4:0]> created at line 151.
     Summary:
@@ -1175,7 +1186,7 @@ INFO:Xst:3210 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems La
 INFO:Xst:3210 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\counter.v" line 25: Output port <warning> of the instance <powerup_2> is unconnected or connected to loadless signal.
 INFO:Xst:3210 - "D:\Users\WeiTong\Desktop\SUTD Stuff\Subjects\Digital Systems Lab\DSL-Pong-game\Lab5Pong - 30-11-17\Lab5Pong - 30-11-17\Verilog Files\counter.v" line 33: Output port <warning> of the instance <powerup_3> is unconnected or connected to loadless signal.
     Found 4-bit register for signal <load>.
-    Found 4x4-bit Read Only RAM for signal <mode[1]_PWR_22_o_wide_mux_1_OUT>
+    Found 4x4-bit Read Only RAM for signal <mode[1]_PWR_23_o_wide_mux_1_OUT>
     Summary:
 	inferred   1 RAM(s).
 	inferred   4 D-type flip-flop(s).
@@ -1187,18 +1198,18 @@ Synthesizing Unit <round_piped_1>.
         COLOR = 8'b10100000
 WARNING:Xst:647 - Input <pixel_clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <ball_size> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-    Found 12-bit adder for signal <n0032> created at line 1061.
-    Found 11-bit adder for signal <n0038> created at line 1066.
-    Found 22-bit adder for signal <n0046> created at line 1071.
-    Found 11-bit subtractor for signal <GND_669_o_GND_669_o_sub_4_OUT<10:0>> created at line 1059.
-    Found 11-bit subtractor for signal <GND_669_o_GND_669_o_sub_6_OUT<10:0>> created at line 1061.
-    Found 10-bit subtractor for signal <GND_669_o_GND_669_o_sub_11_OUT<9:0>> created at line 1064.
-    Found 10-bit subtractor for signal <GND_669_o_GND_669_o_sub_13_OUT<9:0>> created at line 1066.
-    Found 11x11-bit multiplier for signal <n0023> created at line 1068.
-    Found 10x10-bit multiplier for signal <n0024> created at line 1069.
-    Found 12-bit comparator greater for signal <BUS_0001_GND_669_o_LessThan_2_o> created at line 1058
-    Found 11-bit comparator greater for signal <BUS_0004_GND_669_o_LessThan_9_o> created at line 1063
-    Found 22-bit comparator lessequal for signal <n0013> created at line 1071
+    Found 12-bit adder for signal <n0032> created at line 1071.
+    Found 11-bit adder for signal <n0038> created at line 1076.
+    Found 22-bit adder for signal <n0046> created at line 1081.
+    Found 11-bit subtractor for signal <GND_670_o_GND_670_o_sub_4_OUT<10:0>> created at line 1069.
+    Found 11-bit subtractor for signal <GND_670_o_GND_670_o_sub_6_OUT<10:0>> created at line 1071.
+    Found 10-bit subtractor for signal <GND_670_o_GND_670_o_sub_11_OUT<9:0>> created at line 1074.
+    Found 10-bit subtractor for signal <GND_670_o_GND_670_o_sub_13_OUT<9:0>> created at line 1076.
+    Found 11x11-bit multiplier for signal <n0023> created at line 1078.
+    Found 10x10-bit multiplier for signal <n0024> created at line 1079.
+    Found 12-bit comparator greater for signal <BUS_0001_GND_670_o_LessThan_2_o> created at line 1068
+    Found 11-bit comparator greater for signal <BUS_0004_GND_670_o_LessThan_9_o> created at line 1073
+    Found 22-bit comparator lessequal for signal <n0013> created at line 1081
     Summary:
 	inferred   2 Multiplier(s).
 	inferred   5 Adder/Subtractor(s).
@@ -1211,9 +1222,9 @@ Synthesizing Unit <display_4hex>.
     Found 7-bit register for signal <seg>.
     Found 4-bit register for signal <strobe>.
     Found 14-bit register for signal <counter>.
-    Found 14-bit adder for signal <counter[13]_GND_673_o_add_17_OUT> created at line 1239.
-    Found 4x4-bit Read Only RAM for signal <counter[13]_PWR_27_o_wide_mux_23_OUT>
-    Found 7-bit 4-to-1 multiplexer for signal <counter[13]_data[3]_wide_mux_22_OUT> created at line 1240.
+    Found 14-bit adder for signal <counter[13]_GND_674_o_add_17_OUT> created at line 1249.
+    Found 4x4-bit Read Only RAM for signal <counter[13]_PWR_28_o_wide_mux_23_OUT>
+    Found 7-bit 4-to-1 multiplexer for signal <counter[13]_data[3]_wide_mux_22_OUT> created at line 1250.
     Summary:
 	inferred   1 RAM(s).
 	inferred   1 Adder/Subtractor(s).
@@ -1253,8 +1264,8 @@ Macro Statistics
  5-bit subtractor                                      : 7
  6-bit adder                                           : 1
  7-bit adder                                           : 3
-# Registers                                            : 101
- 1-bit register                                        : 45
+# Registers                                            : 103
+ 1-bit register                                        : 46
  10-bit register                                       : 11
  11-bit register                                       : 6
  14-bit register                                       : 1
@@ -1271,6 +1282,7 @@ Macro Statistics
  6-bit register                                        : 2
  7-bit register                                        : 2
  8-bit register                                        : 3
+ 9-bit register                                        : 1
 # Latches                                              : 1449
  1-bit latch                                           : 1449
 # Comparators                                          : 376
@@ -1284,19 +1296,19 @@ Macro Statistics
  32-bit comparator greater                             : 7
  32-bit comparator lessequal                           : 1
 # Multiplexers                                         : 103
- 1-bit 2-to-1 multiplexer                              : 18
+ 1-bit 2-to-1 multiplexer                              : 22
  10-bit 2-to-1 multiplexer                             : 23
  11-bit 2-to-1 multiplexer                             : 14
  2-bit 2-to-1 multiplexer                              : 1
  3-bit 2-to-1 multiplexer                              : 2
- 32-bit 2-to-1 multiplexer                             : 35
+ 32-bit 2-to-1 multiplexer                             : 31
  4-bit 2-to-1 multiplexer                              : 1
  6-bit 2-to-1 multiplexer                              : 1
  7-bit 4-to-1 multiplexer                              : 1
  8-bit 2-to-1 multiplexer                              : 6
  8-bit 4-to-1 multiplexer                              : 1
-# Xors                                                 : 7
- 1-bit xor2                                            : 7
+# Xors                                                 : 10
+ 1-bit xor2                                            : 10
 
 =========================================================================
 INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
@@ -1305,6 +1317,7 @@ INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmet
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
+INFO:Xst:2261 - The FF/Latch <LFSR_0> in Unit <bitgen9> is equivalent to the following FF/Latch, which will be removed : <LFSR_8> 
 INFO:Xst:2261 - The FF/Latch <vsync_delay_0> in Unit <psolution> is equivalent to the following FF/Latch, which will be removed : <vsync_delayed> 
 WARNING:Xst:1710 - FF/Latch <b7_x_3> (without init value) has a constant value of 0 in block <pp>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <b7_x_4> (without init value) has a constant value of 0 in block <pp>. This FF/Latch will be trimmed during the optimization process.
@@ -2760,7 +2773,7 @@ Unit <debounce> synthesized (advanced).
 
 Synthesizing (advanced) Unit <display_4hex>.
 The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
-INFO:Xst:3231 - The small RAM <Mram_counter[13]_PWR_27_o_wide_mux_23_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+INFO:Xst:3231 - The small RAM <Mram_counter[13]_PWR_28_o_wide_mux_23_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
@@ -2786,11 +2799,11 @@ Unit <labkit> synthesized (advanced).
 
 Synthesizing (advanced) Unit <pong_game>.
 The following registers are absorbed into counter <slow_factor>: 1 register on signal <slow_factor>.
-	The following adders/subtractors are grouped into adder tree <Madd_n03041> :
- 	<Madd_n0441[10:0]> in block <pong_game>, 	<Madd__n0484> in block <pong_game>.
-	The following adders/subtractors are grouped into adder tree <Madd_n0301_Madd1> :
- 	<Madd_n0432[11:0]> in block <pong_game>, 	<Madd__n0486_Madd> in block <pong_game>.
-INFO:Xst:3218 - HDL ADVISOR - The RAM <pack2/Mram__n0099> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+	The following adders/subtractors are grouped into adder tree <Madd_n03081> :
+ 	<Madd_n0445[10:0]> in block <pong_game>, 	<Madd__n0618> in block <pong_game>.
+	The following adders/subtractors are grouped into adder tree <Madd_n0305_Madd1> :
+ 	<Madd_n0436[11:0]> in block <pong_game>, 	<Madd__n0616_Madd> in block <pong_game>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <pack2/Mram__n0102> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
@@ -2804,7 +2817,7 @@ INFO:Xst:3218 - HDL ADVISOR - The RAM <pack2/Mram__n0099> will be implemented on
 Unit <pong_game> synthesized (advanced).
 
 Synthesizing (advanced) Unit <powerup_timer>.
-INFO:Xst:3231 - The small RAM <Mram_mode[1]_PWR_22_o_wide_mux_1_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+INFO:Xst:3231 - The small RAM <Mram_mode[1]_PWR_23_o_wide_mux_1_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
@@ -2859,8 +2872,8 @@ Macro Statistics
  31-bit up counter                                     : 1
  32-bit up counter                                     : 2
  6-bit up counter                                      : 1
-# Registers                                            : 324
- Flip-Flops                                            : 324
+# Registers                                            : 334
+ Flip-Flops                                            : 334
 # Comparators                                          : 272
  1-bit comparator equal                                : 5
  10-bit comparator greater                             : 176
@@ -2872,18 +2885,18 @@ Macro Statistics
  32-bit comparator greater                             : 7
  32-bit comparator lessequal                           : 1
 # Multiplexers                                         : 85
- 1-bit 2-to-1 multiplexer                              : 14
+ 1-bit 2-to-1 multiplexer                              : 18
  10-bit 2-to-1 multiplexer                             : 16
  11-bit 2-to-1 multiplexer                             : 12
  2-bit 2-to-1 multiplexer                              : 1
  3-bit 2-to-1 multiplexer                              : 2
- 32-bit 2-to-1 multiplexer                             : 31
+ 32-bit 2-to-1 multiplexer                             : 27
  4-bit 2-to-1 multiplexer                              : 1
  7-bit 4-to-1 multiplexer                              : 1
  8-bit 2-to-1 multiplexer                              : 6
  8-bit 4-to-1 multiplexer                              : 1
-# Xors                                                 : 7
- 1-bit xor2                                            : 7
+# Xors                                                 : 10
+ 1-bit xor2                                            : 10
 
 =========================================================================
 
@@ -2891,46 +2904,46 @@ Macro Statistics
 *                         Low Level Synthesis                           *
 =========================================================================
 WARNING:Xst:1710 - FF/Latch <pack2/color_3> (without init value) has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1294 - Latch <c3/c1_x_1> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c1_x_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c1_x_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c1_x_2> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c1_x_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c1_x_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c1_x_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c1_x_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c1_x_2> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c1_x_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c1_x_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c1_x_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c1_x_5> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c1_x_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b1_y_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c1_x_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c1_x_8> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b1_y_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b1_y_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b1_y_2> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b1_y_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b1_y_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b1_y_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b1_y_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b1_y_2> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b1_y_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b1_y_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b1_y_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b1_y_5> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b1_y_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c1_x_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b1_y_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b1_y_8> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c1_x_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c1_x_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c1_x_2> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c1_x_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c1_x_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c1_x_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c1_x_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c1_x_2> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c1_x_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c1_x_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c1_x_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c1_x_5> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c1_x_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b1_y_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c1_x_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c1_x_8> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b1_y_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b1_y_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b1_y_2> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b1_y_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b1_y_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b1_y_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b1_y_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b1_y_2> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b1_y_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b1_y_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b1_y_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b1_y_5> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b1_y_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b1_y_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b1_y_8> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c1/c1_x_1> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c1/c1_x_0> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c1/c1_x_4> is equivalent to a wire in block <pong_game>.
@@ -2951,562 +2964,562 @@ WARNING:Xst:1294 - Latch <c1/b1_y_5> is equivalent to a wire in block <pong_game
 WARNING:Xst:1294 - Latch <c1/b1_y_6> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c1/b1_y_8> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c1/b1_y_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/d1_y_0> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a1_x_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/d1_y_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/d1_y_1> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/d1_y_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/d1_y_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/d1_y_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/d1_y_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/d1_y_1> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/d1_y_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/d1_y_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/d1_y_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/d1_y_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/d1_y_4> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/d1_y_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/d1_x_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/d1_x_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/d1_y_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/d1_y_7> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/d1_x_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/d1_x_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/d1_x_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/d1_y_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/d1_x_0> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/d1_x_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/d1_x_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/d1_x_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/d1_x_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/d1_x_3> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/d1_x_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c8_y_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/d1_x_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/d1_x_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/d1_x_6> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c8_y_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c8_y_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c8_y_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/d1_x_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/d1_x_9> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c8_y_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c8_y_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c8_y_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c8_y_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c8_y_2> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c8_y_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c7_y_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c8_y_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c8_y_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c8_y_5> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c8_y_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c7_y_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c7_y_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c8_y_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c8_y_8> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c7_y_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c7_y_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c7_y_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c7_y_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c7_y_1> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c7_y_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c7_y_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c7_y_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c7_y_6> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c7_y_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c7_y_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c6_y_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c7_y_9> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c6_y_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c6_y_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c6_y_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c7_y_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c7_y_9> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c6_y_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c6_y_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c6_y_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c6_y_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c6_y_2> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c6_y_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c5_y_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c6_y_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c6_y_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c6_y_5> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c6_y_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c5_y_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c5_y_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c6_y_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c6_y_8> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c5_y_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c5_y_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c5_y_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c5_y_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c5_y_1> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c5_y_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c5_y_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c5_y_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c5_y_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c5_y_4> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c5_y_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c4_y_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c4_y_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c5_y_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c5_y_7> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c4_y_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c4_y_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c4_y_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c5_y_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c4_y_0> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c4_y_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c4_y_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c4_y_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c4_y_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c4_y_3> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c4_y_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c3_y_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c4_y_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c4_y_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c4_y_6> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c3_y_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c3_y_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c3_y_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c4_y_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c4_y_9> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c3_y_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c3_y_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c3_y_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c3_y_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c3_y_2> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c3_y_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c2_y_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c3_y_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c3_y_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c3_y_5> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c3_y_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c2_y_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c2_y_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c3_y_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c3_y_8> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c2_y_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c2_y_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c2_y_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c2_y_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c2_y_1> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c2_y_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c2_y_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c2_y_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c2_y_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c2_y_4> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c2_y_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c1_y_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c1_y_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c2_y_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c2_y_7> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c1_y_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c1_y_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c1_y_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c2_y_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c1_y_0> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c1_y_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c1_y_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/c1_y_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c1_y_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c1_y_3> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c1_y_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c1_y_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c1_y_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/c1_y_8> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/c1_y_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b8_x_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b8_x_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b8_x_1> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b8_x_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b8_x_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b8_x_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b8_x_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b8_x_1> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b8_x_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b8_x_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b8_x_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b8_x_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b8_x_4> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b8_x_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b7_x_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b7_x_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b8_x_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b8_x_7> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b7_x_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b7_x_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b7_x_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b8_x_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b7_x_0> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b7_x_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b7_x_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b7_x_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b7_x_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b7_x_3> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b7_x_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b6_x_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b7_x_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b7_x_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b7_x_6> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b6_x_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b7_x_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b7_x_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b6_x_1> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b6_x_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b6_x_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b6_x_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b6_x_4> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b6_x_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b6_x_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b6_x_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b6_x_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b6_x_4> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b6_x_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b5_x_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b5_x_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b6_x_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b6_x_7> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b5_x_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b5_x_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b5_x_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b6_x_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b5_x_0> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b5_x_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b5_x_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b5_x_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b5_x_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b5_x_3> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b5_x_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b4_x_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b5_x_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b5_x_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b5_x_6> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b4_x_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b4_x_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b4_x_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b5_x_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b5_x_9> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b4_x_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b4_x_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b4_x_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b4_x_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b4_x_2> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b4_x_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b3_x_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b4_x_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b4_x_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b4_x_5> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b4_x_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b3_x_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b3_x_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b4_x_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b4_x_8> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b3_x_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b3_x_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b3_x_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b3_x_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b3_x_1> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b3_x_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b3_x_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b3_x_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b3_x_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b3_x_4> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b3_x_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b2_x_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b2_x_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b3_x_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b3_x_7> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b2_x_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b2_x_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b2_x_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b3_x_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b2_x_0> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b2_x_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b2_x_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b2_x_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b2_x_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b2_x_3> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b2_x_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b2_x_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b2_x_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b2_x_8> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b2_x_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b1_x_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b1_x_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b1_x_1> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b1_x_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b1_x_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b1_x_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b1_x_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b1_x_1> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b1_x_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b1_x_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/b1_x_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b1_x_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b1_x_4> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/b1_x_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a8_y_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a8_y_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b1_x_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b1_x_7> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a8_y_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a8_y_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a8_y_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/b1_x_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a8_y_0> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a8_y_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a8_y_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a8_y_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a8_y_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a8_y_3> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a8_y_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a8_x_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a8_y_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a8_y_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a8_y_6> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a8_x_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a8_x_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a8_x_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a8_y_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a8_y_9> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a8_x_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a8_x_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a8_x_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a8_x_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a8_x_2> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a8_x_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a7_y_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a8_x_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a8_x_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a8_x_5> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a8_x_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a7_y_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a7_y_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a8_x_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a8_x_8> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a7_y_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a7_y_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a7_y_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a7_y_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a7_y_1> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a7_y_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a7_y_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a7_y_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a7_y_6> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a7_y_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a7_y_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a7_x_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a7_y_9> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a7_x_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a7_x_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a7_x_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a7_y_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a7_y_9> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a7_x_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a7_x_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a7_x_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a7_x_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a7_x_2> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a7_x_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a6_y_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a7_x_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a7_x_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a7_x_5> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a7_x_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a6_y_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a6_y_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a7_x_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a7_x_8> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a6_y_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a6_y_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a6_y_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a6_y_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a6_y_1> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a6_y_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a6_y_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a6_y_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a6_y_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a6_y_4> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a6_y_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a6_x_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a6_x_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a6_y_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a6_y_7> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a6_x_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a6_x_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a6_x_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a6_y_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a6_x_0> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a6_x_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a6_x_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a6_x_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a6_x_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a6_x_3> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a6_x_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a5_y_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a6_x_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a6_x_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a6_x_6> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a5_y_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a5_y_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a5_y_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a6_x_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a6_x_9> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a5_y_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a5_y_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a5_y_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a5_y_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a5_y_2> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a5_y_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a5_x_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a5_y_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a5_y_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a5_y_5> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a5_y_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a5_x_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a5_x_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a5_y_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a5_y_8> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a5_x_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a5_x_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a5_x_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a5_x_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a5_x_1> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a5_x_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a5_x_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a5_x_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a5_x_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a5_x_4> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a5_x_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a4_y_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a4_y_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a5_x_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a5_x_7> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a4_y_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a4_y_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a4_y_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a5_x_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a4_y_0> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a4_y_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a4_y_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a4_y_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a4_y_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a4_y_3> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a4_y_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a4_x_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a4_y_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a4_y_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a4_y_6> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a4_x_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a4_x_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a4_x_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a4_y_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a4_y_9> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a4_x_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a4_x_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a4_x_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a4_x_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a4_x_2> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a4_x_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a3_y_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a4_x_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a4_x_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a4_x_5> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a4_x_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a3_y_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a3_y_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a4_x_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a4_x_8> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a3_y_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a3_y_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a3_y_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a3_y_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a3_y_1> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a3_y_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a3_y_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a3_y_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a3_y_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a3_y_4> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a3_y_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a3_x_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a3_x_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a3_y_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a3_y_7> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a3_x_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a3_x_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a3_x_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a3_y_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a3_x_0> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a3_x_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a3_x_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a3_x_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a3_x_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a3_x_3> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a3_x_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a2_y_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a3_x_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a3_x_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a3_x_6> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a2_y_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a3_x_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a3_x_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a2_y_1> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a2_y_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a2_y_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a2_y_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a2_y_4> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a2_y_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a2_y_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a2_y_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a2_y_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a2_y_4> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a2_y_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a2_x_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a2_x_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a2_y_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a2_y_7> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a2_x_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a2_x_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a2_x_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a2_y_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a2_x_0> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a2_x_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a2_x_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a2_x_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a2_x_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a2_x_3> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a2_x_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a1_y_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a2_x_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a2_x_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a2_x_6> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a1_y_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a1_y_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a1_y_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a2_x_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a2_x_9> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a1_y_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a1_y_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a1_y_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a1_y_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a1_y_2> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a1_y_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a1_x_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a1_y_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a1_y_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a1_y_5> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a1_y_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a1_x_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a1_x_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a1_y_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a1_y_8> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a1_x_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a1_x_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a1_x_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a1_x_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a1_x_1> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a1_x_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c3/a1_x_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a1_x_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a1_x_4> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c3/a1_x_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/d1_y_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a1_x_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c3/a1_x_7> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/a1_x_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/d1_y_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/d1_y_1> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/d1_y_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/d1_y_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/d1_y_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/d1_y_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/d1_y_1> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/d1_y_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/d1_y_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/d1_y_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/d1_y_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/d1_y_4> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/d1_y_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/d1_x_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/d1_x_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/d1_y_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/d1_y_7> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/d1_x_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/d1_x_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/d1_x_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/d1_y_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/d1_x_0> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/d1_x_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/d1_x_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/d1_x_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/d1_x_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/d1_x_3> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/d1_x_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c8_y_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/d1_x_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/d1_x_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/d1_x_6> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c8_y_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c8_y_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c8_y_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/d1_x_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/d1_x_9> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c8_y_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c8_y_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c8_y_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c8_y_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c8_y_2> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c8_y_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c7_y_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c8_y_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c8_y_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c8_y_5> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c8_y_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c7_y_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c7_y_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c8_y_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c8_y_8> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c7_y_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c7_y_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c7_y_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c7_y_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c7_y_1> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c7_y_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c7_y_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c7_y_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c7_y_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c7_y_4> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c7_y_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c6_y_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c6_y_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c7_y_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c7_y_7> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c6_y_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c7_y_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c6_y_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c6_y_2> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c6_y_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c6_y_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c6_y_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c6_y_5> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c6_y_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c5_y_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c6_y_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c6_y_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c6_y_5> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c6_y_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c5_y_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c5_y_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c6_y_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c6_y_8> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c5_y_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c5_y_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c5_y_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c5_y_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c5_y_1> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c5_y_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c5_y_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c5_y_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c5_y_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c5_y_4> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c5_y_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c4_y_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c4_y_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c5_y_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c5_y_7> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c4_y_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c4_y_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c4_y_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c5_y_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c4_y_0> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c4_y_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c4_y_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c4_y_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c4_y_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c4_y_3> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c4_y_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c3_y_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c4_y_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c4_y_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c4_y_6> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c3_y_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c3_y_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c3_y_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c4_y_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c4_y_9> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c3_y_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c3_y_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c3_y_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c3_y_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c3_y_2> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c3_y_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c2_y_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c3_y_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c3_y_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c3_y_5> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c3_y_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c2_y_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c2_y_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c3_y_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c3_y_8> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c2_y_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c2_y_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c2_y_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c2_y_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c2_y_1> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c2_y_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c2_y_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c2_y_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c2_y_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c2_y_4> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c2_y_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c1_y_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c1_y_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c2_y_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c2_y_7> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c1_y_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c1_y_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c1_y_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c2_y_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c1_y_0> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c1_y_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c1_y_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/c1_y_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c1_y_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c1_y_3> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c1_y_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c1_y_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c1_y_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/c1_y_8> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/c1_y_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b8_x_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b8_x_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b8_x_1> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b8_x_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b8_x_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b8_x_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b8_x_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b8_x_1> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b8_x_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b8_x_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b8_x_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b8_x_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b8_x_4> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b8_x_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b7_x_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b7_x_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b8_x_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b8_x_7> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b7_x_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b7_x_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b7_x_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b8_x_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b7_x_0> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b7_x_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b7_x_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b7_x_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b7_x_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b7_x_3> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b7_x_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b6_x_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b7_x_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b7_x_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b7_x_6> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b6_x_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b6_x_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b6_x_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b7_x_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b7_x_9> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b6_x_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b6_x_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b6_x_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b6_x_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b6_x_2> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b6_x_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b6_x_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b6_x_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b6_x_7> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b6_x_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b6_x_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b5_x_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b5_x_0> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b5_x_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b5_x_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b5_x_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b6_x_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b5_x_0> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b5_x_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b5_x_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b5_x_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b5_x_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b5_x_3> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b5_x_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b4_x_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b5_x_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b5_x_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b5_x_6> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b4_x_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b4_x_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b4_x_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b5_x_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b5_x_9> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b4_x_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b4_x_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b4_x_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b4_x_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b4_x_2> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b4_x_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b3_x_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b4_x_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b4_x_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b4_x_5> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b4_x_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b3_x_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b3_x_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b4_x_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b4_x_8> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b3_x_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b3_x_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b3_x_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b3_x_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b3_x_1> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b3_x_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b3_x_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b3_x_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b3_x_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b3_x_4> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b3_x_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b2_x_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b2_x_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b3_x_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b3_x_7> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b2_x_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b2_x_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b2_x_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b3_x_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b2_x_0> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b2_x_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b2_x_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b2_x_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b2_x_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b2_x_3> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b2_x_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b2_x_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b2_x_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b2_x_8> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b2_x_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b1_x_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b1_x_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b1_x_1> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b1_x_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b1_x_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b1_x_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b1_x_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b1_x_1> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b1_x_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b1_x_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/b1_x_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b1_x_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b1_x_4> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/b1_x_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/a8_y_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/a8_y_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b1_x_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b1_x_7> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/a8_y_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/a8_y_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/a8_y_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/b1_x_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/a8_y_0> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/a8_y_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/a8_y_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/a8_y_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/a8_y_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/a8_y_3> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/a8_y_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/a8_x_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/a8_y_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/a8_y_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/a8_y_6> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/a8_x_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/a8_x_4> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/a8_x_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/a8_y_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/a8_y_9> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/a8_x_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/a8_x_7> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/a8_x_5> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/a8_x_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/a8_x_2> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/a8_x_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/a7_y_0> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/a8_x_8> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/a8_x_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/a8_x_5> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/a8_x_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/a7_y_3> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/a7_y_1> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/a8_x_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/a8_x_8> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/a7_y_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/a7_y_6> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/a7_y_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/a7_y_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/a7_y_1> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/a7_y_5> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/a7_y_9> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/a7_y_7> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/a7_y_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/a7_y_4> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/a7_y_8> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/a7_x_2> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/a7_x_0> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/a7_y_6> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/a7_y_7> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/a7_x_1> is equivalent to a wire in block <pong_game>.
-WARNING:Xst:1294 - Latch <c2/a7_x_3> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/a7_y_9> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/a7_x_0> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/a7_x_4> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/a7_x_2> is equivalent to a wire in block <pong_game>.
+WARNING:Xst:1294 - Latch <c2/a7_x_3> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/a7_x_7> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/a7_x_5> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c2/a7_x_6> is equivalent to a wire in block <pong_game>.
@@ -3972,6 +3985,7 @@ WARNING:Xst:1294 - Latch <c1/a1_x_5> is equivalent to a wire in block <pong_game
 WARNING:Xst:1294 - Latch <c1/a1_x_7> is equivalent to a wire in block <pong_game>.
 WARNING:Xst:1294 - Latch <c1/a1_x_8> is equivalent to a wire in block <pong_game>.
 INFO:Xst:2261 - The FF/Latch <vsync_delay_0> in Unit <pong_game> is equivalent to the following FF/Latch, which will be removed : <vsync_delayed> 
+INFO:Xst:2261 - The FF/Latch <LFSR_0> in Unit <randgen_9bit> is equivalent to the following FF/Latch, which will be removed : <LFSR_8> 
 WARNING:Xst:2677 - Node <bonus_speed_5> of sequential type is unconnected in block <pong_game>.
 WARNING:Xst:2677 - Node <slow_factor_5> of sequential type is unconnected in block <pong_game>.
 WARNING:Xst:1293 - FF/Latch <LFSR_8> has a constant value of 0 in block <randgen_10bit>. This FF/Latch will be trimmed during the optimization process.
@@ -3983,21 +3997,24 @@ WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <paddle_x_1> (withou
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <paddle_x_2> (without init value) has a constant value of 0 in block <move_paddle>. This FF/Latch will be trimmed during the optimization process.
 INFO:Xst:1901 - Instance my_clocks/DCM_inst in unit labkit of type DCM has been replaced by DCM_SP
 INFO:Xst:2261 - The FF/Latch <pack2/mode_0> in Unit <pong_game> is equivalent to the following FF/Latch, which will be removed : <pack2/color_4> 
-INFO:Xst:2261 - The FF/Latch <pack2/mode_1> in Unit <pong_game> is equivalent to the following FF/Latch, which will be removed : <pack2/color_7> 
 INFO:Xst:2261 - The FF/Latch <speed_x_0> in Unit <pong_game> is equivalent to the following FF/Latch, which will be removed : <speed_y_0> 
+INFO:Xst:2261 - The FF/Latch <pack2/mode_1> in Unit <pong_game> is equivalent to the following FF/Latch, which will be removed : <pack2/color_7> 
+INFO:Xst:2261 - The FF/Latch <LFSR_0> in Unit <randgen_10bit> is equivalent to the following FF/Latch, which will be removed : <LFSR_9> 
 
 Optimizing unit <labkit> ...
 
 Optimizing unit <debounce> ...
 
 Optimizing unit <pong_game> ...
-WARNING:Xst:1293 - FF/Latch <ball_x_10> has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ball_x2_10> has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <ball_x2_10> has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ball_x_10> has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ball_x3_10> has a constant value of 0 in block <pong_game>. This FF/Latch will be trimmed during the optimization process.
 
 Optimizing unit <draw_box> ...
 
 Optimizing unit <randgen> ...
+
+Optimizing unit <randgen_9bit> ...
 
 Optimizing unit <randgen_10bit> ...
 
@@ -4016,12 +4033,12 @@ Optimizing unit <display_4hex> ...
 Optimizing unit <vga_general> ...
 WARNING:Xst:1710 - FF/Latch <psolution/paddle_pix_delay_1> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <psolution/paddle_pix_delay_0> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <psolution/pack2/ry_9> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <psolution/pack2/rx_8> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <psolution/paddle_pix_delay_9> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <psolution/paddle_pix_delay_8> (without init value) has a constant value of 0 in block <labkit>. This FF/Latch will be trimmed during the optimization process.
 INFO:Xst:2261 - The FF/Latch <psolution/paddle_pix_delay_4> in Unit <labkit> is equivalent to the following FF/Latch, which will be removed : <psolution/paddle_pix_delay_2> 
 INFO:Xst:2261 - The FF/Latch <psolution/paddle_pix_delay_7> in Unit <labkit> is equivalent to the following 2 FFs/Latches, which will be removed : <psolution/paddle_pix_delay_6> <psolution/paddle_pix_delay_5> 
+INFO:Xst:2261 - The FF/Latch <psolution/pack2/rx_9> in Unit <labkit> is equivalent to the following FF/Latch, which will be removed : <psolution/pack2/rx_0> 
 INFO:Xst:2261 - The FF/Latch <psolution/pixel_7> in Unit <labkit> is equivalent to the following FF/Latch, which will be removed : <psolution/pixel_5> 
 INFO:Xst:2261 - The FF/Latch <counter_0> in Unit <labkit> is equivalent to the following FF/Latch, which will be removed : <video_driver/hcount_0> 
 INFO:Xst:2261 - The FF/Latch <counter_1> in Unit <labkit> is equivalent to the following FF/Latch, which will be removed : <video_driver/hcount_1> 
@@ -4047,6 +4064,7 @@ FlipFlop psolution/ball_x3_8 has been replicated 1 time(s)
 FlipFlop psolution/ball_x_5 has been replicated 1 time(s)
 FlipFlop psolution/ball_x_6 has been replicated 1 time(s)
 FlipFlop psolution/ball_x_7 has been replicated 1 time(s)
+FlipFlop psolution/ball_x_8 has been replicated 1 time(s)
 FlipFlop psolution/ball_y2_5 has been replicated 1 time(s)
 FlipFlop psolution/ball_y2_6 has been replicated 1 time(s)
 FlipFlop psolution/ball_y2_7 has been replicated 1 time(s)
@@ -4072,8 +4090,8 @@ Unit <labkit> processed.
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 722
- Flip-Flops                                            : 722
+# Registers                                            : 731
+ Flip-Flops                                            : 731
 # Shift Registers                                      : 3
  2-bit shift register                                  : 3
 
@@ -4098,24 +4116,24 @@ Top Level Output File Name         : labkit.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 7418
+# BELS                             : 7419
 #      GND                         : 1
 #      INV                         : 131
-#      LUT1                        : 535
-#      LUT2                        : 577
-#      LUT3                        : 263
-#      LUT4                        : 2135
-#      LUT5                        : 520
-#      LUT6                        : 479
-#      MUXCY                       : 1900
+#      LUT1                        : 536
+#      LUT2                        : 596
+#      LUT3                        : 267
+#      LUT4                        : 2103
+#      LUT5                        : 519
+#      LUT6                        : 490
+#      MUXCY                       : 1899
 #      MUXF7                       : 5
 #      VCC                         : 1
 #      XORCY                       : 871
-# FlipFlops/Latches                : 731
-#      FD                          : 155
+# FlipFlops/Latches                : 740
+#      FD                          : 163
 #      FDE                         : 28
 #      FDE_1                       : 64
-#      FDR                         : 199
+#      FDR                         : 200
 #      FDR_1                       : 8
 #      FDRE                        : 245
 #      FDS                         : 8
@@ -4141,17 +4159,17 @@ Selected Device : 6slx16csg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             731  out of  18224     4%  
- Number of Slice LUTs:                 4643  out of   9112    50%  
-    Number used as Logic:              4640  out of   9112    50%  
+ Number of Slice Registers:             740  out of  18224     4%  
+ Number of Slice LUTs:                 4645  out of   9112    50%  
+    Number used as Logic:              4642  out of   9112    50%  
     Number used as Memory:                3  out of   2176     0%  
        Number used as SRL:                3
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   4776
-   Number with an unused Flip Flop:    4045  out of   4776    84%  
-   Number with an unused LUT:           133  out of   4776     2%  
-   Number of fully used LUT-FF pairs:   598  out of   4776    12%  
+ Number of LUT Flip Flop pairs used:   4781
+   Number with an unused Flip Flop:    4041  out of   4781    84%  
+   Number with an unused LUT:           136  out of   4781     2%  
+   Number of fully used LUT-FF pairs:   604  out of   4781    12%  
    Number of unique control sets:        58
 
 IO Utilization: 
@@ -4183,8 +4201,8 @@ Clock Information:
 -----------------------------------------------------------------------------------------------------+------------------------------------+-------+
 Clock Signal                                                                                         | Clock buffer(FF name)              | Load  |
 -----------------------------------------------------------------------------------------------------+------------------------------------+-------+
-clk_100mhz                                                                                           | DCM_SP:CLKFX                       | 582   |
-psolution/pack2/reset_spawn_OR_141_o(psolution/pack2/reset_spawn_OR_141_o8:O)                        | NONE(*)(psolution/pack2/color_1)   | 5     |
+clk_100mhz                                                                                           | DCM_SP:CLKFX                       | 591   |
+psolution/pack2/reset_spawn_OR_141_o(psolution/pack2/reset_spawn_OR_141_o8:O)                        | NONE(*)(psolution/pack2/color_2)   | 5     |
 clk_100mhz                                                                                           | DCM_SP:CLKDV                       | 146   |
 psolution/gametimer/GND_8_o_GND_8_o_equal_27_o(psolution/gametimer/GND_8_o_GND_8_o_equal_27_o<22>5:O)| NONE(*)(psolution/gametimer/ten_hz)| 1     |
 -----------------------------------------------------------------------------------------------------+------------------------------------+-------+
@@ -4213,7 +4231,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk_100mhz'
   Clock period: 9.125ns (frequency: 109.589MHz)
-  Total number of paths / destination ports: 21938091 / 1527
+  Total number of paths / destination ports: 21937047 / 1537
 -------------------------------------------------------------------------
 Delay:               7.019ns (Levels of Logic = 11)
   Source:            psolution/paddle/WIDTH_3 (FF)
@@ -4343,7 +4361,7 @@ Source Clock                                  |Dest:Rise|Dest:Rise|Dest:Fall|Des
 ----------------------------------------------+---------+---------+---------+---------+
 clk_100mhz                                    |   13.109|    7.019|    7.135|         |
 psolution/gametimer/GND_8_o_GND_8_o_equal_27_o|         |    1.701|         |         |
-psolution/pack2/reset_spawn_OR_141_o          |         |    2.587|         |         |
+psolution/pack2/reset_spawn_OR_141_o          |         |    2.815|         |         |
 ----------------------------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock psolution/gametimer/GND_8_o_GND_8_o_equal_27_o
@@ -4359,20 +4377,20 @@ Clock to Setup on destination clock psolution/pack2/reset_spawn_OR_141_o
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk_100mhz     |         |         |    2.041|         |
+clk_100mhz     |         |         |    2.013|         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 96.00 secs
-Total CPU time to Xst completion: 95.99 secs
+Total REAL time to Xst completion: 119.00 secs
+Total CPU time to Xst completion: 119.75 secs
  
 --> 
 
-Total memory usage is 419456 kilobytes
+Total memory usage is 403892 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings : 3088 (   0 filtered)
-Number of infos    :   33 (   0 filtered)
+Number of warnings : 3087 (   0 filtered)
+Number of infos    :   37 (   0 filtered)
 

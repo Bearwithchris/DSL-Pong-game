@@ -103,7 +103,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1512079556" xil_pn:in_ck="8509863880572564269" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-5495123665768737590" xil_pn:start_ts="1512079453">
+    <transform xil_pn:end_ts="1512094125" xil_pn:in_ck="8509863880572564269" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-5495123665768737590" xil_pn:start_ts="1512093997">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -125,7 +125,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1512079572" xil_pn:in_ck="2833841826651102755" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-8738698268613547919" xil_pn:start_ts="1512079556">
+    <transform xil_pn:end_ts="1512094146" xil_pn:in_ck="2833841826651102755" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-8738698268613547919" xil_pn:start_ts="1512094125">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -135,9 +135,11 @@
       <outfile xil_pn:name="labkit.ngd"/>
       <outfile xil_pn:name="labkit_ngdbuild.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1512079688" xil_pn:in_ck="2833841826651102756" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="1463976855095865663" xil_pn:start_ts="1512079572">
+    <transform xil_pn:end_ts="1512094290" xil_pn:in_ck="2833841826651102756" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="1463976855095865663" xil_pn:start_ts="1512094146">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
       <outfile xil_pn:name="labkit.pcf"/>
       <outfile xil_pn:name="labkit_map.map"/>
@@ -148,7 +150,7 @@
       <outfile xil_pn:name="labkit_summary.xml"/>
       <outfile xil_pn:name="labkit_usage.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1512079761" xil_pn:in_ck="-7536162785436229827" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-1178055513630676559" xil_pn:start_ts="1512079688">
+    <transform xil_pn:end_ts="1512094373" xil_pn:in_ck="-7536162785436229827" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-1178055513630676559" xil_pn:start_ts="1512094290">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -163,7 +165,7 @@
       <outfile xil_pn:name="labkit_pad.txt"/>
       <outfile xil_pn:name="labkit_par.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1512079844" xil_pn:in_ck="5153180994424090" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="6456494387431822541" xil_pn:start_ts="1512079761">
+    <transform xil_pn:end_ts="1512094454" xil_pn:in_ck="5153180994424090" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="6456494387431822541" xil_pn:start_ts="1512094373">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -176,7 +178,7 @@
       <outfile xil_pn:name="webtalk.log"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1512079761" xil_pn:in_ck="2833841826651102624" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1512079741">
+    <transform xil_pn:end_ts="1512094373" xil_pn:in_ck="2833841826651102624" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1512094353">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>

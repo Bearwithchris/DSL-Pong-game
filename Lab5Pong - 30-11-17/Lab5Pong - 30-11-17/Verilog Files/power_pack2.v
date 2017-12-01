@@ -21,6 +21,7 @@ module power_pack2 #(parameter WIDTH=20,
 	reg randop_reg;  
 	reg [7:0] color;
 	wire [7:0] randnum;
+	wire [8:0] randnum9;
 	wire [9:0] randnum10;
 	
 	parameter SLOW		= 	2'b00;
@@ -36,6 +37,7 @@ module power_pack2 #(parameter WIDTH=20,
 	
 	
 	randgen pptype_gen(.clk(clk), .LFSR(randnum));
+	randgen_9bit bitgen9(.clk(clk), .LFSR(randnum9));
 	randgen_10bit bitgen10(.clk(clk), .LFSR(randnum10));
 	
 	always @(*)
@@ -79,8 +81,8 @@ module power_pack2 #(parameter WIDTH=20,
 //						end
 //					endcase
 				display <= 1;
-				rx <= randnum10;//randx;//700;
-				ry <= randnum + randnum10[8:0];//randy;//500;
+				rx <= randnum10;
+				ry <= randnum + randnum9;//randnum10[8:0];
 				randop_reg <= 1;
 				end
 			else if(eaten) begin
@@ -95,7 +97,7 @@ module power_pack2 #(parameter WIDTH=20,
 	always @(hcount or vcount) 
 		begin
 			if ((hcount >= rx && hcount < (rx+WIDTH)) && (vcount >= ry && vcount < (ry+HEIGHT))) begin
-				if(display)
+				if(display && !reset)
 					r2pixel = color;
 				else
 					r2pixel = 0;

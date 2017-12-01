@@ -393,6 +393,8 @@ module pong_game (
 //				(ball_y<paddle_y+PADDLE_HEIGHT);
 
 	wire stop1, stop2, stop3, stop4;
+	reg stopgame = 0;
+	wire stop_combined;
 	
 	collision c1(.pixel_clk(pixel_clk),
 					 .reset(reset),
@@ -449,8 +451,16 @@ module pong_game (
 //					 .object_height(),
 //					 .object_isCircle(1),
 //					 .collide(stop4));
-	
-	assign stop = shield? 0 : two_balls? (extra_ball? (stop1 | stop2 | stop3) : (stop1 | stop2)) : (extra_ball? (stop1 | stop3) : stop1);
+	always @(posedge pixel_clk)
+		begin
+			if(reset)
+				stopgame <= 0;
+			else if(stop_combined)
+				stopgame <= 1;
+			end
+			
+	assign stop_combined = shield? 0 : two_balls? (extra_ball? (stop1 | stop2 | stop3) : (stop1 | stop2)) : (extra_ball? (stop1 | stop3) : stop1);
+	assign stop = stopgame;
 					 
 	wire 			pp_eaten;
 	wire [10:0] pp_x;
